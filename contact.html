@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact ArkVision</title>
+    <link rel="stylesheet" href="styles/main-simple.css" />
+    <script defer src="scripts/utils/helpers.js"></script>
+    <script defer src="scripts/components/navigation.js"></script>
+    <script defer src="scripts/components/contact-form.js"></script>
+    <script defer src="scripts/main.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo"><a href="/">ArkVision</a></div>
+        <nav class="nav-menu" id="navMenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Page hero -->
+    <section class="page-hero" style="background-image: url('images/hero2.png');">
+      <div class="page-hero-content">
+        <h1>Contact Us</h1>
+        <p>Reach out to ArkVision for inquiries, support or collaboration.</p>
+      </div>
+    </section>
+
+    <!-- Contact details & form -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p>
+              Whether you have a question about our products, need technical
+              support, or would like to discuss a custom project, we’re here
+              to help. Our team responds quickly and thoroughly to every
+              inquiry.
+            </p>
+            <h3>Contact Information</h3>
+            <ul class="info-list">
+              <li><strong>Primary Phone:</strong> <a href="tel:+6561234567">+65 6123 4567</a></li>
+              <li><strong>Email:</strong> <a href="mailto:info@arkvision.com">info@arkvision.com</a></li>
+              <li><strong>Headquarters:</strong> 1 Maritime Drive, Singapore 018989</li>
+              <li><strong>Hours:</strong> Monday–Friday, 9:00–18:00 (SGT)</li>
+            </ul>
+            <p class="additional-info">
+              For regional offices in Europe and the Middle East, please refer to
+              the department listing below. We strive to respond to all emails
+              within one business day.
+            </p>
+          </div>
+          <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name">Your Name<span class="required">*</span></label>
+                <input type="text" id="name" name="name" required />
+                <span class="error" id="nameError"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address<span class="required">*</span></label>
+                <input type="email" id="email" name="email" required />
+                <span class="error" id="emailError"></span>
+              </div>
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" />
+              </div>
+              <div class="form-group">
+                <label for="product">Product (optional)</label>
+                <input type="text" id="product" name="product" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message<span class="required">*</span></label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <span class="error" id="messageError"></span>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <div class="form-response" id="formResponse" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-about">
+          <h4>ArkVision</h4>
+          <p>
+            Pioneering the next generation of maritime technology. Our passion
+            for engineering meets the power of the sea to deliver solutions
+            that stand the test of time.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <ul>
+            <li>Phone: +65 6123 4567</li>
+            <li>Email: info@arkvision.com</li>
+            <li>Address: 1 Maritime Drive, Singapore 018989</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ArkVision. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
