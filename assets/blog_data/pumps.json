@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "name": "SHUNDA PUMP",
+      "make": "SHUNDA",
+      "model": "CLN80-340-2C1",
+      "description": "Capacity: 100/65 m3/h, TH: 35/60m, Motor: 37kW @ 270rpm",
+      "condition": "New, Original",
+      "qty": "1 unit",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757519924/SHUNDA_PUMP_CLN80_340_2C1_yb6e7o.png"
+    },
+    {
+      "id": 2,
+      "name": "DBR DS 80-320 FM PUMP",
+      "make": "N/A",
+      "model": "DS 80-320 FM",
+      "description": "DBR Pump, Model: DS 80-320 FM",
+      "condition": "New, Original",
+      "qty": "1 unit",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757519911/DBR_DS_80-320_FM_PUMP_mayrjk.png"
+    },
+    {
+      "id": 3,
+      "name": "HEISHIN PUMP WITHOUT MOTOR",
+      "make": "HEISHIN",
+      "model": "VK200",
+      "description": "Capacity: 210m3/hr @ TH: 30m, Bore size: SUC.ID 200mm / DEL.ID 200mm, Flange PCD: SUC 280 @ DEL 280, No. of bolts: 8x20mm, Flange to flange: 755mm, Flange type: Offset, Casting material: Cast iron",
+      "condition": "Reconditioned",
+      "qty": "1 unit",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757519909/HEISHIN_VK200_Pump_without_motor_oyslox.png"
+    },
+    {
+      "id": 4,
+      "name": "TEIKOKU PUMP WITH MOTOR",
+      "make": "TEIKOKU",
+      "model": "2VSCE",
+      "description": "Capacity: 203m3/hr @ TH: 110m, Bore size: SUC.ID 125mm / DEL.ID 65mm, Flange PCD: details not available, No of bolts: SUC 8x20 @ DEL 4x20, Flange type: Offset, Casting material: Cast iron",
+      "condition": "Used",
+      "qty": "1 unit",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757519904/TEIKOKU_2VSCE_Pump_with_motor_ktxjt5.png"
+    },
+    {
+      "id": 5,
+      "name": "SHINKOKINZOKU PUMP WITH MOTOR",
+      "make": "SHINKOKINZOKU",
+      "model": "SVD250",
+      "description": "Capacity: 485 m3/hr @ TH: 25m, Bore size: SUC.ID 250mm / DEL.ID 250mm, Flange PCD: SUC 345mm / DEL 345mm, No of bolts: SUC 12x22 / DEL 12x22, Flange to flange: 865mm, Flange type: Inline, Casing material: Cast iron, Motor: 45kW @ 440V @ 60Hz @ 1760rpm",
+      "condition": "Reconditioned",
+      "qty": "1 unit",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757519902/SHINKOKINZOKU_SVD250_Pumo_with_motor_cru6hh.png"
+    },
+    {
+      "id": 6,
+      "name": "SHINKO PUMP WITHOUT MOTOR",
+      "make": "SHINKO",
+      "model": "GVD 200M",
+      "description": "Capacity: 231m3/hr @ TH: 30m, Bore size: SUC.ID 200mm / DEL.ID 200mm, Flange PCD: SUC 275mm / DEL 275mm, No of bolts: SUC 8x20 / DEL 8x20, Flange type: Inline, Casting material: Cast iron, Motor: kW @ 440V @ 60Hz @ 1750rpm",
+      "condition": "Reconditioned",
+      "qty": "1 unit",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757519897/SHINKO_GVD_200M_Pump_without_motor_f9lrvf.png"
+    }
+  ]
+

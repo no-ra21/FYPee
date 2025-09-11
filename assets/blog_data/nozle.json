@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "name": "NOZZLE BOSCH",
+      "make": "BOSCH",
+      "model": "KDAL80 S20/19",
+      "description": "Nozzle Injector, Injector Spec: 0 430 233 007 000, Part No: 60730, Made in Germany",
+      "condition": "N/A",
+      "qty": "7 units",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757518750/NOZZLE_BOSCH_eredqf.png"
+    },
+    {
+      "id": 2,
+      "name": "NOZZLE MAN",
+      "make": "MITAUI MAN B&W",
+      "model": "MC-3",
+      "description": "Spindle Spec: 07C 5D-33902",
+      "condition": "New, Original",
+      "qty": "1 unit",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757518747/NOZZLE_MAN_nfuv7s.png"
+    },
+    {
+      "id": 3,
+      "name": "NOZZLE MAN (SPINDLE GUIDE)",
+      "make": "MITAUI MAN B&W",
+      "model": "MC-3",
+      "description": "Spindle Spec: 07F 5D-33899",
+      "condition": "New, Original",
+      "qty": "6 units",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757518744/NOZZLE_SPINDLE_GUIDE_chopel.png"
+    },
+    {
+      "id": 4,
+      "name": "NOZZLE BDLL",
+      "make": "N/A",
+      "model": "BDLL 150S6508",
+      "description": "Nozzle Spec: BDLL 150S6508",
+      "condition": "New, OEM",
+      "qty": "10 units",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757518877/image-removebg-preview_3_lz513b.png"
+    },
+    {
+      "id": 5,
+      "name": "NOZZLE MAN",
+      "make": "MAN B&W",
+      "model": "70/120E",
+      "description": "Nozzle MAN B&W 70/120E, Nozzle Spec: 1381008",
+      "condition": "New, OEM",
+      "qty": "3 units",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757518741/NOZZLE_MAN_B_W_fcuh1t.png"
+    },
+    {
+      "id": 6,
+      "name": "NOZZLE MAN B&W",
+      "make": "MAN B&W",
+      "model": "N/A",
+      "description": "Nozzle Spec: 558511-4.1x110",
+      "condition": "New, OEM",
+      "qty": "4 units",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757518738/NOZZLE_MAN_B_W_558511_qjrfh1.png"
+    }
+  ]

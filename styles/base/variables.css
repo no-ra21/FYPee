@@ -1,0 +1,51 @@
+/*
+ * CSS Variables and Root Configuration
+ * Contains all the design tokens used throughout the website
+ */
+
+:root {
+  /* Colors - Maritime theme */
+  --primary: #0a1931;        /* Deep navy */
+  --secondary: #10284e;      /* Dark blue */
+  --accent: #009fdc;         /* Bright teal */
+  --light: #f6f8fa;          /* Off-white */
+  --muted: #ccd4e0;          /* Light blue grey */
+  --text-light: #eef3f8;     /* Light text */
+  --text-dark: #121f3d;      /* Dark text */
+  
+  /* Layout */
+  --max-width: 1100px;
+  --container-padding: 1rem;
+  --section-padding: 3rem 0;
+  
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-xxl: 4rem;
+  
+  /* Typography */
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-size-base: 16px;
+  --line-height-base: 1.6;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  
+  /* Effects */
+  --transition-speed: 0.3s;
+  --border-radius: 8px;
+  --box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  --box-shadow-hover: 0 4px 20px rgba(0, 0, 0, 0.15);
+  
+  /* Z-index scale */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+}

@@ -1,0 +1,248 @@
+/*
+ * Layout Styles
+ * Main layout components and section styles
+ */
+
+/* Remove conflicting body and main styles to use original layout */
+
+/* Section styles */
+.section {
+  padding: var(--section-padding);
+}
+
+.section-sm {
+  padding: calc(var(--section-padding) * 0.6);
+}
+
+.section-lg {
+  padding: calc(var(--section-padding) * 1.5);
+}
+
+.section-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--space-xl) auto;
+}
+
+.section-title {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-md);
+  color: var(--text-light);
+}
+
+.section-subtitle {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  color: var(--muted);
+  margin-bottom: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Content sections */
+.content-section {
+  background: var(--primary);
+  position: relative;
+}
+
+.content-section.alt {
+  background: var(--secondary);
+}
+
+.content-section.dark {
+  background: #051129;
+}
+
+/* Two column layout */
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.two-column.reverse {
+  direction: rtl;
+}
+
+.two-column.reverse > * {
+  direction: ltr;
+}
+
+/* Three column layout */
+.three-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+/* Four column layout */
+.four-column {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-lg);
+}
+
+/* Flexible grid */
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-lg);
+}
+
+.flex-grid > * {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Content width constraints */
+.content-narrow {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-medium {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-wide {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Sidebar layout */
+.sidebar-layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: var(--space-xl);
+}
+
+.sidebar-layout.left {
+  grid-template-columns: 300px 1fr;
+}
+
+/* Background patterns and decorations */
+.bg-pattern {
+  position: relative;
+}
+
+.bg-pattern::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(0, 159, 220, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(16, 40, 78, 0.5) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.bg-pattern > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Dividers */
+.divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 100%
+  );
+  margin: var(--space-xl) 0;
+}
+
+.divider.vertical {
+  width: 1px;
+  height: auto;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 100%
+  );
+  margin: 0 var(--space-xl);
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 1024px) {
+  .four-column {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .sidebar-layout,
+  .sidebar-layout.left {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-top: 70px;
+  }
+  
+  .two-column,
+  .three-column,
+  .four-column {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+  
+  .two-column.reverse {
+    direction: ltr;
+  }
+  
+  .flex-grid {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+  
+  .flex-grid > * {
+    min-width: auto;
+  }
+  
+  .section {
+    padding: var(--space-xl) 0;
+  }
+  
+  .section-lg {
+    padding: calc(var(--space-xl) * 1.5) 0;
+  }
+  
+  .divider.vertical {
+    width: auto;
+    height: 1px;
+    margin: var(--space-xl) 0;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.2) 50%,
+      transparent 100%
+    );
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: var(--space-lg) 0;
+  }
+  
+  .section-lg {
+    padding: var(--space-xl) 0;
+  }
+  
+  .section-header {
+    margin-bottom: var(--space-lg);
+  }
+}

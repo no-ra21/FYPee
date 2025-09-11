@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "name": "EXHAUST GAS TURBOCHARGER COMPLETE",
+      "make": "IHI-BBC",
+      "model": "VTR 161-2",
+      "description": "tmax: 620, nmax: 750rpm",
+      "condition": "New, Original",
+      "qty": "1 unit",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757520263/IHI-BBC_161-2_EXHAUST_GAS_TURBOCHARGER_COMPLETE_jlfaps.png"
+    },
+    {
+      "id": 2,
+      "name": "NAPIER TURBOCHARGER",
+      "make": "Napier",
+      "model": "Napier 375",
+      "description": "Napier Turbocharger, Model: 375",
+      "condition": "New, Original",
+      "qty": "1 unit",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757520336/image-removebg-preview_5_o698lo.png"
+    },
+    {
+      "id": 3,
+      "name": "NAPIER TURBOCHARGER",
+      "make": "Napier",
+      "model": "Napier 045D",
+      "description": "Serial No: 3156, Max speed: 4400 rpm, Max temperature: 650℃",
+      "condition": "New, Original",
+      "qty": "2 units",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757520258/Napier_045D_Complete_Turbocharger_xsvpyp.png"
+    },
+    {
+      "id": 4,
+      "name": "TURBOCHARGER COMPLETE",
+      "make": "IHI",
+      "model": "RH183",
+      "description": "IHI Turbocharger, Model: RH183",
+      "condition": "New, Original",
+      "qty": "2 units",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757520256/IHI_RH183_Complete_Turbocharger_e9trv2.png"
+    }
+  ]

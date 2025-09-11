@@ -1,0 +1,161 @@
+/*
+ * Typography Styles
+ * Defines consistent typography throughout the website
+ */
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+  color: var(--text-light);
+  margin-bottom: var(--space-sm);
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: var(--space-md);
+}
+
+h2 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+h4 {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+}
+
+h5 {
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+}
+
+h6 {
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: var(--space-sm);
+  max-width: 65ch; /* Optimal reading width */
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Links */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition-speed) ease;
+  border-radius: 2px;
+}
+
+a:hover,
+a:focus {
+  color: #32b8f6;
+  text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+  margin-bottom: var(--space-sm);
+  padding-left: var(--space-lg);
+}
+
+li {
+  margin-bottom: var(--space-xs);
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* Code and preformatted text */
+code,
+pre {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: var(--secondary);
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+code {
+  padding: 0.2em 0.4em;
+}
+
+pre {
+  padding: var(--space-sm);
+  overflow-x: auto;
+  margin-bottom: var(--space-sm);
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--accent);
+  padding-left: var(--space-md);
+  margin: var(--space-md) 0;
+  font-style: italic;
+  color: var(--muted);
+}
+
+/* Small text */
+small {
+  font-size: 0.875em;
+  color: var(--muted);
+}
+
+/* Strong and emphasis */
+strong, b {
+  font-weight: var(--font-weight-bold);
+}
+
+em, i {
+  font-style: italic;
+}
+
+/* Text utilities */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.text-muted {
+  color: var(--muted);
+}
+
+.text-small {
+  font-size: 0.875em;
+}
+
+.text-large {
+  font-size: 1.125em;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}

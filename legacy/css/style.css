@@ -1,10 +1,18 @@
+/*
+ * Global styles for the ArkVision website. The design uses a dark maritime
+ * palette inspired by the colours of the ocean and sky. Generous whitespace,
+ * soft gradients and rounded corners give the site a clean, modern feel.
+ * Responsive layouts are achieved using flexbox and CSS grid, while
+ * variables make it easy to adjust colours across the entire site.
+ */
+
 /* CSS variables for colours and sizing */
 :root {
-  --primary: #0a1931;
-  --secondary: #10284e;
-  --accent: #009fdc;
-  --light: #f6f8fa;
-  --muted: #ccd4e0;
+  --primary: #0a1931; /* deep navy */
+  --secondary: #10284e; /* dark blue */
+  --accent: #009fdc; /* bright teal */
+  --light: #f6f8fa; /* off‑white */
+  --muted: #ccd4e0; /* light blue grey */
   --text-light: #eef3f8;
   --text-dark: #121f3d;
   --max-width: 1100px;
@@ -39,6 +47,7 @@ a {
 }
 a:hover,
 a:focus {
+  /* lighten accent colour manually since CSS functions are not available */
   color: #32b8f6;
 }
 
@@ -84,9 +93,9 @@ a:focus {
 .btn-link:hover {
   border-color: var(--accent);
 }
-.center-btn {
-  margin-top: 2rem;
-  text-align: center;
+.small {
+  padding: 0.4rem 1rem;
+  font-size: 0.875rem;
 }
 
 /* Header and navigation */
@@ -106,7 +115,7 @@ a:focus {
 .logo a {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--light);
+  color: var(--accent);
 }
 .nav-menu ul {
   list-style: none;
@@ -125,6 +134,7 @@ a:focus {
 .nav-menu a:hover {
   color: var(--accent);
 }
+/* underline effect on hover */
 .nav-menu a::after {
   content: '';
   position: absolute;
@@ -223,6 +233,39 @@ a:focus {
   background: var(--accent);
 }
 
+/* Page hero (for other pages) */
+.page-hero {
+  position: relative;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.page-hero-content {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+.page-hero-content h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.page-hero-content p {
+  font-size: 1rem;
+  color: var(--muted);
+}
+
 /* Section base styling */
 section {
   padding: 3rem 0;
@@ -307,6 +350,11 @@ section {
   margin-bottom: 1rem;
 }
 
+.center-btn {
+  margin-top: 2rem;
+  text-align: center;
+}
+
 /* Footer */
 .site-footer {
   background: var(--secondary);
@@ -339,6 +387,213 @@ section {
   padding-top: 0.5rem;
 }
 
+/* About page specifics */
+.story-section p {
+  margin-bottom: 1rem;
+  color: var(--muted);
+}
+.mvv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.mvv-card {
+  background: var(--secondary);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+.mvv-card h3 {
+  margin-bottom: 0.5rem;
+  color: var(--accent);
+}
+.mvv-card p,
+.mvv-card li {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+.values-list {
+  list-style: none;
+  padding-left: 0;
+}
+.values-list li strong {
+  color: var(--text-light);
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  margin-top: 2rem;
+  padding-left: 40px;
+  border-left: 2px solid var(--accent);
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -11px;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.timeline-year {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.3rem;
+}
+.timeline-content h4 {
+  margin-bottom: 0.3rem;
+  font-size: 1.1rem;
+  color: var(--text-light);
+}
+.timeline-content p {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Products page */
+.product-list-section {
+  padding-top: 2rem;
+}
+.product-search {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+#productSearch {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.6rem 1rem;
+  border-radius: var(--border-radius);
+  border: none;
+  background: var(--secondary);
+  color: var(--text-light);
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25) inset;
+}
+#productSearch::placeholder {
+  color: var(--muted);
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.product-item {
+  background: var(--secondary);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  transition: transform var(--transition-speed);
+}
+.product-item:hover {
+  transform: translateY(-6px);
+}
+.product-item h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  color: var(--accent);
+}
+.product-item p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.product-item .btn {
+  display: inline-block;
+}
+
+/* Contact page */
+.contact-section {
+  padding: 3rem 0;
+}
+.contact-wrapper {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.contact-info {
+  flex: 1 1 300px;
+  background: var(--secondary);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+.contact-info h2,
+.contact-form h2 {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  color: var(--accent);
+}
+.info-list {
+  list-style: none;
+  margin: 1rem 0;
+}
+.info-list li {
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+.additional-info {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.contact-form {
+  flex: 1 1 300px;
+  background: var(--secondary);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border-radius: var(--border-radius);
+  border: none;
+  background: var(--primary);
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 2px solid var(--accent);
+}
+.form-group textarea {
+  resize: vertical;
+}
+.form-group .error {
+  color: #ff7b7b;
+  font-size: 0.8rem;
+  display: none;
+  margin-top: 0.2rem;
+}
+.required {
+  color: #ff7b7b;
+  margin-left: 0.2rem;
+}
+.form-response {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: var(--accent);
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .nav-menu ul {
@@ -366,5 +621,8 @@ section {
   }
   .hero-content p {
     font-size: 0.95rem;
+  }
+  .contact-wrapper {
+    flex-direction: column;
   }
 }

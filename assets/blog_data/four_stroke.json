@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "name": "CATERPILLAR COMPLETE ENGINE",
+      "make": "Caterpillar",
+      "model": "3406E",
+      "description": "Power: 440kW @ 2100rpm",
+      "condition": "N/A",
+      "qty": "1 unit",
+      "price": "N/A",
+      "imageUrl": "https://via.placeholder.com/150"
+    }
+  ]

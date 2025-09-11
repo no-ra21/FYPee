@@ -1,0 +1,25 @@
+ [
+    {
+      "id": 1,
+      "name": "YANMAR",
+      "make": "Yanmar",
+      "model": "N280",
+      "description": "Yanmar engine part, Model: N280",
+      "condition": "New, Original",
+      "qty": "1 unit",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757520801/YANMAR_N280_CYLINDER_COVER_FILTER_WITH_EXHAUST_INLET_VALVE_aiw2b1.png"
+    },
+    {
+      "id": 2,
+      "name": "MITSUBISHI",
+      "make": "Mitsubishi",
+      "model": "UEC 37 88",
+      "description": "Mitsubishi engine part, Model: UEC 37 88",
+      "condition": "New, Original",
+      "qty": "1 unit",
+      "price": "N/A",
+      "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757520858/image-removebg-preview_6_tt84f2.png"
+     }
+  ]
+    
