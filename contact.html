@@ -52,18 +52,47 @@
               to help. Our team responds quickly and thoroughly to every
               inquiry.
             </p>
-            <h3>Contact Information</h3>
-            <ul class="info-list">
-              <li><strong>Primary Phone:</strong> <a href="tel:+6561234567">+65 6862 3379</a></li>
-              <li><strong>Email:</strong> <a href="mailto:info@arkvision.com">arkvision@singnet.com.sg</a></li>
-              <li><strong>Headquarters:</strong> No. 51 Tuas Ave 1 Singapore 639501</li>
-              <li><strong>Hours:</strong> Monday–Friday, 9:00–18:00 (SGT)</li>
-            </ul>
-            <p class="additional-info">
-              For regional offices in Europe and the Middle East, please refer to
-              the department listing below. We strive to respond to all emails
-              within one business day.
-            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-content">
+                  <h4>Phone</h4>
+                  <p>Tel: <a href="tel:+6568623379">+65 6862 3379</a></p>
+                  <p>Fax: <a href="fax:+6568630930">+65 6863 0930</a></p>
+                  <small>Monday-Friday, 9:00-18:00 (SGT)</small>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">✉️</div>
+                <div class="contact-content">
+                  <h4>Email</h4>
+                  <p><a href="mailto:arkvision@singnet.com.sg">arkvision@singnet.com.sg</a></p>
+                  <small>Response within 24 hours</small>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-content">
+                  <h4>Address</h4>
+                  <p>No. 51 Tuas Ave 1 Singapore 639501</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="emergency-contact">
+              <h4>🆘 Emergency Hotline</h4>
+              <p>For urgent technical support outside business hours:</p>
+              <p><strong><a href="tel:+6568623379">+65 6862 3379</a></strong></p>
+            </div>
+            
+            <div class="service-areas">
+              <h4>🌏 Service Coverage</h4>
+              <p><strong>Primary:</strong> Singapore, Malaysia, Thailand, Indonesia</p>
+              <p><strong>Extended:</strong> Philippines, Vietnam, Brunei, Myanmar</p>
+              <p><strong>Global:</strong> Worldwide support through partner network</p>
+            </div>
           </div>
           <div class="contact-form">
             <h2>Send Us a Message</h2>
@@ -82,9 +111,50 @@
                 <label for="company">Company</label>
                 <input type="text" id="company" name="company" />
               </div>
+              <div class="form-group"> 
+                <label for="country">Country <span class="required">*</span></label>
+                <select id="country" name="country" required>
+                  <option value="">Please select</option>
+                  <option value="sg">Singapore</option>
+                  <option value="my">Malaysia</option>
+                  <option value="th">Thailand</option>
+                  <option value="id">Indonesia</option>
+                  <option value="ph">Philippines</option>
+                  <option value="vn">Vietnam</option>
+                  <option value="us">United States</option>
+                  <option value="ca">Canada</option>
+                  <option value="uk">United Kingdom</option>
+                  <option value="au">Australia</option>
+                  <option value="de">Germany</option>
+                  <option value="fr">France</option>
+                  <option value="jp">Japan</option>
+                  <option value="kr">South Korea</option>
+                  <option value="cn">China</option>
+                  <option value="in">India</option>
+                  <option value="other">Other</option>
+                </select>
+                <span class="error" id="countryError"></span>
+              </div>
               <div class="form-group">
-                <label for="product">Product (optional)</label>
-                <input type="text" id="product" name="product" />
+                <label for="inquiry-type">Inquiry Type</label>
+                <select id="inquiry-type" name="inquiry-type">
+                  <option value="">Please select</option>
+                  <option value="product-inquiry">Product Inquiry</option>
+                  <option value="technical-support">Technical Support</option>
+                  <option value="service-request">Service Request</option>
+                  <option value="partnership">Partnership Opportunity</option>
+                  <option value="distributorship">Distributorship Inquiry</option>
+                  <option value="quotation">Request Quotation</option>
+                  <option value="general">General Inquiry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="product">Product/Service Interest (optional)</label>
+                <input type="text" id="product" name="product" placeholder="e.g., Navigation Systems, Marine Sensors" />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+65 1234 5678" />
               </div>
               <div class="form-group">
                 <label for="message">Message<span class="required">*</span></label>
@@ -153,10 +223,8 @@
           </div>
         </div>
       </div>
-    </footer>
-  </body>
-</html>
-      <div class="footer-bottom">
+    </div>
+    <div class="footer-bottom">
         <p>&copy; 2025 ArkVision. All rights reserved.</p>
       </div>
     </footer>
