@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About ArkVision</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/main-simple.css" />
     <script defer src="scripts/utils/helpers.js"></script>
     <script defer src="scripts/components/navigation.js"></script>
     <script defer src="scripts/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -45,18 +47,10 @@
       <div class="container">
         <h2>Our Story</h2>
         <p>
-          Founded in Singapore, ArkVision grew from a small team of maritime
-          engineers to an industry leader respected for delivering advanced
-          manufacturing solutions. We started with a simple goal: to build
-          high‑quality components that empower vessels to navigate safely and
-          efficiently. Today, our products help clients across the globe chart
-          new waters.
+          Ark Vision Spare & Engineering Pte Ltd, incorporated in Singapore on 20th August 1998, is a focused stockist and supplier of marine spares & equipment to shipping related establishments. Since then, we have consistently strengthened our position in the Asian market to become the largest and most dynamically developed stockist and supplier of new & reconditioned, genuine & OEM marine spares and equipment.
         </p>
         <p>
-          From our early days fabricating hardware for coastal craft to our
-          current projects designing integrated automation systems for
-          ocean‑going ships, ArkVision remains guided by the same principles of
-          excellence, integrity and client partnership.
+          We operate from approximately 32,000 square feet warehouse & workshop in Tuas, Jurong, in close proximity to the Shipyards and key supporting services, eg, equipment manufacturers, machining & logistics service providers, etc. We have achieved ISO 9001 quality certification from Lloyd’s Register and BizSafe Level 3 from the Singapore Government.
         </p>
       </div>
     </section>
@@ -100,9 +94,12 @@
       <div class="container">
         <h2>Our Journey</h2>
         <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-year">2010</div>
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-dot">
+              <div class="timeline-icon">🚀</div>
+            </div>
             <div class="timeline-content">
+              <div class="timeline-year">2010</div>
               <h4>ArkVision Founded</h4>
               <p>
                 A small team of engineers comes together with a passion for
@@ -110,9 +107,12 @@
               </p>
             </div>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-year">2015</div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="timeline-dot">
+              <div class="timeline-icon">🌍</div>
+            </div>
             <div class="timeline-content">
+              <div class="timeline-year">2015</div>
               <h4>First International Client</h4>
               <p>
                 ArkVision supplies custom navigation modules for an offshore
@@ -120,9 +120,12 @@
               </p>
             </div>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-year">2018</div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="timeline-dot">
+              <div class="timeline-icon">⚙️</div>
+            </div>
             <div class="timeline-content">
+              <div class="timeline-year">2018</div>
               <h4>Automation Platform Launched</h4>
               <p>
                 Release of our flagship automation system, enabling vessels to
@@ -131,9 +134,12 @@
               </p>
             </div>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-year">2023</div>
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="timeline-dot">
+              <div class="timeline-icon">🌐</div>
+            </div>
             <div class="timeline-content">
+              <div class="timeline-year">2023</div>
               <h4>Global Expansion</h4>
               <p>
                 We open offices in Europe and the Middle East, bringing local
@@ -219,5 +225,15 @@
         <p>&copy; 2025 ArkVision. All rights reserved.</p>
       </div>
     </footer>
+    
+    <script>
+      // Initialize AOS (Animate On Scroll)
+      AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: true,
+        offset: 100
+      });
+    </script>
   </body>
 </html>
