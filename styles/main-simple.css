@@ -675,6 +675,42 @@ section {
   .timeline-content p {
     font-size: 0.9rem;
   }
+  
+  /* Mobile styles for Repairs & Services */
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .service-card {
+    padding: 1.5rem;
+  }
+  
+  .service-icon {
+    font-size: 2.5rem;
+  }
+  
+  .service-card h3 {
+    font-size: 1.2rem;
+  }
+  
+  .service-cta {
+    padding: 2rem 1.5rem;
+  }
+  
+  .service-cta .cta-content h3 {
+    font-size: 1.5rem;
+  }
+  
+  .cta-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cta-actions .btn {
+    width: 100%;
+    max-width: 280px;
+  }
 }
 
 /* Products page */
@@ -885,6 +921,171 @@ section {
   color: var(--muted);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 0.5rem;
+}
+
+/* Repairs & Services Section */
+.repairs-services-section {
+  background: linear-gradient(135deg, var(--secondary) 0%, #1a3a5c 100%);
+  padding: 4rem 0;
+}
+
+.repairs-services-section .section-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.repairs-services-section .section-intro h2 {
+  font-size: 2.5rem;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.repairs-services-section .section-intro h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+.repairs-services-section .section-intro p {
+  font-size: 1.1rem;
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.service-card {
+  background: linear-gradient(135deg, var(--primary), #0f2847);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), #32b8f6);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.service-card h3 {
+  font-size: 1.4rem;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.service-card > p {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.service-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.service-features li {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.service-features li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.service-cta {
+  background: linear-gradient(135deg, var(--accent), #32b8f6);
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 159, 220, 0.3);
+}
+
+.service-cta .cta-content h3 {
+  font-size: 1.8rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.service-cta .cta-content p {
+  font-size: 1.1rem;
+  color: var(--text-dark);
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-actions .btn-secondary {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--text-dark);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.cta-actions .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: var(--text-dark);
+}
+
+.cta-actions .btn-primary {
+  background: var(--text-dark);
+  color: var(--accent);
+}
+
+.cta-actions .btn-primary:hover {
+  background: #000;
+  color: var(--accent);
 }
 
 /* Responsive adjustments */
