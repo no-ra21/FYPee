@@ -1202,6 +1202,115 @@ section {
   }
 }
 
+/* News Section */
+.news-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin: 60px 0 40px;
+}
+
+.news-item {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.news-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.news-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.news-section .section-intro h2 {
+  color: #2c5282; /* Custom blue color for this section */
+}
+
+.news-section .section-intro p {
+  color: #4a5568; /* Custom gray color for description */
+  opacity: 1;
+}
+
+.news-item h3 {
+  color: var(--primary);
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.news-item p {
+  color: var(--text-dark);
+  line-height: 1.6;
+  margin-bottom: 25px;
+  opacity: 0.8;
+}
+
+.btn-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.btn-link:hover {
+  color: var(--primary);
+  transform: translateX(5px);
+}
+
+.btn-link::after {
+  content: "→";
+  transition: transform 0.3s ease;
+}
+
+.btn-link:hover::after {
+  transform: translateX(3px);
+}
+
+.center-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Mobile responsive for news section */
+@media (max-width: 768px) {
+  .news-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 40px 0 30px;
+  }
+  
+  .news-item {
+    padding: 30px 20px;
+  }
+  
+  .news-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .news-item h3 {
+    font-size: 1.2rem;
+  }
+}
+
 /* Products page */
 .product-list-section {
   padding-top: 2rem;
