@@ -713,6 +713,454 @@ section {
   }
 }
 
+/* Distributorship Page Styles */
+.partnership-overview {
+  background: linear-gradient(135deg, var(--secondary) 0%, #1a3a5c 100%);
+  padding: 4rem 0;
+}
+
+.partnership-overview h2 {
+  font-size: 2.5rem;
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.partnership-overview .lead {
+  font-size: 1.2rem;
+  color: var(--muted);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.partnership-stats {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--accent);
+  display: block;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+.partnership-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.feature-content h4 {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.feature-content p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.distributorship-partners {
+  padding: 4rem 0;
+}
+
+.distributorship-partners .section-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.distributorship-partners .section-intro h2 {
+  font-size: 2.5rem;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.distributorship-partners .section-intro h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+.distributorship-partners .section-intro p {
+  font-size: 1.1rem;
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.partner-card {
+  background: linear-gradient(135deg, var(--secondary), #1a3a5c);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.partner-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), #32b8f6);
+}
+
+.partner-card.featured-partner::before {
+  height: 4px;
+  background: linear-gradient(90deg, #ffd700, #ffed4e);
+}
+
+.partner-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.partner-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.partner-logo {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 0.5rem;
+  flex-shrink: 0;
+}
+
+.partner-logo.multi-image {
+  width: 100px;
+  height: auto;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.partner-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.partner-logo.multi-image img {
+  max-height: 35px;
+}
+
+.partner-title h3 {
+  font-size: 1.4rem;
+  color: var(--text-light);
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.partner-role {
+  font-size: 0.9rem;
+  color: var(--accent);
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  background: rgba(0, 159, 220, 0.1);
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.partner-role.featured-role {
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+.specialty-subtitle {
+  font-size: 1rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.partner-content > p {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.feature-highlights {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.highlight-item {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.highlight-item strong {
+  color: var(--accent);
+}
+
+.product-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.category-item {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.75rem;
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.product-list {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-group {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.product-group strong {
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-item {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.75rem;
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.benefit-column h5 {
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.benefit-item {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.partner-specialties {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.specialty-tag {
+  background: rgba(0, 159, 220, 0.1);
+  color: var(--accent);
+  padding: 0.4rem 0.8rem;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(0, 159, 220, 0.2);
+}
+
+.specialty-tag.featured-tag {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(255, 237, 78, 0.2));
+  color: #ffd700;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.partner-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.partnership-cta {
+  background: linear-gradient(135deg, var(--accent), #32b8f6);
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 159, 220, 0.3);
+  margin-top: 2rem;
+}
+
+.partnership-cta .cta-content h3 {
+  font-size: 1.8rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.partnership-cta .cta-content p {
+  font-size: 1.1rem;
+  color: var(--text-dark);
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partnership-cta .cta-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partnership-cta .btn-secondary {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--text-dark);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.partnership-cta .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: var(--text-dark);
+}
+
+.partnership-cta .btn-primary {
+  background: var(--text-dark);
+  color: var(--accent);
+}
+
+.partnership-cta .btn-primary:hover {
+  background: #000;
+  color: var(--accent);
+}
+
+/* Responsive styles for distributorship */
+@media (max-width: 768px) {
+  .partnership-stats {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .partnership-features {
+    margin-top: 2rem;
+  }
+  
+  .partners-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .partner-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .partner-logo {
+    align-self: center;
+  }
+  
+  .benefits-grid,
+  .service-grid,
+  .product-categories {
+    grid-template-columns: 1fr;
+  }
+  
+  .partner-actions {
+    justify-content: center;
+  }
+  
+  .partnership-cta {
+    padding: 2rem 1.5rem;
+  }
+  
+  .partnership-cta .cta-content h3 {
+    font-size: 1.5rem;
+  }
+  
+  .partnership-cta .cta-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .partnership-cta .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
 /* Products page */
 .product-list-section {
   padding-top: 2rem;
