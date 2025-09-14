@@ -1,6 +1,6 @@
 # ArkVision Website
 
-A professional maritime manufacturing company website built with modern web technologies.
+A professional maritime supplier and stockist company website built with modern web technologies.
 
 ## 🚀 Project Overview
 
