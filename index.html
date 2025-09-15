@@ -10,27 +10,35 @@
     <script defer src="scripts/components/navigation.js"></script>
     <script defer src="scripts/components/hero-slider.js"></script>
     <script defer src="scripts/main.js"></script>
+   <script>fetch("navigation.html")
+  .then(res => res.text())
+  .then(data => {
+    const navPlaceholder = document.getElementById("navigation-placeholder");
+    navPlaceholder.innerHTML = data;
+
+    // Mobile menu toggle
+    const toggle = navPlaceholder.querySelector("#navToggle");
+    const menu = navPlaceholder.querySelector("#navMenu");
+
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("open");
+    });
+
+    // Highlight active link dynamically
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+    navPlaceholder.querySelectorAll(".nav-menu a").forEach(link => {
+      if (link.getAttribute("href") === currentPage) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+    
   </head>
   <body>
     <!-- Header & Navigation -->
     <header class="site-header">
-      <div class="container header-inner">
-        <div class="logo"><a href="/">ArkVision</a></div>
-        <nav class="nav-menu" id="navMenu">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="blog.html">Our Blog</a></li>
-          </ul>
-        </nav>
-        <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </button>
-      </div>
+      <div id="navigation-placeholder"></div>
     </header>
 
     <!-- Hero section with slider -->
@@ -143,59 +151,6 @@
       </div>
     </section>
 
-    <!-- Customers -->
-    <section class="customers">
-      <div class="container">
-        <div class="section-intro">
-          <h2>Our Valued Customers</h2>
-          <p>
-            We take pride in serving a diverse range of clients across the
-            maritime industry. Here are just a few of the esteemed companies
-            we've partnered with:
-          </p>
-        </div>
-        <div class="customer-logos">
-          <img src="assets/images/customers/customer-1.png" alt="Customer 1" />
-          <img src="assets/images/customers/customer-2.png" alt="Customer 2" />
-          <img src="assets/images/customers/customer-3.png" alt="Customer 3" />
-          <img src="assets/images/customers/customer-4.png" alt="Customer 4" />
-        </div>
-      </div>
-    </section>
-
-    <!-- News & Updates -->
-    <section class="news-section">
-      <div class="container">
-        <div class="section-intro">
-          <h2>Latest News & Updates</h2>
-          <p>Stay informed with our latest developments and industry insights</p>
-        </div>
-        
-        <div class="news-grid">
-          <div class="news-item">
-            <div class="news-icon">📰</div>
-            <h3>ArkVision Highlights</h3>
-            <p>Monthly updates on our latest projects, partnerships, and industry developments.</p>
-            <a href="/blog.html" class="btn-link">Read Latest</a>
-          </div>
-          
-          <div class="news-item">
-            <div class="news-icon">📊</div>
-            <h3>Annual Report</h3>
-            <p>Comprehensive yearly review of our achievements and future plans.</p>
-            <a href="/blog.html" class="btn-link">Download Report</a>
-          </div>
-          
-          <div class="news-item">
-            <div class="news-icon">🔧</div>
-            <h3>ArkVision Brochure</h3>
-            <p>Latest technical bulletins and showcase of available solutions for marine equipment.</p>
-            <a href="assets/documents/arkvision-brochure.pdf" class="btn-link" download="ArkVision-Brochure.pdf" target="_blank">Download Brochure</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Footer -->
     <footer class="site-footer">
       <div class="container footer-inner">
@@ -214,45 +169,18 @@
             <li><a href="products.html">Products</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="index.html">Home</a></li>
-             <li><a href="blog.html">Our Blog</a></li>
+             <li><a href="blogs.html">Blogs</a></li>
           </ul>
         </div>
         <div class="footer-contact">
           <h4>Contact</h4>
           <ul>
-            <li>Tel: +65 6862 3379</li>
-            <li>Fax: +65 6863 0930</li>
-            <li>Email: arkvision@singnet.com.sg</li>
-            <li>Address: No. 51 Tuas Ave 1 Singapore 639501</li>
+            <li>Phone: +65 6123 4567</li>
+            <li>Email: info@arkvision.com</li>
+            <li>Address: 1 Maritime Drive, Singapore 018989</li>
           </ul>
         </div>
-        <div class="footer-connect">
-          <h4>Connect with Us</h4>
-          <div class="social-links">
-            <a href="#" class="social-link" aria-label="LinkedIn">
-              <span class="social-icon">💼</span>
-              <span>LinkedIn</span>
-            </a>
-            <a href="#" class="social-link" aria-label="Facebook">
-              <span class="social-icon">📘</span>
-              <span>Facebook</span>
-            </a>
-            <a href="#" class="social-link" aria-label="Twitter">
-              <span class="social-icon">🐦</span>
-              <span>Twitter</span>
-            </a>
-            <a href="mailto:arkvision@singnet.com.sg" class="social-link" aria-label="Email">
-              <span class="social-icon">📧</span>
-              <span>Email Us</span>
-            </a>
-          </div>
-            </div>
-          </div>
-        </div>
       </div>
-    </footer>
-  </body>
-</html>
       <div class="footer-bottom">
         <p>&copy; 2025 ArkVision. All rights reserved.</p>
       </div>

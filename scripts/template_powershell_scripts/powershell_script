@@ -74,26 +74,34 @@ $templateContent = @'
 
 </style>
 <body>
-    <!-- Header -->
-    <header class="site-header">
-      <div class="container header-inner">
-        <div class="logo"><a href="/">ArkVision</a></div>
-        <nav class="nav-menu" id="navMenu">
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../about.html" >About</a></li>
-            <li><a href="../products.html">Products</a></li>
-            <li><a href="../contact.html">Contact</a></li>
-            <li><a href="../blogs.html" class="active">Blogs</a></li>
-          </ul>
-        </nav>
-        <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </button>
-      </div>
-    </header>
+    
+    <!-- Header & Navigation -->
+   <header class="site-header">
+  <div class="container header-inner">
+    <!-- Logo -->
+    <div class="logo">
+      <a href="/">ArkVision</a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-menu" id="navMenu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../products.html">Products</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="../blogs.html">Blogs</a></li>
+      </ul>
+    </nav>
+
+    <!-- Mobile toggle -->
+    <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </div>
+</header>
 
     <!-- Page hero -->
     <section class="page-hero" style="background-image: url('../assets/images/hero1.png');">
@@ -449,6 +457,20 @@ const modalTitle = document.getElementById('productDetailModalLabel');
         });
       });
     </script>
+<script>
+
+    // Mobile menu toggle
+    const toggle = navPlaceholder.querySelector("#navToggle");
+    const menu = navPlaceholder.querySelector("#navMenu");
+
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("open");
+    });
+
+  
+</script>
+
+    
 </body>
 
 </html>

@@ -9,6 +9,30 @@
     <script defer src="scripts/utils/helpers.js"></script>
     <script defer src="scripts/components/navigation.js"></script>
     <script defer src="scripts/main.js"></script>
+    <script>fetch("navigation.html")
+  .then(res => res.text())
+  .then(data => {
+    const navPlaceholder = document.getElementById("navigation-placeholder");
+    navPlaceholder.innerHTML = data;
+
+    // Mobile menu toggle
+    const toggle = navPlaceholder.querySelector("#navToggle");
+    const menu = navPlaceholder.querySelector("#navMenu");
+
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("open");
+    });
+
+    // Highlight active link dynamically
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+    navPlaceholder.querySelectorAll(".nav-menu a").forEach(link => {
+      if (link.getAttribute("href") === currentPage) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+    
     <style>
         .job-title {
             font-size: 1.45rem;
@@ -152,23 +176,7 @@
 <body>
     <!-- Header -->
     <header class="site-header">
-        <div class="container header-inner">
-            <div class="logo"><a href="/">ArkVision</a></div>
-            <nav class="nav-menu" id="navMenu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="blog.html">Our Blog</a></li>
-                </ul>
-            </nav>
-            <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-        </div>
+      <div id="navigation-placeholder"></div>
     </header>
 
     <!-- Career Hero Section -->
