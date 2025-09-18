@@ -7,6 +7,8 @@
  * Last Updated: September 2025
  */
 
+
+
 class ArkVisionWebsite {
   constructor() {
     this.components = {};
@@ -256,6 +258,43 @@ class ArkVisionWebsite {
       }
     }
   }
+
+initScrollToTop() {
+  const btn = document.createElement("button");
+  btn.id = "scrollToTopBtn";
+  btn.className = "btn btn-primary";
+  btn.innerHTML = '<i class="fa-solid fa-arrow-up"></i>';
+  // Style
+  btn.style.position = "fixed";
+  btn.style.bottom = "20px";
+  btn.style.right = "20px";
+  btn.style.display = "none";
+  btn.style.zIndex = "1000";
+  btn.style.borderRadius = "50%";
+  btn.style.color="#f7f3f4ff"
+  btn.style.width = "60px";
+  btn.style.height = "60px";
+  btn.style.fontSize = "25px";
+  btn.style.padding = "0";
+
+  // ✅ inject into body
+  document.body.appendChild(btn);
+
+  // Show/hide on scroll
+  window.addEventListener("scroll", () => {
+    if (document.documentElement.scrollTop > 300 || document.body.scrollTop > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  });
+
+  // Scroll to top when clicked
+  btn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
   
   // Public methods for external use
   getComponent(name) {
@@ -285,6 +324,7 @@ const arkVisionWebsite = new ArkVisionWebsite();
 window.arkVisionWebsite = arkVisionWebsite;
 
 // Legacy compatibility - maintain the original function structure
+
 document.addEventListener('DOMContentLoaded', () => {
   // Mobile navigation toggle (legacy)
   const navToggle = document.getElementById('navToggle');
@@ -338,4 +378,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
   }
+
+  // ✅ FIXED: Call method from arkVisionWebsite instance
+  arkVisionWebsite.initScrollToTop();
 });
+
+
