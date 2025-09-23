@@ -158,21 +158,123 @@
       </div>
     </section>
 
-    <!--Distributorship section-->
-    <section class="Distributorship-section">
-      <div class="container">
-<div class="mvv-card">
-          <h3>Distributorship</h3>
-          <p>Ark Vision is proud to be appointed as distributor and sales & service agent of established companies. We continue to seek opportunities to co-operate or represent Marine equipment companies in this region.</p>
-          <div style="margin-top: 1.25rem;">
-         <button class="btn btn-primary" onclick="location.href='distributorship.html'">Learn More</button>
-        </div></div>
+    <!-- Distributorship Section -->
+ <section class="distributorship-section">
+        <div class="container">
+            <div class="values-header">
+                <h1 style="font-size: 2.6rem;">ArkVision thrives on trusted partnerships</h1>
+                <p style="font-size: 1.3rem;">Discover how we collaborate with industry leaders to deliver excellence!</p>
+                <a href="distributorship.html" class="btn btn-primary mt-4">Read all about our partners →</a>
+            </div>
 
-       
-      </div>
+            <div class="partners-container">
+                <button class="nav-arrow nav-prev" id="prevPartner">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="values-grid" id="partnersGrid">
+                    <!-- IHI -->
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1758208163/Logo-HCP-vector-2-removebg-preview_m0pnnn.png" alt="">
+                        </div>
+                        <div class="card-content">
+    <p class="company-name" style="font-weight: 700; font-size: 1.4rem;">Marine diesel engines</p>
+                     </div>
+                  </div>
+
+                    <!-- Flunamics -->
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1758209731/Fluinamics_logo-removebg-preview_fdyedu.png" alt="Napier">
+                        </div>
+                        <div class="card-content">
+                             <p class="company-name" style="font-weight: 700; font-size: 1.4rem;">Water Treatment Solutions</p>
+                        </div>
+                    </div>
+
+                    <!-- Gali -->
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1758209731/galiGrup-removebg-preview_m7ct54.png" alt="Napier">
+                        </div>
+                        <div class="card-content">
+                             <p class="company-name" style="font-weight: 700; font-size: 1.4rem;">Engine Air Starters</p>
+                        </div>
+                    </div>
+
+                    <!-- Magnus -->
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1758209731/MSGNUS-removebg-preview_wyxtrd.png">
+                        </div>
+                        <div class="card-content">
+                            <p class="company-name" style="font-weight: 700; font-size: 1.4rem;">Marine Cleaning Chemicals</p>
+                        </div>
+                    </div>
+
+                    <!-- PMAX Filters -->
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1758209850/PMAXFilte_logo-removebg-preview_qs7vdc.png" alt="Partner 5">
+                        </div>
+                        <div class="card-content">
+                            <p class="company-name" style="font-weight: 700; font-size: 1.4rem;">Turbocharger Air Filters</p>
+                        </div>
+                    </div>
+
+                    <!-- Partner 6 -->
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1758210129/northey-removebg-preview_qfiimf.png" alt="Partner 6">
+                        </div>
+                        <div class="card-content">
+                           <p class="company-name" style="font-weight: 700; font-size: 1.4rem;">Oil-Free Compressors </p> 
+                        </div>
+                    </div>
+
+                <button class="nav-arrow nav-next" id="nextPartner">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
     </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const grid = document.getElementById('partnersGrid');
+            const prevBtn = document.getElementById('prevPartner');
+            const nextBtn = document.getElementById('nextPartner');
+            const cards = document.querySelectorAll('.value-card');
+            
+            prevBtn.addEventListener('click', () => {
+                grid.scrollBy({
+                    left: -240,
+                    behavior: 'smooth'
+                });
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                grid.scrollBy({
+                    left: 240,
+                    behavior: 'smooth'
+                });
+            });
 
+            cards.forEach(card => {
+                card.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    cards.forEach(c => {
+                        if (c !== card) c.classList.remove('expanded');
+                    });
+                    card.classList.toggle('expanded');
+                });
+            });
 
+            document.addEventListener('click', () => {
+                cards.forEach(card => card.classList.remove('expanded'));
+            });
+        });
+    </script>
     
     <!--Careers section -->
     <section class="careers-section">
