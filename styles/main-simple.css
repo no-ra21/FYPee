@@ -1350,3 +1350,465 @@ section {
     height: 16px;
   }
 }
+
+/* =============================================
+   DISTRIBUTORSHIP PAGE STYLES
+   ============================================= */
+
+.partnership-overview {
+  padding: 4rem 0;
+  background: var(--secondary);
+  color: white;
+}
+
+.partnership-stats {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 0.5rem;
+  opacity: 0.9;
+}
+
+.partnership-features {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-item:last-child {
+  margin-bottom: 0;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.feature-content h4 {
+  margin: 0 0 0.5rem 0;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.feature-content p {
+  margin: 0;
+  color: white;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+/* Partners Section */
+.distributorship-partners {
+  padding: 4rem 0;
+  background: var(--secondary);
+  color: white;
+}
+
+.section-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-intro h2 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.section-intro p {
+  font-size: 1.2rem;
+  color: white;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Partners Grid */
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+/* Partner Cards */
+.partner-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.partner-card:hover {
+  transform: translateY(-4px);
+  background: white;
+}
+
+.partner-card.featured-partner {
+  border: 2px solid var(--accent);
+}
+
+.partner-card.featured-partner::before {
+  content: "Featured";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--accent);
+  color: white;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+/* Partner Header */
+.partner-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: white;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.partner-header:hover {
+  background: #f8f9fa;
+}
+
+.expand-icon {
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.partner-logo {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.partner-logo img {
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: contain;
+}
+
+.partner-logo.multi-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  width: 80px;
+  height: 60px;
+}
+
+.partner-logo.multi-image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 2px;
+}
+
+.partner-title h3 {
+  margin: 0 0 0.3rem 0;
+  color: var(--secondary);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.partner-role {
+  background: var(--primary);
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.featured-role {
+  background: var(--accent);
+}
+
+/* Partner Content */
+.partner-content {
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.partner-content.collapsed {
+  max-height: 0;
+  padding: 0 1.5rem;
+  opacity: 0;
+}
+
+.partner-content.expanded {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.specialty-subtitle {
+  font-weight: 600;
+  color: var(--secondary);
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.partner-content p {
+  color: var(--secondary);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Simplified content sections */
+.feature-highlights,
+.product-categories,
+.product-list,
+.service-grid,
+.benefits-grid {
+  margin: 1rem 0;
+}
+
+.highlight-item,
+.category-item,
+.service-item,
+.benefit-item {
+  background: #f8f9fa;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  color: #2c3e50;
+}
+
+/* Simplified grids */
+.product-categories,
+.service-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.category-item,
+.service-item {
+  flex: 1;
+  min-width: 120px;
+  text-align: center;
+}
+
+.product-list {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.product-group {
+  margin-bottom: 0.5rem;
+}
+
+.product-group strong {
+  color: #2c3e50;
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.85rem;
+}
+
+.product-group span {
+  color: #495057;
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+.benefits-grid {
+  display: block;
+}
+
+.benefit-column {
+  margin-bottom: 1rem;
+}
+
+.benefit-column h5 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Partner Specialties */
+.partner-specialties {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 1rem;
+}
+
+.specialty-tag {
+  background: var(--primary);
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.featured-tag {
+  background: var(--accent);
+}
+
+/* Partner Actions */
+.partner-actions {
+  padding: 1rem 0;
+  text-align: center;
+  border-top: 1px solid #eee;
+  margin-top: 1rem;
+}
+
+.partner-actions .btn {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Partnership CTA */
+.partnership-cta {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 2rem;
+  backdrop-filter: blur(10px);
+}
+
+.cta-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.cta-content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-actions .btn {
+  background: var(--accent);
+  color: white;
+  border: none;
+  font-weight: 500;
+  padding: 0.6rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.cta-actions .btn:hover {
+  background: white;
+  color: var(--secondary);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .partners-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .partner-header {
+    padding: 1rem;
+  }
+  
+  .partner-title h3 {
+    font-size: 1.1rem;
+  }
+  
+  .expand-icon {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+  }
+  
+  .partnership-stats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .product-categories,
+  .service-grid {
+    flex-direction: column;
+  }
+  
+  .section-intro h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .partnership-overview,
+  .distributorship-partners {
+    padding: 2rem 0;
+  }
+  
+  .partner-content {
+    padding: 1rem;
+  }
+  
+  .partner-header {
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .partnership-cta {
+    padding: 1.5rem 1rem;
+  }
+}

@@ -9,6 +9,7 @@
     <script defer src="scripts/utils/helpers.js"></script>
     <script defer src="scripts/components/navigation.js"></script>
     <script defer src="scripts/main.js"></script>
+    <script src="https://kit.fontawesome.com/40f2643406.js" crossorigin="anonymous"></script>
     <script>fetch("navigation.html")
   .then(res => res.text())
   .then(data => {
@@ -109,7 +110,7 @@
         <div class="partners-grid">
             <!-- H. Cegielski-Poznan S.A. -->
           <div class="partner-card">
-            <div class="partner-header">
+            <div class="partner-header" onclick="togglePartner(this)">
               <div class="partner-logo">
                 <img src="./assets/images/distributorship/logo-1.jpg" alt="H. Cegielski-Poznan S.A. Logo" loading="lazy">
               </div>
@@ -117,8 +118,9 @@
                 <h3>H. Cegielski-Poznan S.A.</h3>
                 <span class="partner-role">Sales & Service Agent</span>
               </div>
+              <div class="expand-icon">+</div>
             </div>
-            <div class="partner-content">
+            <div class="partner-content collapsed">
               <p>H. Cegielski-Poznan S.A. (HCP) is the licensee for MAN B&W and Sulzer two stroke and four stroke marine diesel engines.</p>
               <p>Ark Vision has been appointed HCP's Sales & Service Agent for South East Asia, providing genuine spares and technical specialist support from the manufacturer.</p>
               <div class="partner-specialties">
@@ -126,15 +128,15 @@
                 <span class="specialty-tag">MAN B&W Licensed</span>
                 <span class="specialty-tag">Sulzer Licensed</span>
               </div>
-            </div>
-            <div class="partner-actions">
-              <a href="/contact.html?partner=HCP" class="btn btn-primary btn-sm">Get Quote</a>
+              <div class="partner-actions">
+                <a href="/contact.html?partner=HCP" class="btn btn-primary btn-sm">Get Quote</a>
+              </div>
             </div>
           </div>
 
           <!-- Fluinamics -->
           <div class="partner-card">
-            <div class="partner-header">
+            <div class="partner-header" onclick="togglePartner(this)">
               <div class="partner-logo">
                 <img src="./assets/images/distributorship/logo-2.png" alt="Fluinamics Logo" loading="lazy">
               </div>
@@ -142,23 +144,24 @@
                 <h3>Fluinamics, S.L.</h3>
                 <span class="partner-role">Authorized Distributor</span>
               </div>
+              <div class="expand-icon">+</div>
             </div>
-            <div class="partner-content">
+            <div class="partner-content collapsed">
               <p>Fluinamics specializes in environmental engineering and water treatment equipment solutions. Their expertise covers both drinking water and urban waste treatment systems.</p>
               <div class="partner-specialties">
                 <span class="specialty-tag">Water Treatment</span>
                 <span class="specialty-tag">Environmental Solutions</span>
                 <span class="specialty-tag">Waste Management</span>
               </div>
-            </div>
-            <div class="partner-actions">
-              <a href="/contact.html?partner=Fluinamics" class="btn btn-primary btn-sm">Get Quote</a>
+              <div class="partner-actions">
+                <a href="/contact.html?partner=Fluinamics" class="btn btn-primary btn-sm">Get Quote</a>
+              </div>
             </div>
           </div>
 
           <!-- Gali Group -->
           <div class="partner-card">
-            <div class="partner-header">
+            <div class="partner-header" onclick="togglePartner(this)">
               <div class="partner-logo">
                 <img src="./assets/images/distributorship/logo-3.png" alt="Gali Group Logo" loading="lazy">
               </div>
@@ -166,8 +169,9 @@
                 <h3>Gali Group</h3>
                 <span class="partner-role">Authorized Distributor</span>
               </div>
+              <div class="expand-icon">+</div>
             </div>
-            <div class="partner-content">
+            <div class="partner-content collapsed">
               <p>GALI air starters for internal combustion and gas engines. Extremely powerful for their size, featuring high torque, high speed, low air consumption and reduced maintenance.</p>
               <div class="feature-highlights">
                 <div class="highlight-item">
@@ -182,15 +186,15 @@
                 <span class="specialty-tag">Engine Components</span>
                 <span class="specialty-tag">High Performance</span>
               </div>
-            </div>
-            <div class="partner-actions">
-              <a href="/contact.html?partner=Gali" class="btn btn-primary btn-sm">Get Quote</a>
+              <div class="partner-actions">
+                <a href="/contact.html?partner=Gali" class="btn btn-primary btn-sm">Get Quote</a>
+              </div>
             </div>
           </div>
 
           <!-- Holland Marine Services Amsterdam B.V -->
           <div class="partner-card">
-            <div class="partner-header">
+            <div class="partner-header" onclick="togglePartner(this)">
               <div class="partner-logo">
                 <img src="./assets/images/distributorship/logo-4.gif" alt="Holland Marine Services Amsterdam Logo" loading="lazy">
               </div>
@@ -198,8 +202,9 @@
                 <h3>Holland Marine Services Amsterdam B.V</h3>
                 <span class="partner-role">Authorized Distributor</span>
               </div>
+              <div class="expand-icon">+</div>
             </div>
-            <div class="partner-content">
+            <div class="partner-content collapsed">
               <p>HMSA specializes in compact marine sanitation and water treatment systems, offering the smallest design solutions for vessels of all sizes.</p>
               <div class="product-categories">
                 <div class="category-item">🚿 Sewage Treatment Units</div>
@@ -212,15 +217,15 @@
                 <span class="specialty-tag">Water Treatment</span>
                 <span class="specialty-tag">Compact Design</span>
               </div>
-            </div>
-            <div class="partner-actions">
-              <a href="/contact.html?partner=HMSA" class="btn btn-primary btn-sm">Get Quote</a>
+              <div class="partner-actions">
+                <a href="/contact.html?partner=HMSA" class="btn btn-primary btn-sm">Get Quote</a>
+              </div>
             </div>
           </div>
 
           <!-- Magnus Chemicals -->
           <div class="partner-card">
-            <div class="partner-header">
+            <div class="partner-header" onclick="togglePartner(this)">
               <div class="partner-logo">
                 <img src="./assets/images/distributorship/logo-5.jpg" alt="Magnus Chemicals Logo" loading="lazy">
               </div>
@@ -228,8 +233,9 @@
                 <h3>Magnus Chemicals</h3>
                 <span class="partner-role">Stocking Distributor</span>
               </div>
+              <div class="expand-icon">+</div>
             </div>
-            <div class="partner-content">
+            <div class="partner-content collapsed">
               <p>Magnus Worldwide Inc. produces and markets specialized chemicals for Marine, Offshore, and Industrial applications.</p>
               <div class="product-list">
                 <div class="product-group">
@@ -246,15 +252,15 @@
                 <span class="specialty-tag">Cleaning Solutions</span>
                 <span class="specialty-tag">Maintenance Products</span>
               </div>
-            </div>
-            <div class="partner-actions">
-              <a href="/contact.html?partner=Magnus" class="btn btn-primary btn-sm">Get Quote</a>
+              <div class="partner-actions">
+                <a href="/contact.html?partner=Magnus" class="btn btn-primary btn-sm">Get Quote</a>
+              </div>
             </div>
           </div>
 
           <!-- Maktec Marine -->
           <div class="partner-card featured-partner">
-            <div class="partner-header">
+            <div class="partner-header" onclick="togglePartner(this)">
               <div class="partner-logo">
                 <img src="./assets/images/distributorship/logo-6.png" alt="Maktec Marine Logo" loading="lazy">
               </div>
@@ -262,8 +268,9 @@
                 <h3>Maktec Marine</h3>
                 <span class="partner-role">Service Partner</span>
               </div>
+              <div class="expand-icon">+</div>
             </div>
-            <div class="partner-content">
+            <div class="partner-content collapsed">
               <p>UK-based MaK and MAN diesel engine specialists with global coverage. Expert troubleshooting, repair, and commissioning services for marine, power generation, and offshore markets.</p>
               <div class="service-grid">
                 <div class="service-item">🔍 Trouble Shooting</div>
@@ -279,15 +286,15 @@
                 <span class="specialty-tag">Global Service</span>
                 <span class="specialty-tag">Expert Diagnosis</span>
               </div>
-            </div>
-            <div class="partner-actions">
-              <a href="/contact.html?partner=Maktec" class="btn btn-primary btn-sm">Emergency Service</a>
+              <div class="partner-actions">
+                <a href="/contact.html?partner=Maktec" class="btn btn-primary btn-sm">Emergency Service</a>
+              </div>
             </div>
           </div>
 
           <!-- Northey Compressors -->
           <div class="partner-card">
-            <div class="partner-header">
+            <div class="partner-header" onclick="togglePartner(this)">
               <div class="partner-logo multi-image">
                 <img src="./assets/images/distributorship/logo-7.jpg" alt="Northey Compressors Logo" loading="lazy">
                 <img src="./assets/images/distributorship/logo-7prod.png" alt="Northey Product" loading="lazy">
@@ -296,8 +303,9 @@
                 <h3>Northey Compressors</h3>
                 <span class="partner-role">After Sales & Service Agent</span>
               </div>
+              <div class="expand-icon">+</div>
             </div>
-            <div class="partner-content">
+            <div class="partner-content collapsed">
               <div class="specialty-subtitle">Specialists in Gas handling Oil Free Compressors and Vacuum Pumps</div>
               <p>Northey Technologies Ltd., UK, develops and manufactures dry, oil-free rotary gas compression and vacuum pumps. Proven installation record at Singapore Water Reclamation Plants.</p>
               <div class="partner-specialties">
@@ -306,15 +314,15 @@
                 <span class="specialty-tag">Water Treatment</span>
                 <span class="specialty-tag">UK Technology</span>
               </div>
-            </div>
-            <div class="partner-actions">
-              <a href="/contact.html?partner=Northey" class="btn btn-primary btn-sm">Service Support</a>
+              <div class="partner-actions">
+                <a href="/contact.html?partner=Northey" class="btn btn-primary btn-sm">Service Support</a>
+              </div>
             </div>
           </div>
 
           <!-- PMAX Filters -->
           <div class="partner-card featured-partner">
-            <div class="partner-header">
+            <div class="partner-header" onclick="togglePartner(this)">
               <div class="partner-logo multi-image">
                 <img src="./assets/images/distributorship/logo-8.jpg" alt="PMAX Filters Logo" loading="lazy">
                 <img src="./assets/images/distributorship/logo-8prod.jpg" alt="PMAX Product" loading="lazy">
@@ -323,8 +331,9 @@
                 <h3>PMAX Filters</h3>
                 <span class="partner-role featured-role">Main Distributor - South East Asia</span>
               </div>
+              <div class="expand-icon">+</div>
             </div>
-            <div class="partner-content">
+            <div class="partner-content collapsed">
               <div class="specialty-subtitle">Washable turbocharger air inlet filters</div>
               <p>PMAX filters virtually eliminate airborne contaminants from diesel engines, maintaining boost pressure and reducing exhaust temperatures for optimal engine performance.</p>
               
@@ -350,9 +359,9 @@
                 <span class="specialty-tag">Washable Filters</span>
                 <span class="specialty-tag">Environmental Solution</span>
               </div>
-            </div>
-            <div class="partner-actions">
-              <a href="/contact.html?partner=PMAX" class="btn btn-primary btn-sm">Get Quote</a>
+              <div class="partner-actions">
+                <a href="/contact.html?partner=PMAX" class="btn btn-primary btn-sm">Get Quote</a>
+              </div>
             </div>
           </div>
         </div>
@@ -372,7 +381,27 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    
+    <!-- Collapsible Partners Script -->
+    <script>
+    function togglePartner(headerElement) {
+      const content = headerElement.nextElementSibling;
+      const icon = headerElement.querySelector('.expand-icon');
+      
+      if (content.classList.contains('collapsed')) {
+        content.classList.remove('collapsed');
+        content.classList.add('expanded');
+        icon.textContent = '−';
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        content.classList.remove('expanded');
+        content.classList.add('collapsed');
+        icon.textContent = '+';
+        icon.style.transform = 'rotate(0deg)';
+      }
+    }
+    </script>
+
     <!-- Footer -->
     <footer class="site-footer">
       <div class="container">
@@ -431,8 +460,6 @@
         </div>
       </div>
     </footer>
-  </body>
-</html>
   </body>
 </html>
    
