@@ -1032,6 +1032,162 @@ section {
   margin-top: 1rem;
   opacity: 0.8;
 }
+/* Distributorship Section Styles */
+.values-section {
+            padding: 4rem 0;
+            background: linear-gradient(to bottom, #0a1931 0%, #0a1931 100%);
+            min-height: 100vh;
+        }
+
+        .partners-container {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 50px;
+        }
+
+        .values-grid {
+            display: flex;
+            overflow-x: hidden;
+            gap: 6rem;
+            padding: 2rem 0;
+            scroll-behavior: smooth;
+        }
+
+        .value-card {
+            flex: 0 0 auto;
+            width: 220px;
+            height: 220px;
+            background: white;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            cursor: pointer;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .value-card.expanded {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            z-index: 20;
+            background: white;
+        }
+
+        .value-icon {
+            width: 50px;
+            height: 50px;
+            background: #e6f3ff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .value-icon img {
+            width: 260%;
+            height: auto;
+        }
+
+        .value-card h3 {
+            color: #0a1931;
+            font-size: 1.2rem;
+            margin: 0;
+            font-weight: 600;
+        }
+
+        .card-content {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: all 0.3s ease;
+            text-align: center;
+            padding: 0 1rem;
+        }
+
+        .value-card.expanded .card-content {
+            max-height: 80px;
+            opacity: 1;
+            margin-top: 0.5rem;
+        }
+
+        .card-content p {
+            font-size: 0.8rem;
+            color: #4a5568;
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        .nav-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: white;
+            border: none;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            cursor: pointer;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-prev { left: 0; }
+        .nav-next { right: 0; }
+
+        .nav-arrow:hover {
+            background: #009fdc;
+            color: white;
+        }
+
+        .values-header {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+            color: var(--text-light);
+        }
+
+        .values-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background: #009fdc;
+            border: none;
+            padding: 0.75rem 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .partners-container {
+                padding: 0 40px;
+            }
+            
+            .value-card.expanded {
+                width: 240px;
+                height: 240px;
+            }
+
+            .values-header h1 {
+                font-size: 2rem;
+            }
+        }
+        
+        .distributorship-section {
+    padding: 3rem 0;  /* Reduced from 4rem */
+    background: linear-gradient(to bottom, #0a1931 0%, #0a1931 100%);
+    margin-top: -2rem;  /* Added to reduce gap from previous section */
+}
 
 /* Customer Preview Section */
 .customer-preview {
@@ -1811,4 +1967,8 @@ section {
   .partnership-cta {
     padding: 1.5rem 1rem;
   }
+  
+  
 }
+
+
