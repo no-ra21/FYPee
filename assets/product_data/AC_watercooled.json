@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "name": "TMC 85-13 EWNA Screw Air Compressor With Motors",
+    "description": "TMC 85-13 EWNA Screw Air Compressor With Motors for sale in Ark Vision Singapore warehouse, readily available.",
+    "make": "TMC",
+    "model": "85-13",
+    "power": "85 kw @ Speed: 3565 rpm",
+    "test_pressure": "18.2 Bar",
+    "units": [
+      {
+        "unit_no": 1,
+        "serial_no": "F015689",
+        "running_hours": 136,
+        "loaded_hours": 128
+      },
+      {
+        "unit_no": 2,
+        "serial_no": "F015690",
+        "running_hours": 216,
+        "loaded_hours": 206
+      }
+    ],
+    "voltage": "440v @ 60hz",
+    "image_url": "https://example.com/image1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "TANABE H73 AIR COMPRESSOR"
+  },
+  {
+    "id": 3,
+    "name": "TANABE H64 AIR COMPRESSOR"
+  },
+  {
+    "id": 4,
+    "name": "TANABE H373 AIR COMPRESSOR"
+  },
+  {
+    "id": 5,
+    "name": "TANABE H74 AIR COMPRESSOR"
+  },
+  {
+    "id": 6,
+    "name": "TANABE H63 AIR COMPRESSOR"
+  },
+  {
+    "id": 7,
+    "name": "YANMAR SC 40N AIR COMPRESSOR"
+  },
+  {
+    "id": 8,
+    "name": "TANABE H274 WATER COOLED AIR COMPRESSOR"
+  },
+  {
+    "id": 9,
+    "name": "TANABE H273 VERTICAL 2 STAGE WATER COOLED AIR COMPRESSOR"
+  },
+  {
+    "id": 10,
+    "name": "Starting Air Compressor"
+  },
+  {
+    "id": 11,
+    "name": "Starting Air Compressor"
+  },
+  {
+    "id": 12,
+    "name": "Water Cooled Air Compressor - Tanabe H273"
+  },
+  {
+    "id": 13,
+    "name": "AIR COMPRESSOR"
+  },
+  {
+    "id": 14,
+    "name": "Air Compressor"
+  },
+  {
+    "id": 15,
+    "name": "Belt Driven Air Compressor"
+  },
+  {
+    "id": 16,
+    "name": "Air Compressor Component Spares"
+  },
+  {
+    "id": 17,
+    "name": "Air Compressor Component Spares"
+  },
+  {
+    "id": 18,
+    "name": "Air Compressor Component Spares"
+  },
+  {
+    "id": 19,
+    "name": "Air Compressor Component Spares"
+  }
+]

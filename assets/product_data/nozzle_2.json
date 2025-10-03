@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "NOZZLE SULZUR",
+    "make": "SULZER",
+    "model": "BAH 22",
+    "nozzle_spec": "74 - DSZ 746 - 6x0.30 x 130",
+    "qty": 18,
+    "condition": "New, OEM"
+  },
+  {
+    "id": 2,
+    "name": "NOZZLE",
+    "make": "DUAP",
+    "nozzle_spec": "B84  323 - 038389",
+    "qty": 4,
+    "condition": "New, Original"
+  },
+  {
+    "id": 3,
+    "name": "NOZZLE NIIGATA",
+    "make": "Niigata",
+    "model": "32CX",
+    "part_no": "F6921143A",
+    "nozzle_spec": "6A10 323-038392 x 145 x 9 x 0.15R AE 035",
+    "qty": 6,
+    "condition": "New, Original"
+  }
+]

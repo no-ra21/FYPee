@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "name": "YANMAR DIESEL ENGINE 6N18AL-SN",
+    "make": "Yanmar",
+    "model": "6N18AL-SN",
+    "speed_of_crankshaft": "900 rpm",
+    "made_in": "Japan",
+    "image_url": "https://example.com/image1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "NEW GEN SET COMPLETE",
+    "make": "Daihatsu",
+    "type": "6DK-20",
+    "eng_speed": "720 min",
+    "power": "760 Kw",
+    "alternator_make": "Nishishiba",
+    "alternator_type": "NTAKL",
+    "alternator_power": "700 Kw, 440 @ 60Hz",
+    "rpm": "720 Kw",
+    "qty": "2 Units",
+    "condition": "New, Original",
+    "image_url": "https://example.com/image2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "CRANKSHAFT",
+    "image_url": "https://example.com/image3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "CAMSHAFT",
+    "image_url": "https://example.com/image4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "JAPANESE AND EUROPEAN AUX ENGINE COMPONENTS",
+    "image_url": "https://example.com/image5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "CYLINDER LINERS",
+    "image_url": "https://example.com/image6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "PISTONS",
+    "image_url": "https://example.com/image7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "PISTON RINGS",
+    "image_url": "https://example.com/image8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "CONSUMMABLE SPARES",
+    "image_url": "https://example.com/image9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "GENERATOR SPARES",
+    "image_url": "https://example.com/image10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "MAIN & CON ROD BEARING",
+    "extra_info": "JAPANESE & EUROPEAN MADE, 2 STROKE ENGINE, 4 STROKE ENGINE",
+    "image_url": "https://example.com/image11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "CONNECTING ROD",
+    "extra_info": "JAPANESE & EUROPEAN MADE, FULLY RECONDITIONED WITH LOCAL WORKSHOP REPORT",
+    "image_url": "https://example.com/image12.jpg"
+  }
+]

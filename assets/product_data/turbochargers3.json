@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "MAN NR20/N Complete Turbocharger",
+    "make": "MAN",
+    "model": "NR20/N",
+    "speed": "44000rpm",
+    "Tmax": "650°C",
+    "quantity": 2,
+    "condition": "Reconditioned, Original"
+  },
+  {
+    "id": 2,
+    "name": "MAN NR20/R173 Turbin Rotor",
+    "condition": "New, original",
+    "quantity": 1
+  }
+]

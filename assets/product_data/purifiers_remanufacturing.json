@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "ALFA LAVAL S825 PURIFIER",
+    "make": "Alfa Laval",
+    "model": "S825",
+    "condition": "Original",
+    "qty": "1 unit",
+    "image_url": "https://example.com/image1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "MITSUBISHI SJ50GH PURIFIER COMPLETE",
+    "make": "MITSUBISHI",
+    "model": "SJ50GH",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image_url": "https://example.com/image2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "ALFA LAVAL S826 PURIFIER",
+    "make": "Alfa Laval",
+    "model": "S826",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image_url": "https://example.com/image3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Purifier",
+    "image_url": "https://example.com/image4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Testing Remanufactured Purifier",
+    "image_url": "https://example.com/image5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Purifier",
+    "image_url": "https://example.com/image6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Fully Reconditioned & Function Test in our Workshop",
+    "image_url": "https://example.com/image7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Alfa Laval MAPX 207",
+    "image_url": "https://example.com/image8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Purifier",
+    "image_url": "https://example.com/image9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Mitsubishi SJ 3000",
+    "image_url": "https://example.com/image10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Mitsubishi SJ3000",
+    "image_url": "https://example.com/image11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Mitsubishi SJ3000 PURIFIER",
+    "image_url": "https://example.com/image12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Mitsubish SJ700 PURIFER",
+    "image_url": "https://example.com/image13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Alfa Laval MOPX 207 PURIFIER",
+    "image_url": "https://example.com/image14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Mitsubishi SJ11T PURIFER",
+    "image_url": "https://example.com/image15.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Mitsubishi SJ2000 PURIFER",
+    "image_url": "https://example.com/image16.jpg"
+  }
+]

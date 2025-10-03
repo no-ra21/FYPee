@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "name": "NOZZLE BOSCH",
+    "make": "BOSCH",
+    "model": "KDAL80 S20/19",
+    "injector_spec": "0 430 233 007 000",
+    "made_in": "Germany",
+    "part_no": "60730",
+    "quantity": 7,
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE INJECTOR."
+  },
+  {
+    "id": 2,
+    "name": "NOZZLE NON RETUREN VALVE",
+    "make": "MITAUI MAN B&W",
+    "model": "MC-3",
+    "spindle_spec": "07C 5D-33902",
+    "quantity": 1,
+    "condition": "New, Original",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE NON RETUREN VALVE."
+  },
+  {
+    "id": 3,
+    "name": "NOZZLE SPINDLE GUIDE",
+    "make": "MITAUI MAN B&W",
+    "model": "MC-3",
+    "spindle_spec": "07F 5D-33899",
+    "quantity": 6,
+    "condition": "New, Original",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE SPINDLE GUIDE."
+  },
+  {
+    "id": 4,
+    "name": "NOZZLE MAN B&W 70/120E",
+    "make": "MAN B&W",
+    "model": "70/120E",
+    "nozzle_spec": "1381008",
+    "quantity": 3,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE MAN B&W 70/120E."
+  },
+  {
+    "id": 5,
+    "name": "NOZZLE MAN B&W 558511-4",
+    "make": "MAN B&W",
+    "nozzle_spec": "558511-4.1x110",
+    "quantity": 4,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE MAN B&W 558511-4."
+  },
+  {
+    "id": 6,
+    "name": "NOZZLE 19",
+    "nozzle_spec": "19 L0 VVM-U973Y",
+    "quantity": 1,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE 19."
+  },
+  {
+    "id": 7,
+    "name": "NOZZLE 9C04",
+    "nozzle_spec": "9C04 CMN-D 081 H",
+    "quantity": 1,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE 9C04."
+  },
+  {
+    "id": 8,
+    "name": "NOZZLE C1-18",
+    "nozzle_spec": "C1-18 0.46-10-130 M912",
+    "quantity": 1,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE C1-18."
+  },
+  {
+    "id": 9,
+    "name": "NOZZLE MAK M453",
+    "nozzle_spec": "4LT a 206-01",
+    "quantity": 2,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE MAK M453."
+  },
+  {
+    "id": 10,
+    "name": "NOZZLE WARTSILA DIESEL",
+    "nozzle_spec": "9.29. 26790.0",
+    "quantity": 1,
+    "condition": "New, Original",
+    "description": "Please contact Ark Vision for more details on the NOZZLE WARTSILA DIESEL."
+  },
+  {
+    "id": 11,
+    "name": "NOZZLE DMS 260 - 10 x 052 X 70",
+    "quantity": 1,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE DMS 260 - 10 x 052 X 70."
+  },
+  {
+    "id": 12,
+    "name": "NOZZLE MAN L 80/160",
+    "make": "MAN",
+    "model": "L 80/160",
+    "nozzle_spec": "DMN - 508 R",
+    "quantity": 1,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE MAN L 80/160."
+  },
+  {
+    "id": 13,
+    "name": "NOZZLE MITSUBISHI UEC 45LA",
+    "make": "MITSUBISHI",
+    "model": "UEC 45LA",
+    "nozzle_spec": "232  075 4N 22  10  2909  RT",
+    "quantity": 1,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE MITSUBISHI UEC 45LA."
+  },
+  {
+    "id": 14,
+    "name": "NOZZLE AKASAKA",
+    "make": "AKASAKA",
+    "nozzle_spec": "DM51 - 058. 11. 120 1TI",
+    "quantity": 1,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE AKASAKA."
+  },
+  {
+    "id": 15,
+    "name": "NOZZLE AKASAKA DIESEL",
+    "make": "AKASAKA DIESEL",
+    "nozzle_spec": "219  068  4N 23 10  13.6  2202 R",
+    "quantity": 1,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE AKASAKA DIESEL."
+  },
+  {
+    "id": 16,
+    "name": "NOZZLE 04 DLF 140T5510",
+    "nozzle_spec": "04 DLF 140T5510",
+    "quantity": 6,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE 04 DLF 140T5510."
+  },
+  {
+    "id": 17,
+    "name": "NOZZLE MITSUBISHI UEC 52/125H",
+    "make": "MITSUBISHI",
+    "model": "UEC 52/125H",
+    "nozzle_spec": "213  080  4N  23  10  20  10  11.8  2510R",
+    "quantity": 2,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE MITSUBISHI UEC 52/125H."
+  },
+  {
+    "id": 18,
+    "name": "NOZZLE MITSUI",
+    "make": "MITSUI B&W",
+    "model": "K62EF",
+    "nozzle_spec": "9803M",
+    "quantity": 4,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the Nozzle."
+  },
+  {
+    "id": 19,
+    "name": "NOZZLE",
+    "make": "N.N.K.",
+    "model": "RTA 76",
+    "nozzle_spec": "09 - 0077-M-A3-50846-10  720N-M, 1.100 X 1.350 x 1.250 x 1.400 x R x 1.6",
+    "quantity": 6,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the Nozzle."
+  },
+  {
+    "id": 20,
+    "name": "NOZZLE",
+    "make": "PYUNG HWA DIESEL",
+    "nozzle_spec": "5F  DLF 130UJ388C",
+    "quantity": 6,
+    "condition": "New, OEM",
+    "description": "Please contact Ark Vision for more details regarding the NOZZLE."
+  }
+]

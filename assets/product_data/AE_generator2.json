@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "CRANKSHAFTS",
+    "image_url": "https://example.com/image1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Daihatsu Diesel Engine",
+    "model": "6DL-24",
+    "rating": "1170 PS",
+    "speed": "720 RPM",
+    "engine_no": "DL624228",
+    "image_url": "https://example.com/image2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Daihatsu Diesel Engine",
+    "model": "6DK-20",
+    "rating": "1100 PS",
+    "speed": "900 RPM",
+    "engine_no": "DK620Z0402",
+    "image_url": "https://example.com/image3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Yanmar Diesel Engine",
+    "model": "T260L-ET",
+    "rating": "1500 HP",
+    "speed": "720 RPM",
+    "engine_no": "0670 FHR",
+    "image_url": "https://example.com/image4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Yanmar Diesel Engine",
+    "model": "T240L-ET",
+    "rating": "1200 PS",
+    "speed": "720 RPM",
+    "engine_no": "2092 FGG",
+    "image_url": "https://example.com/image5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Cummins Engine",
+    "image_url": "https://example.com/image6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "CATERPILLAR 3612 ENGINE COMPLETE",
+    "image_url": "https://example.com/image7.jpg"
+  }
+]

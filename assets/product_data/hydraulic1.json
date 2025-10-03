@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Mitsubishi Janney Pump 6V-FH2B-MK-RFBLA100D11",
+    "make": "MITSUBISHI",
+    "model": "6V-FH2B-MK-RFBLA100D11",
+    "condition": "New, Original",
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "name": "STAFFA HMC125 HYDRAULIC MOTOR",
+    "make": "Staffa",
+    "model": "HMC 125",
+    "condition": "New, original",
+    "quantity": 1
+  }
+]

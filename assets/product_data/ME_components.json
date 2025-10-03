@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "name": "Ingersoll Rand ST750GBDP03L92-3M",
+    "make": "Ingersoll Rand",
+    "model": "ST750GBDP03L92-3M",
+    "description": "Ingersoll Rand ST750GBDP03L92-3M for sale in Ark Vision Singapore warehouse, readily available.",
+    "condition": "New, Original",
+    "qty": "2 Units",
+    "selling_price": "USD 3,650 per unit",
+    "image_url": "https://example.com/image1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "NON RETURN VALVE CPL",
+    "make": "MAN",
+    "model": "L/S 50MC-C",
+    "description": "NON-RETURN VALVE CPL for sale in our Singapore warehouse, readily available.",
+    "quantity": "12pcs",
+    "condition": "Good Condition",
+    "image_url": "https://example.com/image2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "MAN DIESEL & TURBO",
+    "make": "MAN",
+    "model": "L/S 60MC-C",
+    "description": "MAN DIESEL & TURBO for sale in our Singapore warehouse, readily available.",
+    "quantity": "12pcs",
+    "condition": "Good Condition",
+    "image_url": "https://example.com/image3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "NEEDLE GUIDE",
+    "description": "NEEDLE GUIDE + ATOMIZER for sale in our Singapore warehouse, readily available.",
+    "spec_no": "2706200490-27",
+    "made_in": "Italy",
+    "quantity": "12pcs",
+    "condition": "Good Condition",
+    "image_url": "https://example.com/image4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "MAN DIESEL & TURBO",
+    "make": "MAN",
+    "model": "L/S 60MC-C",
+    "description": "MAN DIESEL & TURBO for sale in our Singapore warehouse, readily available.",
+    "spec_number": "CPN 10/16 B",
+    "quantity": "6 pcs",
+    "condition": "Good Condition",
+    "image_url": "https://example.com/image5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "WARTSILA 7RT FLEX 58TB PISTON CROWN",
+    "make": "Wartsila",
+    "model": "7RT FLEX 58TB",
+    "description": "Wartsila 7RT FLEX 58TB Piston Crown for sale in our Singapore warehouse, readily available.",
+    "qty": "1 pcs",
+    "condition": "Recond, original",
+    "image_url": "https://example.com/image6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "PRES VAC PV-ECO VALVE",
+    "make": "Pres Vac",
+    "type": "ECO 53",
+    "open_set": "+14 kPa",
+    "type_alt": "VAC 95",
+    "open_set_alt": "-3.5 kPa",
+    "inlet_dn": "65",
+    "serial_no": "37185-022",
+    "description": "Pres Vac PV-ECO Valve for sale in our Singapore warehouse, readily available.",
+    "qty": "6",
+    "condition": "New",
+    "image_url": "https://example.com/image7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "MEARSK B1000 CYLINDER OIL BLENDING UNIT",
+    "make": "Maersk",
+    "model": "B1000",
+    "description": "Maersk B1000 Cylinder Oil Blending Unit for sale in our Singapore warehouse, readily available.",
+    "pressure": "600 bar",
+    "temperature": "50℃",
+    "image_url": "https://example.com/image8.jpg"
+  }
+]

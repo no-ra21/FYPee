@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "name": "YANMAR N280 CYLINDER COVER FILTER WITH EXHAUST & INLET VALVE",
+    "make": "Yanmar",
+    "model": "N280",
+    "description": "YANMAR N280 Cylinder Cover Filter with Exhaust & Inlet Valve for sale in Ark Vision Singapore warehouse, readily available.",
+    "condition": "New, Original",
+    "qty": "1 unit",
+    "image_url": "https://example.com/image1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "CATERPILLAR 3406E COMPLETE ENGINE",
+    "make": "Caterpillar",
+    "model": "3406E",
+    "description": "Caterpillar 3406E Complete Engine for sale in Ark Vision Singapore warehouse, readily available.",
+    "power": "440kW @ 2100rpm",
+    "image_url": "https://example.com/image2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "MAN 8L32/40",
+    "image_url": "https://example.com/image3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "CONSUMMABLE SPARES",
+    "image_url": "https://example.com/image4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "CYLINDER COVER",
+    "image_url": "https://example.com/image5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "CYLINDER COVER",
+    "image_url": "https://example.com/image6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "PISTON CROWN, PISTON SKIRT",
+    "image_url": "https://example.com/image7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "PISTON CROWNS",
+    "image_url": "https://example.com/image8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "CONNECTING ROD, FUEL PUMP COMPLETE",
+    "image_url": "https://example.com/image9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "CYLINDER LINER, PISTON CROWN, PISTON SKIRT, PISTON RINGS",
+    "image_url": "https://example.com/image10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "CRANKSHAFT",
+    "image_url": "https://example.com/image11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "CRANKSHAFT",
+    "image_url": "https://example.com/image12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "VALVE SPINDLE & SEATS",
+    "image_url": "https://example.com/image13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "SPINDLE GUIDE, FUEL VALVE COMPLETE",
+    "image_url": "https://example.com/image14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "CONSUMMABLE SPARES",
+    "image_url": "https://example.com/image15.jpg"
+  },
+  {
+    "id": 16,
+    "name": "CONSUMMABLE SPARES",
+    "image_url": "https://example.com/image16.jpg"
+  },
+  {
+    "id": 17,
+    "name": "CONSUMMABLE SPARES",
+    "image_url": "https://example.com/image17.jpg"
+  },
+  {
+    "id": 18,
+    "name": "CONNECTING ROD BEARINGS",
+    "image_url": "https://example.com/image18.jpg"
+  },
+  {
+    "id": 19,
+    "name": "FUEL PUMP COMPLETE",
+    "image_url": "https://example.com/image19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "PISTON RINGS",
+    "image_url": "https://example.com/image20.jpg"
+  }
+]

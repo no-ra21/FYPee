@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "IHI HV N HYDRAULIC MOTOR",
+    "make": "IHI",
+    "model": "HV N",
+    "condition": "New, Original",
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "name": "IHI 6N-67 VS HYDRAULIC PUMP",
+    "make": "IHI",
+    "model": "6N-67 VS",
+    "condition": "New, Original",
+    "quantity": 1
+  }
+]
