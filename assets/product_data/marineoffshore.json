@@ -2,31 +2,38 @@
   {
     "id": 1,
     "name": "RO Water Maker",
-    "description": "Seawater Reverse Osmosis Watermakers\n□ Skid mounted, Containerised, Portable/Mobile\n□ Capacity: 5 to 300 m3/day\n□ Fully automatic pressure regulation & flushing"
+    "description": "Seawater Reverse Osmosis Watermakers\n□ Skid mounted, Containerised, Portable/Mobile\n□ Capacity: 5 to 300 m3/day\n□ Fully automatic pressure regulation & flushing",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759855201/RO_Water_Maker_ahiqk0.png"
   },
   {
     "id": 2,
     "name": "Marine Sewage Treatment Plant",
-    "description": "Marine Sewage Treatment Plants\n□ Capacity: 5 to 700-man Black & Gray Water\n□ Certification: MEPC.159\n□ Biological ‘FAST’ technology\n□ Vacuum Toilet System\n□ Grease Separators"
+    "description": "Marine Sewage Treatment Plants\n□ Capacity: 5 to 700-man Black & Gray Water\n□ Certification: MEPC.159\n□ Biological ‘FAST’ technology\n□ Vacuum Toilet System\n□ Grease Separators",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759897134/Marine_sewage_treatment_plant_ij24hu.jpg"
   },
   {
     "id": 3,
     "name": "Ballast Water Treatment System",
-    "description": "Ballast Water Treatment Systems\n□ Capacity: 200, 500, 1000, >1000 m3/h\n□ Mechanical Filtration + UV Sterilisation\n□ CCS Type Approval / AMS Acceptance"
+    "description": "Ballast Water Treatment Systems\n□ Capacity: 200, 500, 1000, >1000 m3/h\n□ Mechanical Filtration + UV Sterilisation\n□ CCS Type Approval / AMS Acceptance",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759897127/Ballast_water_treatment_system_s2th8t.jpg"
   },
   {
     "id": 4,
     "name": "Gas/Air Compression Packages",
-    "description": "Gas / Air Compressor Packages\n□ Compressors & Vacuum Pumps\n□ Oil-free, continuous, high MTBF, low maintenance\n□ Singles stage & up to 5 stages\n□ Up to 300 bar supply pressure"
+    "description": "Gas / Air Compressor Packages\n□ Compressors & Vacuum Pumps\n□ Oil-free, continuous, high MTBF, low maintenance\n□ Singles stage & up to 5 stages\n□ Up to 300 bar supply pressure",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759897121/Gas_Air_Compression_Packages_lgjwpp.png"
   },
   {
     "id": 5,
     "name": "Water Treatment",
-    "description": "Water Treatment\n□ Bespoke design & build packages\n□ Applications: produced water, oily water, rain run-off; fuel-water separation"
+    "description": "Water Treatment\n□ Bespoke design & build packages\n□ Applications: produced water, oily water, rain run-off; fuel-water separation",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759897114/Water_treatment_hmuauw.jpg"
   },
   {
     "id": 6,
     "name": "Helicopter Jetfuel Refuelling System",
-    "description": "Helicopter Jetfuel Refuelling Systems\n□ Filtration & Purification\n□ Pumping & Dispensing\n□ Storage\n□ Class, CAP 437 & NFPA 407 compliant"
+    "description": "Helicopter Jetfuel Refuelling Systems\n□ Filtration & Purification\n□ Pumping & Dispensing\n□ Storage\n□ Class, CAP 437 & NFPA 407 compliant",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759897107/Helicopter_Jetfuel_Refuelling_system_tiz0k3.jpg"
   }
 ]
+

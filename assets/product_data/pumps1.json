@@ -2,7 +2,6 @@
   {
     "id": 1,
     "name": "SHUNDA CLN80-340-2C1 PUMP",
-    "description": "SHUNDA CLN80-340-2C1 PUMP for sale in Ark Vision Singapore warehouse, readily vailable.",
     "make": "SHUNDA",
     "model": "CLN80-340-2C1",
     "capacity": "100/65m3/h",
@@ -10,59 +9,55 @@
     "motor": "37kW @ 270rpm",
     "condition": "New, original",
     "quantity": "1 unit",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138114/SHUNDA_PUMP_CLN80_340_2C1_yb6e7o_m0p9be.png"
   },
   {
     "id": 2,
     "name": "DBR DS 80-320 FM PUMP",
-    "description": "DBR DS 80-320 FM PUMP for sale in Ark Vision Singapore warehouse, readily available.",
     "condition": "New, original",
     "quantity": "1 unit",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138008/DBR_DS_80-320_FM_PUMP_mayrjk_jrl7lb.png"
   },
   {
     "id": 3,
     "name": "HEISHIN VK200 Pump without motor",
-    "description": "HEISHIN VK200 Pump without motor for sale in our Ark Vision Singapore warehouse, readily available.",
     "make": "HEISHIN",
     "model": "VK200",
     "capacity": "210m3/hr @TH: 30m",
-    "bore_size_suction": "SUC.ID 200mm",
-    "bore_size_delivery": "DEL.ID 200mm",
+    "bore_size": "SUC.ID 200mm",
+    "bore_size": "DEL.ID 200mm",
     "flange_pcd": "SUC 280 @ DEL 280",
     "no_of_bolt": "8x20mm",
     "flange_to_flange": "755mm",
     "flange_type": "offset",
     "casting_material": "Cast iron",
     "condition": "Reconditioned",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138053/HEISHIN_VK200_Pump_without_motor_oyslox_pzwznw.png"
   },
   {
     "id": 4,
     "name": "TEIKOKU 2VSCE Pump with motor",
-    "description": "TEIKOKU 2VSCE Pump with motor for sale in our Singapore warehouse, readily available.",
     "make": "TEIKOKU",
     "model": "2VSCE",
     "capacity": "203/Hr@ TH: 110M",
-    "bore_size_suction": "SUC. ID 125mm",
-    "bore_size_delivery": "DEL. ID 65mm",
+    "bore_size": "SUC. ID 125mm",
+    "bore_size": "DEL. ID 65mm",
     "flange_pcd": "details not available",
     "no_of_bolt": "SUC 8X20 @ DEL 4X20",
-    "flange_to_flange": "details not availabe",
+    "flange_to_flange": "details not available",
     "flange_type": "Offset",
     "casting_material": "Cast Iron",
     "condition": "used",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138121/TEIKOKU_2VSCE_Pump_with_motor_ktxjt5_kymfgr.png"
   },
   {
     "id": 5,
-    "name": "SHINKOKINZOKU SVD250 Pumo with motor",
-    "description": "SHINKOKINZOKU SVD250 Pumo with motor for sale in our Singapore warehouse, readily available.",
+    "name": "SHINKOKINZOKU SVD250 Pump with motor",
     "make": "SHINKOKINZOKU",
     "model": "SVD250",
     "capacity": "485 M3/H @ TH: 25m",
-    "bore_size_suction": "SUC.ID 250mm",
-    "bore_size_delivery": "DEL.ID 250mm",
+    "bore_size": "SUC.ID 250mm",
+    "bore_size": "DEL.ID 250mm",
     "flange_pcd": "SUC345 @ DEL 345mm",
     "no_of_bolt": "SUC 12X22 @ DEL 12X22mm",
     "flange_to_flange": "865 MM",
@@ -70,7 +65,7 @@
     "casing_material": "Cast Iron",
     "motor": "45Kw@440 Volts@60 Hz@1760 Rpm",
     "condition": "reconditioned",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138105/SHINKOKINZOKU_SVD250_Pumo_with_motor_cru6hh_hvvdci.png"
   },
   {
     "id": 6,
@@ -78,15 +73,15 @@
     "make": "SHINKO",
     "model": "GVD 200M",
     "capacity": "231M3/HR. @ TH: 30m",
-    "bore_size_suction": "SUC.ID 200 X OD mm",
-    "bore_size_delivery": "DEL.ID 200 X OD mm",
+    "bore_size": "SUC.ID 200 X OD mm",
+    "bore_size": "DEL.ID 200 X OD mm",
     "flange_pcd": "SUC 275 @ DEL: 275 mm",
     "no_of_bolts": "SUC 8x20 @ DEL: 8×20 mm",
     "flange_type": "in-Line",
     "casting_material": "Cast Iron",
     "motor": "kW @440 Volts @ 60Hz @ 1750 RPM",
     "condition": "reconditioned",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138099/SHINKO_GVD_200M_Pump_without_motor_f9lrvf_qgdnj6.png"
   },
   {
     "id": 7,
@@ -94,15 +89,15 @@
     "make": "SHINKO",
     "model": "GVC125",
     "capacity": "110 m3/hr. @ Th: 25m",
-    "bore_size_suction": "SUC.ID 125 X OD mm",
-    "bore_size_delivery": "DEL.ID 125 X OD mm",
+    "bore_size": "SUC.ID 125 X OD mm",
+    "bore_size": "DEL.ID 125 X OD mm",
     "flange_pcd": "SUC 200 a DEL 200 mm",
     "no_of_bolts": "SUC 8X20 @ DEL. 8X20 mm",
     "flange_to_flange": "",
     "flange_type": "in-Line",
     "casting_material": "Cast Iron",
     "condition": "used",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138090/SHINKO_GVC125_Pump_without_motor_n6yhnu_rebpb8.png"
   },
   {
     "id": 8,
@@ -110,15 +105,15 @@
     "make": "SHINKINZOKU",
     "model": "SVA-200M",
     "capacity": "350M3/H @TH: 25M",
-    "bore_size_suction": "SUC.ID 200 X OD 320mm",
-    "bore_size_delivery": "DEL.ID 200 X OD 320mm",
+    "bore_size": "SUC.ID 200 X OD 320mm",
+    "bore_size": "DEL.ID 200 X OD 320mm",
     "flange_pcd": "SUC 280 @ DEL 280mm",
     "flange_type": "Inline",
     "casing_material": "Cast Iron",
     "motor": "26Kw@ 4440Volts @ 60Hz@1750rpm",
     "flange_thickness": "25mm Inlet, 25mm Outlet",
     "condition": "used",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138083/SHINKINZOKU_SVA-200M_Pump_with_motor_bgdrb5_jvbabu.png"
   },
   {
     "id": 9,
@@ -126,8 +121,8 @@
     "make": "NANIWA",
     "model": "300MM FEWA 300",
     "capacity": "500m3/H @TH: 10m",
-    "bore_size_suction": "SUC.ID 300mm",
-    "bore_size_delivery": "DEL.ID 300mm",
+    "bore_size": "SUC.ID 300mm",
+    "bore_size": "DEL.ID 300mm",
     "flange_pcd": "SUC 390 a DEL 390mm",
     "no_of_holes": "12 Inlet, 12 Outlet",
     "flange_type": "Inline",
@@ -135,7 +130,7 @@
     "casing_material": "Cast Iron",
     "motor": "22kw @440Volts @60Hz @1150rpm",
     "condition": "used",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138068/NANIWA_300MM_FEWA_300_Pump_without_motor_gh0lvl_ehagbl.png"
   },
   {
     "id": 10,
@@ -143,15 +138,15 @@
     "make": "HEISHIN",
     "model": "VDK-450N",
     "capacity": "450m3/H @ TH: 50m",
-    "bore_size_suction": "SUC. ID 250mm",
-    "bore_size_delivery": "DEL.ID 250mm",
+    "bore_size": "SUC. ID 250mm",
+    "bore_size": "DEL.ID 250mm",
     "flange_pcd": "SUC 345 @ DEL 345MM",
     "no_of_bolt": "SUCX12 @ DELX12mm",
     "flange_diameter": "400mm Inlet, 385mm Outlet",
     "flange_type": "Inline",
     "casing_material": "Cast Iron",
     "motor": "110kw@440Volts@ 60Hz@1760rpm",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138762/HEISHIN_VDK-450N_PUMP_rzhdwa.png"
   },
   {
     "id": 11,
@@ -159,15 +154,15 @@
     "make": "HEISHIN",
     "model": "VDK 300J",
     "capacity": "450/120M3@TH: 25/65m",
-    "bore_size_suction": "SUC.ID 250 X OD 400 mm",
-    "bore_size_delivery": "DEL.ID 250 X OD 400 mm",
+    "bore_size": "SUC.ID 250 X OD 400 mm",
+    "bore_size": "DEL.ID 250 X OD 400 mm",
     "flange_pcd": "SUC 345 @ DE1 345 mm",
     "no_of_bolt": "SUC 8X22 @ DEL: 12X22 mm",
     "flange_to_flange": "800 mm",
     "flange_type": "in-Line",
     "casing_material": "Cast Iron",
     "motor": "65kW @440 Volts @ 60Hz @ 1800 RPM",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138044/HEISHIN_VDK_300J_Pump_ftn9uh_dui2hm.png"
   },
   {
     "id": 12,
@@ -175,8 +170,8 @@
     "make": "DESMI",
     "model": "SL 100-265/A-A",
     "working_pressure": "14 Bar",
-    "bore_size_suction": "SUC ID 125 X OD 250mm",
-    "bore_size_delivery": "DEL ID 100 X OD 220mm",
+    "bore_size": "SUC ID 125 X OD 250mm",
+    "bore_size": "DEL ID 100 X OD 220mm",
     "flange_pcd": "SUC 210 X DEL 180mm",
     "no_of_bolt": "SUC 8X18 @ DEL 8X18mm",
     "flange_to_flange": "560mm. (ORIGINAL)",
@@ -191,8 +186,8 @@
     "model": "NSL 125-265/A02",
     "max_working_pressure": "29 Bar",
     "capacity": "250 M3/h @ TH: 30m",
-    "bore_size_suction": "SUC. ID 125 X OD 255mm",
-    "bore_size_delivery": "DEL. ID 125 X OD 255mm",
+    "bore_size": "SUC. ID 125 X OD 255mm",
+    "bore_size": "DEL. ID 125 X OD 255mm",
     "flange_pcd": "SUC 210 & DEL 210mm",
     "no_of_bolt": "SUC 8X18 @ DEL 8X18mm",
     "flange_to_flange": "680mm",
@@ -200,7 +195,7 @@
     "casing_material": "Cast Iron",
     "motor": "18kW @ 440V @ 60HZ @ 1750Rpm",
     "condition": "New",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138015/DESMI_NSL_125-265A02_Centrifugal_Pump_CW_Motor_cvui1z_tdjggm.png" 
   },
   {
     "id": 14,
@@ -208,26 +203,26 @@
     "make": "NANIWA",
     "model": "FDDV-100",
     "capacity": "85M3/HR",
-    "bore_size_suction": "SUC.ID 200 mm",
-    "bore_size_delivery": "DEL.ID 100 mm",
+    "bore_size": "SUC.ID 200 mm",
+    "bore_size": "DEL.ID 100 mm",
     "flange_pcd": "SUC 280 a DEL 165 mm",
     "no_of_bolt": "SUC 8X18 @ DEL 8X18 mm",
     "flange_type": "90 degree",
     "casting_material": "Cast Iron",
     "motor": "kW @440 Volts @60 Hz @1800 RPM",
     "condition": "Fully reconditioned and function tested",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138074/Naniwa_FDDV100_Centrifugal_Pump_kjccsc_bqv0ci.png"
   },
   {
     "id": 15,
     "name": "HEISHIN VK220E",
-    "description": "Pump, Reconditioned with New Motor",
-    "image_url": "https://via.placeholder.com/150"
+    "condition": "Pump, Reconditioned with new motor",
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138059/HEISHIN_VK220E_nhzmfa_m35znl.png"
   },
   {
     "id": 16,
     "name": "Naniwa 50X40ALG-32N",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138753/Naniwa_50X40ALG-32N_k1odz4.png"
   },
   {
     "id": 17,
@@ -235,16 +230,16 @@
     "make": "Heishin",
     "model": "VSK-200XJ",
     "capacity": "250/340 M3/H, TH: 80/40m",
-    "bore_size_suction": "250mm Inlet",
-    "bore_size_delivery": "250mm Outlet",
+    "bore_size": "250mm Inlet",
+    "bore_size": "250mm Outlet",
     "flange_dia": "430mm Inlet, 385mm Outlet",
     "flange_pcd": "385mm Inlet, 345mm Outlet",
     "flange_thickness": "40mm Inlet, 40mm Outlet",
     "casing_material": "Cast iron",
     "flange_type": "Inline",
     "pump_type": "Vertical Centrifugal",
-    "motor_nameplate": "kW: 110@440V@60Hz@1770Rpm",
-    "image_url": "https://via.placeholder.com/150"
+    "motor_name_plate": "kW: 110@440V@60Hz@1770Rpm",
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759852343/447d5aef-9d84-467a-9e19-1f3d11fd5466.png"
   },
   {
     "id": 18,
@@ -252,15 +247,15 @@
     "make": "Hamworthy",
     "model": "B8 X 6VM",
     "capacity": "220M3/HR. @ Total Head: 18m",
-    "bore_size_suction": "SUC ID 200 X OD 340 mm",
-    "bore_size_delivery": "DEL ID 150 X OD 280 mm",
+    "bore_size": "SUC ID 200 X OD 340 mm",
+    "bore_size": "DEL ID 150 X OD 280 mm",
     "flange_pcd": "SUC 8X22 @ DEL 8X22 mm",
     "flange_to_flange": "765 mm",
     "flange_type": "in-Line",
     "casting_material": "Cast Iron",
     "motor": "kW @440 Volts@60HZ@1750 RPM",
     "condition": "used",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138037/Hamworthy_B8_X_6VM_Centrifugal_Vertical_Pump_fu3ags_xy4c5j.png"
   },
   {
     "id": 19,
@@ -268,8 +263,8 @@
     "make": "DESMI",
     "model": "SL 70-265/A-A",
     "working_pressure": "16 Bar",
-    "bore_size_suction": "SUC. ID 80 X OD 200mm",
-    "bore_size_delivery": "DEL. ID 70 X OD 185mm",
+    "bore_size": "SUC. ID 80 X OD 200mm",
+    "bore_size": "DEL. ID 70 X OD 185mm",
     "flange_pcd": "SUC 160 X DEL 145mm",
     "no_of_bolt": "SUC 4X18 @ DEL 4X18mm",
     "flange_to_flange": "500mm",
@@ -277,7 +272,7 @@
     "casing_material": "Cast Iron",
     "motor": "10kW @ 60HZ @ 440V @ 1451rpm",
     "condition": "used",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138022/DESMI_SL_70-265A-A_Sea_Water_Centrifugal_Vertical_In-line_Pump_with_motor_bsvwcq_tjou3d.jpg"
   },
   {
     "id": 20,
@@ -285,15 +280,16 @@
     "make": "Allweiler",
     "model": "NI 32-160/01",
     "capacity": "40M3/hr. @ TH: 50.1m",
-    "bore_size_suction": "SUC. ID 40 X OD 150mm",
-    "bore_size_delivery": "DEL.ID 40 X OD 150mm",
+    "bore_size": "SUC. ID 40 X OD 150mm",
+    "bore_size": "DEL.ID 40 X OD 150mm",
     "flange_pcd": "SUC 120 @DEL 120mm",
     "no_of_bolt": "SUC 4X19 @ DEL 4X19mm",
     "flange_to_flange": "390mm",
     "flange_type": "In-line",
     "casing_material": "Cast iron",
     "motor": "9.9kW @440V@60 Hz@ 3520Rpm",
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138001/Allweiler_NI_32-160_01_PumP_nqgokv.png"
   }
 ]
+
 

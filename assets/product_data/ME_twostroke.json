@@ -7,7 +7,7 @@
     "description": "MITSUBISHI UEC 37 88 CYLINDER LINER for sale in Ark Vision Singapore warehouse, readily available.",
     "condition": "New, Original",
     "qty": "1 unit",
-    "image_url": "https://example.com/image1.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759039888/image-removebg-preview_24_w95lt1.png"
   },
   {
     "id": 2,
@@ -18,7 +18,7 @@
     "stamp_mark": "8KK , LRBUS2007868, 4200287947-130, 2139522, 5027211-8.1/S17MOS, 20.38 WTP 7 BAR, 20G900468, C56129 PC02, CAM SIDE, Certificate: 2678486 LR",
     "condition": "New, Original",
     "qty": "1 unit",
-    "image_url": "https://example.com/image2.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040367/MAN_K90MC-C_PISTON_CROWN_h0swrb.png"
   },
   {
     "id": 3,
@@ -29,72 +29,72 @@
     "stamp_marking": "-HHI-EMD-MAN-1M2U2-85035, 20005",
     "condition": "New Original",
     "qty": "1 Pcs",
-    "image_url": "https://example.com/image3.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040366/MAN_S90ME-C_102_CYLINDER_LINER_ASSY_l5cubb.png"
   },
   {
     "id": 4,
     "name": "CYLINDER LINER",
-    "image_url": "https://example.com/image4.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040366/Cylinder_Liner_uhplsq.png"
   },
   {
     "id": 5,
     "name": "CYLINDER LINERS",
-    "image_url": "https://example.com/image5.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040365/CYLINER_LINERS_ij5dnb.png"
   },
   {
     "id": 6,
     "name": "CYLINDER LINER, PISTON CROWN, PISTON SKIRT, PISTON ROD, STUFFING BOX",
-    "image_url": "https://example.com/image6.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759041214/98bfd092-1e68-4330-a314-7ce6c5e9ae9a.png"
   },
   {
     "id": 7,
     "name": "PISTON CROWNS & PISTON SKIRTS",
-    "image_url": "https://example.com/image7.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040932/Piston_Crowns_Piston_Skirts_gisch3.jpg"
   },
   {
     "id": 8,
     "name": "PISTON CROWN",
-    "image_url": "https://example.com/image8.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759041242/e2fd845f-9f11-4416-ad74-8d4aaf41303c.png"
   },
   {
     "id": 9,
     "name": "CYLINDER HEAD",
-    "image_url": "https://example.com/image9.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040929/Cylinder_Head_mvogzu.png"
   },
   {
     "id": 10,
     "name": "CYLINDER COVER",
-    "image_url": "https://example.com/image10.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040927/CYLINDER_COVER_fxd3gk.png"
   },
   {
     "id": 11,
-    "name": "CYLINDER HEAD",
-    "image_url": "https://example.com/image11.jpg"
+    "name": "COOLING WATER JACKET",
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759041272/513d8379-1c1a-4e08-9df8-df9a3760af7c.png"
   },
   {
     "id": 12,
     "name": "EXHAUST VALVE",
-    "image_url": "https://example.com/image12.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040925/EXHAUST_VALVE_dn8p2d.png"
   },
   {
     "id": 13,
     "name": "INLET & EXHAUST VALVE SPINDLES",
-    "image_url": "https://example.com/image13.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040924/INLET_EXHAUST_VALVE_SPINDLES_nbkqkh.png"
   },
   {
     "id": 14,
-    "name": "MAIN ENGINE CONSUMMABLE SPARES",
-    "image_url": "https://example.com/image14.jpg"
+    "name": "MAIN ENGINE CONSUMABLE SPARES",
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040923/MAIN_ENGINE_CONSUMMABLE_SPARES_m41qci.jpg"
   },
   {
     "id": 15,
-    "name": "CONSUMMABLE SPARES",
-    "image_url": "https://example.com/image15.jpg"
+    "name": "CONSUMABLE SPARES",
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040922/CONSUMMABLE_SPARES_1_zpe84o.jpg"
   },
   {
     "id": 16,
-    "name": "CONSUMMABLE SPARES",
-    "image_url": "https://example.com/image16.jpg"
+    "name": "CONSUMABLE SPARES",
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040920/CONSUMMABLE_SPARES_2_qand9u.jpg"
   },
   {
     "id": 17,
@@ -104,21 +104,24 @@
   {
     "id": 18,
     "name": "PISTON RINGS",
-    "image_url": "https://example.com/image18.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040920/PISTON_RINGS_1_nqtnjl.jpg"
   },
   {
     "id": 19,
     "name": "FUEL PUMPS PLUNGER & BARREL",
-    "image_url": "https://example.com/image19.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040919/FUEL_PUMPS_PLUNGER_BARREL_wu1dmi.jpg"
   },
   {
     "id": 20,
     "name": "FUEL PUMP PLUNGER & BARREL",
-    "image_url": "https://example.com/image20.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040918/FUEL_PUMPS_PLUNGER_BARREL_2_ly0bp6.jpg"
   },
   {
     "id": 21,
-    "name": "MAIN ENGINE CONSUMMABLE SPARES",
-    "image_url": "https://example.com/image21.jpg"
+    "name": "MAIN ENGINE CONSUMABLE SPARES",
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040918/MAIN_ENGINE_CONSUMMABLE_SPARES_3_wytss0.png"
   }
 ]
+
+
+

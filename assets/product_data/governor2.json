@@ -9,7 +9,8 @@
     "rpm": "600-1050",
     "psi": "2.84-14.2",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046718/GOVERNOR_WOODWARD_PG-PL_1220368_zhfakn_ni3hs7.png"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "rpm": "300-1250",
     "psi": "7.3-72.5",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046711/GOVERNOR_WOODWARD_PGA-300_2057836_xzmvhe_l6acsz.png"
   },
   {
     "id": 3,
@@ -34,7 +36,8 @@
     "manual_speed": "1270rpm",
     "psi": "7.1-70",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046707/GOVERNOR_WOODWARD_PGA-300_2027833_dgx4go_uiancv.png"
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "serial_no": "2087196",
     "psi": "250-1300",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046701/GOVERNOR_WOODWARD_PGA-200_2087196_nqmsg5_pbrrap.png"
   },
   {
     "id": 5,
@@ -56,7 +60,8 @@
     "serial_no": "2636274",
     "rpm": "200-1200",
     "psi": "7.1-71",
-    "quantity": 1
+    "quantity": 1,
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046689/GOVERNOR_WOODWARD_PG-A_2636274_jddo3r_ryukun.png"
   },
   {
     "id": 6,
@@ -67,7 +72,8 @@
     "rpm": "283-1184",
     "psi": "7.1-71",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046696/GOVERNOR_WOODWARD_PG-A_2746303_fuaicv_vylucj.png"
   },
   {
     "id": 7,
@@ -78,6 +84,97 @@
     "serial_no": "1564391",
     "rpm": "200-1200",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046678/GOVERNOR_WOODWARD_PG-A_1564391_sakgyh_nnktta.png"
+  },
+  {
+    "id": 8,
+    "name": "GOVERNOR WOODWARD PG-A 2224237",
+    "make": "Woodward",
+    "type": "PG-A",
+    "part_no": "08573 062",
+    "rpm": "488-960",
+    "psi": "21.75-87",
+    "quantity": "1",
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046685/GOVERNOR_WOODWARD_PG-A_2224237_me4ari_vukd3v.png"
+  },
+  {
+    "id": 9,
+    "name": "GOVERNOR WOODWARD MM40 28112",
+    "make": "Woodward",
+    "type": "MM40",
+    "serial_no": "28112",
+    "volts": "110V",
+    "ac": "50/60Hz",
+    "amps": "0.3A",
+    "quantity": "1",
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046668/GOVERNOR_WOODWARD_MM40_28112_mepszh_plc4im.png"
+  },
+  {
+    "id": 10,
+    "name": "GOVERNOR WOODWARD MM40 37414",
+    "make": "Woodward",
+    "type": "MM40",
+    "part_no": "1765 731",
+    "serial_no": "37414",
+    "quantity": "1",
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046674/GOVERNOR_WOODWARD_MM40_37414_n4quwg_rymdxl.png"
+  },
+  {
+    "id": 11,
+    "name": "GOVERNOR REGULATEURS EUROPA 1102 3G 8FBAC",
+    "make": "Regulateurs Europa Ltd",
+    "part_no": "62858",
+    "type": "1102 3G 8FBAC",
+    "serial_no": "16809",
+    "motor_voltage": "24V",
+    "solenoid_voltage": "24V",
+    "quantity": "1",
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046649/GOVERNOR_REGULATEURS_EUROPA_1102_3G_8FBAC_o3wqbc_k92nvh.png"
+  },
+  {
+    "id": 12,
+    "name": "GOVERNOR REGULATEURS EUROPA 1102 3G 25FBAB",
+    "make": "Regulateurs Europa Ltd",
+    "part_no": "11057",
+    "type": "1102 3G 25FBAB",
+    "serial_no": "17290",
+    "motor_voltage": "440V",
+    "solenoid_voltage": "24V",
+    "quantity": "1",
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046662/GOVERNOR_REGULATUERS_EUROPA_1102_3G_25FBAB_rfxlxg_yjmoli.png"
+  },
+  {
+    "id": 13,
+    "name": "GOVERNOR REGULATEURS EUROPA 1102 2G 8EBAC",
+    "make": "Regulateurs Europa Ltd",
+    "part_no": "61558/66",
+    "type": "1102 2G 8EBAC",
+    "serial_no": "11456",
+    "motor_voltage": "440V",
+    "solenoid_voltage": "24V",
+    "quantity": "1",
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046657/GOVERNOR_REGULATUERS_EUROPA_1102_2G_8EBAC_tasfkb_fehcpl.png"
+  },
+  {
+    "id": 14,
+    "name": "GOVERNOR REGULATEURS EUROPA LTD 1102 4G 25R",
+    "make": "Regulateurs Europa Ltd",
+    "type": "1102V 4G 25R",
+    "serial_no": "0724386",
+    "cus_no": "W9 K232 42 0014",
+    "rpm": "430 1289",
+    "bar_motor": "24V",
+    "bar_stop": "24V",
+    "quantity": "1",
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046652/GOVERNOR_REGULATEURS_EUROPA_LTD_1102_4G_25R_cymwml_beupys.png"
   }
 ]
+

@@ -1,10 +1,177 @@
 [
   {
     "id": 1,
-    "name": "MAN NR15 Rotor Complete"
+    "name": "MAN NR15 Rotor Complete",
+    "condition": "New Original",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141568/MAN_NR15_ROTOR_COMPLETE_ezxbyy.png"
   },
   {
     "id": 2,
-    "name": "MAN NR15 CATRIDGE"
+    "name": "MAN NR15 CATRIDGE",
+    "condition": "New Original spare parts",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141559/MAN_NR15_CARTRIDGE_vib1mf.png"
+  },
+  {
+    "id": 3,
+    "name": "MAN NR 20 Gas Admitin Casing",
+    "condition": "New Original Spare Parts",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141550/MAN_NR_20_GAS_ADMITIN_CASING_uieb3h.png"
+  },
+  {
+    "id": 4,
+    "name": "MAN NR 20 Bearing Sleeve",
+    "condition": "New Original Spare Parts",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141542/MAN_NR_20_BEARING_SLEEVE_i8lmsq.png"
+  },
+  {
+    "id": 5,
+    "name": "MAN NR 20 Bearing Casing",
+    "condition": "New Original Spare Parts",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141535/MAN_NR_20_BEARING_CASING_dzmiss.png"
+  },
+  {
+    "id": 6,
+    "name": "MAN NR 20 Diffiuser",
+    "condition": "New Original Spare Parts",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759896625/MAN_NR_20_DIFFIUSER-compressed_h9u6sa.jpg"
+  },
+  {
+    "id": 7,
+    "name": "NAPIER 357 CARTRIDGE",
+    "make": "Napier",
+    "model": "Napier 357",
+    "qty": "1 unit",
+    "condition": "New, original",
+    "image": "placeholder7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Napier NHP360 Outlet Casing",
+    "make": "Napier",
+    "model": "NHP360",
+    "qty": "1 unit",
+    "condition": "Reconditioned",
+    "image": "placeholder8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "KKK K54 Complete Turbocharger",
+    "make": "KKK",
+    "model": "K54",
+    "qty": "1 unit",
+    "condition": "Reconditioned",
+    "image": "placeholder9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "IHI RH163 Complete Turbocharger",
+    "make": "IHI",
+    "model": "RH163",
+    "qty": "1 unit",
+    "condition": "Reconditioned, original",
+    "image": "placeholder10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "IHI RH163 Cartridge Complete",
+    "make": "IHI",
+    "model": "RH163",
+    "spec": "C51207 D02208 T03211 H63614",
+    "Nmax": "1055",
+    "Tmax": "650C",
+    "qty": "1 unit",
+    "condition": "New, original",
+    "image": "placeholder11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "IHI RH163 Complete Turbocharger",
+    "make": "IHI",
+    "model": "RH163",
+    "specs": "C51207 D02208 T03211 H63614",
+    "Nmax": "1055",
+    "Tmax": "650C",
+    "qty": "1 unit",
+    "condition": "Recoditioned, original",
+    "image": "placeholder12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "IHI RH163 Rotor For Turbocharger",
+    "make": "IHI",
+    "model": "RH163\nArdent P14-611A",
+    "spec": "130902\nNo of blade: 11",
+    "qty": "1 unit",
+    "condition": "New, original",
+    "image": "placeholder13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "MAN NR20/R Diffuser",
+    "make": "MAN",
+    "model": "NR20/R",
+    "specs": "1349/23.AD=68.20cm2",
+    "qty": "1 unit",
+    "condition": "New",
+    "image": "placeholder14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "MAN NR20/R Diffuser",
+    "make": "MAN",
+    "model": "NR20/R",
+    "specs": "1349/23.AD=47.00cm2",
+    "qty": "1 unit",
+    "condition": "New",
+    "image": "placeholder14.jpg"
+  },
+  {
+    "id": 16,
+    "name": "MAN NR20/R Diffuser",
+    "make": "MAN",
+    "model": "NR20/R",
+    "specs": "1372/14.AD=68.51cm2",
+    "qty": "1 unit",
+    "condition": "New",
+    "image": "placeholder15.jpg"
+  },
+  {
+    "id": 17,
+    "name": "MAN NR20/86 Diffuser",
+    "make": "MAN",
+    "model": "NR20/86",
+    "specs": "68.32 cm2",
+    "IMO": "1371",
+    "stamp_mark": "18AD",
+    "qty": "1 unit",
+    "condition": "New, original",
+    "image": "placeholder16.jpg"
+  },
+  {
+    "id": 18,
+    "name": "MAN NR20/86 Gas Admition Casing",
+    "make": "MAN",
+    "model": "NR20/86",
+    "qty": "1 unit",
+    "condition": "New, original",
+    "image": "placeholder17.jpg"
+  },
+   {
+    "id": 19,
+    "name": "MAN NR15/R TURBOCHARGER CARTRIDGE ASSY",
+    "make": "MAN",
+    "model": "NR15/R",
+    "specs": {
+      "main": "Spec HZP, MIS: 02957",
+      "IMO": "1154",
+      "turbineSide": {
+        "spec": "10.21",
+        "MIF": "51362",
+        "IMO": "1182"
+      }
+    },
+    "qty": "3 units",
+    "condition": "New, original",
+    "image": "placeholder18.jpg"
   }
-]
+] 

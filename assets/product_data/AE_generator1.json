@@ -6,7 +6,7 @@
     "model": "6N18AL-SN",
     "speed_of_crankshaft": "900 rpm",
     "made_in": "Japan",
-    "image_url": "https://example.com/image1.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044437/486e8b82-a3ff-4bf4-b85c-a61f2de9189b.png"
   },
   {
     "id": 2,
@@ -21,58 +21,99 @@
     "rpm": "720 Kw",
     "qty": "2 Units",
     "condition": "New, Original",
-    "image_url": "https://example.com/image2.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044449/785a7a33-e9d2-4f77-80e3-1fa34fad29fb.png"
   },
   {
     "id": 3,
     "name": "CRANKSHAFT",
-    "image_url": "https://example.com/image3.jpg"
+    "image_url": " https://res.cloudinary.com/djcqbpunw/image/upload/v1759044470/a3ccfead-c207-4b2c-91ea-48a05bb1eda8.png"
   },
   {
     "id": 4,
     "name": "CAMSHAFT",
-    "image_url": "https://example.com/image4.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759753151/4d691b6a-8ec7-4088-bb07-387c4a94907e-removebg-preview_omvgwr.png"
   },
   {
     "id": 5,
     "name": "JAPANESE AND EUROPEAN AUX ENGINE COMPONENTS",
-    "image_url": "https://example.com/image5.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044490/85fcd783-f5ce-454b-861c-a03cec4a0ed0.png"
   },
   {
     "id": 6,
     "name": "CYLINDER LINERS",
-    "image_url": "https://example.com/image6.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759753210/1262158060_P1060799-removebg-preview_r7vymz.png"
   },
   {
     "id": 7,
     "name": "PISTONS",
-    "image_url": "https://example.com/image7.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044515/bf5a2d52-3fb2-4723-9619-7998512da0d1.png"
   },
   {
     "id": 8,
     "name": "PISTON RINGS",
-    "image_url": "https://example.com/image8.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044525/4615e897-27ce-400f-84c0-401b5891bbb5.png"
   },
   {
     "id": 9,
-    "name": "CONSUMMABLE SPARES",
-    "image_url": "https://example.com/image9.jpg"
+    "name": "PISTON RINGS",
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044544/71b13971-3895-40e0-bdbd-faa2e819334d.png"
   },
   {
-    "id": 10,
-    "name": "GENERATOR SPARES",
-    "image_url": "https://example.com/image10.jpg"
+  "id": 10,
+  "name": "CONSUMABLE SPARES",
+  "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044554/6105b1c7-d34c-422d-a073-a4dc39b9d171.png"
   },
   {
-    "id": 11,
+  "id": 11,
+  "name": "CONSUMABLE SPARES",
+  "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044572/149cb30c-c2a9-45f5-bcbe-5e8c8fca32ef.png"
+},
+{
+  "id": 12,
+  "name": "CONSUMABLE SPARES",
+  "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044583/a035ce02-cf6c-4e76-88e6-61c5658f79a0.png"
+},
+{
+  "id": 13,
+  "name": "CONSUMABLE SPARES",
+  "image_url": " https://res.cloudinary.com/djcqbpunw/image/upload/v1759044615/8bdf3150-0e45-43a8-8a06-014533ce4e76.png"
+},
+{
+  "id": 14,
+  "name": "CONSUMABLE SPARES",
+  "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044622/ba855f20-d256-48ff-808b-7dc28dd8ab90.png"
+},
+{
+  "id": 15,
+  "name": "CONSUMABLE SPARES",
+  "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044634/41050638-3d0b-451a-9d83-feda64e03e12.png"
+},
+{
+  "id": 16,
+  "name": "CONSUMABLE SPARES",
+  "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044641/8a04bb4e-bb44-459c-9ed9-94da88efa378.png"
+},
+{
+  "id": 17,
+  "name": "GENERATOR SPARES",
+  "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759755034/1350273982_IMG_4282_b1m51f.jpg"
+    },
+    {
+    "id": 18,
     "name": "MAIN & CON ROD BEARING",
     "extra_info": "JAPANESE & EUROPEAN MADE, 2 STROKE ENGINE, 4 STROKE ENGINE",
-    "image_url": "https://example.com/image11.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759755246/1262157496_P1060736_nwhmt1.jpg"
   },
   {
-    "id": 12,
+    "id": 19,
+    "name": "MAIN & CON ROD BEARING",
+    "extra_info": "MAIN & CON ROD BEARINGS, 2 STROKE ENGINE, 4 STROKE ENGINE",
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759755241/1262157702_P1060731_okmo9h.jpg"
+  },
+  {
+    "id": 20,
     "name": "CONNECTING ROD",
     "extra_info": "JAPANESE & EUROPEAN MADE, FULLY RECONDITIONED WITH LOCAL WORKSHOP REPORT",
-    "image_url": "https://example.com/image12.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044748/a6468f8d-4b04-4112-be18-a9fcc8c1e86d.png"
   }
 ]

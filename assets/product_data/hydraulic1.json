@@ -1,11 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Mitsubishi Janney Pump 6V-FH2B-MK-RFBLA100D11",
+    "name": "MITSUBISHI JANNEY PUMP 6V-FH2B-MK-RFBLA100D11",
     "make": "MITSUBISHI",
     "model": "6V-FH2B-MK-RFBLA100D11",
     "condition": "New, Original",
-    "quantity": 1
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142220/MITSUBISHI_JANNEY_PUMP_o4njbn.png"
   },
   {
     "id": 2,
@@ -13,6 +14,161 @@
     "make": "Staffa",
     "model": "HMC 125",
     "condition": "New, original",
-    "quantity": 1
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759911571/STAFFA_HMC125_Hydraulic_Motor.jpeg_nyeeun.png"
+  },
+  {
+    "id": 3,
+    "name": "STAFFA HMC200/S3/188/110/FM3 HYDRAULIC MOTOR",
+    "make": "Staffa",
+    "model": "HMC200/S3/188/110/FM3",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142257/STAFFA_HMC200_S3_188_110_FM3_HYDRAULIC_MOTOR_klces1.png"
+  },
+  {
+    "id": 4,
+    "name": "STAFFA HMCK200 T3 HYDRAULIC MOTOR",
+    "make": "Staffa",
+    "model": "HMCK200 T3",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142276/STAFFA_HYDRAULIC_MOTOR_HMCK200_T3_daeqod_hwjltn.png"
+  },
+  {
+    "id": 5,
+    "name": "STAFFA HMKC080T3/90/35W1 HYDRAULIC MOTOR",
+    "make": "Staffa",
+    "model": "HMKC080T3/90/35W1",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142266/STAFFA_HMKC080T3_90_35W1_HYDRAULIC_MOTOR_mpkk2e.png"
+  },
+  {
+    "id": 6,
+    "name": "KAWASAKI HMC270/Z/FM4/X HYDRAULIC MOTOR",
+    "make": "KAWASAKI",
+    "model": "HMC270/Z/FM4/X",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142138/KAWASAKI_HMC270_Z_FM4_X_HYDRAULIC_MOTOR_hsyjmc.png"
+  },
+  {
+    "id": 7,
+    "name": "KAWASAKI HYDRAULIC MOTOR SB510V3-10050-110-ENTX",
+    "make": "KAWASAKI",
+    "model": "SB510V3-10050-110-ENTX",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142184/KAWASAKI_HYDRAULIC_MOTOR_SB510V3-10050-110-ENTX_pfz6pb.png"
+  },
+  {
+    "id": 8,
+    "name": "SMA 1600 RADIAL PISTON MOTOR",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142238/SMA_1600_RADIAL_PISTON_MOTOR_pwmhtw.png"
+  },
+  {
+    "id": 9,
+    "name": "KAWASAKI HYDRAULIC MOTOR HMC 270",
+    "make": "KAWASAKI",
+    "model": "HMC 270",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142175/KAWASAKI_HYDRAULIC_MOTOR_HMC_270_xekzed.png"
+  },
+  {
+    "id": 10,
+    "name": "KAWASAKI HYDRAULIC MOTOR HMC 200",
+    "make": "KAWASAKI",
+    "model": "HMC 200",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142166/KAWASAKI_HYDRAULIC_MOTOR_HMC_200_po63gk.png"
+  },
+  {
+    "id": 11,
+    "name": "KAWASAKI HYDRAULIC MOTOR SX 540",
+    "make": "KAWASAKI",
+    "model": "SX 540",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142194/KAWASAKI_HYDRAULIC_MOTOR_SX_540_qua2to.png"
+  },
+  {
+    "id": 12,
+    "name": "KAWASAKI HYDRAULIC MOTOR COMPLETE HMC 270/S/280/140/FM4/X/71/PL621",
+    "make": "KAWASAKI",
+    "model": "HMC 270/S/280/140/FM4/X/71/PL621",
+    "spline_shaft": "20 teeth",
+    "shaft_diameter": "88mm",
+    "type": "Radial piston type",
+    "stamping_details": "280 140 2768 (80)",
+    "serial": "01H14277\n025491H SRS 13401",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142158/KAWASAKI_HYDRAULIC_MOTOR_COMPLETE_HMC_270_S_280_140_FM4_X_71_PL621_zajrtg.png"
+  },
+  {
+    "id": 13,
+    "name": "KAWASAKI HYDRAULIC MOTOR COMPLETE HMC 080/S/55/20/FM3/X/70/PL40",
+    "make": "KAWASAKI",
+    "s/n": "00263362",
+    "model": "HMC 080/S/55/20/FM3/X/70/PL40",
+    "condition": "Reconditioned, original",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142148/KAWASAKI_HYDRAULIC_MOTOR_COMPLETE_HMC_080_S_55_20_FM3_X_70_PL40_kmgyad.png"
+  },
+  {
+    "id": 14,
+    "name": "STAFFA HMB125 S04/70 HYDRAULIC MOTOR",
+    "make": "Staffa",
+    "model": "HMB125 S04/70",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142248/STAFFA_HMB125_S04_70_HYDRAULIC_MOTOR_on1vsw.png"
+  },
+  {
+    "id": 15,
+    "name": "MITSUBISHI 3V-FH2B-15 JANNEY PUMP",
+    "make": "MITSUBISHI",
+    "model": "3V-fH2B-15",
+    "condition": "New, original",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142211/MITSUBISHI_3V_FH2B_15_JANNEY_PUMP_juzyer_shslcl.png"
+  },
+  {
+    "id": 16,
+    "name": "REXROTH A11VO AXIAL PISTON VARIABLE PUMP",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142536/REXROTH_A11VO_AXIAL_PISTON_VARIABLE_PUMP_sj8rrq.png"
+  },
+  {
+    "id": 17,
+    "name": "REXROTH A2FM56 MOTOR",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142528/REXROTH_A2FM56_MOTOR_j91ybv.png"
+  },
+  {
+    "id": 18,
+    "name": "UCHIDA A6V500 MOTOR",
+    "make": "Uchida",
+    "model": "A6V500",
+    "condition": "New, original",
+    "qty": "2 units",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142304/UCHIDA_MOTOR_A6V500_jbpk4p_bugati.png"
+  },
+  {
+    "id": 19,
+    "name": "UCHIDA A2F HYDRAULIC MOTOR",
+    "make": "Uchida",
+    "model": "A2F",
+    "condition": "New, original",
+    "qty": "2 units",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853404/UCHIDA_A2F_HYFRAULIC_MOTOR_gkvksh.png"
+  },
+  {
+    "id": 20,
+    "name": "MITSUBISHI RMC 210A-L-22Y HYDRAULIC MOTOR",
+    "make": "MITSUBISHI",
+    "model": "RMC 21A-L-22Y",
+    "condition": "New, original",
+    "qty": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142202/MITSUBISHI_RMC_210A-L-22Y_HYDRAULIC_MOTOR_buyrvw.png"
   }
 ]

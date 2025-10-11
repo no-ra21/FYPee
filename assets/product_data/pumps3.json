@@ -1,50 +1,50 @@
 [
 {
-    "id": 41,
+    "id": 1,
     "name": "Centrifugal Pumps - Vertical Fully Reconditioned and Ready for Delivery",
-    "description": "Fully reconditioned vertical centrifugal pumps, ready for delivery. New electrical motor shall be fitted upon request, 440V or 380V, 50HZ & 60HZ.",
-    "image": "https://via.placeholder.com/150"
+    "description":"New electrical motor shall be fitted upon request, 440V or 380V, 50HZ & 60HZ",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759852475/ccfe2877-063c-41dc-a755-c2928c325943.png"
   },
   {
-    "id": 42,
+    "id": 2,
     "name": "Centrifugal Pumps - Vertical Fully Reconditioned",
-    "description": "Fully reconditioned vertical centrifugal pumps.",
-    "image": "https://via.placeholder.com/150"
+    "description": "New electrical motor shall be fitted upon request, 440V or 380V, 50HZ, 60HZ",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759852482/32636f1e-ec91-4a4f-ba8f-6717326e0d0b.png"
   },
   {
-    "id": 43,
+    "id": 3,
     "name": "Pumps",
     "description": "Fully reconditioned and tested in our workshop.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759139729/PUMPS_1_pwfbos.png"
   },
   {
-    "id": 44,
+    "id": 4,
     "name": "Consumable Spares",
-    "description": "New spares.",
-    "image": "https://via.placeholder.com/150"
+    "description": "New spares",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759139721/Consummable_spares_8_cgauii.png"
   },
   {
-    "id": 45,
+    "id": 5,
     "name": "Consumable Spares",
-    "description": "New spares.",
-    "image": "https://via.placeholder.com/150"
+    "description": "New spares",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759895191/Consummable_spares_4-compressed_ogpbpt.jpg"
   },
   {
-    "id": 46,
+    "id": 6,
     "name": "Consumable Spares",
-    "description": "New spares.",
-    "image": "https://via.placeholder.com/150"
+    "description": "New spares",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759895195/Consummable_spares_3-compressed_1_fe1ikk.jpg"
   },
   {
-    "id": 47,
+    "id": 7,
     "name": "Consumable Spares",
-    "description": "New spares.",
-    "image": "https://via.placeholder.com/150"
+    "description": "New spares",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759895201/Consummable_spares_3-compressed_e4dusl.jpg"
   },
   {
-    "id": 48,
+    "id": 8,
     "name": "Mechanical Seals",
-    "description": "New spares.",
-    "image": "https://via.placeholder.com/150"
+    "description": "New spares",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759139713/Mechanical_Seals_fkdeor.png"
   }
 ]

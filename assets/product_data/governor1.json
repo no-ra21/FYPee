@@ -8,7 +8,8 @@
     "part_no": "8530 808",
     "rpm": "562-1010",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046802/GOVERNOR_WOODWARD_UG-40_775110_tiiz0w_iabzza.png"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "part_no": "8530 887",
     "rpm": "700-1150",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046808/GOVERNOR_WOODWARD_UG-40_847148_ksrs8k_gtpjpw.png"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "part_no": "037638",
     "rpm": "400-900",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046796/GOVERNOR_WOODWARD_UG-40_680921_fl36qx_pqfhud.png"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "part_no": "B8530 450",
     "rpm": "250-1080",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046819/GOVERNOR_WOODWARD_UG-40_1177669_an3vkr_j8olsk.png"
   },
   {
     "id": 5,
@@ -51,7 +55,8 @@
     "designation_no": "C-8530-857",
     "pm": "270-1026",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046813/GOVERNOR_WOODWARD_UG-40_940020_kkpmgw_jhrmzt.png"
   },
   {
     "id": 6,
@@ -61,7 +66,8 @@
     "serial_no": "2735381",
     "part_no": "A8526 338JN",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046785/GOVERNOR_WOODWARD_UG-10_2735381_kqqceh_d4t7gl.png"
   },
   {
     "id": 7,
@@ -72,7 +78,8 @@
     "rpm": "675-1418",
     "part_no": "8526 733",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046790/GOVERNOR_WOODWARD_UG-10_2742851_hrgmuf_fwzbkf.png"
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "safe_torque": "0.2",
     "part_no": "A8526 338JN",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046779/GOVERNOR_WOODWARD_UG-10_2735380_w41lue_fpspqz.png"
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "rpm": "700-1415",
     "part_no": "8522 546",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046740/GOVERNOR_WOODWARD_UG-08_1405818_kqukfq_uf9xdp.png"
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "rpm": "700-1415",
     "part_no": "8524 698",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046757/GOVERNOR_WOODWARD_UG-08_2057893_cfjz50_vhjgls.png"
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "rpm": "500-1200",
     "part_no": "8522 447",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046768/GOVERNOR_WOODWARD_UG-08_2664935_wei14k_o4nukm.png"
   },
   {
     "id": 12,
@@ -129,7 +140,8 @@
     "rpm": "1075-1650",
     "part_no": "8523 640",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046751/GOVERNOR_WOODWARD_UG-08_1654538_yfvagv_vtfipa.png"
   },
   {
     "id": 13,
@@ -140,7 +152,8 @@
     "rpm": "973-1240",
     "part_no": "8522 520",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046728/GOVERNOR_WOODWARD_UG-08_1221142_enyjfg_bziyow.png"
   },
   {
     "id": 14,
@@ -151,7 +164,8 @@
     "rpm": "750-1280",
     "part_no": "R8521 367",
     "quantity": 2,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046762/GOVERNOR_WOODWARD_UG-08_2600966_bnznlo_kla70x.png"
   },
   {
     "id": 15,
@@ -163,7 +177,8 @@
     "part_no": "1766 522",
     "designation_no": "H 037071",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046773/GOVERNOR_WOODWARD_UG-08_5587360_kjs779_rfwtyf.png"
   },
   {
     "id": 16,
@@ -175,7 +190,8 @@
     "part_no": "1766 524",
     "designation_no": "A8 523 183",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046746/GOVERNOR_WOODWARD_UG-08_1602750_qzj1mx_gghcey.png"
   },
   {
     "id": 17,
@@ -186,7 +202,8 @@
     "rpm": "973-1240",
     "part_no": "8522 520",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046735/GOVERNOR_WOODWARD_UG-08_1221143_eiuk6e_yfol1j.png"
   },
   {
     "id": 18,
@@ -196,7 +213,8 @@
     "serial_no": "52651",
     "part_no": "1765 837",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046723/GOVERNOR_WOODWARD_SMM40_52651_eul9uf_zblzui.png"
   },
   {
     "id": 19,
@@ -207,7 +225,8 @@
     "part_no": "105856 1973",
     "rpm": "600-2000rpm",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046825/GOVERNOR_ZEXEL_RHD6_282101246_qjhvyr_d9gpmn.png"
   },
   {
     "id": 20,
@@ -217,6 +236,7 @@
     "part_no": "1058561681",
     "rpm": "400-2000",
     "quantity": 1,
-    "condition": "Good Condition"
+    "condition": "Good Condition",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046831/GOVERNOR_ZEXEL_RHD6_yapp2s_dd4vk4.png"
   }
 ]

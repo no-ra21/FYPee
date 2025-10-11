@@ -1,10 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Water Driven Gas Freeing Fan"
+    "name": "Water Driven Gas Freeing Fan",
+    "image": "hhttps://res.cloudinary.com/djcqbpunw/image/upload/v1759116594/Water_Driven_Gas_Freeing_Fan_mg0fdx.png"
   },
   {
     "id": 2,
-    "name": "Air Driven Gas Freeing Fan"
+    "name": "Air Driven Gas Freeing Fan",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759854807/Air_Driven_Gas_Freeing_Fan_s20cty.png"
   }
 ]

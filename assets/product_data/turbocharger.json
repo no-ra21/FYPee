@@ -5,7 +5,7 @@
     "make": "Mitsubishi",
     "model": "MET 18SRC",
     "spec": "CV1E37DCW111KJ35M",
-    "sn": "94718, Jun 2012",
+    "s/n": "94718, Jun 2012",
     "max_cont_speed": "66400min 1",
     "max_cont_gas_temp": "610 deg C",
     "quantity": 1,
@@ -53,36 +53,30 @@
     "max_cont_speed": "27000 RPM",
     "max_temp": "650'C",
     "date": "APR-1972",
-    "sn": "3-318.F-78",
+    "s/n": "3-318.F-78",
     "made_in": "Japan",
     "quantity": 1,
     "condition": "Recond, Original",
     "image_url": "https://via.placeholder.com/150"
   },
   {
-    "id": 6,
-    "name": "BBC VTR 250L EXHAUST GAS TURBOCHARGER COMPLETE",
-    "make": "BBC",
-    "model": "VTR 250L",
-    "nmax": "22500 Min @ Tmax: 670 'C",
-    "specific": "-Z7B 17, 8 ICI 121A WE3",
-    "t": "03211 @ H: 62122",
-    "sn": "329388",
-    "made_in": "IHI Tokyo Japan",
-    "quantity": 1,
-    "condition": "Recond, Original",
-    "image_url": "https://via.placeholder.com/150"
+  "id": 6,
+  "name": "BBC VTR 250L EXHAUST GAS TURBOCHARGER COMPLETE",
+  "make": "BBC",
+  "model": "VTR 250L",
+  "nmax": "22500 Min @ Tmax: 670 'C",
+  "specs": "Specific: -Z7B 17, 8 ICI 121A WE3\nT: 03211 @ H: 62122\nS/N: 329388\nIHI TOKYO JAPAN",
+  "quantity": "1",
+  "condition": "Recond, Original",
+  "image": "placeholder1.jpg"
   },
   {
     "id": 7,
     "name": "IHI BBC VTR 564-32 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "IHI",
     "model": "VTR 564-32",
-    "nmax": "14100 RPM @ Tmax: 620 'C",
-    "v00115": "R 062 H0411",
-    "w11100": "E03114",
-    "sn": "Xi423823",
-    "l": "14100 T01100",
+    "specs": "14100 RPM @ Tmax: 620 'C\nV00115 R 062 H0411\nW11100 E03114",
+    "s/n": "Xi423823\n14100 T01100",
     "quantity": 1,
     "condition": "Used, Original",
     "image_url": "https://via.placeholder.com/150"
@@ -92,9 +86,7 @@
     "name": "BBC VTR 200N EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "BBC",
     "model": "VTR 200N",
-    "nmax": "3500/Min 'C @ Tmax: 670",
-    "no": "HT 414666",
-    "made_in": "IHI Tokyo Japan",
+    "nmax": "3500/Min 'C @ Tmax: 670\nNo. HT 414666\nIHI Tokyo Japan",
     "quantity": 1,
     "condition": "Recond, Original",
     "image_url": "https://via.placeholder.com/150"
@@ -104,9 +96,8 @@
     "name": "IHI RH 183 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "IHI",
     "model": "RH 183",
-    "specs": "C51206 D02210 T01108 H03614, RH272711, 914 650",
-    "made_in": "IHI Tokyo Japan",
-    "quantity": 2,
+    "specs": "C51206 D02210 T01108 H03614, RH272711, 914 650\nIHI Tokyo Japan",
+    "quantity": "2",
     "condition": "Recond, Original",
     "image_url": "https://via.placeholder.com/150"
   },
@@ -115,8 +106,7 @@
     "name": "IHI RH-163 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "IHI",
     "model": "RH-163",
-    "nmax": "1055 'C @ Tmax: 710 'C",
-    "made_in": "ABB Tokyo Japan",
+    "nmax": "1055 'C @ Tmax: 710 'C\nABB Tokyo Japan",
     "quantity": 1,
     "condition": "Used, Original",
     "image_url": "https://via.placeholder.com/150"
@@ -127,8 +117,7 @@
     "make": "ABB",
     "model": "RR151-14",
     "ht": "407491",
-    "nmmax": "1083'C @ TMmax: 710 'C",
-    "made_in": "ABB Tokyo Japan",
+    "nmmax": "1083'C @ TMmax: 710 'C\nABB Tokyo Japan",
     "quantity": 1,
     "condition": "Used, Original",
     "image_url": "https://via.placeholder.com/150"
@@ -140,8 +129,7 @@
     "model": "VTR 201-2",
     "xi": "160421 S",
     "tmax": "650 'C @ Nmax: 600",
-    "specific": "PGK5T 15.7 II CH54 W3P",
-    "made_in": "IHI Tokyo Japan",
+    "specific": "PGK5T 15.7 II CH54 W3P\nIHI Tokyo Japan",
     "quantity": 1,
     "condition": "Used, Original",
     "image_url": "https://via.placeholder.com/150"
@@ -153,8 +141,7 @@
     "model": "VTR 201-2",
     "xi": "160422 S",
     "tmax": "650 'C @ Nmax: 600",
-    "specific": "PGK5T 15.7 II CH54 W3P",
-    "made_in": "IHI Tokyo Japan",
+    "specific": "PGK5T 15.7 II CH54 W3P\nIHI Tokyo Japan",
     "quantity": 1,
     "condition": "Used, Original",
     "image_url": "https://via.placeholder.com/150"
@@ -166,8 +153,7 @@
     "model": "VTR 201-2",
     "xi": "141436 S",
     "tmax": "650 'C @ Nmax: 600",
-    "specific": "PGK5NT. 14. 9 II CH44 W3P",
-    "made_in": "IHI Tokyo Japan",
+    "specific": "PGK5NT. 14. 9 II CH44 W3P\nIHI Tokyo Japan",
     "quantity": 1,
     "condition": "Used, Original",
     "image_url": "https://via.placeholder.com/150"
@@ -178,8 +164,7 @@
     "make": "IHI-BBC",
     "model": "VTR 161",
     "tmax": "620 'C @ N max: 750 S-1",
-    "specific": "PGB8T. 13. 9 IVCP44.6W3P",
-    "made_in": "IHI Tokyo Japan",
+    "specific": "PGB8T. 13. 9 IVCP44.6W3P\nIHI Tokyo Japan",
     "quantity": 1,
     "condition": "Used, Original",
     "image_url": "https://via.placeholder.com/150"
@@ -193,7 +178,7 @@
     "nmax": "750rpm",
     "condition": "New original",
     "quantity": 1,
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141225/IHI-BBC_161-2_EXHAUST_GAS_TURBOCHARGER_COMPLETE_jlfaps_b2nuvb.png"
   },
   {
     "id": 17,
@@ -202,7 +187,7 @@
     "model": "Napier 375",
     "condition": "New, original",
     "quantity": 1,
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141242/Napier_375_Complete_Turbocharger_tecoi6.png"
   },
   {
     "id": 18,
@@ -214,16 +199,13 @@
     "max_temperature": "650 ℃",
     "condition": "New, original",
     "quantity": 2,
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141285/Picture123_silm1e.png"
   },
   {
     "id": 19,
-    "name": "MAN NR20 170 Turbocharger Complete, Original",
-    "make": "MAN",
-    "model": "NR20 170",
+    "name": "MAN NR20 170 Turbocharger Complete",
     "condition": "Original",
-    "quantity": 1,
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141367/MAN_NR20_170_TURBOCHARGER_COMPLETE_gmumv6.png"
   },
   {
     "id": 20,
@@ -232,7 +214,6 @@
     "model": "RH183",
     "condition": "New, original",
     "quantity": 2,
-    "image_url": "https://via.placeholder.com/150"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141218/IHI_RH183_Complete_Turbocharger_e9trv2_rsiaxp.png"
   }
 ]
-  

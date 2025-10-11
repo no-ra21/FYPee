@@ -5,7 +5,8 @@
     "make": "Scanjet Marine AB",
     "model": "SC390",
     "serial_no": "1394",
-    "condition": "New, Original"
+    "condition": "New, Original",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759854465/SCANJET_SC390_TANK_CLEANING_EQUIPMENT_cvmpiv.jpg"
   },
   {
     "id": 2,
@@ -14,6 +15,6 @@
     "model": "SC360",
     "serial_no": "410",
     "length": "0.9m",
-    "condition": "New, Original"
+    "condition": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759854463/SCANJET_SC360_TANK_CLEANING_EQUIPMENT_qnntfn.png"
   }
 ]

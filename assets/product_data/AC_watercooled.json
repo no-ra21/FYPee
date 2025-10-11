@@ -2,7 +2,6 @@
   {
     "id": 1,
     "name": "TMC 85-13 EWNA Screw Air Compressor With Motors",
-    "description": "TMC 85-13 EWNA Screw Air Compressor With Motors for sale in Ark Vision Singapore warehouse, readily available.",
     "make": "TMC",
     "model": "85-13",
     "power": "85 kw @ Speed: 3565 rpm",
@@ -21,79 +20,130 @@
         "loaded_hours": 206
       }
     ],
-    "voltage": "440v @ 60hz",
-    "image_url": "https://example.com/image1.jpg"
+    "spec": "85 kW @ 440V @ 60Hz @ 3565 rpm",
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759053757/TMC_85-13_EWNA_Screw_Air_Compressor_With_Motors_njiaep.png"
   },
+
+
   {
     "id": 2,
-    "name": "TANABE H73 AIR COMPRESSOR"
+    "name": "TANABE H73 AIR COMPRESSOR",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759053751/TANABE_H73_AIR_COMPRESSOR_irgfm4.png"
   },
   {
     "id": 3,
-    "name": "TANABE H64 AIR COMPRESSOR"
+    "name": "TANABE H64 AIR COMPRESSOR",
+    "condition": "New, original",
+    "quantity": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054065/image-removebg-preview_33_c7nnpl.png"
   },
   {
     "id": 4,
-    "name": "TANABE H373 AIR COMPRESSOR"
+    "name": "TANABE H373 AIR COMPRESSOR",
+    "condition": "New, original",
+    "quantity": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054058/image-removebg-preview_34_f6qxgx.png"
   },
   {
     "id": 5,
-    "name": "TANABE H74 AIR COMPRESSOR"
+    "name": "TANABE H74 AIR COMPRESSOR",
+    "condition": "New, original",
+    "quantity": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070662/image-removebg-preview_43_rt0s94.png"
   },
   {
     "id": 6,
-    "name": "TANABE H63 AIR COMPRESSOR"
+    "name": "TANABE H63 AIR COMPRESSOR",
+    "condition": "New, original",
+    "quantity": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070586/image-removebg-preview_42_k15bqq.png"
   },
   {
     "id": 7,
-    "name": "YANMAR SC 40N AIR COMPRESSOR"
+    "name": "YANMAR SC 40N AIR COMPRESSOR",
+    "condition": "New, original",
+    "quantity": "1 unit",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054052/image-removebg-preview_35_iiwqvz.png"
   },
   {
     "id": 8,
-    "name": "TANABE H274 WATER COOLED AIR COMPRESSOR"
+    "name": "TANABE H274 WATER COOLED AIR COMPRESSOR",
+    "make": "Tanabe",
+    "model": "H274",
+    "speed": "1800 rpm",
+    "condition": "New, original",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054044/image-removebg-preview_36_nlzgfe.png"
   },
   {
     "id": 9,
-    "name": "TANABE H273 VERTICAL 2 STAGE WATER COOLED AIR COMPRESSOR"
+    "name": "TANABE H273 VERTICAL 2 STAGE WATER COOLED AIR COMPRESSOR",
+    "make": "Tanabe Pneumatic Machinery Co Ltd",
+    "model": "H273",
+    "type": "Vertical 2 Stage Water Cooled",
+    "serial_no": "990202",
+    "bore_lp": "180",
+    "hp": "140",
+    "stroke": "80",
+    "pressure": "25 kg/cm2",
+    "capacity": "F.A 325 m3/h",
+    "speed": "1800 rpm",
+    "power_reqd": "65 kW",
+    "condition": "New, original",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070374/image-removebg-preview_40_ewttkj.png"
   },
   {
     "id": 10,
-    "name": "Starting Air Compressor"
+    "name": "STARTING AIR COMPRESSOR",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759053704/Starting_Air_Compressor_hwtt9w.jpg"
   },
   {
     "id": 11,
-    "name": "Starting Air Compressor"
+    "name": "STARTING AIR COMPRESSOR",
+    "desc": "fully reconditioned",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054036/image-removebg-preview_37_uod0lk.png"
   },
   {
     "id": 12,
-    "name": "Water Cooled Air Compressor - Tanabe H273"
+    "name": "WATER COOLED AIR COMPRESSOR - TANABE H273",
+    "desc": "Tanabe H273",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054026/image-removebg-preview_39_xmwvbo.png"
   },
   {
     "id": 13,
-    "name": "AIR COMPRESSOR"
+    "name": "AIR COMPRESSOR",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054030/image-removebg-preview_38_o7iicj.png"
   },
   {
     "id": 14,
-    "name": "Air Compressor"
+    "name": "AIR COMPRESSOR (Duplicate)",
+    "image": "image_placeholder"
   },
   {
     "id": 15,
-    "name": "Belt Driven Air Compressor"
+    "name": "BELT DRIVEN AIR COMPRESSOR",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070712/image-removebg-preview_44_ykrgyz.png"
   },
   {
     "id": 16,
-    "name": "Air Compressor Component Spares"
+    "name": "AIR COMPRESSOR COMPONENT SPARES",
+    "image": "image_placeholder"
   },
   {
     "id": 17,
-    "name": "Air Compressor Component Spares"
+    "name": "AIR COMPRESSOR COMPONENT SPARES (Duplicate 2)",
+    "image": "image_placeholder"
   },
   {
     "id": 18,
-    "name": "Air Compressor Component Spares"
+    "name": "AIR COMPRESSOR COMPONENT SPARES (Duplicate 3)",
+    "image": "image_placeholder"
   },
   {
     "id": 19,
-    "name": "Air Compressor Component Spares"
+    "name": "AIR COMPRESSOR COMPONENT SPARES (Duplicate 4)",
+    "image": "image_placeholder"
   }
 ]
+
+
+

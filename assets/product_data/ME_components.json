@@ -8,7 +8,7 @@
     "condition": "New, Original",
     "qty": "2 Units",
     "selling_price": "USD 3,650 per unit",
-    "image_url": "https://example.com/image1.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759752844/1758522848_1000166945_tn-removebg-preview_psdd0p.png"
   },
   {
     "id": 2,
@@ -16,9 +16,9 @@
     "make": "MAN",
     "model": "L/S 50MC-C",
     "description": "NON-RETURN VALVE CPL for sale in our Singapore warehouse, readily available.",
-    "quantity": "12pcs",
+    "quantity": "12 pcs",
     "condition": "Good Condition",
-    "image_url": "https://example.com/image2.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044322/NON-RETURN_VALVE_CPL_mt6mvo.png"
   },
   {
     "id": 3,
@@ -26,9 +26,9 @@
     "make": "MAN",
     "model": "L/S 60MC-C",
     "description": "MAN DIESEL & TURBO for sale in our Singapore warehouse, readily available.",
-    "quantity": "12pcs",
+    "quantity": "12 pcs",
     "condition": "Good Condition",
-    "image_url": "https://example.com/image3.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044319/MAN_DIESEL_TURBO_mgtlxz.png"
   },
   {
     "id": 4,
@@ -36,9 +36,9 @@
     "description": "NEEDLE GUIDE + ATOMIZER for sale in our Singapore warehouse, readily available.",
     "spec_no": "2706200490-27",
     "made_in": "Italy",
-    "quantity": "12pcs",
+    "quantity": "12 pcs",
     "condition": "Good Condition",
-    "image_url": "https://example.com/image4.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044316/NEEDLE_GUIDE_yqtifg.png"
   },
   {
     "id": 5,
@@ -49,7 +49,7 @@
     "spec_number": "CPN 10/16 B",
     "quantity": "6 pcs",
     "condition": "Good Condition",
-    "image_url": "https://example.com/image5.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044313/MAN_DIESEL_TURBO_1_mgpd8r.png"
   },
   {
     "id": 6,
@@ -58,8 +58,8 @@
     "model": "7RT FLEX 58TB",
     "description": "Wartsila 7RT FLEX 58TB Piston Crown for sale in our Singapore warehouse, readily available.",
     "qty": "1 pcs",
-    "condition": "Recond, original",
-    "image_url": "https://example.com/image6.jpg"
+    "condition": "Second, original",
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044311/WARTSILA_7RT_FLEX_58TB_PISTON_CROWN_klesi6.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "description": "Pres Vac PV-ECO Valve for sale in our Singapore warehouse, readily available.",
     "qty": "6",
     "condition": "New",
-    "image_url": "https://example.com/image7.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044308/PRES_VAC_PV-ECO_VALVE_r3wgyj.png"
   },
   {
     "id": 8,
@@ -84,6 +84,9 @@
     "description": "Maersk B1000 Cylinder Oil Blending Unit for sale in our Singapore warehouse, readily available.",
     "pressure": "600 bar",
     "temperature": "50℃",
-    "image_url": "https://example.com/image8.jpg"
+    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044304/MAERSK_B1000_CYLINDER_OIL_BLENDING_UNIT_rfjnzc.jpg"
   }
 ]
+
+
+

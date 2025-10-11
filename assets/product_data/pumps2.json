@@ -1,341 +1,252 @@
 [
-{
-    "id": 21,
+  {
+    "id": 1,
     "name": "Allweiler NI 32-125/01 Complete Pump with motor",
     "make": "Allweiler",
     "model": "NI 32-125/01",
-    "capacity": "20m3/hr @ TH: 30m",
-    "bore_size": {
-      "suction": "ID 40 X OD 150mm",
-      "delivery": "ID 40 X OD 150mm"
-    },
-    "flange_pcd": {
-      "suction": "110mm",
-      "delivery": "110mm"
-    },
-    "no_of_bolt": {
-      "suction": "4X19",
-      "delivery": "4X19"
-    },
+    "cap": "20m3/hr@ TH: 30m",
+    "bore_size": "SUC. ID 40 X OD 150mm",
+    "bore_size": "DEL.ID 40 X OD 150mm",
+    "flange_pcd": "SUC 110@ DEL 110mm",
+    "no_of_bolt": "SUC 4X19@ DEL 4X19mm",
     "flange_to_flange": "340mm",
     "flange_type": "InLine",
     "casing_material": "Cast iron",
-    "motor": "3.1kW @440Volts @ 60Hz @ 3560Rpm",
-    "condition": "Used",
-    "image": "https://via.placeholder.com/150"
+    "motor": "3.1kW @440Volts@ 60Hz @ 3560Rpm",
+    "condition": "used",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138001/Allweiler_NI_32-160_01_PumP_nqgokv.png"
   },
   {
-    "id": 22,
-    "name": "HEISHIN GVX160S FIRE & GS PUMP",
-    "image": "https://via.placeholder.com/150"
+    "id": 2,
+    "name": "HEISHIN GVX160S",
+    "desc": "FIRE & GS PUMP",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759910495/HEISHIN_GVX160S-compressed_qypbcn.jpg"
   },
   {
-    "id": 23,
+    "id": 3,
     "name": "HEISHIN VSK-150K",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759139139/HEISHIN_VSK-150K_js3uxo.jpg"
   },
   {
-    "id": 24,
+    "id": 4,
     "name": "TEIKOKU 2VCS-NV Pump with motor",
     "make": "TEIKOKU",
     "model": "2VCS-NV",
-    "capacity": "270M3/H @ TH: 70M",
-    "bore_size": {
-      "suction": "ID 250mm",
-      "delivery": "ID 250mm"
-    },
-    "flange_pcd": {
-      "suction": "355mm",
-      "delivery": "355mm"
-    },
+    "cap": "270M3/H. @ TH: 70M",
+    "bore_size": "SUC. ID 250mm",
+    "bore_size": "DEL.ID 250mm",
+    "flange_pcd": "SUC 355 @ DEL 355mm",
+    "no_of_bolt": "details not available",
+    "flange_to_flange": "details not available",
     "flange_type": "Inline",
     "casing_material": "Cast Iron",
-    "motor": "100kW @440Volts @60Hz @1765rpm",
-    "condition": "Used",
-    "image": "https://via.placeholder.com/150"
+    "motor": "100kw @440Volts@60Hz@1765rpm",
+    "condition": "used",
+    "image": "image_5.jpg"
   },
   {
-    "id": 25,
+    "id": 5,
     "name": "TEIKOKU VCS Centrifugal Pump",
     "make": "TEIKOKU",
     "model": "VCS",
-    "capacity": "168M3/HR @ TH: 30M",
-    "bore_size": {
-      "suction": "ID 150 X OD 170mm",
-      "delivery": "ID 150 X OD 170mm"
-    },
-    "flange_pcd": {
-      "suction": "230mm",
-      "delivery": "230mm"
-    },
-    "no_of_bolt": {
-      "suction": "8X18",
-      "delivery": "8X18"
-    },
-    "flange_to_flange": "595mm",
-    "flange_type": "InLine",
+    "cap": "168M3/HR@ TH: 30M",
+    "bore_size": "SUC. ID 150 X OD 170 MM",
+    "bore_size": "DEL.ID 150 X OD 170 MM",
+    "flange_pcd": "SUC 230 @ DEL 230 MM",
+    "no_of_bolt": "SUC 8X18 @ DEL 8X18 MM",
+    "flange_to_flange": "595 MM",
+    "flange_type": "in-Line",
     "casing_material": "Cast iron",
-    "motor": "kW @ 440Volts @60Hz @1750RPM",
-    "condition": "Used",
-    "image": "https://via.placeholder.com/150"
+    "motor": "kW @ 440 Volts @60Hz@1750 RPM",
+    "condition": "used",
+    "image": "image_6.jpg"
   },
   {
-    "id": 26,
+    "id": 6,
     "name": "TEIKOKU VCS Centrifugal Vertical Pump without motor",
     "make": "TEIKOKU",
     "model": "VCS",
-    "capacity": "56M3/H @ TH: 56M",
-    "bore_size": {
-      "suction": "ID 100mm",
-      "delivery": "ID 100mm"
-    },
-    "flange_pcd": {
-      "suction": "20mm",
-      "delivery": "20mm"
-    },
-    "no_of_bolt": {
-      "suction": "8X20",
-      "delivery": "8X20"
-    },
+    "cap": "56M3/H.TH:56m",
+    "bore_size": "SUC.ID 100 mm",
+    "bore_size": "DEL. ID 100mm",
+    "flange_pcd": "SUC 20 @ DEL: 20 mm",
+    "no_of_bolt": "SUC 8X20 @ DEL: 8X20 mm",
     "flange_to_flange": "530mm",
-    "flange_type": "InLine",
+    "flange_type": "in-Line",
     "casing_material": "Cast Iron",
-    "condition": "Used",
-    "image": "https://via.placeholder.com/150"
+    "motor": "kW @440 Volts @ 60Hz @ 1750 RPM",
+    "condition": "used",
+    "image": "image_7.jpg"
   },
   {
-    "id": 27,
+    "id": 7,
     "name": "TEIKOKU GBX 160X Fire Pump without motor",
     "make": "TEIKOKU",
     "model": "GBX 160X",
-    "bore_size": {
-      "suction": "ID 150 X OD 270mm",
-      "delivery": "ID 150 X OD 280mm"
-    },
-    "flange_pcd": {
-      "suction": "230mm",
-      "delivery": "230mm"
-    },
-    "no_of_bolt": {
-      "suction": "8X22",
-      "delivery": "8X22"
-    },
-    "flange_to_flange": "900mm",
+    "bore_size_suc": "SUC ID 150 X OD 270 mm",
+    "bore_size_del": "DEL ID 150 X OD 280 mm",
+    "flange_pcd": "SUC 230, DEL 230 mm",
+    "no_of_bolt": "SUC 8X22 a DEL 8X22mm",
+    "flange_to_flange": "900 mm",
     "casing_material": "Bronze",
-    "condition": "Used",
-    "image": "https://via.placeholder.com/150"
+    "condition": "used",
+    "image": "image_8.jpg"
   },
   {
-    "id": 28,
+    "id": 8,
     "name": "SHINKO GVD 400 Centrifugal Vertical Pump without motor",
     "make": "SHINKO",
     "model": "GVD 400",
-    "capacity": "1200M3/H @ TH: 20M",
-    "bore_size": {
-      "suction": "ID 400 X OD 540mm",
-      "delivery": "ID 400 X OD 540mm"
-    },
-    "flange_pcd": {
-      "suction": "500mm",
-      "delivery": "500mm"
-    },
-    "no_of_bolt": {
-      "suction": "16X25",
-      "delivery": "16X25"
-    },
-    "flange_to_flange": "1400mm",
-    "flange_type": "InLine",
+    "cap": "1200M3/H. @TH: 20m",
+    "bore_size_suc": "SUC. ID 400 X OD 540 mm",
+    "bore_size_del": "DEL.ID 400 X OD 540 mm",
+    "flange_pcd": "SUC 500 X DEL 500 mm",
+    "no_of_bolt": "SUC 16X25 @ DEL 16X25 mm",
+    "flange_to_flange": "1400 mm",
+    "flange_type": "In-Line",
     "casing_material": "Bronze & Cast Iron",
-    "motor": "440 Volts @60Hz @1150RPM",
-    "image": "https://via.placeholder.com/150"
+    "motor": "440 Volts @60 Hz @ 1150 Rpm",
+    "image": "image_9.jpg"
   },
   {
-    "id": 29,
-    "name": "NANIWA 250M/M TOM-250-2 Main Engine Lube Oil Pump (Deep Oil)",
+    "id": 9,
+    "name": "NANIWA 250M/M TOM-250-2 Main Engine Lube Oil Pump",
+    "desc": "NANIWA 250M/M TOM-250-2 Main Engine Lube Oil Pump (Deep Oil)",
     "make": "NANIWA",
     "model": "250M/M TOM-250-2",
-    "capacity": "352M3/H @ TH: 4.5KG/CM2",
-    "motor": "100KW @ 1750RPM",
+    "cap": "352M2/H @ TH: 4.5KG/CM2",
+    "output": "-100KW, RPM: 1750r/m",
     "date": "AUG 1989",
     "mfg_no": "63-0167",
-    "image": "https://via.placeholder.com/150"
+    "image": "image_10.jpg"
   },
   {
-    "id": 30,
+    "id": 10,
     "name": "ISHII 150 BFE Pump",
     "make": "ISHII",
     "model": "150 BFE",
-    "capacity": "180M3/H",
-    "bore_size": {
-      "suction": "ID 150mm",
-      "delivery": "ID 150mm"
-    },
-    "flange_pcd": {
-      "suction": "240mm",
-      "delivery": "230mm"
-    },
-    "no_of_bolt": {
-      "suction": "8X20",
-      "delivery": "8X18"
-    },
-    "flange_to_flange": "650mm",
-    "flange_thickness": {
-      "inlet": "22mm",
-      "outlet": "22mm"
-    },
+    "cap": "180 M3/H",
+    "bore_size": "SUC.ID 150mm",
+    "bore_size": "DEL. ID 150mm",
+    "flange_pcd": "SUC 240 @ DEL 230mm",
+    "no_of_bolt": "SUC 8X20 @ DEL 8X18 mm",
+    "flange_to_flange": "650 mm",
+    "flange_thick": "22mm Inlet, 22mm Outlet",
     "flange_type": "Offset",
     "casing_material": "Cast Iron",
-    "motor": "37kW @440Volts @60Hz @1760RPM",
-    "image": "https://via.placeholder.com/150"
+    "motor": "37kw@440Volts@60Hz@1760 rpm",
+    "image": "image_11.jpg"
   },
   {
-    "id": 31,
+    "id": 11,
     "name": "IRON CNLB 150-125/250 Centrifugal Vertical Pump without motor",
-    "make": "IRON",
+    "make": "Iron",
     "model": "CNLB 150-125/250",
-    "capacity": "170M3/H @ TH: 30M",
-    "bore_size": {
-      "suction": "ID 150mm",
-      "delivery": "ID 125mm"
-    },
-    "flange_pcd": {
-      "suction": "240mm",
-      "delivery": "210mm"
-    },
-    "no_of_bolt": {
-      "suction": "8X20",
-      "delivery": "8X20"
-    },
-    "flange_to_flange": "710mm",
-    "flange_type": "InLine",
+    "cap": "170M3/H.TH: 30m",
+    "bore_size_suc": "SUC.ID 150 mm",
+    "bore_size_del": "DEL. ID 125 mm",
+    "flange_pcd": "SUC 240MM @ DEL 210 mm",
+    "no_of_bolt": "SUC 8X20 a DEL: 8X20 mm",
+    "flange_to_flange": "710 mm",
+    "flange_type": "in-Line",
     "casing_material": "Cast Iron",
-    "motor": "22.80kW @440Volts @60Hz @1760RPM",
+    "motor": "22.80kw @ 440 Volts @ 60 Hz @ 1760 RPM",
     "condition": "New",
-    "image": "https://via.placeholder.com/150"
+    "image": "image_12.jpg"
   },
   {
-    "id": 32,
+    "id": 12,
     "name": "HEISHIN VSK50J Centrifugal Vertical Pump without motor",
     "make": "Heishin",
     "model": "VSK50J",
-    "capacity": "50M3/HR @ TH: 55M",
-    "bore_size": {
-      "suction": "ID 100mm",
-      "delivery": "ID 100mm"
-    },
-    "flange_pcd": {
-      "suction": "165mm",
-      "delivery": "165mm"
-    },
-    "no_of_bolt": {
-      "suction": "8X18",
-      "delivery": "8X18"
-    },
-    "flange_to_flange": "550mm",
-    "flange_type": "InLine",
+    "cap": "50M3/HR @ TH: 55m",
+    "bore_size": "SUC.ID 100 mm",
+    "bore_size": "DEL. ID 100 mm",
+    "flange_pcd": "SUC 165 @ DEL: 165 mm",
+    "no_of_bolt": "SUC 8X18 @ DEL 8X18 mm",
+    "flange_to_flange": "550 mm",
+    "flange_type": "in-Line",
     "casing_material": "Cast iron",
-    "motor": "22kW @440Volts @60Hz @1735RPM",
-    "condition": "Used",
-    "image": "https://via.placeholder.com/150"
+    "motor": "22kw @ 440 Volts @ 60Hz @ 1735 Rpm",
+    "condition": "used",
+    "image": "image_13.jpg"
   },
   {
-    "id": 33,
+    "id": 13,
     "name": "HEISHIN VK250 Pump without motor",
     "make": "Heishin",
     "model": "VK250",
-    "capacity": "350M3/HR @ TH: 30M",
-    "bore_size": {
-      "suction": "ID 250mm",
-      "delivery": "ID 250mm"
-    },
-    "flange_pcd": {
-      "suction": "345mm",
-      "delivery": "345mm"
-    },
-    "no_of_bolt": {
-      "suction": "12X25",
-      "delivery": "12X25"
-    },
-    "flange_to_flange": "730mm",
-    "flange_type": "InLine",
+    "cap": "350M3/HR. @ TH: 30m",
+    "bore_size": "SUC. ID 250 X OD mm",
+    "bore_size": "DEL.ID 250 X OD mm",
+    "flange_pcd": "SUC 345 a DEL 345 mm",
+    "no_of_bolt": "SUC 12x25 @ DEL 12×25 mm",
+    "flange_to_flange": "730 mm",
+    "flange_type": "in-Line",
     "shaft_seal": "Gland Packing Type",
-    "motor": "30kW",
-    "condition": "Reconditioned",
-    "image": "https://via.placeholder.com/150"
+    "motor": "30kw",
+    "condition": "reconditioned",
+    "image": "image_14.jpg"
   },
   {
-    "id": 34,
-    "name": "DMC-125C-FM Vertical Centrifugal Pump",
+    "id": 14,
+    "name": "DMC-125C-FM Vertical Centrifugal Pump With Motor",
     "make": "DBR",
     "model": "DMC-125C-FM",
-    "capacity": "80M3/hr @ TH: 26M",
-    "bore_size": {
-      "suction": "ID 125mm",
-      "delivery": "ID 125mm"
-    },
-    "flange_pcd": {
-      "suction": "200mm",
-      "delivery": "200mm"
-    },
-    "no_of_bolt": {
-      "suction": "8X20",
-      "delivery": "8X20"
-    },
-    "flange_to_flange": "605mm",
-    "flange_type": "InLine",
+    "cap": "80M3/hr @ TH: 26m",
+    "bore_size_suc": "SUC. ID 125 mm",
+    "bore_size_del": "DEL.ID 125mm",
+    "flange_pcd": "SUC 200 @ DEL 200 mm",
+    "no_of_bolt": "SUC 8X20 @ DEL 8X20 mm",
+    "flange_to_flange": "605 mm",
+    "flange_type": "in-Line",
     "casing_material": "Cast Iron",
-    "motor": "11kW @440Volts @60Hz @1750RPM",
+    "motor": "11kW @ 440Volts @60Hz@1750RPM",
     "condition": "Reconditioned",
-    "image": "https://via.placeholder.com/150"
+    "image": "image_15.jpg"
   },
   {
-    "id": 35,
-    "name": "AG NIM 80-315U3 120D-S-W3-V5 Pump",
+    "id": 15,
+    "name": "ALLWEILER AGNIM 80-315U3 120D-S-W3-V5 Pump",
     "make": "Allweiler",
     "model": "AG NIM 80-315U3 120D-S-W3-V5",
-    "capacity": "156M3/hr @ TH: 30m",
-    "bore_size": {
-      "suction": "ID 125 X OD 247mm",
-      "delivery": "ID 100 X OD 220mm"
-    },
-    "flange_pcd": {
-      "suction": "210mm",
-      "delivery": "180mm"
-    },
-    "no_of_bolt": {
-      "suction": "8X20",
-      "delivery": "8X20"
-    },
+    "cap": "156M3/hr @TH: 30m",
+    "bore_size": "SUC. ID 125x OD 247mm",
+    "bore_size": "DEL. ID 100 X OD 220mm",
+    "flange_pcd": "SUC 210 @ DEL 180mm",
+    "no_of_bolt": "SUC 8X20 @ DEL 8X20mm",
     "flange_to_flange": "760mm",
     "flange_type": "Inline",
     "casing_material": "Cast iron",
-    "motor": "20.9kW @440Volts @60Hz @1750RPM",
-    "condition": "Screw type pump",
-    "image": "https://via.placeholder.com/150"
+    "motor": "20. 9kW @ 440Volts @ 60Hz @ 1750RPM",
+    "image": "image_16.jpg"
   },
   {
-    "id": 36,
-    "name": "Impeller & consummables Pump",
-    "image": "https://via.placeholder.com/150"
+    "id": 16,
+    "name": "Screw type pump",
+    "desc": "impeller and consumables",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759139129/Screw_type_pump_j5hlza.png"
   },
   {
-    "id": 37,
-    "name": "Pump",
-    "image": "https://via.placeholder.com/150"
+    "id": 17,
+    "name": "pump",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759139121/Pump_dyzmnr.png"
   },
   {
-    "id": 38,
+    "id": 18,
     "name": "Cargo Pump",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759139113/Cargo_Pump_ljoljf.png"
   },
   {
-    "id": 39,
+    "id": 19,
     "name": "Pump",
-    "image": "https://via.placeholder.com/150"
+    "condition": "reconditioned",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759139105/Pump_1_dicrat.png"
   },
   {
-    "id": 40,
-    "name": "Taiko Kikai - Cargo Pump CGL750",
-    "image": "https://via.placeholder.com/150"
+    "id": 20,
+    "name": "Taiko Kikai - Cargo Pump",
+    "desc": "CGL750, Fully Reconditioned & Ready for Delivery",
+    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759139099/Taiko_Kikai_-_Cargo_Pump_rnjai8.png"
   }
 ]
