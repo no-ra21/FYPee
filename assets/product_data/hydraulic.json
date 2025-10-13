@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "name": "MITSUBISHI JANNEY PUMP 6V-FH2B-MK-RFBLA100D11",
+    "make": "MITSUBISHI",
+    "model": "6V-FH2B-MK-RFBLA100D11",
+    "quantity": "1 unit",
+    "condition": "New, Original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142220/MITSUBISHI_JANNEY_PUMP_o4njbn.png"
+  },
+  {
+    "id": 2,
+    "name": "STAFFA HMC125 HYDRAULIC MOTOR",
+    "make": "Staffa",
+    "model": "HMC 125",
+    "quantity": "1 unit",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759911571/STAFFA_HMC125_Hydraulic_Motor.jpeg_nyeeun.png"
+  },
+  {
+    "id": 3,
+    "name": "STAFFA HMC200/S3/188/110/FM3 HYDRAULIC MOTOR",
+    "make": "Staffa",
+    "model": "HMC200/S3/188/110/FM3",
+    "quantity": "1 unit",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142257/STAFFA_HMC200_S3_188_110_FM3_HYDRAULIC_MOTOR_klces1.png"
+  },
+  {
+    "id": 4,
+    "name": "STAFFA HMCK200 T3 HYDRAULIC MOTOR",
+    "make": "Staffa",
+    "model": "HMCK200 T3",
+    "quantity": "1 unit",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142276/STAFFA_HYDRAULIC_MOTOR_HMCK200_T3_daeqod_hwjltn.png"
+  },
+  {
+    "id": 5,
+    "name": "STAFFA HMKC080T3/90/35W1 HYDRAULIC MOTOR",
+    "make": "Staffa",
+    "model": "HMKC080T3/90/35W1",
+    "quantity": "1 unit",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142266/STAFFA_HMKC080T3_90_35W1_HYDRAULIC_MOTOR_mpkk2e.png"
+  },
+  {
+    "id": 6,
+    "name": "KAWASAKI HMC270/Z/FM4/X HYDRAULIC MOTOR",
+    "make": "KAWASAKI",
+    "model": "HMC270/Z/FM4/X",
+    "quantity": "1 unit",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142138/KAWASAKI_HMC270_Z_FM4_X_HYDRAULIC_MOTOR_hsyjmc.png"
+  },
+  {
+    "id": 7,
+    "name": "KAWASAKI HYDRAULIC MOTOR SB510V3-10050-110-ENTX",
+    "make": "KAWASAKI",
+    "model": "SB510V3-10050-110-ENTX",
+    "quantity": "1 unit",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142184/KAWASAKI_HYDRAULIC_MOTOR_SB510V3-10050-110-ENTX_pfz6pb.png"
+  },
+  {
+    "id": 8,
+    "name": "SMA 1600 RADIAL PISTON MOTOR",
+    "quantity": "1 unit",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142238/SMA_1600_RADIAL_PISTON_MOTOR_pwmhtw.png"
+  },
+  {
+    "id": 9,
+    "name": "KAWASAKI HYDRAULIC MOTOR HMC 270",
+    "make": "KAWASAKI",
+    "model": "HMC 270",
+    "quantity": "1 unit",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142175/KAWASAKI_HYDRAULIC_MOTOR_HMC_270_xekzed.png"
+  },
+  {
+    "id": 10,
+    "name": "KAWASAKI HYDRAULIC MOTOR HMC 200",
+    "make": "KAWASAKI",
+    "model": "HMC 200",
+    "quantity": "1 unit",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142166/KAWASAKI_HYDRAULIC_MOTOR_HMC_200_po63gk.png"
+  },
+  {
+    "id": 11,
+    "name": "KAWASAKI HYDRAULIC MOTOR SX 540",
+    "make": "KAWASAKI",
+    "model": "SX 540",
+    "quantity": "1 unit",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142194/KAWASAKI_HYDRAULIC_MOTOR_SX_540_qua2to.png"
+  },
+  {
+    "id": 12,
+    "name": "KAWASAKI HYDRAULIC MOTOR COMPLETE HMC 270/S/280/140/FM4/X/71/PL621",
+    "make": "KAWASAKI",
+    "model": "HMC 270/S/280/140/FM4/X/71/PL621",
+    "specifications": {
+      "spline_shaft": "20 teeth",
+      "shaft_diameter": "88mm",
+      "type": "Radial piston type",
+      "stamping_details": "280 140 2768 (80)",
+      "serial": "01H14277\n025491H SRS 13401"
+    },
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142158/KAWASAKI_HYDRAULIC_MOTOR_COMPLETE_HMC_270_S_280_140_FM4_X_71_PL621_zajrtg.png"
+  },
+  {
+    "id": 13,
+    "name": "KAWASAKI HYDRAULIC MOTOR COMPLETE HMC 080/S/55/20/FM3/X/70/PL40",
+    "make": "KAWASAKI",
+    "model": "HMC 080/S/55/20/FM3/X/70/PL40",
+    "condition": "Reconditioned, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142148/KAWASAKI_HYDRAULIC_MOTOR_COMPLETE_HMC_080_S_55_20_FM3_X_70_PL40_kmgyad.png"
+  },
+  {
+    "id": 14,
+    "name": "STAFFA HMB125 S04/70 HYDRAULIC MOTOR",
+    "make": "Staffa",
+    "model": "HMB125 S04/70",
+    "quantity": "1 unit",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142248/STAFFA_HMB125_S04_70_HYDRAULIC_MOTOR_on1vsw.png"
+  },
+  {
+    "id": 15,
+    "name": "MITSUBISHI 3V-FH2B-15 JANNEY PUMP",
+    "make": "MITSUBISHI",
+    "model": "3V-fH2B-15",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142211/MITSUBISHI_3V_FH2B_15_JANNEY_PUMP_juzyer_shslcl.png"
+  },
+  {
+    "id": 16,
+    "name": "REXROTH A11VO AXIAL PISTON VARIABLE PUMP",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142536/REXROTH_A11VO_AXIAL_PISTON_VARIABLE_PUMP_sj8rrq.png"
+  },
+  {
+    "id": 17,
+    "name": "REXROTH A2FM56 MOTOR",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142528/REXROTH_A2FM56_MOTOR_j91ybv.png"
+  },
+  {
+    "id": 18,
+    "name": "UCHIDA A6V500 MOTOR",
+    "make": "Uchida",
+    "model": "A6V500",
+    "quantity": "2 units",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142304/UCHIDA_MOTOR_A6V500_jbpk4p_bugati.png"
+  },
+  {
+    "id": 19,
+    "name": "UCHIDA A2F HYDRAULIC MOTOR",
+    "make": "Uchida",
+    "model": "A2F",
+    "quantity": "2 units",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853404/UCHIDA_A2F_HYFRAULIC_MOTOR_gkvksh.png"
+  },
+  {
+    "id": 20,
+    "name": "MITSUBISHI RMC 210A-L-22Y HYDRAULIC MOTOR",
+    "make": "MITSUBISHI",
+    "model": "RMC 21A-L-22Y",
+    "quantity": "1 unit",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142202/MITSUBISHI_RMC_210A-L-22Y_HYDRAULIC_MOTOR_buyrvw.png"
+  },
+  {
+    "id": 21,
+    "name": "IHI HV N HYDRAULIC MOTOR",
+    "make": "IHI",
+    "model": "HV N",
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142120/IHI_HYDRAULIC_MOTOR_ysqahz.png"
+  },
+  {
+    "id": 22,
+    "name": "IHI 6N-67 VS HYDRAULIC PUMP",
+    "make": "IHI",
+    "model": "6N-67 VS",
+    "quantity": "1 unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142129/IHI_HYDRAULIC_MOTOR_6N_67_VS-removebg-preview_vn1wuc_nhaonx.png"
+  },
+  {
+    "id": 23,
+    "name": "FUKUSHIMA FG 31 HYDRAULIC PUMP",
+    "make": "Fukushima",
+    "model": "FG 31",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142111/FUKUSHIMA_FG_31_HYDRAULIC_PUMP_wkoqh3.png"
+  },
+    {
+    "id": 24,
+    "name": "FUKUSHIMA FG 16 HYDRAULIC PUMP",
+    "make": "Fukushima",
+    "model": "FG 16",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142104/FUKUSHIMA_FG_16_HYDRAULIC_PUMP_mox3il.png"
+  },
+  {
+    "id": 25,
+    "name": "Hydraulic Motor & Pump Spares",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142769/Hydraulic_Motor_Pump_spares_r8inoe.png"
+  },
+  {
+    "id": 26,
+    "name": "Hydraulic Motors",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142759/Hydraulic_Motors_mmkzns.png"
+  },
+  {
+    "id": 27,
+    "name": "Crane Hydraulic Motor",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853552/Crane_Hydraulic_Motor_e0d0mp.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Hydraulic Motor and Pump Spares",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142749/Hydraulic_Motor_and_Pump_spares_c0zz4h.png"
+  },
+  {
+    "id": 29,
+    "name": "Hydraulic Motor",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142740/Hydraulic_Motor_1_jqgdqo.jpg"
+  },
+  {
+    "id": 30,
+    "name": "PNEUMATIC HYDRAULIC PUMP PHP 1500",
+    "model": "PHP 1500",
+    "description": "Pneumatic Hydraulic Pump developed by Ark Vision Spare & Engineering Pte Ltd.",
+    "specifications": {
+      "type": "Pneumatic Hydraulic Pumps",
+      "output_pressure": "1500 bar at 7 bar air input",
+      "air_consumption": "500 ltrs/min at 7 bar air input",
+      "pumping_speed": "Approx. 550 Cycle/min @ 7 bar air input",
+      "displacement_per_cycle": "0.45 cm3",
+      "max_flow_at_no_pressure": "Approx. 0.25 ltrs/min @ 7 bar air input",
+      "tank_capacity": "2 Litres",
+      "fitting_air_inlet": "G 1/2",
+      "fitting_h.p._outlet": "G 1/4",
+      "approx_dimension": "370mm x 255mm x 323mm",
+      "weight": "16Kg"
+    },
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142731/Pneumatic_Hydraulic_Pumps_1_zuciih.png"
+  }
+
+
+]

@@ -1,6 +1,7 @@
-{
-  "id": 1,
-  "name": "Breathing Air Compressor",
-  "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759071254/image-removebg-preview_45_cchx4x.png"
-}
-
+[
+  {
+    "id": 1,
+    "name": "Breathing Air Compressor",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759071254/image-removebg-preview_45_cchx4x.png"
+  }
+]

@@ -28,42 +28,42 @@
   {
     "id": 2,
     "name": "TANABE H73 AIR COMPRESSOR",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759053751/TANABE_H73_AIR_COMPRESSOR_irgfm4.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759053751/TANABE_H73_AIR_COMPRESSOR_irgfm4.png"
   },
   {
     "id": 3,
     "name": "TANABE H64 AIR COMPRESSOR",
     "condition": "New, original",
     "quantity": "1 unit",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054065/image-removebg-preview_33_c7nnpl.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054065/image-removebg-preview_33_c7nnpl.png"
   },
   {
     "id": 4,
     "name": "TANABE H373 AIR COMPRESSOR",
     "condition": "New, original",
     "quantity": "1 unit",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054058/image-removebg-preview_34_f6qxgx.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054058/image-removebg-preview_34_f6qxgx.png"
   },
   {
     "id": 5,
     "name": "TANABE H74 AIR COMPRESSOR",
     "condition": "New, original",
     "quantity": "1 unit",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070662/image-removebg-preview_43_rt0s94.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070662/image-removebg-preview_43_rt0s94.png"
   },
   {
     "id": 6,
     "name": "TANABE H63 AIR COMPRESSOR",
     "condition": "New, original",
     "quantity": "1 unit",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070586/image-removebg-preview_42_k15bqq.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070586/image-removebg-preview_42_k15bqq.png"
   },
   {
     "id": 7,
     "name": "YANMAR SC 40N AIR COMPRESSOR",
     "condition": "New, original",
     "quantity": "1 unit",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054052/image-removebg-preview_35_iiwqvz.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054052/image-removebg-preview_35_iiwqvz.png"
   },
   {
     "id": 8,
@@ -72,7 +72,7 @@
     "model": "H274",
     "speed": "1800 rpm",
     "condition": "New, original",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054044/image-removebg-preview_36_nlzgfe.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054044/image-removebg-preview_36_nlzgfe.png"
   },
   {
     "id": 9,
@@ -89,59 +89,59 @@
     "speed": "1800 rpm",
     "power_reqd": "65 kW",
     "condition": "New, original",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070374/image-removebg-preview_40_ewttkj.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070374/image-removebg-preview_40_ewttkj.png"
   },
   {
     "id": 10,
     "name": "STARTING AIR COMPRESSOR",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759053704/Starting_Air_Compressor_hwtt9w.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759053704/Starting_Air_Compressor_hwtt9w.jpg"
   },
   {
     "id": 11,
     "name": "STARTING AIR COMPRESSOR",
     "desc": "fully reconditioned",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054036/image-removebg-preview_37_uod0lk.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054036/image-removebg-preview_37_uod0lk.png"
   },
   {
     "id": 12,
     "name": "WATER COOLED AIR COMPRESSOR - TANABE H273",
     "desc": "Tanabe H273",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054026/image-removebg-preview_39_xmwvbo.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054026/image-removebg-preview_39_xmwvbo.png"
   },
   {
     "id": 13,
     "name": "AIR COMPRESSOR",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054030/image-removebg-preview_38_o7iicj.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759054030/image-removebg-preview_38_o7iicj.png"
   },
   {
     "id": 14,
     "name": "AIR COMPRESSOR (Duplicate)",
-    "image": "image_placeholder"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759858058/Air_compressor_1_se9w9z.png"
   },
   {
     "id": 15,
     "name": "BELT DRIVEN AIR COMPRESSOR",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070712/image-removebg-preview_44_ykrgyz.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070712/image-removebg-preview_44_ykrgyz.png"
   },
   {
     "id": 16,
     "name": "AIR COMPRESSOR COMPONENT SPARES",
-    "image": "image_placeholder"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759858108/Air_Compressor_Component_Spares_1_n5jfxz.jpg"
   },
   {
     "id": 17,
     "name": "AIR COMPRESSOR COMPONENT SPARES (Duplicate 2)",
-    "image": "image_placeholder"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759893942/Air_Compressor_Component_Spares_2_utxgtz.jpg"
   },
   {
     "id": 18,
     "name": "AIR COMPRESSOR COMPONENT SPARES (Duplicate 3)",
-    "image": "image_placeholder"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759894036/Air_Compressor_Component_spares_3_cvq213.jpg"
   },
   {
     "id": 19,
     "name": "AIR COMPRESSOR COMPONENT SPARES (Duplicate 4)",
-    "image": "image_placeholder"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759894095/Air_Compressor_Component_Spares_4_jsmeur.jpg"
   }
 ]
 

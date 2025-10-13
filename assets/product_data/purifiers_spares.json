@@ -2,36 +2,36 @@
   {
     "id": 1,
     "name": "Spare Parts",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759857921/Spare_parts-compressed_woqz5r.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759857921/Spare_parts-compressed_woqz5r.jpg"
   },
   {
     "id": 2,
     "name": "Consumable spares",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759071648/Consummable_spares_7_cqajq5.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759071648/Consummable_spares_7_cqajq5.png"
   },
   {
     "id": 3,
     "name": "Consumable spares",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759856054/Consummable_spares_11-compressed_es19yc.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759856054/Consummable_spares_11-compressed_es19yc.jpg"
   },
   {
     "id": 4,
     "name": "Bowl Assembly",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759071772/BOWL_ASSEMBLY_brmd9v.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759071772/BOWL_ASSEMBLY_brmd9v.png"
   },
   {
     "id": 5,
     "name": "Consummable spares",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759071736/Consummable_spares_fjrqtj.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759071736/Consummable_spares_fjrqtj.png"
   },
   {
     "id": 6,
     "name": "Consumable spares",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759894587/Consummable_spares_1_onkrtm.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759894587/Consummable_spares_1_onkrtm.jpg"
   },
   {
     "id": 7,
     "name": "Consumable spares",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759894703/Consummable_spares_2-compressed_gzhfud.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759894703/Consummable_spares_2-compressed_gzhfud.jpg"
   }
 ]

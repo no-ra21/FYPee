@@ -3,31 +3,31 @@
     "id": 1,
     "name": "Screw Air Compressor",
     "description": "Assembling and testing of new Screw Air Compressors",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853902/Screw_Air_Compressor_hwqgge.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853902/Screw_Air_Compressor_hwqgge.jpg"
   },
   {
     "id": 2,
     "name": "Ark Vision Screw Air Compressor-Direct Drive",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853900/Ark_Vision_Screw_Air_Compressor-Direct_Drive_hmhnzk.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853900/Ark_Vision_Screw_Air_Compressor-Direct_Drive_hmhnzk.png"
   },
   {
     "id": 3,
     "name": "Ark Vision Screw Air Compressor-Belt Drive",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853897/Ark_Vision_Screw_Air_Compressor-Belt_Drive_eeuqfh.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853897/Ark_Vision_Screw_Air_Compressor-Belt_Drive_eeuqfh.png"
   },
   {
     "id": 4,
     "name": "Ark Vision Service Air Compressor",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853895/Ark_Vision_Service_Air_Compressor_yidhcg.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853895/Ark_Vision_Service_Air_Compressor_yidhcg.jpg"
   },
   {
     "id": 5,
     "name": "Ark Vision Service Air Compressors",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853894/Ark_Vision_Service_Air_Compressor_1_u4duvf.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853894/Ark_Vision_Service_Air_Compressor_1_u4duvf.png"
   },
   {
     "id": 6,
     "name": "Refrigeration Air Dryers",
-    "image": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853893/Refrigeration_Air_Dryers_dadq5n.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853893/Refrigeration_Air_Dryers_dadq5n.png"
   }
 ]

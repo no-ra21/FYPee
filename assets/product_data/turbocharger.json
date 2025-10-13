@@ -4,216 +4,624 @@
     "name": "MITSUBISHI MET 18SRC EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "Mitsubishi",
     "model": "MET 18SRC",
-    "spec": "CV1E37DCW111KJ35M",
-    "s/n": "94718, Jun 2012",
-    "max_cont_speed": "66400min 1",
-    "max_cont_gas_temp": "610 deg C",
     "quantity": 1,
     "condition": "New, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "spec": "CV1E37DCW111KJ35M",
+      "s/n": "94718, Jun 2012",
+      "max_cont_speed": "66400min 1",
+      "max_cont_gas_temp": "610 deg C"
+    }
   },
   {
     "id": 2,
     "name": "MAN NR 20/170 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "MAN",
     "model": "NR 20/170",
-    "atl_nr": "FE 46547 0001",
-    "ausf_nr": "5354 970 7211",
     "quantity": 1,
     "condition": "Used, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "atl_nr": "FE 46547 0001",
+      "ausf_nr": "5354 970 7211"
+    }
   },
   {
     "id": 3,
     "name": "KKK K54 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "KKK",
     "model": "K54",
-    "atl_nr": "FE 46547 0001",
-    "ausf_nr": "5354 970 7211",
     "quantity": 1,
     "condition": "Used, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "atl_nr": "FE 46547 0001",
+      "ausf_nr": "5354 970 7211"
+    }
   },
   {
     "id": 4,
     "name": "KKK K54 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "KKK",
     "model": "K54",
-    "atl_nr": "94 862 2451",
-    "ausf_nr": "5354 970 7211",
     "quantity": 1,
     "condition": "Recond, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "atl_nr": "94 862 2451",
+      "ausf_nr": "5354 970 7211"
+    }
   },
   {
     "id": 5,
     "name": "NIIGATA NHP180AB/8064 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "Niigata",
     "model": "NHP180AB/8064",
-    "max_cont_speed": "27000 RPM",
-    "max_temp": "650'C",
-    "date": "APR-1972",
-    "s/n": "3-318.F-78",
-    "made_in": "Japan",
     "quantity": 1,
     "condition": "Recond, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "max_cont_speed": "27000 RPM",
+      "max_temp": "650'C",
+      "date": "APR-1972",
+      "s/n": "3-318.F-78",
+      "made_in": "Japan"
+    }
   },
   {
-  "id": 6,
-  "name": "BBC VTR 250L EXHAUST GAS TURBOCHARGER COMPLETE",
-  "make": "BBC",
-  "model": "VTR 250L",
-  "nmax": "22500 Min @ Tmax: 670 'C",
-  "specs": "Specific: -Z7B 17, 8 ICI 121A WE3\nT: 03211 @ H: 62122\nS/N: 329388\nIHI TOKYO JAPAN",
-  "quantity": "1",
-  "condition": "Recond, Original",
-  "image": "placeholder1.jpg"
+    "id": 6,
+    "name": "BBC VTR 250L EXHAUST GAS TURBOCHARGER COMPLETE",
+    "make": "BBC",
+    "model": "VTR 250L",
+    "quantity": 1,
+    "condition": "Recond, Original",
+    "imageUrl": "placeholder1.jpg",
+    "specifications": {
+      "nmax": "22500 Min @ Tmax: 670 'C",
+      "specs": "Specific: -Z7B 17, 8 ICI 121A WE3\nT: 03211 @ H: 62122\nS/N: 329388\nIHI TOKYO JAPAN"
+    }
   },
   {
     "id": 7,
     "name": "IHI BBC VTR 564-32 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "IHI",
     "model": "VTR 564-32",
-    "specs": "14100 RPM @ Tmax: 620 'C\nV00115 R 062 H0411\nW11100 E03114",
-    "s/n": "Xi423823\n14100 T01100",
     "quantity": 1,
     "condition": "Used, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "specs": "14100 RPM @ Tmax: 620 'C\nV00115 R 062 H0411\nW11100 E03114",
+      "s/n": "Xi423823\n14100 T01100"
+    }
   },
   {
     "id": 8,
     "name": "BBC VTR 200N EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "BBC",
     "model": "VTR 200N",
-    "nmax": "3500/Min 'C @ Tmax: 670\nNo. HT 414666\nIHI Tokyo Japan",
     "quantity": 1,
     "condition": "Recond, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "nmax": "3500/Min 'C @ Tmax: 670",
+      "notes": "No. HT 414666\nIHI Tokyo Japan"
+    }
   },
   {
     "id": 9,
     "name": "IHI RH 183 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "IHI",
     "model": "RH 183",
-    "specs": "C51206 D02210 T01108 H03614, RH272711, 914 650\nIHI Tokyo Japan",
-    "quantity": "2",
+    "quantity": 2,
     "condition": "Recond, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "specs": "C51206 D02210 T01108 H03614, RH272711, 914 650\nIHI Tokyo Japan"
+    }
   },
   {
     "id": 10,
     "name": "IHI RH-163 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "IHI",
     "model": "RH-163",
-    "nmax": "1055 'C @ Tmax: 710 'C\nABB Tokyo Japan",
     "quantity": 1,
     "condition": "Used, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "nmax": "1055 'C @ Tmax: 710 'C",
+      "origin": "ABB Tokyo Japan"
+    }
   },
   {
     "id": 11,
     "name": "ABB RR151-14 EXHAUST GAS TURBO CHARGER COMPLETE",
     "make": "ABB",
     "model": "RR151-14",
-    "ht": "407491",
-    "nmmax": "1083'C @ TMmax: 710 'C\nABB Tokyo Japan",
     "quantity": 1,
     "condition": "Used, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "ht": "407491",
+      "nmmax": "1083'C @ TMmax: 710 'C",
+      "origin": "ABB Tokyo Japan"
+    }
   },
   {
     "id": 12,
     "name": "IHI-BBC VTR 201-2 160421 S EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "IHI-BBC",
     "model": "VTR 201-2",
-    "xi": "160421 S",
-    "tmax": "650 'C @ Nmax: 600",
-    "specific": "PGK5T 15.7 II CH54 W3P\nIHI Tokyo Japan",
     "quantity": 1,
     "condition": "Used, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "xi": "160421 S",
+      "tmax": "650 'C @ Nmax: 600",
+      "specific": "PGK5T 15.7 II CH54 W3P\nIHI Tokyo Japan"
+    }
   },
   {
     "id": 13,
     "name": "IHI-BBC VTR 201-2 160422 S EXHAUST GAS TURBO CHARGER COMPLETE",
     "make": "IHI-BCC",
     "model": "VTR 201-2",
-    "xi": "160422 S",
-    "tmax": "650 'C @ Nmax: 600",
-    "specific": "PGK5T 15.7 II CH54 W3P\nIHI Tokyo Japan",
     "quantity": 1,
     "condition": "Used, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "xi": "160422 S",
+      "tmax": "650 'C @ Nmax: 600",
+      "specific": "PGK5T 15.7 II CH54 W3P\nIHI Tokyo Japan"
+    }
   },
   {
     "id": 14,
     "name": "IHI-BBC VTR 201-2 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "IHI-BBC",
     "model": "VTR 201-2",
-    "xi": "141436 S",
-    "tmax": "650 'C @ Nmax: 600",
-    "specific": "PGK5NT. 14. 9 II CH44 W3P\nIHI Tokyo Japan",
     "quantity": 1,
     "condition": "Used, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "xi": "141436 S",
+      "tmax": "650 'C @ Nmax: 600",
+      "specific": "PGK5NT. 14. 9 II CH44 W3P\nIHI Tokyo Japan"
+    }
   },
   {
     "id": 15,
     "name": "IHI-BBC VTR 161 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "IHI-BBC",
     "model": "VTR 161",
-    "tmax": "620 'C @ N max: 750 S-1",
-    "specific": "PGB8T. 13. 9 IVCP44.6W3P\nIHI Tokyo Japan",
     "quantity": 1,
     "condition": "Used, Original",
-    "image_url": "https://via.placeholder.com/150"
+    "imageUrl": "https://via.placeholder.com/150",
+    "specifications": {
+      "tmax": "620 'C @ N max: 750 S-1",
+      "specific": "PGB8T. 13. 9 IVCP44.6W3P\nIHI Tokyo Japan"
+    }
   },
   {
     "id": 16,
     "name": "IHI-BBC 161-2 EXHAUST GAS TURBOCHARGER COMPLETE",
     "make": "IHI-BBC",
-    "type_vtr": "161-2",
-    "tmax": "620",
-    "nmax": "750rpm",
-    "condition": "New original",
+    "model": "161-2",
     "quantity": 1,
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141225/IHI-BBC_161-2_EXHAUST_GAS_TURBOCHARGER_COMPLETE_jlfaps_b2nuvb.png"
+    "condition": "New original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141225/IHI-BBC_161-2_EXHAUST_GAS_TURBOCHARGER_COMPLETE_jlfaps_b2nuvb.png",
+    "specifications": {
+      "tmax": "620",
+      "nmax": "750rpm"
+    }
   },
   {
     "id": 17,
     "name": "Napier 375 Complete Turbocharger",
     "make": "Napier",
     "model": "Napier 375",
-    "condition": "New, original",
     "quantity": 1,
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141242/Napier_375_Complete_Turbocharger_tecoi6.png"
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141242/Napier_375_Complete_Turbocharger_tecoi6.png"
+    
   },
   {
     "id": 18,
     "name": "Napier 045D Complete Turbocharger",
     "make": "Napier",
     "model": "Napier 045D",
-    "serial_no": "3156",
-    "max_speed": "4400 rpm",
-    "max_temperature": "650 ℃",
-    "condition": "New, original",
     "quantity": 2,
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141285/Picture123_silm1e.png"
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141285/Picture123_silm1e.png",
+    "specifications": {
+      "serial_no": "3156",
+      "max_speed": "4400 rpm",
+      "max_temperature": "650 ℃"
+    }
   },
   {
     "id": 19,
     "name": "MAN NR20 170 Turbocharger Complete",
+    "quantity": 1,
     "condition": "Original",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141367/MAN_NR20_170_TURBOCHARGER_COMPLETE_gmumv6.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141367/MAN_NR20_170_TURBOCHARGER_COMPLETE_gmumv6.png"
+
   },
   {
     "id": 20,
     "name": "IHI RH183 Complete Turbocharger",
     "make": "IHI",
     "model": "RH183",
-    "condition": "New, original",
     "quantity": 2,
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141218/IHI_RH183_Complete_Turbocharger_e9trv2_rsiaxp.png"
+    "condition": "New, original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141218/IHI_RH183_Complete_Turbocharger_e9trv2_rsiaxp.png"
+    
+  },
+  
+  {
+    "id": 21,
+    "name": "MAN NR15 Rotor Complete",
+    "condition": "New Original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141568/MAN_NR15_ROTOR_COMPLETE_ezxbyy.png"
+  },
+  {
+    "id": 22,
+    "name": "MAN NR15 Cartridge",
+    "condition": "New Original spare parts",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141559/MAN_NR15_CARTRIDGE_vib1mf.png"
+  },
+  {
+    "id": 23,
+    "name": "MAN NR 20 Gas Admitin Casing",
+    "condition": "New Original Spare Parts",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141550/MAN_NR_20_GAS_ADMITIN_CASING_uieb3h.png"
+  },
+  {
+    "id": 24,
+    "name": "MAN NR 20 Bearing Sleeve",
+    "condition": "New Original Spare Parts",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141542/MAN_NR_20_BEARING_SLEEVE_i8lmsq.png"
+  },
+  {
+    "id": 25,
+    "name": "MAN NR 20 Bearing Casing",
+    "condition": "New Original Spare Parts",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141535/MAN_NR_20_BEARING_CASING_dzmiss.png"
+  },
+  {
+    "id": 26,
+    "name": "MAN NR 20 Diffuser",
+    "condition": "New Original Spare Parts",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759896625/MAN_NR_20_DIFFIUSER-compressed_h9u6sa.jpg"
+  },
+  {
+    "id": 27,
+    "name": "NAPIER 357 Cartridge",
+    "make": "Napier",
+    "model": "357",
+    "quantity": 1,
+    "condition": "New, original",
+    "imageUrl": "placeholder7.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Napier NHP360 Outlet Casing",
+    "make": "Napier",
+    "model": "NHP360",
+    "quantity": 1,
+    "condition": "Reconditioned",
+    "imageUrl": "placeholder8.jpg"
+  },
+  {
+    "id": 29,
+    "name": "KKK K54 Complete Turbocharger",
+    "make": "KKK",
+    "model": "K54",
+    "quantity": 1,
+    "condition": "Reconditioned",
+    "imageUrl": "placeholder9.jpg"
+  },
+  {
+    "id": 30,
+    "name": "IHI RH163 Complete Turbocharger",
+    "make": "IHI",
+    "model": "RH163",
+    "quantity": 1,
+    "condition": "Reconditioned, original",
+    "imageUrl": "placeholder10.jpg"
+  },
+  {
+    "id": 31,
+    "name": "IHI RH163 Cartridge Complete",
+    "make": "IHI",
+    "model": "RH163",
+    "quantity": 1,
+    "condition": "New, original",
+    "imageUrl": "placeholder11.jpg",
+    "specifications": {
+      "spec": "C51207 D02208 T03211 H63614",
+      "Nmax": "1055",
+      "Tmax": "650C"
+    }
+  },
+  {
+    "id": 32,
+    "name": "IHI RH163 Complete Turbocharger",
+    "make": "IHI",
+    "model": "RH163",
+    "quantity": 1,
+    "condition": "Reconditioned, original",
+    "imageUrl": "placeholder12.jpg",
+    "specifications": {
+      "specs": "C51207 D02208 T03211 H63614",
+      "Nmax": "1055",
+      "Tmax": "650C"
+    }
+  },
+  {
+    "id": 33,
+    "name": "IHI RH163 Rotor For Turbocharger",
+    "make": "IHI",
+    "model": "RH163 Ardent P14-611A",
+    "quantity": 1,
+    "condition": "New, original",
+    "imageUrl": "placeholder13.jpg",
+    "specifications": {
+      "spec": "130902",
+      "no_of_blade": 11
+    }
+  },
+  {
+    "id": 34,
+    "name": "MAN NR20/R Diffuser",
+    "make": "MAN",
+    "model": "NR20/R",
+    "quantity": 1,
+    "condition": "New",
+    "imageUrl": "placeholder14.jpg",
+    "specifications": {
+      "specs": "1349/23.AD=68.20cm2"
+    }
+  },
+  {
+    "id": 35,
+    "name": "MAN NR20/R Diffuser",
+    "make": "MAN",
+    "model": "NR20/R",
+    "quantity": 1,
+    "condition": "New",
+    "imageUrl": "placeholder14.jpg",
+    "specifications": {
+      "specs": "1349/23.AD=47.00cm2"
+    }
+  },
+  {
+    "id": 36,
+    "name": "MAN NR20/R Diffuser",
+    "make": "MAN",
+    "model": "NR20/R",
+    "quantity": 1,
+    "condition": "New",
+    "imageUrl": "placeholder15.jpg",
+    "specifications": {
+      "specs": "1372/14.AD=68.51cm2"
+    }
+  },
+  {
+    "id": 37,
+    "name": "MAN NR20/86 Diffuser",
+    "make": "MAN",
+    "model": "NR20/86",
+    "quantity": 1,
+    "condition": "New, original",
+    "imageUrl": "placeholder16.jpg",
+    "specifications": {
+      "specs": "68.32 cm2",
+      "IMO": "1371",
+      "stamp_mark": "18AD"
+    }
+  },
+  {
+    "id": 38,
+    "name": "MAN NR20/86 Gas Admition Casing",
+    "make": "MAN",
+    "model": "NR20/86",
+    "quantity": 1,
+    "condition": "New, original",
+    "imageUrl": "placeholder17.jpg"
+  },
+  {
+    "id": 39,
+    "name": "MAN NR15/R Turbocharger Cartridge Assy",
+    "make": "MAN",
+    "model": "NR15/R",
+    "quantity": 3,
+    "condition": "New, original",
+    "imageUrl": "placeholder18.jpg",
+    "specifications": {
+      "main": "Spec HZP, MIS: 02957",
+      "IMO": "1154",
+      "turbine_side": {
+        "spec": "10.21",
+        "MIF": "51362",
+        "IMO": "1182"
+      }
+    }
+  },
+
+  
+  {
+    "id": 40,
+    "name": "MAN NR20/N Complete Turbocharger",
+    "make": "MAN",
+    "model": "NR20/N",
+    "quantity": 2,
+    "condition": "Reconditioned, Original",
+    "imageUrl": "placeholder1.jpg",
+    "specifications": {
+      "speed": "44000rpm",
+      "tmax": "650"
+    }
+  },
+  {
+    "id": 41,
+    "name": "MAN NR20/R173 Turbin Rotor",
+    "quantity": 1,
+    "condition": "New, original",
+    "imageUrl": "placeholder2.jpg"
+  },
+  {
+    "id": 42,
+    "name": "MAN NR20/R173 Compressor Wheel",
+    "quantity": 2,
+    "condition": "New, original",
+    "imageUrl": "placeholder3.jpg",
+    "specifications": {
+      "specs": "ZPH, LK059",
+      "IMO": "1154",
+      "part_no": "520.005"
+    }
+  },
+  {
+    "id": 43,
+    "name": "MAN NR20/R173 Turbocharger Cartridge Assy",
+    "quantity": 1,
+    "condition": "New, original",
+    "imageUrl": "placeholder4.jpg"
+  },
+  {
+    "id": 44,
+    "name": "MAN NR20/R142 Complete Turbocharger",
+    "quantity": 1,
+    "condition": "Reconditioned",
+    "imageUrl": "placeholder5.jpg",
+    "specifications": {
+      "s/n": "3020318",
+      "speed": "44000 rpm",
+      "tmax": "650"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Bush",
+    "condition": "New, original",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141918/Bush_frtuay.png"
+  },
+  {
+    "id": 46,
+    "name": "Turbo Bearings",
+    "condition": "New, original",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141908/Turbo_bearings_ohvgwf.png"
+  },
+  {
+    "id": 47,
+    "name": "Bearings",
+    "condition": "New Spares",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759896287/bearings_uigb89.png"
+  },
+  {
+    "id": 48,
+    "name": "Turbocharger complete",
+    "condition": "New, original",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141897/Turbocharger_complete_jqxr8l.png"
+  },
+  {
+    "id": 49,
+    "name": "Consumable Spares",
+    "condition": "New Spares",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759896527/Consummable_spares_12-compressed_e8xhgw.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Consumable Spares",
+    "condition": "New Spares",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759896519/Consummable_spares_13-compressed_czdlwn.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Consumable Spares",
+    "condition": "New Spares",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759896511/Consummable_spares_14-compressed_vyasww.jpg"
+  },
+  {
+    "id": 52,
+    "name": "VTR 200/201 Spares",
+    "condition": "New, original",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853017/6007d6b8-835a-407d-8a53-1faa5e403845.png"
+  },
+  {
+    "id": 53,
+    "name": "Rotorshaft, complete",
+    "condition": "New, original",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141886/Rotorshaft_Complete_fhjsz6.png"
+  },
+  {
+    "id": 54,
+    "name": "Inlet, casing",
+    "condition": "New, original",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141877/Inlet_Casing_ksplug.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Turbocharger",
+    "condition": "New, original",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141864/Turbocharger_hazgdl.png"
+  },
+  {
+    "id": 56,
+    "name": "VTR 200 Turbocharger Complete Fitted With PMAX Filter",
+    "condition": "New, original",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141853/VTR_200_Turbocharger_Complete_Fitted_With_PMAX_Filter_llbbyx.png"
+  },
+  {
+    "id": 57,
+    "name": "Turbine Blades, Recond",
+    "condition": "Reconditioned",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1760107271/1240641083_VTR250_-_P1040116_1_thnzki.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Rotorshaft Complete, Recond",
+    "condition": "Reconditioned",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141842/Rotorshaft_Complete_Recond_haumnc.png"
+  },
+  {
+    "id": 59,
+    "name": "VTR-250 Rotorshaft",
+    "condition": "New, original",
+    "quantity": 1,
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141831/VTR-250_Rotorshaft_z8b8of.png"
+  },
+
+  
+  {
+    "id": 60,
+    "name": "VTR 250 Turbocharger Complete, Recond Fitted With PMAX Filter",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853260/VTR_250_Turbocharger_Complete._Record_Fitted_with_PMAX_Filter_zdnjvr.png"
+  },
+  {
+    "id": 61,
+    "name": "Various Stock",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853259/Various_Stock_dky5fm.png"
   }
+
+
+
+
+
+
 ]

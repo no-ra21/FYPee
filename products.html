@@ -1,213 +1,488 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ArkVision Products</title>
-    <link rel="stylesheet" href="styles/main-simple.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main-simple.css">
     <script defer src="scripts/utils/helpers.js"></script>
     <script defer src="scripts/components/navigation.js"></script>
-    <script defer src="scripts/components/product-search.js"></script>
     <script defer src="scripts/main.js"></script>
-    <script>fetch("navigation.html")
-  .then(res => res.text())
-  .then(data => {
-    const navPlaceholder = document.getElementById("navigation-placeholder");
-    navPlaceholder.innerHTML = data;
+    <script src="https://kit.fontawesome.com/40f2643406.js" crossorigin="anonymous"></script>
+    
+  
+    
+    <script>
+      fetch("navigation.html")
+        .then(res => res.text())
+        .then(data => {
+          const navPlaceholder = document.getElementById("navigation-placeholder");
+          navPlaceholder.innerHTML = data;
 
-    // Mobile menu toggle
-    const toggle = navPlaceholder.querySelector("#navToggle");
-    const menu = navPlaceholder.querySelector("#navMenu");
+          const toggle = navPlaceholder.querySelector("#navToggle");
+          const menu = navPlaceholder.querySelector("#navMenu");
 
-    toggle.addEventListener("click", () => {
-      menu.classList.toggle("open");
-    });
+          toggle.addEventListener("click", () => {
+            menu.classList.toggle("open");
+          });
 
-    // Highlight active link dynamically
-    const currentPage = window.location.pathname.split("/").pop() || "index.html";
-    navPlaceholder.querySelectorAll(".nav-menu a").forEach(link => {
-      if (link.getAttribute("href") === currentPage) {
-        link.classList.add("active");
-      }
-    });
-  });
-</script>
+          const currentPage = window.location.pathname.split("/").pop() || "index.html";
+          navPlaceholder.querySelectorAll(".nav-menu a").forEach(link => {
+            if (link.getAttribute("href") === currentPage) {
+              link.classList.add("active");
+            }
+          });
+        });
+    </script>
+    <style>
+      /* Blog Introduction Section Styles */
+.blog-intro-section {
+  padding: 60px 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%);
+  position: relative;
+}
 
-  </head>
-  <body>
-    <!-- Header -->
+.blog-intro-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 50%, rgba(255, 107, 107, 0.05) 0%, transparent 50%),
+              radial-gradient(circle at 80% 50%, rgba(78, 205, 196, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.intro-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Header Section */
+.intro-header {
+  text-align: center;
+  margin-bottom: 50px;
+  animation: fadeInDown 0.8s ease-out;
+}
+
+.intro-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.intro-divider {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), #4ECDC4);
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0 2px 10px rgba(255, 107, 107, 0.4);
+}
+
+/* Services Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 50px;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.service-category {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px 25px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-category::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--accent);
+  transform: scaleY(0);
+  transition: transform 0.3s ease;
+}
+
+.service-category:hover {
+  transform: translateX(8px);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--accent);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.service-category:hover::before {
+  transform: scaleY(1);
+}
+
+.service-category h4 {
+  color: var(--accent);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  transition: color 0.3s ease;
+}
+
+.service-category:hover h4 {
+  color: #fff;
+}
+
+.service-category p {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Company Highlight Section */
+.company-highlight {
+ 
+  border-radius: 16px;
+  padding: 40px;
+  margin-bottom: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.highlight-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+.highlight-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.highlight-text h3 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.highlight-text h3::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+.highlight-text p {
+  color: #e0e0e0;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.highlight-text strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.certifications {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 250px;
+}
+
+.cert-badge {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px 25px;
+  border-radius: 12px;
+  border: 2px solid var(--accent);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.cert-badge::before {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  color: var(--accent);
+  opacity: 0.1;
+  transition: all 0.3s ease;
+}
+
+
+
+.cert-badge:hover::before {
+  left: 10px;
+  opacity: 0.2;
+}
+
+.cert-text strong {
+  display: block;
+  color: var(--accent);
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.cert-text span {
+  color: #bbb;
+  font-size: 0.9rem;
+}
+
+/* Contact CTA Section */
+.contact-cta {
+  
+  border-radius: 16px;
+  padding: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+ 
+}
+
+.cta-content h4 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.cta-content > p {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-method {
+
+  padding: 20px 30px;
+  border-radius: 12px;
+  border: 2px solid var(--accent);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  min-width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+.method-info {
+  position: relative;
+  z-index: 1;
+}
+
+.method-info strong {
+  display: block;
+  color: var(--accent);
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.contact-method:hover .method-info strong {
+  color: #fff;
+}
+
+.method-info span {
+  color: #ccc;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.contact-method:hover .method-info span {
+  color: #fff;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .intro-header h2 {
+    font-size: 2rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .company-highlight {
+    padding: 30px 20px;
+  }
+
+  .highlight-content {
+    flex-direction: column;
+  }
+
+  .highlight-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-cta {
+    padding: 30px 20px;
+  }
+
+  .cta-content h4 {
+    font-size: 1.5rem;
+  }
+
+  .contact-methods {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .contact-method {
+    min-width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .service-category {
+    padding: 25px 20px;
+  }
+
+  .company-highlight {
+    padding: 25px 15px;
+  }
+}
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
     <header class="site-header">
       <div id="navigation-placeholder"></div>
     </header>
 
     <!-- Page hero -->
-      <section class="page-hero" style="background-image: url('assets/images/hero2.png');">
+    <section class="page-hero" style="background-image: url('assets/images/hero2.png');">
       <div class="page-hero-content">
-        <h1>Our Products</h1>
-        <p>Discover a full portfolio of marine technology solutions designed for performance and reliability.</p>
+        <h1>Our Blog</h1>
+        <p>Discover the latest in marine spare parts and equipment solutions</p>
       </div>
     </section>
 
-    <!-- Search & product list -->
-    <section class="product-list-section">
+    <!-- Introduction -->
+    <section class="blog-intro-section">
       <div class="container">
+        <div class="intro-content">
+          <div class="intro-header">
+            <h2>Premier Stockist of Marine Spare Parts & Equipment</h2>
+            <div class="intro-divider"></div>
+          </div>
+          
+          <div class="services-grid">
+            <div class="service-category">
+              <h4>Main & Auxiliary Engines</h4>
+              <p>Complete engine solutions and components for all vessel types</p>
+            </div>
+            <div class="service-category">
+              <h4>Air & Compression Systems</h4>
+              <p>Air compressors, purifiers, and gas freeing fans</p>
+            </div>
+            <div class="service-category">
+              <h4>Pumps & Hydraulics</h4>
+              <p>Hydraulic pumps, motors, pneumatic pumps, hydro blasters</p>
+            </div>
+            <div class="service-category">
+              <h4>Turbochargers & More</h4>
+              <p>Turbochargers, screw air compressors, air dryers</p>
+            </div>
+          </div>
+          
+          <div class="company-highlight">
+            <div class="highlight-content">
+              <div class="highlight-text">
+                <h3>Experience Unparalleled Support & Service</h3>
+                <p>ARK VISION is your trusted partner in achieving operational excellence! We are an <strong>ISO 9001:2015 Certified</strong> and <strong>BizSafe Level 4</strong> stockist of marine spare parts and overhauling services company.</p>
+                <p>Our team of experienced engineers and technical superintendents focus on continuous improvement, upgrading facilities, and investing in our workforce to provide value-added services to our clients.</p>
+              </div>
+              <div class="certifications">
+                <div class="cert-badge">
+                  <div class="cert-text">
+                    <strong>ISO 9001:2015</strong><br>
+                    <span>Certified Quality Management</span>
+                  </div>
+                </div>
+                <div class="cert-badge">
+                  <div class="cert-text">
+                    <strong>BizSafe Level 4</strong><br>
+                    <span>Safety Excellence Standards</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-cta">
+            <div class="cta-content">
+              <h4>Ready to Get Started?</h4>
+              <p>Contact us for more information about our marine spare parts and services</p>
+              <div class="contact-methods">
+                <a href="mailto:arkvision@singnet.com.sg" class="contact-method">
+                  <div class="method-info">
+                    <strong>Email Us</strong>
+                    <span>arkvision@singnet.com.sg</span>
+                  </div>
+                </a>
+                <a href="tel:+6568623379" class="contact-method">
+                  <div class="method-info">
+                    <strong>Call Us</strong>
+                    <span>+65 6862 3379</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <!-- Category Menu Section -->
+    <section class="category-menu-section">
+      <div class="container">
+        <h2 class="mb-4">Product Categories</h2>
         <div class="product-search">
           <input type="text" id="productSearch" placeholder="Search products..." aria-label="Search products" />
         </div>
-        <div class="product-grid" id="productGrid">
-          <!-- Each product has a data-name attribute used for filtering -->
-          <div class="product-item" id="navigation" data-name="navigation systems">
-            <h3>Navigation Systems</h3>
-            <p>
-              Our integrated navigation systems provide accurate positioning,
-              route optimisation and real‑time situational awareness to ensure
-              safe voyages.
-            </p>
-            <a href="/contact.html?product=Navigation%20Systems" class="btn btn-primary small">Request Info</a>
-          </div>
-          <div class="product-item" id="sensors" data-name="marine sensors">
-            <h3>Marine Sensors</h3>
-            <p>
-              High‑sensitivity sensors monitor critical parameters such as water
-              depth, temperature, pressure and vibration for informed decision
-              making.
-            </p>
-            <a href="/contact.html?product=Marine%20Sensors" class="btn btn-primary small">Request Info</a>
-          </div>
-          <div class="product-item" id="automation" data-name="automation solutions">
-            <h3>Automation Solutions</h3>
-            <p>
-              Intelligent control platforms automate propulsion, steering and
-              auxiliary systems, reducing crew workload and improving
-              efficiency.
-            </p>
-            <a href="/contact.html?product=Automation%20Solutions" class="btn btn-primary small">Request Info</a>
-          </div>
-          <div class="product-item" id="communication" data-name="communication modules">
-            <h3>Communication Modules</h3>
-            <p>
-              Reliable onboard communication systems that connect vessels with
-              shore offices and other ships, enabling seamless data exchange.
-            </p>
-            <a href="/contact.html?product=Communication%20Modules" class="btn btn-primary small">Request Info</a>
-          </div>
-          <div class="product-item" id="energy" data-name="energy systems">
-            <h3>Energy Systems</h3>
-            <p>
-              Efficient power generation and distribution solutions including
-              hybrid propulsion, renewable integration and energy storage.
-            </p>
-            <a href="/contact.html?product=Energy%20Systems" class="btn btn-primary small">Request Info</a>
-          </div>
-          <div class="product-item" id="hull" data-name="hull components">
-            <h3>Hull Components</h3>
-            <p>
-              Custom‑engineered structural components and materials that enhance
-              vessel strength, reduce weight and improve hydrodynamics.
-            </p>
-            <a href="/contact.html?product=Hull%20Components" class="btn btn-primary small">Request Info</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Repairs & Services Section -->
-    <section class="repairs-services-section">
-      <div class="container">
-        <div class="section-intro">
-          <h2>Repairs & Services</h2>
-          <p>Comprehensive maintenance and repair solutions to keep your marine equipment operating at peak performance</p>
-        </div>
-        
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="service-icon">🔧</div>
-            <h3>Equipment Repair</h3>
-            <p>Expert repair services for all types of marine equipment including navigation systems, sensors, and automation components.</p>
-            <ul class="service-features">
-              <li>24/7 Emergency repairs</li>
-              <li>On-site and workshop services</li>
-              <li>Genuine parts guarantee</li>
-              <li>Quick turnaround times</li>
-            </ul>
-            <a href="/contact.html?service=Equipment%20Repair" class="btn btn-primary small">Get Quote</a>
-          </div>
-          
-          <div class="service-card">
-            <div class="service-icon">🛠️</div>
-            <h3>Preventive Maintenance</h3>
-            <p>Scheduled maintenance programs designed to prevent equipment failures and extend operational lifespan.</p>
-            <ul class="service-features">
-              <li>Custom maintenance schedules</li>
-              <li>Performance monitoring</li>
-              <li>Predictive analytics</li>
-              <li>Detailed reporting</li>
-            </ul>
-            <a href="/contact.html?service=Preventive%20Maintenance" class="btn btn-primary small">Learn More</a>
-          </div>
-          
-          <div class="service-card">
-            <div class="service-icon">📊</div>
-            <h3>System Calibration</h3>
-            <p>Precision calibration services to ensure your marine instruments deliver accurate and reliable measurements.</p>
-            <ul class="service-features">
-              <li>ISO certified procedures</li>
-              <li>Advanced calibration equipment</li>
-              <li>Calibration certificates</li>
-              <li>Traceability documentation</li>
-            </ul>
-            <a href="/contact.html?service=System%20Calibration" class="btn btn-primary small">Schedule Service</a>
-          </div>
-          
-          <div class="service-card">
-            <div class="service-icon">🔄</div>
-            <h3>Retrofits & Upgrades</h3>
-            <p>Modernize your existing systems with the latest technology to improve performance and compliance.</p>
-            <ul class="service-features">
-              <li>Technology assessments</li>
-              <li>Custom upgrade solutions</li>
-              <li>Integration services</li>
-              <li>Training and support</li>
-            </ul>
-            <a href="/contact.html?service=Retrofits%20Upgrades" class="btn btn-primary small">Upgrade Now</a>
-          </div>
-          
-          <div class="service-card">
-            <div class="service-icon">📞</div>
-            <h3>Technical Support</h3>
-            <p>Round-the-clock technical assistance from our team of marine equipment specialists.</p>
-            <ul class="service-features">
-              <li>Remote diagnostics</li>
-              <li>Phone and email support</li>
-              <li>Technical documentation</li>
-              <li>Training programs</li>
-            </ul>
-            <a href="/contact.html?service=Technical%20Support" class="btn btn-primary small">Get Support</a>
-          </div>
-          
-          <div class="service-card">
-            <div class="service-icon">⚡</div>
-            <h3>Emergency Response</h3>
-            <p>Rapid response services for critical equipment failures that require immediate attention.</p>
-            <ul class="service-features">
-              <li>24/7 emergency hotline</li>
-              <li>Mobile service units</li>
-              <li>Priority parts supply</li>
-              <li>Experienced technicians</li>
-            </ul>
-            <a href="tel:+6561234567" class="btn btn-secondary small">Call Emergency</a>
-          </div>
-        </div>
-        
-        <div class="service-cta">
-          <div class="cta-content">
-            <h3>Need Service Support?</h3>
-            <p>Our certified technicians are ready to help with all your marine equipment service needs. Contact us for a consultation.</p>
-            <div class="cta-actions">
-              <a href="/contact.html" class="btn btn-primary">Contact Service Team</a>
-              <a href="tel:+6561234567" class="btn btn-secondary">Call: +65 6862 3379</a>
-            </div>
-          </div>
+        <div class="row" id="categoryMenu">
+          <!-- Categories will be populated by JavaScript -->
         </div>
       </div>
     </section>
@@ -270,7 +545,131 @@
         </div>
       </div>
     </footer>
-  </body>
-</html>
-  </body>
+
+    <script type="module">
+      import { performSearch } from "./scripts/modules/keyword-search.js";
+
+      let categories = [];
+
+      async function loadCategories() {
+        const res = await fetch("./assets/category_data/categories.json");
+        categories = await res.json();
+        filteredCategories = [...categories];
+        renderCategories();
+      }
+
+      let filteredCategories = [];
+
+      function renderCategories() {
+        const menuContainer = document.getElementById('categoryMenu');
+        menuContainer.innerHTML = '';
+
+        if (filteredCategories.length === 0) {
+          menuContainer.innerHTML = `
+            <div class="text-center mt-3" id="noResultsMessage">
+              <h5 style='color:yellow'>No product category found!</h5>
+              <p style='color:#ccc'>Try adjusting your search criteria.</p>
+            </div>`;
+          return;
+        }
+
+        filteredCategories.forEach(category => {
+          const hasSubCategories = category.subCategories && category.subCategories.length > 0;
+          
+          menuContainer.innerHTML += `
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="category-card ${hasSubCategories ? 'has-subcategories' : ''}">
+                <div class="category-main ${hasSubCategories ? '' : 'clickable'}"
+                     ${!hasSubCategories ? `onclick="window.location.href='products/${category.slug}.html'"` : ''}>
+                  <div class="category-image-wrapper">
+                    <img src="${category.imageUrl}" alt="${category.title}" class="category-image">
+                    ${hasSubCategories ? '<div class="subcategory-badge"><i class="fas fa-layer-group"></i></div>' : ''}
+                  </div>
+                  <h5 class="category-title">${category.title}</h5>
+                  ${hasSubCategories ? '<p class="subcategory-hint"><i class="fas fa-chevron-down"></i> View Options</p>' : ''}
+                </div>
+                
+                ${hasSubCategories ? `
+                  <div class="subcategories-list">
+                    ${category.subCategories.map(sub => `
+                      <div class="subcategory-item" onclick="window.location.href='products/${sub.slug}.html'">
+                        <div class="subcategory-icon">
+                          <i class="fas fa-angle-right"></i>
+                        </div>
+                        <div class="subcategory-content">
+                          <span class="subcategory-name">${sub.title}</span>
+                        </div>
+                      </div>
+                    `).join('')}
+                  </div>
+                ` : ''}
+              </div>
+            </div>
+          `;
+        });
+
+        if (document.querySelectorAll('.has-subcategories').length > 0) {
+          document.querySelectorAll('.has-subcategories .category-main').forEach(el => {
+            el.addEventListener('click', function() {
+              const card = this.closest('.category-card');
+              card.classList.toggle('expanded');
+            });
+          });
+        }
+      }
+
+      function handleSearch() {
+        const query = document.getElementById('productSearch').value;
+        
+        const searchableItems = [];
+        categories.forEach(cat => {
+          searchableItems.push(cat);
+          if (cat.subCategories) {
+            cat.subCategories.forEach(sub => {
+              searchableItems.push({ ...sub, parentTitle: cat.title });
+            });
+          }
+        });
+
+        performSearch(searchableItems, query, ['title', 'parentTitle'], (results) => {
+          const resultCategories = [];
+          const addedMainIds = new Set();
+
+          results.forEach(result => {
+            if (result.parentTitle) {
+              const parent = categories.find(c => c.title === result.parentTitle);
+              if (parent && !addedMainIds.has(parent.id)) {
+                resultCategories.push(parent);
+                addedMainIds.add(parent.id);
+              }
+            } else {
+              if (!addedMainIds.has(result.id)) {
+                resultCategories.push(result);
+                addedMainIds.add(result.id);
+              }
+            }
+          });
+
+          filteredCategories = resultCategories;
+          renderCategories();
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        loadCategories();
+
+        const input = document.getElementById('productSearch');
+        let searchTimeout;
+
+        input.addEventListener('input', () => {
+          clearTimeout(searchTimeout);
+          searchTimeout = setTimeout(handleSearch, 300);
+        });
+
+        input.addEventListener('keyup', (event) => {
+          if (event.key === 'Enter') handleSearch();
+        });
+      });
+    </script>
+</body>
 </html>

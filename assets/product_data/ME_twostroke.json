@@ -7,121 +7,136 @@
     "description": "MITSUBISHI UEC 37 88 CYLINDER LINER for sale in Ark Vision Singapore warehouse, readily available.",
     "condition": "New, Original",
     "qty": "1 unit",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759039888/image-removebg-preview_24_w95lt1.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759039888/image-removebg-preview_24_w95lt1.png"
   },
   {
     "id": 2,
     "name": "MAN K90MC-C PISTON CROWN",
     "make": "MAN",
     "model": "K90MC-C",
-    "description": "MAN K90MC-C Piston Crown for sale in Ark Vision Singapore warehouse, readily available. Ring Groove 20 X 16 X 16 X 16mm.",
-    "stamp_mark": "8KK , LRBUS2007868, 4200287947-130, 2139522, 5027211-8.1/S17MOS, 20.38 WTP 7 BAR, 20G900468, C56129 PC02, CAM SIDE, Certificate: 2678486 LR",
+    "description": "MAN K90MC-C Piston Crown for sale in Ark Vision Singapore warehouse, readily available. Includes detailed ring groove specifications.",
     "condition": "New, Original",
     "qty": "1 unit",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040367/MAN_K90MC-C_PISTON_CROWN_h0swrb.png"
+    "extraNotes": "Stamp mark: 8KK, LRBUS2007868, 4200287947-130, 2139522, 5027211-8.1/S17MOS, 20.38 WTP 7 BAR, 20G900468, C56129 PC02, CAM SIDE, Certificate: 2678486 LR",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040367/MAN_K90MC-C_PISTON_CROWN_h0swrb.png"
   },
   {
     "id": 3,
     "name": "MAN S90ME-C 102 CYLINDER LINER ASSY",
     "make": "HYUNDAI MAN B&W",
     "model": "S90ME-C 102",
-    "description": "MAN S90ME-C 102 Cylinder Liner Assy for sale in our Singapore warehouse, readily available.",
-    "stamp_marking": "-HHI-EMD-MAN-1M2U2-85035, 20005",
-    "condition": "New Original",
-    "qty": "1 Pcs",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040366/MAN_S90ME-C_102_CYLINDER_LINER_ASSY_l5cubb.png"
+    "description": "MAN S90ME-C 102 Cylinder Liner Assembly for sale in our Singapore warehouse, readily available.",
+    "condition": "New, Original",
+    "qty": "1 pcs",
+    "extraNotes": "Stamp marking: HHI-EMD-MAN-1M2U2-85035, 20005",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040366/MAN_S90ME-C_102_CYLINDER_LINER_ASSY_l5cubb.png"
   },
   {
     "id": 4,
     "name": "CYLINDER LINER",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040366/Cylinder_Liner_uhplsq.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040366/Cylinder_Liner_uhplsq.png",
+    "description": "Cylinder liner spare part suitable for main and auxiliary engines."
   },
   {
     "id": 5,
     "name": "CYLINDER LINERS",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040365/CYLINER_LINERS_ij5dnb.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040365/CYLINER_LINERS_ij5dnb.png",
+    "description": "Various types of cylinder liners available for marine engine applications."
   },
   {
     "id": 6,
     "name": "CYLINDER LINER, PISTON CROWN, PISTON SKIRT, PISTON ROD, STUFFING BOX",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759041214/98bfd092-1e68-4330-a314-7ce6c5e9ae9a.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759041214/98bfd092-1e68-4330-a314-7ce6c5e9ae9a.png",
+    "description": "Assorted main engine components including cylinder liner, piston crown, piston skirt, piston rod, and stuffing box."
   },
   {
     "id": 7,
     "name": "PISTON CROWNS & PISTON SKIRTS",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040932/Piston_Crowns_Piston_Skirts_gisch3.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040932/Piston_Crowns_Piston_Skirts_gisch3.jpg",
+    "description": "High-quality piston crowns and skirts suitable for various marine engine models."
   },
   {
     "id": 8,
     "name": "PISTON CROWN",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759041242/e2fd845f-9f11-4416-ad74-8d4aaf41303c.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759041242/e2fd845f-9f11-4416-ad74-8d4aaf41303c.png",
+    "description": "Durable piston crown designed for marine diesel engines, available in multiple sizes."
   },
   {
     "id": 9,
     "name": "CYLINDER HEAD",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040929/Cylinder_Head_mvogzu.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040929/Cylinder_Head_mvogzu.png",
+    "description": "Cylinder head assemblies for large marine and industrial engines."
   },
   {
     "id": 10,
     "name": "CYLINDER COVER",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040927/CYLINDER_COVER_fxd3gk.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040927/CYLINDER_COVER_fxd3gk.png",
+    "description": "Cylinder covers designed to fit various marine engine types."
   },
   {
     "id": 11,
     "name": "COOLING WATER JACKET",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759041272/513d8379-1c1a-4e08-9df8-df9a3760af7c.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759041272/513d8379-1c1a-4e08-9df8-df9a3760af7c.png",
+    "description": "Cooling water jackets used to maintain optimal engine temperature during operation."
   },
   {
     "id": 12,
     "name": "EXHAUST VALVE",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040925/EXHAUST_VALVE_dn8p2d.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040925/EXHAUST_VALVE_dn8p2d.png",
+    "description": "Exhaust valves for two-stroke and four-stroke marine diesel engines."
   },
   {
     "id": 13,
     "name": "INLET & EXHAUST VALVE SPINDLES",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040924/INLET_EXHAUST_VALVE_SPINDLES_nbkqkh.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040924/INLET_EXHAUST_VALVE_SPINDLES_nbkqkh.png",
+    "description": "Valve spindles for both inlet and exhaust systems, compatible with major engine brands."
   },
   {
     "id": 14,
     "name": "MAIN ENGINE CONSUMABLE SPARES",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040923/MAIN_ENGINE_CONSUMMABLE_SPARES_m41qci.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040923/MAIN_ENGINE_CONSUMMABLE_SPARES_m41qci.jpg",
+    "description": "Wide range of consumable spares for main engines including gaskets, rings, and seals."
   },
   {
     "id": 15,
     "name": "CONSUMABLE SPARES",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040922/CONSUMMABLE_SPARES_1_zpe84o.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040922/CONSUMMABLE_SPARES_1_zpe84o.jpg",
+    "description": "General consumable spare parts used in marine and industrial engines."
   },
   {
     "id": 16,
     "name": "CONSUMABLE SPARES",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040920/CONSUMMABLE_SPARES_2_qand9u.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040920/CONSUMMABLE_SPARES_2_qand9u.jpg",
+    "description": "Consumable spare parts for routine engine maintenance and repairs."
   },
   {
     "id": 17,
     "name": "PISTON RINGS",
-    "image_url": "https://example.com/image17.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040919/PISTON_RINGS_2_cvqkjn.jpg",
+    "description": "Piston rings designed for high-performance marine engines."
   },
   {
     "id": 18,
     "name": "PISTON RINGS",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040920/PISTON_RINGS_1_nqtnjl.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040920/PISTON_RINGS_1_nqtnjl.jpg",
+    "description": "High-quality piston rings ensuring proper sealing and compression in marine engines."
   },
   {
     "id": 19,
     "name": "FUEL PUMPS PLUNGER & BARREL",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040919/FUEL_PUMPS_PLUNGER_BARREL_wu1dmi.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040919/FUEL_PUMPS_PLUNGER_BARREL_wu1dmi.jpg",
+    "description": "Fuel pump plungers and barrels suitable for marine diesel engine applications."
   },
   {
     "id": 20,
     "name": "FUEL PUMP PLUNGER & BARREL",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040918/FUEL_PUMPS_PLUNGER_BARREL_2_ly0bp6.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040918/FUEL_PUMPS_PLUNGER_BARREL_2_ly0bp6.jpg",
+    "description": "Precision-engineered fuel pump plunger and barrel assemblies for main engines."
   },
   {
     "id": 21,
     "name": "MAIN ENGINE CONSUMABLE SPARES",
-    "image_url": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040918/MAIN_ENGINE_CONSUMMABLE_SPARES_3_wytss0.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759040918/MAIN_ENGINE_CONSUMMABLE_SPARES_3_wytss0.png",
+    "description": "Comprehensive set of consumable spares for main engines, available in our Singapore stock."
   }
 ]
-
-
-

@@ -1,0 +1,600 @@
+[
+  {
+    "id": 1,
+    "name": "SHUNDA CLN80-340-2C1 PUMP",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138114/SHUNDA_PUMP_CLN80_340_2C1_yb6e7o_m0p9be.png",
+    "condition": "New, original",
+    "quantity": "1 unit",
+    "make": "SHUNDA",
+    "model": "CLN80-340-2C1",
+    "specifications": {
+      "capacity": "100/65m3/h",
+      "th": "35/60m",
+      "motor": "37kW @ 270rpm"
+    }
+  },
+  {
+    "id": 2,
+    "name": "DBR DS 80-320 FM PUMP",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138008/DBR_DS_80-320_FM_PUMP_mayrjk_jrl7lb.png",
+    "condition": "New, original",
+    "quantity": "1 unit"
+  },
+  {
+    "id": 3,
+    "name": "HEISHIN VK200 Pump without motor",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138053/HEISHIN_VK200_Pump_without_motor_oyslox_pzwznw.png",
+    "condition": "Reconditioned",
+    "make": "HEISHIN",
+    "model": "VK200",
+    "specifications": {
+      "capacity": "210m3/hr @TH: 30m",
+      "bore_size_suc": "SUC.ID 200mm",
+      "bore_size_del": "DEL.ID 200mm",
+      "flange_pcd": "SUC 280 @ DEL 280",
+      "no_of_bolt": "8x20mm",
+      "flange_to_flange": "755mm",
+      "flange_type": "offset",
+      "casting_material": "Cast iron"
+    }
+  },
+  {
+    "id": 4,
+    "name": "TEIKOKU 2VSCE Pump with motor",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138121/TEIKOKU_2VSCE_Pump_with_motor_ktxjt5_kymfgr.png",
+    "condition": "Used",
+    "make": "TEIKOKU",
+    "model": "2VSCE",
+    "specifications": {
+      "capacity": "203/Hr@ TH: 110M",
+      "bore_size_suc": "SUC. ID 125mm",
+      "bore_size_del": "DEL. ID 65mm",
+      "no_of_bolt": "SUC 8X20 @ DEL 4X20",
+      "flange_type": "Offset",
+      "casting_material": "Cast Iron"
+    }
+  },
+  {
+    "id": 5,
+    "name": "SHINKOKINZOKU SVD250 Pump with motor",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138105/SHINKOKINZOKU_SVD250_Pumo_with_motor_cru6hh_hvvdci.png",
+    "condition": "Reconditioned",
+    "make": "SHINKOKINZOKU",
+    "model": "SVD250",
+    "specifications": {
+      "capacity": "485 M3/H @ TH: 25m",
+      "bore_size_suc": "SUC.ID 250mm",
+      "bore_size_del": "DEL.ID 250mm",
+      "flange_pcd": "SUC345 @ DEL 345mm",
+      "no_of_bolt": "SUC 12X22 @ DEL 12X22mm",
+      "flange_to_flange": "865 MM",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "motor": "45Kw@440 Volts@60 Hz@1760 Rpm"
+    }
+  },
+  {
+    "id": 6,
+    "name": "SHINKO GVD 200M Pump without motor",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138099/SHINKO_GVD_200M_Pump_without_motor_f9lrvf_qgdnj6.png",
+    "condition": "Reconditioned",
+    "make": "SHINKO",
+    "model": "GVD 200M",
+    "specifications": {
+      "capacity": "231M3/HR. @ TH: 30m",
+      "bore_size_suc": "SUC.ID 200 X OD mm",
+      "bore_size_del": "DEL.ID 200 X OD mm",
+      "flange_pcd": "SUC 275 @ DEL: 275 mm",
+      "no_of_bolts": "SUC 8x20 @ DEL 8×20 mm",
+      "flange_type": "in-Line",
+      "casting_material": "Cast Iron"
+    }
+  },
+  {
+    "id": 7,
+    "name": "SHINKO GVC125 Pump without motor",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138090/SHINKO_GVC125_Pump_without_motor_n6yhnu_rebpb8.png",
+    "condition": "Used",
+    "make": "SHINKO",
+    "model": "GVC125",
+    "specifications": {
+      "capacity": "110 m3/hr. @ Th: 25m",
+      "bore_size_suc": "SUC.ID 125 X OD mm",
+      "bore_size_del": "DEL.ID 125 X OD mm",
+      "flange_pcd": "SUC 200 a DEL 200 mm",
+      "no_of_bolts": "SUC 8X20 @ DEL. 8X20 mm",
+      "flange_type": "in-Line",
+      "casting_material": "Cast Iron"
+    }
+  },
+  {
+    "id": 8,
+    "name": "SHINKINZOKU SVA-200M Pump with motor",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138083/SHINKINZOKU_SVA-200M_Pump_with_motor_bgdrb5_jvbabu.png",
+    "condition": "Used",
+    "make": "SHINKINZOKU",
+    "model": "SVA-200M",
+    "specifications": {
+      "capacity": "350M3/H @TH: 25M",
+      "bore_size_suc": "SUC.ID 200 X OD 320mm",
+      "bore_size_del": "DEL.ID 200 X OD 320mm",
+      "flange_pcd": "SUC 280 @ DEL 280mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "motor": "26Kw@ 4440Volts @ 60Hz@1750rpm",
+      "flange_thickness": "25mm Inlet, 25mm Outlet"
+    }
+  },
+  {
+    "id": 9,
+    "name": "NANIWA 300MM FEWA 300 Pump without motor",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138068/NANIWA_300MM_FEWA_300_Pump_without_motor_gh0lvl_ehagbl.png",
+    "condition": "Used",
+    "make": "NANIWA",
+    "model": "FEWA 300",
+    "specifications": {
+      "capacity": "500m3/H @TH: 10m",
+      "bore_size_suc": "SUC.ID 300mm",
+      "bore_size_del": "DEL.ID 300mm",
+      "flange_pcd": "SUC 390 a DEL 390mm",
+      "no_of_holes": "12 Inlet, 12 Outlet",
+      "flange_type": "Inline",
+      "flange_dia": "435mm Inlet, 435mm Outlet",
+      "casing_material": "Cast Iron",
+      "motor": "22kw @440Volts @60Hz @1150rpm"
+    }
+  },
+  {
+    "id": 10,
+    "name": "HEISHIN VDK-450N Pump",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759138762/HEISHIN_VDK-450N_PUMP_rzhdwa.png",
+    "make": "HEISHIN",
+    "model": "VDK-450N",
+    "specifications": {
+      "capacity": "450m3/H @ TH: 50m",
+      "bore_size_suc": "SUC. ID 250mm",
+      "bore_size_del": "DEL.ID 250mm",
+      "flange_pcd": "SUC 345 @ DEL 345MM",
+      "no_of_bolt": "SUCX12 @ DELX12mm",
+      "flange_diameter": "400mm Inlet, 385mm Outlet",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "motor": "110kw@440Volts@ 60Hz@1760rpm"
+    }
+  },
+  {
+    "id": 11,
+    "name": "NANIWA 250MM FEWA 250 Pump with motor",
+    "condition": "Used",
+    "make": "NANIWA",
+    "model": "FEWA 250",
+    "specifications": {
+      "capacity": "350m3/H @ TH: 35m",
+      "motor": "55kw@440Volts@60Hz@1480rpm"
+    }
+  },
+  {
+    "id": 12,
+    "name": "SHUNDA CLN65-200 Pump",
+    "condition": "New",
+    "make": "SHUNDA",
+    "model": "CLN65-200",
+    "specifications": {
+      "capacity": "65m3/H @ TH: 20m",
+      "motor": "15kw @ 270rpm"
+    }
+  },
+ 
+  {
+    "id": 13,
+    "name": "TEIKOKU 3VSCE Pump without motor",
+    "condition": "Used",
+    "make": "TEIKOKU",
+    "model": "3VSCE",
+    "specifications": {
+      "capacity": "300m3/H @ TH: 110m",
+      "bore_size_suc": "SUC. ID 150mm",
+      "bore_size_del": "DEL. ID 80mm",
+      "no_of_bolt": "SUC 8X20 @ DEL 4X20",
+      "flange_type": "Offset",
+      "casing_material": "Cast Iron"
+    }
+  },
+  {
+    "id": 14,
+    "name": "SHINKOKINZOKU SVD150 Pump without motor",
+    "condition": "Reconditioned",
+    "make": "SHINKOKINZOKU",
+    "model": "SVD150",
+    "specifications": {
+      "capacity": "250M3/H @ TH: 25m",
+      "bore_size_suc": "SUC.ID 150mm",
+      "bore_size_del": "DEL.ID 150mm",
+      "flange_pcd": "SUC 220 @ DEL 220",
+      "no_of_bolt": "SUC 8X18 @ DEL 8X18",
+      "flange_to_flange": "670mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron"
+    }
+  },
+  {
+    "id": 15,
+    "name": "HEISHIN VK150 Pump with motor",
+    "condition": "Used",
+    "make": "HEISHIN",
+    "model": "VK150",
+    "specifications": {
+      "capacity": "180M3/H @ TH: 30m",
+      "bore_size_suc": "SUC.ID 150mm",
+      "bore_size_del": "DEL.ID 150mm",
+      "flange_pcd": "SUC 220 @ DEL 220",
+      "no_of_bolt": "SUC 8X18 @ DEL 8X18",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "motor": "15kW @ 1760rpm"
+    }
+  },
+  {
+    "id": 16,
+    "name": "SHINKO GVD125 Pump with motor",
+    "condition": "Used",
+    "make": "SHINKO",
+    "model": "GVD125",
+    "specifications": {
+      "capacity": "110M3/H @ TH: 25m",
+      "bore_size_suc": "SUC.ID 125mm",
+      "bore_size_del": "DEL.ID 125mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "motor": "7.5kW @ 1450rpm"
+    }
+  },
+  {
+    "id": 17,
+    "name": "SHINKINZOKU SVA-150M Pump without motor",
+    "condition": "Reconditioned",
+    "make": "SHINKINZOKU",
+    "model": "SVA-150M",
+    "specifications": {
+      "capacity": "200M3/H @ TH: 25m",
+      "bore_size_suc": "SUC.ID 150mm",
+      "bore_size_del": "DEL.ID 150mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron"
+    }
+  },
+  {
+    "id": 18,
+    "name": "NANIWA 200MM FEWA 200 Pump with motor",
+    "condition": "Used",
+    "make": "NANIWA",
+    "model": "FEWA 200",
+    "specifications": {
+      "capacity": "250M3/H @ TH: 20m",
+      "bore_size_suc": "SUC.ID 200mm",
+      "bore_size_del": "DEL.ID 200mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "motor": "22kW @ 1450rpm"
+    }
+  },
+  {
+    "id": 19,
+    "name": "SHUNDA CLN50-160 Pump",
+    "condition": "New",
+    "make": "SHUNDA",
+    "model": "CLN50-160",
+    "specifications": {
+      "capacity": "50M3/H @ TH: 16m",
+      "motor": "7.5kW @ 1450rpm"
+    }
+  },
+  {
+    "id": 20,
+    "name": "TEIKOKU 2VSCE Pump without motor",
+    "condition": "Used",
+    "make": "TEIKOKU",
+    "model": "2VSCE",
+    "specifications": {
+      "capacity": "200M3/H @ TH: 110m",
+      "bore_size_suc": "SUC. ID 125mm",
+      "bore_size_del": "DEL. ID 65mm",
+      "flange_type": "Offset",
+      "casing_material": "Cast Iron"
+    }
+  },
+  {
+    "id": 21,
+    "name": "SHINKOKINZOKU SVD200 Pump without motor",
+    "condition": "Reconditioned",
+    "make": "SHINKOKINZOKU",
+    "model": "SVD200",
+    "specifications": {
+      "capacity": "350M3/H @ TH: 25m",
+      "bore_size_suc": "SUC.ID 200mm",
+      "bore_size_del": "DEL.ID 200mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron"
+    }
+  },
+  {
+    "id": 22,
+    "name": "HEISHIN VDK-300N Pump",
+    "condition": "Used",
+    "make": "HEISHIN",
+    "model": "VDK-300N",
+    "specifications": {
+      "capacity": "300M3/H @ TH: 50m",
+      "bore_size_suc": "SUC.ID 200mm",
+      "bore_size_del": "DEL.ID 200mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "motor": "75kW @ 1450rpm"
+    }
+  },
+  {
+    "id": 23,
+    "name": "NANIWA 150MM FEWA 150 Pump without motor",
+    "condition": "Used",
+    "make": "NANIWA",
+    "model": "FEWA 150",
+    "specifications": {
+      "capacity": "150M3/H @ TH: 15m",
+      "bore_size_suc": "SUC.ID 150mm",
+      "bore_size_del": "DEL.ID 150mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron"
+    }
+  },
+  {
+    "id": 24,
+    "name": "SHUNDA CLN40-125 Pump",
+    "condition": "New",
+    "make": "SHUNDA",
+    "model": "CLN40-125",
+    "specifications": {
+      "capacity": "40M3/H @ TH: 12.5m",
+      "motor": "5.5kW @ 1450rpm"
+    }
+  },
+
+
+  {
+    "id": 25,
+    "name": "HEISHIN VSK-200 Pump without motor",
+    "condition": "Reconditioned",
+    "make": "HEISHIN",
+    "model": "VSK-200",
+    "specifications": {
+      "capacity": "250M3/H @ TH: 40m",
+      "bore_size_suc": "SUC.ID 200mm",
+      "bore_size_del": "DEL.ID 200mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron"
+    }
+  },
+  {
+    "id": 26,
+    "name": "SHINKO GVC200 Pump with motor",
+    "condition": "Used",
+    "make": "SHINKO",
+    "model": "GVC200",
+    "specifications": {
+      "capacity": "200M3/H @ TH: 30m",
+      "bore_size_suc": "SUC.ID 200mm",
+      "bore_size_del": "DEL.ID 200mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "motor": "15kW @ 1750rpm"
+    }
+  },
+  {
+    "id": 27,
+    "name": "SHINKO GVD250 Pump without motor",
+    "condition": "Reconditioned",
+    "make": "SHINKO",
+    "model": "GVD250",
+    "specifications": {
+      "capacity": "250M3/H @ TH: 35m",
+      "bore_size_suc": "SUC.ID 250mm",
+      "bore_size_del": "DEL.ID 250mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron"
+    }
+  },
+  {
+    "id": 28,
+    "name": "SHINKINZOKU SVA-250M Pump with motor",
+    "condition": "Used",
+    "make": "SHINKINZOKU",
+    "model": "SVA-250M",
+    "specifications": {
+      "capacity": "400M3/H @ TH: 25m",
+      "bore_size_suc": "SUC.ID 250mm",
+      "bore_size_del": "DEL.ID 250mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "motor": "30kW @ 1750rpm"
+    }
+  },
+  {
+    "id": 29,
+    "name": "NANIWA 350MM FEWA 350 Pump without motor",
+    "condition": "Used",
+    "make": "NANIWA",
+    "model": "FEWA 350",
+    "specifications": {
+      "capacity": "500M3/H @ TH: 15m",
+      "bore_size_suc": "SUC.ID 350mm",
+      "bore_size_del": "DEL.ID 350mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron"
+    }
+  },
+  {
+    "id": 30,
+    "name": "HEISHIN VK300 Pump without motor",
+    "condition": "Reconditioned",
+    "make": "HEISHIN",
+    "model": "VK300",
+    "specifications": {
+      "capacity": "400M3/H @ TH: 35m",
+      "bore_size_suc": "SUC.ID 300mm",
+      "bore_size_del": "DEL.ID 300mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "shaft_seal": "Gland Packing Type"
+    }
+  },
+  {
+    "id": 31,
+    "name": "DMC-150C-FM Vertical Centrifugal Pump with Motor",
+    "condition": "Reconditioned",
+    "make": "DBR",
+    "model": "DMC-150C-FM",
+    "specifications": {
+      "capacity": "100M3/H @ TH: 30m",
+      "bore_size_suc": "SUC.ID 150mm",
+      "bore_size_del": "DEL.ID 150mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "motor": "15kW @ 1750rpm"
+    }
+  },
+  {
+    "id": 32,
+    "name": "ALLWEILER AGNIM 100-315U3 Pump",
+    "condition": "Used",
+    "make": "Allweiler",
+    "model": "AGNIM 100-315U3",
+    "specifications": {
+      "capacity": "180M3/H @ TH: 30m",
+      "bore_size_suc": "SUC.ID 150mm",
+      "bore_size_del": "DEL.ID 120mm",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "motor": "22kW @ 1750rpm"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Screw type pump",
+    "description": "Impeller and consumables",
+    "specifications": {}
+  },
+  {
+    "id": 34,
+    "name": "pump",
+    "specifications": {}
+  },
+  {
+    "id": 35,
+    "name": "Cargo Pump",
+    "specifications": {}
+  },
+  {
+    "id": 36,
+    "name": "Pump",
+    "condition": "Reconditioned",
+    "specifications": {}
+  },
+
+
+  {
+    "id": 37,
+    "name": "Taiko Kikai - Cargo Pump",
+    "description": "CGL750, Fully Reconditioned & Ready for Delivery",
+    "specifications": {}
+  },
+  {
+    "id": 38,
+    "name": "Centrifugal Pumps - Vertical Fully Reconditioned and Ready for Delivery",
+    "description": "New electrical motor shall be fitted upon request, 440V or 380V, 50HZ & 60HZ",
+    "specifications": {}
+  },
+  {
+    "id": 39,
+    "name": "Centrifugal Pumps - Vertical Fully Reconditioned",
+    "description": "New electrical motor shall be fitted upon request, 440V or 380V, 50HZ, 60HZ",
+    "specifications": {}
+  },
+  {
+    "id": 40,
+    "name": "Pumps",
+    "description": "Fully reconditioned and tested in our workshop.",
+    "specifications": {}
+  },
+  {
+    "id": 41,
+    "name": "Consumable Spares",
+    "description": "New spares",
+    "specifications": {}
+  },
+  {
+    "id": 42,
+    "name": "Consumable Spares",
+    "description": "New spares",
+    "specifications": {}
+  },
+  {
+    "id": 43,
+    "name": "Consumable Spares",
+    "description": "New spares",
+    "specifications": {}
+  },
+  {
+    "id": 44,
+    "name": "Consumable Spares",
+    "description": "New spares",
+    "specifications": {}
+  },
+  {
+    "id": 45,
+    "name": "Mechanical Seals",
+    "description": "New spares",
+    "specifications": {}
+  },
+  {
+    "id": 46,
+    "name": "HEISHIN GVX160S",
+    "description": "FIRE & GS PUMP",
+    "specifications": {}
+  },
+  {
+    "id": 47,
+    "name": "HEISHIN VSK-150K",
+    "specifications": {}
+  },
+  {
+    "id": 48,
+    "name": "TEIKOKU 2VCS-NV Pump with motor",
+    "condition": "Used",
+    "make": "TEIKOKU",
+    "model": "2VCS-NV",
+    "specifications": {
+      "capacity": "270M3/H. @ TH: 70M",
+      "bore_size_suc": "SUC.ID 250mm",
+      "bore_size_del": "DEL.ID 250mm",
+      "flange_pcd": "SUC 355 @ DEL 355mm",
+      "flange_to_flange": "details not available",
+      "flange_type": "Inline",
+      "casing_material": "Cast Iron",
+      "motor": "100kW @ 440Volts@60Hz@1765rpm"
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+]
+
+
+

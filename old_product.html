@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArkVision Products</title>
+    <link rel="stylesheet" href="styles/main-simple.css" />
+    <script defer src="scripts/utils/helpers.js"></script>
+    <script defer src="scripts/components/navigation.js"></script>
+    <script defer src="scripts/components/product-search.js"></script>
+    <script defer src="scripts/main.js"></script>
+    <script>fetch("navigation.html")
+  .then(res => res.text())
+  .then(data => {
+    const navPlaceholder = document.getElementById("navigation-placeholder");
+    navPlaceholder.innerHTML = data;
+
+    // Mobile menu toggle
+    const toggle = navPlaceholder.querySelector("#navToggle");
+    const menu = navPlaceholder.querySelector("#navMenu");
+
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("open");
+    });
+
+    // Highlight active link dynamically
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+    navPlaceholder.querySelectorAll(".nav-menu a").forEach(link => {
+      if (link.getAttribute("href") === currentPage) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div id="navigation-placeholder"></div>
+    </header>
+
+    <!-- Page hero -->
+      <section class="page-hero" style="background-image: url('assets/images/hero2.png');">
+      <div class="page-hero-content">
+        <h1>Our Products</h1>
+        <p>Discover a full portfolio of marine technology solutions designed for performance and reliability.</p>
+      </div>
+    </section>
+
+    <!-- Search & product list -->
+    <section class="product-list-section">
+      <div class="container">
+        <div class="product-search">
+          <input type="text" id="productSearch" placeholder="Search products..." aria-label="Search products" />
+        </div>
+        <div class="product-grid" id="productGrid">
+          <!-- Each product has a data-name attribute used for filtering -->
+          <div class="product-item" id="navigation" data-name="navigation systems">
+            <h3>Navigation Systems</h3>
+            <p>
+              Our integrated navigation systems provide accurate positioning,
+              route optimisation and real‑time situational awareness to ensure
+              safe voyages.
+            </p>
+            <a href="/contact.html?product=Navigation%20Systems" class="btn btn-primary small">Request Info</a>
+          </div>
+          <div class="product-item" id="sensors" data-name="marine sensors">
+            <h3>Marine Sensors</h3>
+            <p>
+              High‑sensitivity sensors monitor critical parameters such as water
+              depth, temperature, pressure and vibration for informed decision
+              making.
+            </p>
+            <a href="/contact.html?product=Marine%20Sensors" class="btn btn-primary small">Request Info</a>
+          </div>
+          <div class="product-item" id="automation" data-name="automation solutions">
+            <h3>Automation Solutions</h3>
+            <p>
+              Intelligent control platforms automate propulsion, steering and
+              auxiliary systems, reducing crew workload and improving
+              efficiency.
+            </p>
+            <a href="/contact.html?product=Automation%20Solutions" class="btn btn-primary small">Request Info</a>
+          </div>
+          <div class="product-item" id="communication" data-name="communication modules">
+            <h3>Communication Modules</h3>
+            <p>
+              Reliable onboard communication systems that connect vessels with
+              shore offices and other ships, enabling seamless data exchange.
+            </p>
+            <a href="/contact.html?product=Communication%20Modules" class="btn btn-primary small">Request Info</a>
+          </div>
+          <div class="product-item" id="energy" data-name="energy systems">
+            <h3>Energy Systems</h3>
+            <p>
+              Efficient power generation and distribution solutions including
+              hybrid propulsion, renewable integration and energy storage.
+            </p>
+            <a href="/contact.html?product=Energy%20Systems" class="btn btn-primary small">Request Info</a>
+          </div>
+          <div class="product-item" id="hull" data-name="hull components">
+            <h3>Hull Components</h3>
+            <p>
+              Custom‑engineered structural components and materials that enhance
+              vessel strength, reduce weight and improve hydrodynamics.
+            </p>
+            <a href="/contact.html?product=Hull%20Components" class="btn btn-primary small">Request Info</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Repairs & Services Section -->
+    <section class="repairs-services-section">
+      <div class="container">
+        <div class="section-intro">
+          <h2>Repairs & Services</h2>
+          <p>Comprehensive maintenance and repair solutions to keep your marine equipment operating at peak performance</p>
+        </div>
+        
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">🔧</div>
+            <h3>Equipment Repair</h3>
+            <p>Expert repair services for all types of marine equipment including navigation systems, sensors, and automation components.</p>
+            <ul class="service-features">
+              <li>24/7 Emergency repairs</li>
+              <li>On-site and workshop services</li>
+              <li>Genuine parts guarantee</li>
+              <li>Quick turnaround times</li>
+            </ul>
+            <a href="/contact.html?service=Equipment%20Repair" class="btn btn-primary small">Get Quote</a>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon">🛠️</div>
+            <h3>Preventive Maintenance</h3>
+            <p>Scheduled maintenance programs designed to prevent equipment failures and extend operational lifespan.</p>
+            <ul class="service-features">
+              <li>Custom maintenance schedules</li>
+              <li>Performance monitoring</li>
+              <li>Predictive analytics</li>
+              <li>Detailed reporting</li>
+            </ul>
+            <a href="/contact.html?service=Preventive%20Maintenance" class="btn btn-primary small">Learn More</a>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon">📊</div>
+            <h3>System Calibration</h3>
+            <p>Precision calibration services to ensure your marine instruments deliver accurate and reliable measurements.</p>
+            <ul class="service-features">
+              <li>ISO certified procedures</li>
+              <li>Advanced calibration equipment</li>
+              <li>Calibration certificates</li>
+              <li>Traceability documentation</li>
+            </ul>
+            <a href="/contact.html?service=System%20Calibration" class="btn btn-primary small">Schedule Service</a>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon">🔄</div>
+            <h3>Retrofits & Upgrades</h3>
+            <p>Modernize your existing systems with the latest technology to improve performance and compliance.</p>
+            <ul class="service-features">
+              <li>Technology assessments</li>
+              <li>Custom upgrade solutions</li>
+              <li>Integration services</li>
+              <li>Training and support</li>
+            </ul>
+            <a href="/contact.html?service=Retrofits%20Upgrades" class="btn btn-primary small">Upgrade Now</a>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon">📞</div>
+            <h3>Technical Support</h3>
+            <p>Round-the-clock technical assistance from our team of marine equipment specialists.</p>
+            <ul class="service-features">
+              <li>Remote diagnostics</li>
+              <li>Phone and email support</li>
+              <li>Technical documentation</li>
+              <li>Training programs</li>
+            </ul>
+            <a href="/contact.html?service=Technical%20Support" class="btn btn-primary small">Get Support</a>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon">⚡</div>
+            <h3>Emergency Response</h3>
+            <p>Rapid response services for critical equipment failures that require immediate attention.</p>
+            <ul class="service-features">
+              <li>24/7 emergency hotline</li>
+              <li>Mobile service units</li>
+              <li>Priority parts supply</li>
+              <li>Experienced technicians</li>
+            </ul>
+            <a href="tel:+6561234567" class="btn btn-secondary small">Call Emergency</a>
+          </div>
+        </div>
+        
+        <div class="service-cta">
+          <div class="cta-content">
+            <h3>Need Service Support?</h3>
+            <p>Our certified technicians are ready to help with all your marine equipment service needs. Contact us for a consultation.</p>
+            <div class="cta-actions">
+              <a href="/contact.html" class="btn btn-primary">Contact Service Team</a>
+              <a href="tel:+6561234567" class="btn btn-secondary">Call: +65 6862 3379</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h4>ArkVision</h4>
+            <p>
+              Pioneering the next generation of maritime technology. Our passion
+              for engineering meets the power of the sea to deliver solutions
+              that stand the test of time.
+            </p>
+          </div>
+          <div class="footer-links">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="blog.html">Our Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact</h4>
+            <ul>
+              <li>Tel: +65 6862 3379</li>
+              <li>Fax: +65 6863 0930</li>
+              <li>Email: arkvision@singnet.com.sg</li>
+              <li>Address: No. 51 Tuas Ave 1 Singapore 639501</li>
+            </ul>
+          </div>
+          <div class="footer-connect">
+            <h4>Connect with Us</h4>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="LinkedIn">
+                <span class="social-icon">💼</span>
+                <span>LinkedIn</span>
+              </a>
+              <a href="#" class="social-link" aria-label="Facebook">
+                <span class="social-icon">📘</span>
+                <span>Facebook</span>
+              </a>
+              <a href="#" class="social-link" aria-label="Twitter">
+                <span class="social-icon">🐦</span>
+                <span>Twitter</span>
+              </a>
+              <a href="mailto:arkvision@singnet.com.sg" class="social-link" aria-label="Email">
+                <span class="social-icon">📧</span>
+                <span>Email Us</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 ArkVision. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+  </body>
+</html>
