@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "RO Water Maker",
+    "description": "Seawater Reverse Osmosis Watermakers",
+    "specifications": {
+      "mounting": "Skid mounted, Containerised, Portable/Mobile",
+      "capacity": "5 to 300 m3/day",
+      "automation": "Fully automatic pressure regulation & flushing"
+    },
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759855201/RO_Water_Maker_ahiqk0.png"
+  },
+  {
+    "id": 2,
+    "name": "Marine Sewage Treatment Plant",
+    "description": "Marine Sewage Treatment Plants",
+    "specifications": {
+      "capacity": "5 to 700-man Black & Gray Water",
+      "certification": "MEPC.159",
+      "technology": "Biological ‘FAST’ technology",
+      "features": "Vacuum Toilet System, Grease Separators"
+    },
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759897134/Marine_sewage_treatment_plant_ij24hu.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Ballast Water Treatment System",
+    "description": "Ballast Water Treatment Systems",
+    "specifications": {
+      "capacity": "200, 500, 1000, >1000 m3/h",
+      "treatment": "Mechanical Filtration + UV Sterilisation",
+      "approval": "CCS Type Approval / AMS Acceptance"
+    },
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759897127/Ballast_water_treatment_system_s2th8t.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gas/Air Compression Packages",
+    "description": "Gas / Air Compressor Packages",
+    "specifications": {
+      "equipment": "Compressors & Vacuum Pumps",
+      "features": "Oil-free, continuous, high MTBF, low maintenance",
+      "stages": "Single stage & up to 5 stages",
+      "max_pressure": "Up to 300 bar supply pressure"
+    },
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759897121/Gas_Air_Compression_Packages_lgjwpp.png"
+  },
+  {
+    "id": 5,
+    "name": "Water Treatment",
+    "description": "Water Treatment",
+    "specifications": {
+      "design": "Bespoke design & build packages",
+      "applications": "Produced water, oily water, rain run-off; fuel-water separation"
+    },
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759897114/Water_treatment_hmuauw.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Helicopter Jetfuel Refuelling System",
+    "description": "Helicopter Jetfuel Refuelling Systems",
+    "specifications": {
+      "functions": "Filtration & Purification, Pumping & Dispensing, Storage",
+      "compliance": "Class, CAP 437 & NFPA 407 compliant"
+    },
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759897107/Helicopter_Jetfuel_Refuelling_system_tiz0k3.jpg"
+  }
+]

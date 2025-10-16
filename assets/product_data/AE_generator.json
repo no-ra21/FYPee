@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "name": "YANMAR DIESEL ENGINE 6N18AL-SN",
+    "description": "",
+     "model": "6N18AL-SN",    "make": "Yanmar",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759913031/YANMAR_DIESEL_ENGINE_6N18AL-SN_ejlpzk.jpg",
+    "specifications": {
+      "speed_of_crankshaft": "900 rpm",
+      "made_in": "Japan"
+    }
+  },
+  {
+    "id": 2,
+    "name": "NEW GEN SET COMPLETE",
+     "make": "Daihatsu",
+      "condition": "New, Original",
+       "quantity": "2 Units",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759913003/NEW_GEN_SET_COMPLETE-compressed_pbl3i3.jpg",
+    "specifications": {
+     
+      "type": "6DK-20",
+      "eng_speed": "720 min",
+      "power": "760 Kw",
+      "alternator_make": "Nishishiba",
+      "alternator_type": "NTAKL",
+      "alternator_power": "700 Kw, 440 @ 60Hz",
+      "rpm": "720 Kw"
+     
+     
+    }
+  },
+  {
+    "id": 3,
+    "name": "CRANKSHAFT",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759912966/Crankshaft-compressed_tqikne.jpg"
+
+  },
+  {
+    "id": 4,
+    "name": "CAMSHAFT",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759753151/4d691b6a-8ec7-4088-bb07-387c4a94907e-removebg-preview_omvgwr.png"
+
+  },
+  {
+    "id": 5,
+    "name": "JAPANESE AND EUROPEAN AUX ENGINE COMPONENTS",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044490/85fcd783-f5ce-454b-861c-a03cec4a0ed0.png"
+
+  },
+  {
+    "id": 6,
+    "name": "CYLINDER LINERS",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759753210/1262158060_P1060799-removebg-preview_r7vymz.png"
+
+  },
+  {
+    "id": 7,
+    "name": "PISTONS",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759912864/Pistons-compressed_pixpsw.jpg"
+ 
+  },
+  {
+    "id": 8,
+    "name": "PISTON RINGS",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759912828/Piston_rings_3-compressed_m5hn3e.jpg"
+
+  },
+  {
+    "id": 9,
+    "name": "PISTON RINGS",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044544/71b13971-3895-40e0-bdbd-faa2e819334d.png"
+
+  },
+  {
+    "id": 10,
+    "name": "CONSUMABLE SPARES",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759912716/Consummable_spares_20-compressed_egu5lk.jpg"
+
+  },
+  {
+    "id": 11,
+    "name": "CONSUMABLE SPARES",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759912682/Consummable_spares_19-compressed_i3lldc.jpg"
+ 
+  },
+  {
+    "id": 12,
+    "name": "CONSUMABLE SPARES",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759912646/Consummable_spares_18-compressed_y72st1.jpg"
+
+  },
+  {
+    "id": 13,
+    "name": "CONSUMABLE SPARES",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759912592/Consummable_spares_17-compressed_ayw7gf.jpg"
+   
+  },
+  {
+    "id": 14,
+    "name": "CONSUMABLE SPARES",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759912523/Consummable_spares_16_mxgymm.jpg"
+ 
+  },
+  {
+    "id": 15,
+    "name": "CONSUMABLE SPARES",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759912487/Consummable_spares_15-compressed_w8j4ax.jpg"
+    
+  },
+  {
+    "id": 16,
+    "name": "CONSUMABLE SPARES",
+ 
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759912429/Consummable_spares-compressed_arpyhq.jpg"
+   
+  },
+  {
+    "id": 17,
+    "name": "GENERATOR SPARES",
+
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759755034/1350273982_IMG_4282_b1m51f.jpg"
+ 
+  },
+  {
+    "id": 18,
+    "name": "MAIN & CON ROD BEARING",
+    "description": "JAPANESE & EUROPEAN MADE, 2 STROKE ENGINE, 4 STROKE ENGINE",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759755246/1262157496_P1060736_nwhmt1.jpg"
+ 
+  },
+  {
+    "id": 19,
+    "name": "MAIN & CON ROD BEARING",
+    "description": "MAIN & CON ROD BEARINGS, 2 STROKE ENGINE, 4 STROKE ENGINE",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759755241/1262157702_P1060731_okmo9h.jpg"
+  
+  },
+  {
+    "id": 20,
+    "name": "CONNECTING ROD",
+    "description": "JAPANESE & EUROPEAN MADE, FULLY RECONDITIONED WITH LOCAL WORKSHOP REPORT",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759912180/Connecting_Rod-compressed_jy1sis.jpg"
+
+  },
+  {
+    "id": 21,
+    "name": "CRANKSHAFTS",
+    "description": "",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759912108/Crankshafts-compressed_bkws4a.jpg"
+   
+  },
+  {
+    "id": 22,
+    "name": "Daihatsu Diesel Engine",
+    "description": "",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045189/image-removebg-preview_31_x1wec3.png",
+     "model": "6DL-24",
+    "specifications": {
+     
+      "rating": "1170 PS",
+      "speed": "720 RPM",
+      "engine_no": "DL624228"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Daihatsu Diesel Engine",
+    "description": "",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044979/Daihatsu_Diesel_Engine_2_lurshz.png",
+     "model": "6DK-20",
+    "specifications": {
+     
+      "rating": "1100 PS",
+      "speed": "900 RPM",
+      "engine_no": "DK620Z0402"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Yanmar Diesel Engine",
+    "description": "",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044975/Yanmar_Diesel_Engine_haa2ae.png",
+    "model": "T260L-ET",
+    "specifications": {
+      
+      "rating": "1500 HP",
+      "speed": "720 RPM",
+      "engine_no": "0670 FHR"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Yanmar Diesel Engine",
+    "description": "",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045119/image-removebg-preview_30_zazdob.png",
+    "specifications": {
+      "rating": "1200 PS",
+      "speed": "720 RPM",
+      "engine_no": "2092 FGG"
+    },
+    "model": "T240L-ET"
+  },
+  {
+    "id": 26,
+    "name": "Cummins Engine",
+    "description": "",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044966/Cummins_Engine_ipe4lx.png"
+   
+  },
+  {
+    "id": 27,
+    "name": "CATERPILLAR 3612 ENGINE COMPLETE",
+    "description": "",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044963/CATERPILLAR_3612_ENGINE_COMPLETE_leakwz.png"
+   
+  }
+]

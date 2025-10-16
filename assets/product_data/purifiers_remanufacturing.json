@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "name": "ALFA LAVAL S825 PURIFIER",
+    "make": "Alfa Laval",
+    "model": "S825",
+    "condition": "Original",
+    "quantity": "1 unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072032/ALFA_LAVAL_S825_PURIFIER_dwtcdn.png"
+  },
+  {
+    "id": 2,
+    "name": "MITSUBISHI SJ50GH PURIFIER COMPLETE",
+    "make": "MITSUBISHI",
+    "model": "SJ50GH",
+    "condition": "New, original",
+    "quantity": "1 unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072667/MITSUBISHI_SJ50GH_PURIFIER_COMPLETE_jsvcmh.png"
+  },
+  {
+    "id": 3,
+    "name": "ALFA LAVAL S826 PURIFIER",
+    "make": "Alfa Laval",
+    "model": "S826",
+    "condition": "New, original",
+    "quantity": "1 unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072662/ALFA_LAVAL_S826_PURIFIER_jaa0xu.png"
+  },
+  {
+    "id": 4,
+    "name": "Purifier",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072905/Purifier_hl7pgf.png"
+  },
+  {
+    "id": 5,
+    "name": "Testing Remanufactured Purifier",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072897/Testing_Remanufactured_Purifier_oshnd6.png"
+  },
+  {
+    "id": 6,
+    "name": "Purifier",
+    "description": "Fully Reconditioned & Function Test in our Workshop",
+    "model": "Alfa Laval MAPX 207",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072890/Purifier_1_v7roc4.png"
+  },
+  {
+    "id": 7,
+    "name": "Purifier",
+    "description": "1. Purifier is fully dismantled, cleaned, all parts are inspected thoroughly.\n2. Worn & damaged parts are replaced with new spare parts from our ready stock.\n3. Purifier is assembled and all height & dimension are adjusted as per maker's manual.",
+    "model": " Mitsubishi SJ 3000",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072745/334f79c2-6ffd-476a-8e24-e342144c7548.png"
+  },
+  {
+    "id": 8,
+    "name": "Purifier",
+    "description": "Fully remanufactured, bowl balanced & function tested",
+    "model": "Mitsubishi SJ 3000",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072883/PURIFIER_2_gnsd5h.png"
+  },
+  {
+    "id": 9,
+    "name": "Purifier",
+    "description": "Fully Remanufactured with Function Test in our workshop",
+    "model": "Mitsubishi SJ3000",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072875/PURIFIER_3_zkbhn8.png"
+  },
+  {
+    "id": 10,
+    "name": "Purifier",
+    "description": "Purifier System with Control Panel, Fully Remanufactured with function test in our workshop",
+    "model": "Mitsubishi SJ7000",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072868/PURIFIER_4_mssfnl.pngg"
+  },
+  {
+    "id": 11,
+    "name": "Purifier",
+    "description": "Fully Remanufactured & Ready for Delivery",
+    "model": "Alfa Laval MOPX 207",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072861/PURIFIER_5_inexse.png"
+  },
+  {
+    "id": 12,
+    "name": "Purifier",
+    "description": "Fully remanufactured",
+    "model": "Mitsubishi SJ11T",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072854/PURIFIER_6_oeuinv.png"
+  },
+  {
+    "id": 13,
+    "name": "Purifier",
+    "description": "Fully remanufactured",
+    "model": "Mitsubishi SJ2000",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072847/PURIFIER_7_qa8acy.png"
+  }
+]

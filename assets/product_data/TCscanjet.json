@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Scanjet SC390 Tank Cleaning Equipment",
+    "make": "Scanjet Marine AB",
+    "model": "SC390",
+    "specifications": { "serial_no": "1394" },
+    "condition": "New, Original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759854465/SCANJET_SC390_TANK_CLEANING_EQUIPMENT_cvmpiv.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Scanjet SC360 Tank Cleaning Equipment",
+    "make": "Scanjet Marine AB",
+    "model": "SC360",
+    "specifications": {  "serial_no": "410",
+    "length": "0.9m" },
+     "condition": "New, Original",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759854463/SCANJET_SC360_TANK_CLEANING_EQUIPMENT_qnntfn.png"
+  }
+]

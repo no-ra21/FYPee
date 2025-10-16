@@ -1,0 +1,303 @@
+[
+  {
+    "id": 1,
+    "name": "NOZZLE BOSCH",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045747/NOZZLE_BOSCH_eredqf_vqdpqk.png",
+    "make": "BOSCH",
+    "model": "KDAL80 S20/19",
+    "quantity": 7,
+    "description": "NOZZLE INJECTOR",
+    "specifications": {
+      "injector_spec": "0 430 233 007 000",
+      "made_in": "Germany",
+      "part_no": "60730"
+    }
+  },
+  {
+    "id": 2,
+    "name": "NOZZLE MAN",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045784/NOZZLE_MAN_nfuv7s_tk6wmf.png",
+    "make": "MITAUI MAN B&W",
+    "model": "MC-3",
+    "quantity": 1,
+      "condition": "New, Original",
+    "description": "NOZZLE NON RETURN VALVE",
+    "specifications": {
+      "spindle_spec": "07C 5D-33902"
+    
+    }
+  },
+  {
+    "id": 3,
+    "name": "NOZZLE MAN",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045797/NOZZLE_SPINDLE_GUIDE_chopel_yahnps.png",
+    "make": "MITAUI MAN B&W",
+    "model": "MC-3",
+    "quantity": 6,
+     "condition": "New, Original",
+    "description": "NOZZLE SPINDLE GUIDE",
+    "specifications": {
+      "spindle_spec": "07F 5D-33899"
+     
+    }
+  },
+  {
+    "id": 4,
+    "name": "NOZZLE MAN",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045774/NOZZLE_MAN_B_W_fcuh1t_jnnvbu.png",
+    "make": "MAN B&W",
+    "model": "70/120E",
+    "quantity": 3,
+    "condition": "New, OEM",
+    "description": "NOZZLE MAN B&W 70/120E",
+    "specifications": {
+      "nozzle_spec": "1381008"     
+    }
+  },
+  {
+    "id": 5,
+    "name": "NOZZLE MAN",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045767/NOZZLE_MAN_B_W_558511_qjrfh1_f0pw8f.png",
+    "make": "MAN B&W",
+   "condition": "New, OEM",
+    "quantity": 4,
+    "description": "NOZZLE MAN B&W 558511-4",
+    "specifications": {
+      "nozzle_spec": "558511-4.1x110"
+     
+    }
+  },
+  {
+    "id": 6,
+    "name": "NOZZLE",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045735/NOZZLE_19_wialm9.png",
+    "condition": "New, OEM",
+    "quantity": 1,
+    "description": "NOZZLE 19",
+    "specifications": {
+      "nozzle_spec": "19 L0 VVM-U973Y"
+     
+    }
+  },
+  {
+    "id": 7,
+    "name": "NOZZLE",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045728/NOZZLE_9C04_vbpoei.png",
+     "condition": "New, OEM",
+    "quantity": 1,
+    "description": "NOZZLE 9C04",
+    "specifications": {
+      "nozzle_spec": "9C04 CMN-D 081 H"
+   
+    }
+  },
+  {
+    "id": 8,
+    "name": "NOZZLE",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045723/NOZZLE_04_DLF_140T5510_zk4tue.png",
+    "condition": "New, OEM",
+    "quantity": 1,
+    "description": "NOZZLE C1-18",
+    "specifications": {
+      "nozzle_spec": "C1-18 0.46-10-130 M912"
+     
+    }
+  },
+  {
+    "id": 9,
+    "name": "NOZZLE MAK",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045764/NOZZLE_MAK_kivdte.png",
+   "condition": "New, OEM",
+    "model": "MAK M453",
+    "quantity": 2,
+    "description": "NOZZLE MAK M453",
+    "specifications": {
+      "nozzle_spec": "4LT a 206-01"
+      
+    }
+  },
+  {
+    "id": 10,
+    "name": "NOZZLE WARTSILA DIESEL",
+    "imageUrl": "nopicture",
+  "condition": "New, Original",
+    "quantity": 1,
+    "description": "NOZZLE WARTSILA DIESEL",
+    "specifications": {
+      "nozzle_spec": "9.29. 26790.0"
+      
+    }
+  },
+  {
+    "id": 11,
+    "name": "NOZZLE",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045757/NOZZLE_DMS_260_cp1hqa.png",
+  
+    "quantity": 1,
+         "condition": "New, OEM",
+    "description": "NOZZLE DMS 260 - 10 x 052 X 70"
+    
+  },
+  {
+    "id": 12,
+    "name": "NOZZLE MAN",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045777/NOZZLE_MAN_L_80_160_t79qpp.png",
+    "make": "MAN",
+    "model": "L 80/160", "condition": "New, OEM",
+    "quantity": 1,
+    "description": "NOZZLE MAN L 80/160",
+    "specifications": {
+      "nozzle_spec": "DMN - 508 R"
+     
+    }
+  },
+  {
+    "id": 13,
+    "name": "NOZZLE MITSUBISHI",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045794/NOZZLE_MITSUBISHI_UEC_52_125H_sqfm49.png",
+    "make": "MITSUBISHI",
+    "model": "UEC 45LA",
+    "condition": "New, OEM",
+    "quantity": 1,
+    "description": "NOZZLE MITSUBISHI UEC 45LA",
+    "specifications": {
+      "nozzle_spec": "232 075 4N 22 10 2909 RT"
+      
+    }
+  },
+  {
+    "id": 14,
+    "name": "NOZZLE AKASAKA",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045738/NOZZLE_AKASAKA_doxtrm.png",
+    "make": "AKASAKA",
+"condition": "New, OEM",
+    "quantity": 1,
+    "description": "NOZZLE AKASAKA",
+    "specifications": {
+      "nozzle_spec": "DM51 - 058. 11. 120 1TI"
+      
+    }
+  },
+  {
+    "id": 15,
+    "name": "NOZZLE AKASAKA",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045754/NOZZLE_C1-18_fljpl3.png",
+    "make": "AKASAKA DIESEL",
+    "condition": "New, OEM",
+    "quantity": 1,
+    "description": "NOZZLE AKASAKA DIESEL",
+    "specifications": {
+      "nozzle_spec": "219 068 4N 23 10 13.6 2202 R"
+      
+    }
+  },
+  {
+    "id": 16,
+    "name": "NOZZLE",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045723/NOZZLE_04_DLF_140T5510_zk4tue.png",
+
+    "quantity": 6,
+    "condition": "New, OEM",
+    "description": "NOZZLE 04 DLF 140T5510",
+    "specifications": {
+      "nozzle_spec": "04 DLF 140T5510"
+      
+    }
+  },
+  {
+    "id": 17,
+    "name": "NOZZLE MITSUBISHI",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045794/NOZZLE_MITSUBISHI_UEC_52_125H_sqfm49.png",
+    "make": "MITSUBISHI",
+    "model": "UEC 52/125H",
+    "quantity": 2,
+     "condition": "New, OEM",
+    "description": "NOZZLE MITSUBISHI UEC 52/125H",
+    "specifications": {
+      "nozzle_spec": "213 080 4N 23 10 20 10 11.8 2510R"
+     
+    }
+  },
+  {
+    "id": 18,
+    "name": "NOZZLE MITSUI",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045721/NOZZEL_MITSUI_pqocmf.png",
+    "make": "MITSUI B&W",
+    "model": "K62EF",
+    "quantity": 4,
+    "condition": "New, OEM",
+    "specifications": {
+      "nozzle_spec": "9803M"
+      
+    }
+  },
+  {
+    "id": 19,
+    "name": "NOZZLE",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046115/NOZZLE_RTA_76_catqvk.png",
+    "make": "N.N.K.",
+    "model": "RTA 76",
+    "quantity": 6,
+     "condition": "New, OEM",
+    "specifications": {
+      "nozzle_spec": "09 - 0077-M-A3-50846-10 720N-M, 1.100 X 1.350 x 1.250 x 1.400 x R x 1.6"
+     
+    }
+  },
+  {
+    "id": 20,
+    "name": "NOZZLE",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046112/NOZZLE_5F_DLF_cg22ag.png",
+    "make": "PYUNG HWA DIESEL",
+    "model": "",
+    "quantity": 6,
+    
+    "condition": "New, OEM",
+    "specifications": {
+      "nozzle_spec": "5F DLF 130UJ388C"
+      
+    }
+  },
+  {
+    "id": 21,
+    "name": "NOZZLE SULZUR",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046178/NOZZLE_SULZUR_iq76ke.png",
+    "make": "SULZER",
+    "model": "BAH 22",
+    "quantity": 18,
+    "description": "NOZZLE SULZUR BAH 22",
+      "condition": "New, OEM",
+    "specifications": {
+      "nozzle_spec": "74 - DSZ 746 - 6 x 0.30 x 130"
+    }
+  },
+  {
+    "id": 22,
+    "name": "NOZZLE",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046231/image-removebg-preview_32_xnu685.png",
+    "make": "DUAP",
+    "model": "",
+    "quantity": 4,
+    
+    "condition": "New, Original",
+    "specifications": {
+      "nozzle_spec": "B84  323 - 038389"
+      
+    }
+  },
+  {
+    "id": 23,
+    "name": "NOZZLE NIIGATA",
+    "imageUrl": "nopicture",
+    "make": "Niigata",
+    "model": "32CX",
+    "quantity": 6,
+     "condition": "New, Original",
+    "description": "NOZZLE FOR NIIGATA 32CX",
+    "specifications": {
+      "part_no": "F6921143A",
+      "nozzle_spec": "6A10 323-038392 x 145 x 9 x 0.15R AE 035"
+     
+    }
+  }
+]

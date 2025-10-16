@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "Ingersoll Rand ST750GBDP03L92-3M",
+    "make": "Ingersoll Rand",
+    "model": "ST750GBDP03L92-3M",
+    "condition": "New, Original",
+    "quantity": "2 units",
+    "price": "USD 3,650 per unit",
+    "description": "Ingersoll Rand ST750GBDP03L92-3M for sale in Ark Vision Singapore warehouse, readily available.",
+    "specifications": {},
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759752844/1758522848_1000166945_tn-removebg-preview_psdd0p.png"
+  },
+  {
+    "id": 2,
+    "name": "Non Return Valve CPL",
+    "make": "MAN",
+    "model": "L/S 50MC-C",
+    "condition": "Good Condition",
+    "quantity": "12 pcs",
+    "description": "Non-Return Valve CPL for sale in our Singapore warehouse, readily available.",
+    "specifications": {},
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044322/NON-RETURN_VALVE_CPL_mt6mvo.png"
+  },
+  {
+    "id": 3,
+    "name": "MAN Diesel & Turbo",
+    "make": "MAN",
+    "model": "L/S 60MC-C",
+    "condition": "Good Condition",
+    "quantity": "12 pcs",
+    "description": "MAN Diesel & Turbo for sale in our Singapore warehouse, readily available.",
+    "specifications": {},
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044319/MAN_DIESEL_TURBO_mgtlxz.png"
+  },
+  {
+    "id": 4,
+    "name": "Needle Guide",
+    "make": "",
+    "model": "",
+    "condition": "Good Condition",
+    "quantity": "12 pcs",
+    "description": "Needle Guide + Atomizer for sale in our Singapore warehouse, readily available.",
+    "specifications": {
+      "spec_number": "2706200490-27",
+      "made_in": "Italy"
+    },
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044316/NEEDLE_GUIDE_yqtifg.png"
+  },
+  {
+    "id": 5,
+    "name": "MAN Diesel & Turbo",
+    "make": "MAN",
+    "model": "L/S 60MC-C",
+    "condition": "Good Condition",
+    "quantity": "6 pcs",
+    "description": "MAN Diesel & Turbo for sale in our Singapore warehouse, readily available.",
+    "specifications": {
+      "spec_number": "CPN 10/16 B"
+    },
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044313/MAN_DIESEL_TURBO_1_mgpd8r.png"
+  },
+  {
+    "id": 6,
+    "name": "Wartsila 7RT FLEX 58TB Piston Crown",
+    "make": "Wartsila",
+    "model": "7RT FLEX 58TB",
+    "condition": "Second, Original",
+    "quantity": "1 pcs",
+    "description": "Wartsila 7RT FLEX 58TB Piston Crown for sale in our Singapore warehouse, readily available.",
+    "specifications": {},
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044311/WARTSILA_7RT_FLEX_58TB_PISTON_CROWN_klesi6.png"
+  },
+  {
+    "id": 7,
+    "name": "Pres Vac PV-ECO Valve",
+    "make": "Pres Vac",
+    "model": "PV-ECO",
+    "condition": "New",
+    "quantity": "6 units",
+    "description": "Pres Vac PV-ECO Valve for sale in our Singapore warehouse, readily available.",
+    "specifications": {
+      "type": "ECO 53",
+      "open_set": "+14 kPa",
+      "type_alt": "VAC 95",
+      "open_set_alt": "-3.5 kPa",
+      "inlet_dn": "65",
+      "serial_no": "37185-022"
+    },
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044308/PRES_VAC_PV-ECO_VALVE_r3wgyj.png"
+  },
+  {
+    "id": 8,
+    "name": "Maersk B1000 Cylinder Oil Blending Unit",
+    "make": "Maersk",
+    "model": "B1000",
+    "condition": "",
+    "quantity": "",
+    "description": "Maersk B1000 Cylinder Oil Blending Unit for sale in our Singapore warehouse, readily available.",
+    "specifications": {
+      "pressure": "600 bar",
+      "temperature": "50℃"
+    },
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759044304/MAERSK_B1000_CYLINDER_OIL_BLENDING_UNIT_rfjnzc.jpg"
+  }
+]

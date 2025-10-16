@@ -105,7 +105,7 @@
           <div class="col-12">
                         <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../blogs.html">Blog</a></li>
+    <li class="breadcrumb-item"><a href="../blog.html">Blog</a></li>
     <li class="breadcrumb-item active" aria-current="page" id="breadcrumbCategory">Product</li>
   </ol>
 </nav>
@@ -191,7 +191,7 @@
             <li><a href="products.html">Products</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="index.html">Home</a></li>
-             <li><a href="blogs.html">Blogs</a></li>
+             <li><a href="blog.html">Blogs</a></li>
           </ul>
         </div>
         <div class="footer-contact">
@@ -209,240 +209,199 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-      // Global variables
-      let allProducts = [];
-      let filteredProducts = [];
-      let currentCategory = '';
+    <script type="module">
+  import { performSearch } from "../scripts/modules/keyword-search.js";
 
-      // Category mapping 
-      const categoryMapping = {
-        'electrical-items': { file: 'electric_items.json', title: 'Electrical Items' },
-        'hydraulic-motor-pumps': { file: 'hydraulic_pumps.json', title: 'Hydraulic Motor & Pumps' },
-        'nozzle': { file: 'nozle.json', title: 'Nozzles' },
-        'pumps': { file: 'pumps.json', title: 'Pumps' },
-        'turbochargers': { file: 'turbochargers.json', title: 'Turbochargers' },
-        'main-engine-two-stroke': { file: 'two_strokes.json', title: 'Main Engine (Two Stroke)' },
-        'main-engine-four-stroke': { file: 'four_stroke.json', title: 'Main Engine (Four Stroke)' },
-        'governor': { file: 'governor.json', title: 'Governor' }
-      };
+  // Global variables
+  let allProducts = [];
+  let filteredProducts = [];
+  let currentCategory = "";
 
-      // Get category 
-      function getCategoryFromURL() {
-        const path = window.location.pathname;
-        const filename = path.split('/').pop().replace('.html', '');
-        return filename;
-      }
+  // Category mapping
+  const categoryMapping = {
+    "electrical-items": { file: "electric_items.json", title: "Electrical Items" },
+    "hydraulic-motor-pumps": { file: "hydraulic_pumps.json", title: "Hydraulic Motor & Pumps" },
+    nozzle: { file: "nozle.json", title: "Nozzles" },
+    pumps: { file: "pumps.json", title: "Pumps" },
+    turbochargers: { file: "turbochargers.json", title: "Turbochargers" },
+    "main-engine-two-stroke": { file: "two_strokes.json", title: "Main Engine (Two Stroke)" },
+    "main-engine-four-stroke": { file: "four_stroke.json", title: "Main Engine (Four Stroke)" },
+    governor: { file: "governor.json", title: "Governor" },
+  };
 
-      // Load products 
-      async function loadProducts() {
-        try {
-          currentCategory = getCategoryFromURL();
-          const categoryInfo = categoryMapping[currentCategory];
-          
-          if (!categoryInfo) {
-            throw new Error('Category not found');
-          }
-
-          // Update page title and category title
-          document.getElementById('pageTitle').textContent = `${categoryInfo.title} - ArkVision`;
-          document.getElementById('categoryTitle').textContent = categoryInfo.title;
-          document.getElementById('breadcrumbCategory').textContent = categoryInfo.title;
-
-          const response = await fetch(`../assets/blog_data/${categoryInfo.file}`);
-          if (!response.ok) {
-            throw new Error('Failed to fetch products');
-          }
-          
-          allProducts = await response.json();
-          filteredProducts = [...allProducts];
-          
-          document.getElementById('loadingIndicator').style.display = 'none';
-          displayProducts();
-        } catch (error) {
-          console.error('Error loading products:', error);
-          document.getElementById('loadingIndicator').style.display = 'none';
-          document.getElementById('errorMessage').style.display = 'block';
-        }
-      }
-let currentPage = 1;
-const itemsPerPage = 24;
-
-      // Display products in grid
-      function displayProducts(page=1) {
-         currentPage = page;
-        const productsGrid = document.getElementById('productsGrid');
-        const noResultsMessage = document.getElementById('noResultsMessage');
-        
-        if (filteredProducts.length === 0) {
-          productsGrid.innerHTML = '';
-          noResultsMessage.style.display = 'block';
-          document.getElementById('pagination').innerHTML = '';
-          return;
-        }
-
-        // Pagination slicing
-  const startIndex = (page - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
-  const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
-
-        noResultsMessage.style.display = 'none';
-        
-       productsGrid.innerHTML = paginatedProducts.map(product => `
-  <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 mb-4">
-    <div class="product-item-blog-detail h-100 shadow-sm" style="cursor: pointer;" onclick="showProductDetail(${product.id})">
-      <div class="card-img-top d-flex align-items-center justify-content-center">
-        <img src="${product.imageUrl}" 
-             alt="${product.name}" 
-             class="img-fluid"
-             style="max-height: 160px; width: 100%; object-fit: contain;"
-             onerror="this.src='../assets/images/no-image.jpg'">
-      </div>
-      <div class="card-body d-flex flex-column align-items-center">
-        <h6 class="card-title text-center pt-2">${product.name}</h6>
-      </div>
-    </div>
-  </div>
-`).join('');
-
-        renderPagination();
-      }
-
-      // Render pagination controls
-function renderPagination() {
-  const pagination = document.getElementById('pagination');
-  const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
-
-  if (totalPages <= 1) {
-    pagination.innerHTML = '';
-    return;
+  // Get category
+  function getCategoryFromURL() {
+    const path = window.location.pathname;
+    const filename = path.split("/").pop().replace(".html", "");
+    return filename;
   }
 
-  let buttons = '';
+  // Load products
+  async function loadProducts() {
+    try {
+      currentCategory = getCategoryFromURL();
+      const categoryInfo = categoryMapping[currentCategory];
 
-  // Previous button
-  buttons += `
-    <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
-      <a class="page-link" href="#" onclick="displayProducts(${currentPage - 1}); return false;">Previous</a>
-    </li>
-  `;
+      if (!categoryInfo) throw new Error("Category not found");
 
-  // Page numbers
-  for (let i = 1; i <= totalPages; i++) {
-    buttons += `
-      <li class="page-item ${i === currentPage ? 'active' : ''}">
-        <a class="page-link" href="#" onclick="displayProducts(${i}); return false;">${i}</a>
-      </li>
-    `;
+      // Update page title and breadcrumb
+      document.getElementById("pageTitle").textContent = `${categoryInfo.title} - ArkVision`;
+      document.getElementById("categoryTitle").textContent = categoryInfo.title;
+      document.getElementById("breadcrumbCategory").textContent = categoryInfo.title;
+
+      const response = await fetch(`../assets/blog_data/${categoryInfo.file}`);
+      if (!response.ok) throw new Error("Failed to fetch products");
+
+      allProducts = await response.json();
+      filteredProducts = [...allProducts];
+
+      document.getElementById("loadingIndicator").style.display = "none";
+      displayProducts();
+    } catch (error) {
+      console.error("Error loading products:", error);
+      document.getElementById("loadingIndicator").style.display = "none";
+      document.getElementById("errorMessage").style.display = "block";
+    }
   }
 
-  // Next button
-  buttons += `
-    <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
-      <a class="page-link" href="#" onclick="displayProducts(${currentPage + 1}); return false;">Next</a>
-    </li>
-  `;
+  let currentPage = 1;
+  const itemsPerPage = 24;
 
-  pagination.innerHTML = buttons;
-}
+  // Display products in grid
+  function displayProducts(page = 1) {
+    currentPage = page;
+    const productsGrid = document.getElementById("productsGrid");
+    const noResultsMessage = document.getElementById("noResultsMessage");
 
-      // Show product detail in modal
-      function showProductDetail(productId) {
-        const product = allProducts.find(p => p.id === productId);
-        if (!product) return;
+    if (filteredProducts.length === 0) {
+      productsGrid.innerHTML = "";
+      noResultsMessage.style.display = "block";
+      document.getElementById("pagination").innerHTML = "";
+      return;
+    }
 
+    const startIndex = (page - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
 
-const modalTitle = document.getElementById('productDetailModalLabel');
+    noResultsMessage.style.display = "none";
 
-        const modalContent = document.getElementById('productDetailContent');
-       
-        modalContent.innerHTML = `
-          <div class="row bg-transparent">
-            <div class="col-md-5">
-              <img src="${product.imageUrl}" 
-                   alt="${product.name}" 
-                   class="img-fluid rounded"
-                   onerror="this.src='https://via.placeholder.com/400x300/6c757d/ffffff?text=No+Image'">
-            </div>
-            <div class="col-md-7">
-              <h4 style="color:#000">${product.name}</h4>
-              <table class="table table-borderless">
-                <tr>
-                  <td><strong>Make:</strong></td>
-                  <td>${product.make || 'N/A'}</td>
-                </tr>
-                <tr>
-                  <td><strong>Model:</strong></td>
-                  <td>${product.model || 'N/A'}</td>
-                </tr>
-                <tr>
-                  <td><strong>Condition:</strong></td>
-                  <td>${product.condition || 'N/A'}</td>
-                </tr>
-                <tr>
-                  <td><strong>Quantity:</strong></td>
-                  <td>${product.qty || '1 unit'}</td>
-                </tr>
-                <tr>
-                  <td><strong>Price:</strong></td>
-                  <td class="text-success fw-bold">${product.price || 'Contact for price'}</td>
-                </tr>
-              </table>
-              <div class="mt-3">
-                <h6 style="color: #999">Description:</h6>
-                <p style="color: #a1a1a1">${product.description}</p>
+    productsGrid.innerHTML = paginatedProducts
+      .map(
+        (product) => `
+          <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2 mb-4">
+            <div class="product-item-blog-detail h-100 shadow-sm" 
+                 style="cursor: pointer;" 
+                 onclick="showProductDetail(${product.id})">
+              <div class="card-img-top d-flex align-items-center justify-content-center">
+                <img src="${product.imageUrl}" 
+                     alt="${product.name}" 
+                     class="img-fluid"
+                     style="max-height: 160px; width: 100%; object-fit: contain;"
+                     onerror="this.src='../assets/images/no-image.jpg'">
+              </div>
+              <div class="card-body d-flex flex-column align-items-center">
+                <h6 class="card-title text-center pt-2">${product.name}</h6>
               </div>
             </div>
           </div>
-        `;
+        `
+      )
+      .join("");
 
-        productTitle = document.getElementById('productDetailModalLabel');
-        productTitle.textContent = product.name;
-        new bootstrap.Modal(document.getElementById('productDetailModal')).show();
-      }
+    renderPagination();
+  }
 
-      // Search functionality
-      function performSearch() {
-        const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
-        
-        if (searchTerm === '') {
-          filteredProducts = [...allProducts];
-        } else {
-          filteredProducts = allProducts.filter(product => 
-            product.name.toLowerCase().includes(searchTerm) ||
-            (product.make && product.make.toLowerCase().includes(searchTerm)) ||
-            (product.model && product.model.toLowerCase().includes(searchTerm)) ||
-            (product.description && product.description.toLowerCase().includes(searchTerm))
-          );
-        }
-        
-        displayProducts();
-      }
+  // Pagination
+  function renderPagination() {
+    const pagination = document.getElementById("pagination");
+    const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
+    if (totalPages <= 1) {
+      pagination.innerHTML = "";
+      return;
+    }
 
-     
+    let buttons = `
+      <li class="page-item ${currentPage === 1 ? "disabled" : ""}">
+        <a class="page-link" href="#" onclick="displayProducts(${currentPage - 1}); return false;">Previous</a>
+      </li>
+    `;
 
-      // Event listeners
-      document.addEventListener('DOMContentLoaded', function() {
-        loadProducts();
+    for (let i = 1; i <= totalPages; i++) {
+      buttons += `
+        <li class="page-item ${i === currentPage ? "active" : ""}">
+          <a class="page-link" href="#" onclick="displayProducts(${i}); return false;">${i}</a>
+        </li>
+      `;
+    }
 
-        // Search functionality
-      
-        document.getElementById('searchInput').addEventListener('keyup', function(event) {
-          if (event.key === 'Enter') {
-            performSearch();
-          }
-        });
+    buttons += `
+      <li class="page-item ${currentPage === totalPages ? "disabled" : ""}">
+        <a class="page-link" href="#" onclick="displayProducts(${currentPage + 1}); return false;">Next</a>
+      </li>
+    `;
 
-      
+    pagination.innerHTML = buttons;
+  }
 
-        // Real-time search
-        let searchTimeout;
-        document.getElementById('searchInput').addEventListener('input', function() {
-          clearTimeout(searchTimeout);
-          searchTimeout = setTimeout(performSearch, 300);
-        });
-      });
-    </script>
+  // Product details modal
+  function showProductDetail(productId) {
+    const product = allProducts.find((p) => p.id === productId);
+    if (!product) return;
+
+    const modalContent = document.getElementById("productDetailContent");
+    modalContent.innerHTML = `
+      <div class="row bg-transparent">
+        <div class="col-md-5">
+          <img src="${product.imageUrl}" alt="${product.name}" class="img-fluid rounded"
+               onerror="this.src='https://via.placeholder.com/400x300/6c757d/ffffff?text=No+Image'">
+        </div>
+        <div class="col-md-7">
+          <h4 style="color:#000">${product.name}</h4>
+          <table class="table table-borderless">
+            <tr><td><strong>Make:</strong></td><td>${product.make || "N/A"}</td></tr>
+            <tr><td><strong>Model:</strong></td><td>${product.model || "N/A"}</td></tr>
+            <tr><td><strong>Condition:</strong></td><td>${product.condition || "N/A"}</td></tr>
+            <tr><td><strong>Quantity:</strong></td><td>${product.qty || "1 unit"}</td></tr>
+            <tr><td><strong>Price:</strong></td><td class="text-success fw-bold">${product.price || "Contact for price"}</td></tr>
+          </table>
+          <div class="mt-3">
+            <h6 style="color: #999">Description:</h6>
+            <p style="color: #a1a1a1">${product.description}</p>
+          </div>
+        </div>
+      </div>
+    `;
+    document.getElementById("productDetailModalLabel").textContent = product.name;
+    new bootstrap.Modal(document.getElementById("productDetailModal")).show();
+  }
+
+  // ✅ Use imported performSearch
+  function handleSearch() {
+    const searchTerm = document.getElementById("searchInput").value;
+    performSearch(allProducts, searchTerm, ["name", "make", "model", "description"], (results) => {
+      filteredProducts = results;
+      displayProducts();
+    });
+  }
+
+  // Event listeners
+  document.addEventListener("DOMContentLoaded", function () {
+    loadProducts();
+
+    const input = document.getElementById("searchInput");
+    let searchTimeout;
+
+    input.addEventListener("keyup", (event) => {
+      if (event.key === "Enter") handleSearch();
+    });
+
+    input.addEventListener("input", () => {
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(handleSearch, 300);
+    });
+  });
+</script>
 </body>
 
 </html>
