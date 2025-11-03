@@ -88,6 +88,16 @@ a:focus {
   color: var(--text-dark);
 }
 
+.btn-orange {
+  background: #d97706;
+  color: white;
+}
+
+.btn-orange:hover {
+  background: #f59e0b;
+  color: white;
+}
+
 .btn-link {
   display: inline-block;
   margin-top: 0.5rem;
@@ -1216,6 +1226,7 @@ section {
             gap: 6rem;
             padding: 2rem 0;
             scroll-behavior: smooth;
+            transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
         }
 
         .value-card {
@@ -1303,14 +1314,17 @@ section {
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: all 0.3s ease;
         }
 
         .nav-prev { left: 0; }
         .nav-next { right: 0; }
 
         .nav-arrow:hover {
-            background: #009fdc;
+            background: #d97706;
             color: white;
+            transform: translateY(-50%) scale(1.1);
+            box-shadow: 0 4px 15px rgba(217, 119, 6, 0.4);
         }
 
         .values-header {
@@ -1324,6 +1338,13 @@ section {
             font-size: 2.5rem;
             margin-bottom: 1.5rem;
             font-weight: 600;
+        }
+
+        .values-header .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            justify-content: center;
         }
 
         .btn-primary {
