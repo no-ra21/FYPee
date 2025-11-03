@@ -1047,6 +1047,58 @@ section {
   color: var(--muted);
 }
 
+/* Contact Details Sections */
+.contact-details {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-item {
+  margin-bottom: 2rem;
+}
+
+.contact-content h4,
+.emergency-contact h4,
+.service-areas h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+.contact-content h4 .material-symbols-outlined,
+.emergency-contact h4 .material-symbols-outlined,
+.service-areas h4 .material-symbols-outlined {
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+
+.contact-content p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.contact-content small {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--muted);
+}
+
+.emergency-contact,
+.service-areas {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.emergency-contact p,
+.service-areas p {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
 .contact-form {
   flex: 1 1 300px;
   background: var(--secondary);
