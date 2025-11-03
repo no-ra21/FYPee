@@ -121,24 +121,31 @@ a:focus {
 }
 
 .header-inner {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   height: 70px;
   padding: 0 1rem;
+  gap: 2rem;
 }
 
 .logo a {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--accent);
+  white-space: nowrap;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
 }
 
 .nav-menu ul {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
   margin: 0;
   padding: 0;
 }
@@ -270,6 +277,57 @@ a:focus {
   background: #d97706;
   color: white;
   padding-left: 1.5rem;
+}
+
+/* Navigation Search Bar */
+.nav-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  flex-shrink: 0;
+  justify-self: end;
+}
+
+.nav-search input {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-light);
+  font-size: 0.9rem;
+  width: 200px;
+  transition: all var(--transition-speed) ease;
+}
+
+.nav-search input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-search input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: var(--accent);
+  width: 250px;
+}
+
+.nav-search button {
+  background: var(--accent);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-speed) ease;
+  color: white;
+}
+
+.nav-search button:hover {
+  background: #00b3ff;
+  transform: scale(1.05);
 }
 
 /* Mobile navigation */
@@ -1532,6 +1590,11 @@ section {
     display: flex; /* show hamburger */
      flex-direction: column;
   justify-content: space-between;
+  }
+
+  /* Hide search on mobile */
+  .nav-search {
+    display: none;
   }
 
   .nav-menu {
