@@ -1857,16 +1857,19 @@ section {
   border-radius: 8px;
   overflow: hidden;
   transition: all 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid transparent;
+  position: relative;
 }
 
 .partner-card:hover {
   transform: translateY(-4px);
   background: white;
+  border-color: rgba(217, 119, 6, 0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .partner-card.featured-partner {
-  border: 2px solid var(--accent);
+  border: 2px solid #d97706;
 }
 
 .partner-card.featured-partner::before {
@@ -1874,7 +1877,7 @@ section {
   position: absolute;
   top: 10px;
   right: 10px;
-  background: var(--accent);
+  background: #d97706;
   color: white;
   padding: 0.3rem 0.6rem;
   font-size: 0.75rem;
@@ -1912,6 +1915,8 @@ section {
   font-size: 14px;
   font-weight: bold;
   transition: all 0.3s ease;
+  flex-shrink: 0;
+  line-height: 1;
 }
 
 .partner-logo {
@@ -1966,7 +1971,7 @@ section {
 }
 
 .featured-role {
-  background: var(--accent);
+  background: #d97706;
 }
 
 /* Partner Content */
