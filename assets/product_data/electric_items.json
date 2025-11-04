@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "name": "Circuit Breaker TL-400E",
+        "name": "Circuit Breaker TL-400E (250A)",
         "make": "TERASAKI",
         "model": "TL-400E",
         "description": "AC 600V, DC 250V, 3 Poles, 250A (250APM), Current limiting, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD786/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427393/TERASAKI_CIRCUIT_BREAKER_TL-400E_250A_gqbzcd.png"
     },
@@ -17,7 +17,7 @@
         "model": "TL-400E",
         "description": "AC 600V, DC 250V, 3 Poles, 300A (300APM), Current limiting, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD786/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427393/TERASAKI_CIRCUIT_BREAKER_TL-400E_300A_r2dew6.png"
     },
@@ -28,7 +28,7 @@
         "model": "TL-225E",
         "description": "AC 600V, DC 250V, 225A (225APM), 3 Poles, Current limit, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD666/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427393/TERASAKI_CIRCUIT_BREAKER_TL-225E_tfmqv9.png"
     },
@@ -39,7 +39,7 @@
         "model": "TL-225E",
         "description": "AC 600V, DC 250V, 225A (225APM), 3 Poles, INST TRIP ONLY 3500A, Current limit, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD666/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427392/TERASAKI_CIRCUIT_BREAKER_TL-225E_INST_TRIP_ONLY_3500A_pyjh42.png"
     },
@@ -50,7 +50,7 @@
         "model": "TL-225E",
         "description": "AC 600V, DC 250V, 225A (225APM), 3 Poles, INST TRIP ONLY 3000A, Current limit, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD666/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427391/TERASAKI_CIRCUIT_BREAKER_TL-225E_INST_TRIP_ONLY_3000A_dhmga4.png"
     },
@@ -61,7 +61,7 @@
         "model": "TL-225E",
         "description": "AC 600V, DC 250V, 225A (225APM), 3 Poles, INST TRIP ONLY 2000A, Current limit, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD666/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427390/TERASAKI_CIRCUIT_BREAKER_TL-225E_INST_TRIP_ONLY_2000A_e40bqx.png"
     },
@@ -72,9 +72,9 @@
         "model": "T0-225BA",
         "description": "AC 600V, DC 250V, 225A (225APM), 3 Poles, Current limit, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD666/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1762275232/7-removebg-preview_j9cd6f.png"
     },
     {
         "id": 8,
@@ -83,7 +83,7 @@
         "model": "T0-225BA",
         "description": "AC 600V, DC 250V, 225A (225AFC), 3 Poles, INST TRIP ONLY 2200A, Current limit, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD656/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427383/TERAKASI_CIRCUIT_BREAKER_T0-225BA_pnywjz.png"
     },
@@ -94,7 +94,7 @@
         "model": "TG-400B",
         "description": "AC 600V, DC 250V, 225A (250APM), 3 Poles, Current limit, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD571/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427389/TERASAKI_CIRCUIT_BREAKER_TG-400B_rhrg5f.png"
     },
@@ -105,7 +105,7 @@
         "model": "TL-100F",
         "description": "AC 690V, 50-60Hz, 100A, 3 Poles, Current limit, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD641/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427393/TERASAKI_TEMBREAK_CURRENT_LIMITING_CIRCUIT_BREAKER_TL-100F_ad47qs.png"
     },
@@ -116,7 +116,7 @@
         "model": "T0-225BA",
         "description": "AC 600V, DC 250V, 125A (125APM), 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD574/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427383/TERAKASI_CIRCUIT_BREAKER_T0-225BA_pnywjz.png"
     },
@@ -127,7 +127,7 @@
         "model": "T0-100BA",
         "description": "AC 550V, DC 250V, 100A, 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD285/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427385/TERASAKI_CIRCUIT_BREAKER_T0-100BA_zjtpxd.png"
     },
@@ -138,7 +138,7 @@
         "model": "T0-100BA",
         "description": "AC 550V, DC 250V, 100A, 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "2 units",
+        "quantity": "2 units",
         "price": "SGD285/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427385/TERASAKI_CIRCUIT_BREAKER_T0-100BA_INST_TRIP_ONLY_1550A_cnggp4.png"
     },
@@ -149,7 +149,7 @@
         "model": "NF-225C",
         "description": "AC 500V, 200AMP, 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD445/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427414/MITSUBISHI_CIRCUIT_BREAKER_NF-225C_dllero.png"
     },
@@ -160,7 +160,7 @@
         "model": "T0-100BA",
         "description": "AC 550V, DC 250V, 75A, 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD285/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427385/TERASAKI_CIRCUIT_BREAKER_T0-100BA_75A_bp9rou.png"
     },
@@ -171,7 +171,7 @@
         "model": "T0-100BA",
         "description": "AC 550V, DC 250V, 60A, 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD336/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427384/TERASAKI_CIRCUIT_BREAKER_T0-100BA_60A_cckwbc.png"
     },
@@ -182,7 +182,7 @@
         "model": "T0-100BA",
         "description": "AC 550V, DC 250V, 75A (75APM), 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD285/unit",
         "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427385/TERASAKI_CIRCUIT_BREAKER_T0-100BA_75APM_voadjt.png"
     },
@@ -193,9 +193,9 @@
         "model": "T0-100BA",
         "description": "AC 550V, DC 250V, 75A (75AFC), 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD285/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427384/TERASAKI_CIRCUIT_BREAKER_T0-100BA_75AFC_wvp78i.png"
     },
     {
         "id": 19,
@@ -204,20 +204,20 @@
         "model": "T0-100CB",
         "description": "AC 550V, DC 250V, 75A (75APM), 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD272/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427386/TERASAKI_CIRCUIT_BREAKER_T0-100CB_75APM_k85rju.png"
     },
     {
         "id": 20,
-        "name": "Circuit Breaker TL-100E (50A)",
+        "name": "Circuit Breaker TL-100E",
         "make": "TERASAKI",
         "model": "TL-100E",
         "description": "AC 600V, DC 250V, 50A, 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD484/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427390/TERASAKI_CIRCUIT_BREAKER_TL-100E_qudawq.png"
     },
     {
         "id": 21,
@@ -226,9 +226,9 @@
         "model": "T0-100BA",
         "description": "AC 550V, DC 250V, 50A (50AFC), 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD362/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427384/TERASAKI_CIRCUIT_BREAKER_T0-100BA_50APM_uodixg.png"
     },
     {
         "id": 22,
@@ -237,9 +237,9 @@
         "model": "T0-100BA",
         "description": "AC 550V, DC 250V, 50A (50APM), 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD362/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427384/TERASAKI_CIRCUIT_BREAKER_T0-100BA_50APM_uodixg.png"
     },
     {
         "id": 23,
@@ -248,9 +248,9 @@
         "model": "TL-100E",
         "description": "AC 550V, DC 250V, 30A (30APM), 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD569/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427389/TERASAKI_CIRCUIT_BREAKER_TL-100E_30A_puuus5.png"
     },
     {
         "id": 24,
@@ -259,9 +259,9 @@
         "model": "T0-100BA",
         "description": "AC 550V, DC 250V, 30A (30ADC), 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD362/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427384/TERASAKI_CIRCUIT_BREAKER_T0-100BA_30ADC_rnpr1l.png"
     },
     {
         "id": 25,
@@ -270,9 +270,9 @@
         "model": "TG-30",
         "description": "AC 550V, DC 250V, 30A, 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "2 units",
+        "quantity": "2 units",
         "price": "SGD362/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427389/TERASAKI_CIRCUIT_BREAKER_TG-30_30A_kpff3w.png"
     },
     {
         "id": 26,
@@ -281,20 +281,20 @@
         "model": "T0-100BA",
         "description": "AC 550V, DC 250V, 30A, 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD362/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427383/TERASAKI_CIRCUIT_BREAKER_T0-100BA_30A_x3jblf.png"
     },
     {
         "id": 27,
-        "name": "Circuit Breaker TO-60BB (40A)",
+        "name": "Circuit Breaker TG-60BB (40A)",
         "make": "TERASAKI",
-        "model": "TO-60BB",
+        "model": "TG-60BB",
         "description": "AC 550V, DC 250V, 40A, 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD293/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427388/TERASAKI_CIRCUIT_BREAKER_TG-60BB_40A_ea3vr9.png"
     },
     {
         "id": 28,
@@ -303,9 +303,9 @@
         "model": "TG-100B",
         "description": "AC 550V, DC 250V, 40A, 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD285/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427389/TERASAKI_CIRCUIT_BREAKER_TG-100B_40A_jqcmfz.png"
     },
     {
         "id": 29,
@@ -314,21 +314,1018 @@
         "model": "T0-100BA",
         "description": "AC 550V, DC 250V, 20A, 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD102/unit",
-        "imageUrl": "placeholder"
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427384/TERASAKI_CIRCUIT_BREAKER_T0-100BA_20A_qdvlzf.png"
     },
     {
         "id": 30,
-        "name": "Circuit Breaker T0-50BC",
+        "name": "Circuit Breaker T0-50BC (20A)",
         "make": "TERASAKI",
         "model": "T0-50BC",
         "description": "AC 500V, DC 250V, 20A, 3 Poles, No fuse",
         "condition": "New original",
-        "qty": "1 unit",
+        "quantity": "1 unit",
         "price": "SGD140/unit",
-        "imageUrl": "placeholder"
-    }
+        "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757427383/TERASAKI_CIRCUIT_BREAKER_T0-50BC_20A_ghcohw.png"
+    },
+  {
+    "id": 31,
+    "name": "TERASAKI CIRCUIT BREAKER T0-60BB (15A)",
+    "make": "TERASAKI",
+    "model": "T0-60BB",
+    "description": "AC 550V, DC 250V, 15A, 3 Poles, No fuse",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD90/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429435/TERASAKI_CIRCUIT_BREAKER_T0-60BB_15A_t9wvli.png"
+  },
+  {
+    "id": 32,
+    "name": "TERASAKI CIRCUIT BREAKER TL-100E (15A)",
+    "make": "TERASAKI",
+    "model": "TL-100E",
+    "description": "AC 600V, DC 250V, 15A, 3 Poles, No fuse",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD484/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429436/TERASAKI_CIRCUIT_BREAKER_TL-100E_15A_vk9cms.png"
+  },
+  {
+    "id": 33,
+    "name": "TERASAKI CIRCUIT BREAKER T0-60BB (15A)",
+    "make": "TERASAKI",
+    "model": "T0-60BB",
+    "description": "AC 550V, DC 250V, 15A, 3 Poles, No fuse",
+    "condition": "New original",
+    "quantity": "2 units",
+    "price": "SGD90/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429425/TERASAKI_CIRCUIT_BREAKER_T0-60BB_15A_II_tcxg0j.png"
+  },
+  {
+    "id": 34,
+    "name": "TERASAKI CIRCUIT BREAKER T0-100BA (15A)",
+    "make": "TERASAKI",
+    "model": "T0-100BA",
+    "description": "AC 550V, DC 250V, 15A, 3 Poles, No fuse",
+    "condition": "New original",
+    "quantity": "2 units",
+    "price": "SGD279/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429435/TERASAKI_CIRCUIT_BREAKER_T0-100BA_15A_gksew1.png"
+  },
+  {
+    "id": 35,
+    "name": "TERASAKI CIRCUIT BREAKER T0-60BA",
+    "make": "TERASAKI",
+    "model": "T0-60BA",
+    "description": "AC 500V, DC 250V, 15A, 3 Poles, No fuse",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD362/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429393/TERASAKI_CIRCUIT_BREAKER_T0-60BA_x8hrzf.png"
+  },
+  {
+    "id": 36,
+    "name": "TERASAKI CIRCUIT BREAKER TG-30 (15A)",
+    "make": "TERASAKI",
+    "model": "TG-30",
+    "description": "AC 550V, DC 250V, 15A, 3 Poles, No fuse",
+    "condition": "New original",
+    "quantity": "6 units",
+    "price": "SGD362/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429436/TERASAKI_CIRCUIT_BREAKER_TG-30_15A_salh3p.png"
+  },
+  {
+    "id": 37,
+    "name": "Circuit Breaker T0-50BC (15A)",
+    "make": "TERASAKI",
+    "model": "T0-50BC",
+    "description": "AC 500V, DC 250V, 15A, 3 Poles, No fuse",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD362/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1762275380/45-removebg-preview_e9hl2g.png"
+  },
+  {
+    "id": 38,
+    "name": "VOLGEN DC/DC Converter VOLGEN",
+    "make": "Japan Radio & Electr",
+    "type": "791.901.101",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429442/VOLGEN_DCDC_CONVERTER_VOLGEN_js7xkt.png"
+  },
+  {
+    "id": 39,
+    "name": "Voltage Transducer (RMS)",
+    "description": "Input AC 150V, 50/60Hz",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD728/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429446/VOLTAGE_TRANSDUCER_RMS_bloyo5.png"
+  },
+  {
+    "id": 40,
+    "name": "SIGMA CONTROL MAGLOCK MPS V1",
+    "make": "Sigma Controls",
+    "description": "Maximum rating 250V, 1.25A, 20W, AC/DC, Resistive or Inductive currents",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429446/VOLTAGE_TRANSDUCER_RMS_bloyo5.png"
+  },
+  {
+    "id": 41,
+    "name": "SIEMENS TIME METER",
+    "make": "SIEMENS",
+    "description": "48x48mm",
+    "condition": "New original",
+    "quantity": "5 units",
+    "price": "SGD163/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429308/SIEMENS_TIME_METER_uentw4.png"
+  },
+  {
+    "id": 42,
+    "name": "TAIYO Automatic Voltage Regulator (AVR)",
+    "make": "TAIYO Electric",
+    "description": " ASC-32-4Z4, No. 078337F",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD89/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429313/TAIYO_AUTOMATIC_VOLTAGE_REGULATOR_AVR_i1nski.png"
+  },
+  {
+    "id": 43,
+    "name": "TAIYO Automatic Voltage Regulator (AVR)",
+    "make": "TAIYO Electric",
+    "description": "ASC-12-4Z3, No. 084691K",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD89/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429312/TAIYO_AUTOMATIC_VOLTAGE_REGULATOR_AVR_INVERTER_ugn4w1.png"
+  },
+  {
+    "id": 44,
+    "name": "Marine Watertight Type Joint Box",
+    "description":"J-2m, 250V, 20A",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD209/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429301/MARINE_WATERTIGHT_TYPE_JOINT_BOX_gvza0k.png"
+  },
+  {
+    "id": 45,
+    "name": "PHILIPS SN58 IGNITOR",
+    "make": "Philips",
+    "model": "SN58",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD48/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429301/PHILIPS_SN58_IGNITOR_x5xsbt.png"
+  },
+  {
+    "id": 46,
+    "name": "SIEMENS Contactor 7PX1040-1AN20",
+    "make": "SIEMENS",
+    "model": "7PX1040-1AN20",
+    "description": "AC 220/240V, 50/60Hz",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD72/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429305/SIEMENS_CONTACTOR_7PX1040-1AN20_yls1nb.png"
+  },
+  {
+    "id": 47,
+    "name": "TERASAKI Circuit Breaker XS50NB",
+    "make": "TERASAKI",
+    "model": "XS50NB",
+    "description": "Serial no.: 03M51<br>30AFC, 3 poles, 50–60Hz, Made in Malaysia",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD198/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429440/TERASAKI_CIRCUIT_BREAKER_XS50NB_nyvgda.png"
+  },
+  {
+    "id": 48,
+    "name": "TELEMECANIQUE Auxiliary Contact Block LADN22",
+    "make": "TELEMECANIQUE",
+    "model": "LADN22",
+    "description": "S/N: 038403<br>Ith: 10A, Ui: 690V, Made in France",
+    "condition": "New original",
+    "quantity": "2 units",
+    "price": "SGD16/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429313/TELEMECANIQUE_AUXILIARY_CONTACT_BLOCK_LADN22_azlu1u.png"
+  },
+  {
+    "id": 49,
+    "name": "TELEMECANIQUE Contactor CAD32M7",
+    "make": "TELEMECANIQUE",
+    "model": "CAD32M7",
+    "description": "S/N: 040144<br>220V, 50/60Hz",
+    "condition": "New original",
+    "quantity": "6 units",
+    "price": "SGD39/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429318/TELEMECANIQUE_CONTACTOR_CAD32M7_jd8pso.png"
+  },
+  {
+    "id": 50,
+    "name": "TELEMECANIQUE Contactor CAD50M7",
+    "make": "TELEMECANIQUE",
+    "model": "CAD50M7",
+    "description": "220V, 50/60Hz",
+    "condition": "New original",
+    "quantity": "2 units",
+    "price": "SGD40/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429318/TELEMECANIQUE_CONTACTOR_CAD50M7_y9qwmc.png"
+  },
+  {
+    "id": 51,
+    "name": "TELEMECANIQUE Contactor CAD50P7",
+    "make": "TELEMECANIQUE",
+    "model": "CAD50P7",
+    "description": "230V, 50/60Hz",
+    "condition": "New original",
+    "quantity": "2 units",
+    "price": "SGD36/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429316/TELEMECANIQUE_CINTACTOR_CAD50P7_s115ze.png"
+  },
+  {
+    "id": 52,
+    "name": "TELEMECANIQUE Contactor LC1D09M7",
+    "make": "TELEMECANIQUE",
+    "model": "LC1D09M7",
+    "description": "220V, 50/60Hz",
+    "condition": "New original",
+    "quantity": "5 units",
+    "price": "SGD24/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429319/TELEMECANIQUE_CONTACTOR_LC1D09M7_insyme.png"
+  },
+  {
+    "id": 53,
+    "name": "TELEMECANIQUE Contactor LC1D12M7",
+    "make": "TELEMECANIQUE",
+    "model": "LC1D12M7",
+    "description": "220V, 50/60Hz",
+    "condition": "New original",
+    "quantity": "3 units",
+    "price": "SGD24/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429323/TELEMECANIQUE_CONTACTOR_LC1D12M7_yde2vc.png"
+  },
+  {
+    "id": 54,
+    "name": "TELEMECANIQUE Contactor LC1D12R7",
+    "make": "TELEMECANIQUE",
+    "model": "LC1D12R7",
+    "description": "440V, 50/60Hz, 5.5kW/400V, 7.5kW/480V, Made in France",
+    "condition": "New original",
+    "quantity": "3 units",
+    "price": "SGD52/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429324/TELEMECANIQUE_CONTACTOR_LC1D12R7_pbstvd.png"
+  },
+  {
+    "id": 55,
+    "name": "TELEMECANIQUE Contactor LC1D18F7",
+    "make": "TELEMECANIQUE",
+    "model": "LC1D18F7",
+    "description": "S/N: 034945<br>110V, 50/60Hz",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD27/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429324/TELEMECANIQUE_CONTACTOR_LC1D18F7_jvjrpv.png"
+  },
+  {
+    "id": 56,
+    "name": "TELEMECANIQUE Contactor LC1D18M7",
+    "make": "TELEMECANIQUE",
+    "model": "LC1D18M7",
+    "description": "220V, 50/60Hz",
+    "condition": "New original",
+    "quantity": "1 unit",
+    "price": "SGD80/unit",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429441/TLEMECANIQUE_CONTACTOR_LC1D18M7_wmw6vc.png"
+  },
+{
+  "id": 57,
+  "name": "TELEMECANIQUE CONTACTOR LC1D25B7",
+  "make": "TELEMECANIQUE",
+  "model": "LC1D25B7",
+  "description": "24V, 50/60Hz",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD17/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429326/TELEMECANIQUE_CONTACTOR_LC1D25B7_p3wtnp.png"
+},
+{
+  "id": 58,
+  "name": "TELEMECANIQUE CONTACTOR LC1D25M7",
+  "make": "TELEMECANIQUE",
+  "model": "LC1D25M7",
+  "description": "220VAC, 25A",
+  "condition": "New, Original",
+  "quantity": "2 units",
+  "price": "SGD24/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429329/TELEMECANIQUE_CONTACTOR_LC1D25M7_yeok0s.png"
+},
+{
+  "id": 59,
+  "name": "TELEMECANIQUE CONTACTOR LC1D32B7",
+  "make": "TELEMECANIQUE",
+  "model": "LC1D32B7",
+  "description": "24V, 50/60Hz, Ith: 50A",
+  "condition": "New, Original",
+  "quantity": "2 units",
+  "price": "SGD30/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429330/TELEMECANIQUE_CONTACTOR_LC1D32B7_fhi518.png"
+},
+{
+  "id": 60,
+  "name": "TELEMECANIQUE CONTACTOR LC1D32M7",
+  "make": "TELEMECANIQUE",
+  "model": "LC1D32M7",
+  "description": "S/N: 035108<br>220V, 50/60Hz",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD29/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429331/TELEMECANIQUE_CONTACTOR_LC1D32M7_fxl0v5.png"
+},
+{
+  "id": 61,
+  "name": "TELEMECANIQUE CONTACTOR LC1D40AM7",
+  "make": "TELEMECANIQUE",
+  "model": "LC1D40AM7",
+  "description": "220V, 50/60Hz",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD117/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429350/TELEMECANIQUE_CONTACTOR_LC1D40AM7_p3kn3e.png"
+},
+{
+  "id": 62,
+  "name": "TELEMECANIQUE CONTACTOR LC1D40P7",
+  "make": "TELEMECANIQUE",
+  "model": "LC1D40P7",
+  "description": "S/N: 041748, 600VAC, 40A, IEC",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD200/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429365/TELEMECANIQUE_CONTACTOR_LC1D40P7_bseqwf.png"
+},
+{
+  "id": 63,
+  "name": "TELEMECANIQUE CONTACTOR LCD1D50R7",
+  "make": "TELEMECANIQUE",
+  "model": "LC1D50R7",
+  "description": "S/N: 042617, 440V, 50/60Hz, 22kW-400V, 40HP-460V, Made in Czech Republic",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD290/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429368/TELEMECANIQUE_CONTACTOR_LCD1D50R7_hsl7lt.png"
+},
+{
+  "id": 64,
+  "name": "TELEMECANIQUE CONTROL RELAY CAD32E7",
+  "make": "TELEMECANIQUE",
+  "model": "CAD32E7",
+  "description": "48V, 50/60Hz",
+  "condition": "New, Original",
+  "quantity": "4 units",
+  "price": "SGD50/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429366/TELEMECANIQUE_CONTROL_RELAY_CAD32E7_zlbx21.png"
+},
+{
+  "id": 65,
+  "name": "TELEMECANIQUE CONTROL RELAY CAD32P7",
+  "make": "TELEMECANIQUE",
+  "model": "CAD32P7",
+  "description": "S/N: 040144<br>230V, 50/60Hz",
+  "condition": "New, Original",
+  "quantity": "21 units",
+  "price": "SGD18/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429369/TELEMECANIQUE_CONTROL_RELAY_CAD32P7_m1itck.png"
+},
+{
+  "id": 66,
+  "name": "TELEMECANIQUE REVERSING CONTACTOR LC1D09E7",
+  "make": "TELEMECANIQUE",
+  "model": "LC1D09E7",
+  "description": "S/N: 038326<br>48V,50/60Hz, 4kW/400V, 5HP/460V, Made in France",
+  "condition": "New, Original",
+  "quantity": "2 units",
+  "price": "SGD100/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429373/TELEMECANIQUE_REVERSING_CONTACTOR_LC1D09E7_inxhx9.png"
+},
+{
+  "id": 67,
+  "name": "TELEMECANIQUE REVERSING CONTACTOR LC1D12E7",
+  "make": "TELEMECANIQUE",
+  "model": "LC1D12E7",
+  "description": "48V, 50/60Hz, 5.5kW/400V, 7.5HP/460",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD140/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429392/TELEMECANIQUE_REVERSING_CONTACTOR_LC1D12E7_xkk6tc.png"
+},
+{
+  "id": 68,
+  "name": "SIEMENS OVERLOAD RELAYS 3RU1146-4LB0",
+  "make": "SIEMENS",
+  "model": "3RU1146-4LB0",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD20/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429306/SIEMENS_OVERLOAD_RELAYS_3RU1146-4LB0_ndocqc.png"
+},
+{
+  "id": 69,
+  "name": "SANKYO PILOT MIRROR SPREAD TYPE",
+  "make": "SANKYO CO., LTD",
+  "description": "Spread Type",
+  "condition": "New, Original",
+  "quantity": "2 units",
+  "price": "SGD70/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429302/SANKYO_PILOT_MIRROR_SPREAD_TYPE_mzi20y.png"
+},
+{
+  "id": 70,
+  "name": "ELCOMETER COATING THICKNESS GAUGE",
+  "make": "ELCOMETER",
+  "description": "",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD63/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429230/ELCOMETER_COATING_THICKNESS_GAUGE_tosvbi.png"
+},
+{
+  "id": 71,
+  "name": "SIEMENS SITRANS P DS III SERIES DIGITAL PRESSURE TRANSMITTER",
+  "make": "SIEMENS",
+  "description": "Type:SITRANS P DS III Series",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD200/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429290/SIEMENS_SITRANS_P_DS_III_SERIES_DIGITAL_PRESSURE_TRANSMITTER_l99xsp.png"
+},
+{
+  "id": 72,
+  "name": "SAILOR 3965 PORTABLE UHF ATEX FIRE FIGHTER",
+  "make": "SAILOR",
+  "condition": "New, Original",
+  "quantity": "3 units",
+  "price": "SGD100/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429271/SAILOR_3965_PORTABLE_UHF_ATEX_FIRE_FIGHTER_kmbo03.png"
+},
+{
+  "id": 73,
+  "name": "RIKEN KEIKI COMBUSTLE GAS DETECTOR GP-226(C TYPE)",
+  "make": "RIKEN KEIKI",
+  "model": "GP-226 (C TYPE)",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD500/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429268/RIKEN_KEIKI_COMBUSTLE_GAS_DETECTOR_GP-226_C_TYPE_dtfoum.png"
+},
+{
+  "id": 74,
+  "name": "DRUCK PRESSURE INSTRUMENTS 1S-TP1-40",
+  "make": "Druck Ltd.",
+  "model": "1S-TP1-40",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD480/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429226/DRUCK_PRESSURE_INSTRUMENTS_1S-TP1-40_psturm.png"
+},
+{
+  "id": 75,
+  "name": "VISIONKING NIGHT VISION",
+  "make": "VISIONKING",
+  "description": "",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD3000/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429298/VISIONKING_NIGHT_VISION_gknmor.png"
+},
+{
+  "id": 76,
+  "name": "SONATEST ULTRASONIC THICKNESS GAUGE",
+  "make": "SONATEST",
+  "description": "Type: B-GAGE, Serial No.: 1950-0605",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD170/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429296/SONATEST_ULTRASONIIC_THICKNESS_GAUGE_vwmsuy.png"
+},
+{
+  "id": 77,
+  "name": "SCOTCH YOKE ACTUATOR TC65-DA F05/F07-14",
+  "make": "TORQUE CONTROL",
+  "model": "TC65-DA<br>F05/F07-14",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD540/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429272/SCOTCH_YOKE_ACTUATOR_TC65-DA_F05F07-14_w2d562.png"
+},
+{
+  "id": 78,
+  "name": "HONEYWELL GLEB01B LIMIT SWITCH",
+  "make": "Honeywell",
+  "model": "GLEB01B",
+  "condition": "New, Original",
+  "quantity": "2 units",
+  "price": "SGD65/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429253/HONEYWELL_GLEB01B_LIMIT_SWITCH_dil7cr.png"
+},
+{
+  "id": 79,
+  "name": "UCHIDA REXROTH 4WE10E SOLNOID OPERATED VALVE",
+  "make": "UCHIDA REXROTH",
+  "model": "4WE10E",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD150/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429297/UCHIDA_REXROTH_4WE10E_SOLNOID_OPERATED_VALVE_mzd8xb.png"
+},
+{
+  "id": 80,
+  "name": "FLUKE INFRARED THERMOMETER",
+  "make": "Fluke",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD55/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429297/UCHIDA_REXROTH_4WE10E_SOLNOID_OPERATED_VALVE_mzd8xb.png"
+},
+{
+  "id": 81,
+  "name": "DANFOSS THERMOSTAT RT107",
+  "make": "DANFOSS",
+  "model": "RT107",
+  "condition": "New, original",
+  "quantity": "1 unit",
+  "price": "SGD117/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429216/DANFOSS_THERMOSTAT_RT107_eagw12.png"
+},
+{
+  "id": 82,
+  "name": "DANFOSS THERMOSTAT RT101",
+  "make": "Danfoss",
+  "model": "RT101",
+  "condition": "New, original",
+  "quantity": "1 unit",
+  "price": "SGD230/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429216/DANFOSS_THERMOSTAT_RT107_II_wiyccj.png"
+},
+{
+  "id": 83,
+  "name": "DANFOSS THERMAL OVERLOAD RELAY T80",
+  "make": "Danfoss",
+  "model": "T80",
+  "condition": "New, original",
+  "quantity": "1 unit",
+  "price": "SGD40/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429216/DANFOSS_THERMAL_OVERLOAD_RELAY_T80_ftvybq.png"
+},
+{
+  "id": 84,
+  "name": "DANFOSS SOLENOID VALVE EVR3",
+  "make": "Danfoss",
+  "model": "EVR3",
+  "description": "",
+  "condition": "New, original",
+  "quantity": "1 unit",
+  "price": "SGD140/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429215/DANFOSS_SOLENOID_VALVE_EVR3_ne5wbf.png"
+},
+{
+  "id": 85,
+  "name": "DANFOSS LIQUID LINE FILTER DRIER DCL 083",
+  "make": "Danfoss",
+  "model": "DCL 083",
+  "description": "",
+  "condition": "New, original",
+  "quantity": "1 unit",
+  "price": "SGD30/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429215/DANFOSS_LIQUID_LINE_FILTER_DRIER_DCL_083_ng4lau.png"
+},
+{
+  "id": 86,
+  "name": "SIEMENS Air Break (Power) Contactor 3TF46 02-0AU0ZA01",
+  "model": "3TF46 02-0AU0ZA01",
+  "description": "Details:Ie AC3: 45A, 415V<br>Coil: 240V 50Hz/288V 60Hz<br>Weight: 1.7kg<br>Dimensions: 160 x 120 x 165mm",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD55.40/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429273/SIEMENS_Air_Break_Power_Contactor_3TF46_02-0AU0ZA01_qn4ips.png"
+},
+{
+  "id": 87,
+  "name": "SIEMENS Air Break (Power) Contactor 3TF48 22-0AP0ZA01",
+  "model": "3TF48 22-0AP0ZA01",
+  "description": "S/N: 153900, Ie AC3: 75A, 415V<br>Coil: 230V 50Hz/277V 60Hz<br>Weight: 2.6kg<br>Dimensions: 160 x 120 x 180mm",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD105.41/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429276/SIEMENS_Air_Break_Power_Contactor_3TF48_22-0AP0ZA01_xscldr.png"
+},
+{
+  "id": 88,
+  "name": "SIEMENS Air Break (Power) Contactor 3TF48 22-0AP0ZA01",
+  "model": "3TF48 22-0AP0ZA01",
+  "description": "S/N: 153900<br>Details:Ie AC3: 75A, 415V<br>Coil: 230V 50Hz/277V 60Hz<br>Weight: 2.6kg<br>Dimensions: 160 x 120 x 180mm",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD105.41/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429276/SIEMENS_Air_Break_Power_Contactor_3TF48_22-0AP0ZA01_xscldr.png"
+},
+{
+  "id": 89,
+  "name": "SIEMENS Control Relay 3TH42 62-0AL2",
+  "make": "SIEMENS",
+  "model": "3TH42 62-0AL2",
+  "description": "Product details:AC230V, 50/60Hz, Made in Germany",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD200/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429276/SIEMENS_Control_Relay_3TH42_62-0AL2_hraane.png"
+},
+{
+  "id": 90,
+  "name": "SIEMENS Electronic Overload Relay 3RB2153-4FC2",
+  "make": "SIEMENS",
+  "model": "3RB2153-4FC2",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD299.95/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429277/SIEMENS_Electronic_Overload_Relay_3RB2153-4FC2_v0k8fv.png"
+},
+{
+  "id": 91,
+  "name": "SIEMENS Limit Switch 3SE3 100-1E",
+  "make": "SIEMENS",
+  "model": "3SE3 100-1E",
+  "description": "Product details:500V, AC-12, 10A",
+  "quantity": "1 unit",
+  "price": "SGD93/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429282/SIEMENS_Limit_Switch_3SE3_100-1E_ml1jqv.png"
+},
+{
+  "id": 92,
+  "name": "SIEMENS Magnetic Contactor 3TF-48",
+  "make": "SIEMENS",
+  "model": "3TF-48",
+  "description": "Max: 100A, 600VAC, Made in Turkey",
+  "quantity": "1 unit",
+  "price": "SGD393/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429283/SIEMENS_Magnetic_Contactor_3TF-48_d2q7bj.png"
+},
+{
+  "id": 93,
+  "name": "SIEMENS Overload Relay (SIRIUS) 3RU1136-4FB1",
+  "make": "SIEMENS",
+  "model": "3RU1136-4FB1",
+  "description": "Product details: Made in Germany",
+  "quantity": "1 unit",
+  "price": "SGD78.90/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429283/SIEMENS_Overload_Relay_SIRIUS_3RU1136-4FB1_pdgon9.png"
+},
+{
+  "id": 94,
+  "name": "SIEMENS Overload Relay 3UA59 00-1E",
+  "make": "SIEMENS",
+  "model": "3UA59 00-1E",
+  "description": "Product details: 500V, 10A, Max: 660V",
+  "quantity": "1 unit",
+  "price": "SGD133/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429285/SIEMENS_Overload_Relay_3UA59_00-1E_wiwnui.png"
+},
+{
+  "id": 95,
+  "name": "SIEMENS Overload Relay 3UA59 00-1F",
+  "make": "SIEMENS",
+  "model": "3UA59 00-1F",
+  "description": "Product details: 3.2 – 5A",
+  "quantity": "1 unit",
+  "price": "SGD84.99/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429288/SIEMENS_Overload_Relay_3UA59_00-1F_ki0kke.png"
+},
+{
+  "id": 96,
+  "name": "SIEMENS Overload Relay 3UA59 00-2p",
+  "make": "SIEMENS",
+  "model": "3UA59 00-2p",
+  "description": "Product details:50 – 63A, Made in Turkey",
+  "quantity": "1 unit",
+  "price": "SGD35/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429289/SIEMENS_Overload_Relay_3UA59_00-2P_fhytbq.png"
+},
+{
+  "id": 97,
+  "name": "SIEMENS Overload Relay 3RU1146 – 4LBO",
+  "make": "SIEMENS",
+  "model": "3RU1146 – 4LBO",
+  "description": "Product details: Made in Germany",
+  "quantity": "1 unit",
+  "price": "SGD89/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429231/Elega_SIEMENS_Overload_relay_3RU1146_4LBO_fuvpag.png"
+},
+{
+  "id": 98,
+  "name": "SIEMENS Thermal Overload Relay 3UA62 00-3M",
+  "make": "SIEMENS",
+  "model": "3UA62 00-3M",
+  "description": "Details: 150 – 180A, Made in Germany",
+  "quantity": "1 unit",
+  "price": "SGD49.99/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429292/SIEMENS_Thermal_Overload_Relay_3UA62_00-3M_yet7ud.png"
+},
+{
+  "id": 99,
+  "name": "SIEMENS Electronic Timers, off delay type 7PX1040 – 1AN20",
+  "make": "SIEMENS",
+  "model": "7PX1040 – 1AN20",
+  "description": "Product details: 0.6–6s, 50/60Hz, AC 220/240V, Made in Germany",
+  "quantity": "5 units",
+  "price": "SGD117.21/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429278/SIEMENS_Electronic_Timers_off_delay_type_7PX1040_1AN20_h0pf5n.png"
+},
+{
+  "id": 100,
+  "name": "SIEMENS Transmitter for Differential Pressure 7MF4433 – 1DA02 – 2BC1 – Z",
+  "make": "SIEMENS",
+  "model": "7MF4433 – 1DA02 – 2BC1 – Z",
+  "description": "Product details: VH: DC 10.5 – 45V, (non IS) 4 – 20mA HART, Measuring span: 2.5 – 250mbar, Rated pressure: PN160, Made in France",
+  "quantity": "1 unit",
+  "price": "SGD239/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429293/SIEMENS_Transmitter_for_Differential_Pressure_noj2hy.png"
+},
+{
+  "id": 101,
+  "name": "DELAVAL TURBINE ELECTRONIC CARD EM-53",
+  "make": "Delaval",
+  "model": "EM-53",
+  "description": "Weight: 0.3kg<br>Dimensions: 190 x 130 x 40mm (7.48 x 5.12 x 1.57 inch)",
+  "quantity": "2 units",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429221/DELAVAL_Turbine_Electronic_Card_Em-53_k41lsu.png"
+},
+{
+  "id": 102,
+  "name": "DELAVAL TURBINE ELECTRONIC CARD EM54-TR",
+  "make": "Delaval",
+  "model": "EM54-TR",
+  "description": "Weight: 0.3kg<br>Dimensions: 190 x 130 x 40mm (7.48 x 5.12 x 1.57 inch)",
+  "quantity": "4 units",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429222/DELAVAL_Turbine_Electronic_Card_EM54-TR_hnpjhw.png"
+},
+{
+  "id": 103,
+  "name": "DEN HAAN Rotterdam Navigation Light DHR70",
+  "make": "DEN HAAN",
+  "model": "DHR70",
+  "quantity": "1 unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429222/DEN_HAAN_Rotterdam_Navigation_Light_DHR70_tfcak2.png"
+},
+{
+  "id": 104,
+  "name": "DEN HAAN Rotterdam Navigation Lights DHR70N Duplex",
+  "make": "DEN HAAN",
+  "model": "DHR70N Duplex",
+  "description": "Weight: 4.5kg<br>Dimensions: 440 x 220 x 190mm",
+  "quantity": "1 unit",
+  "price": "SGD688/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429226/DEN_HAAN_Rotterdam_Navigation_Lights_DHR70N_Duplex_lyfg2m.png"
+},
+{
+  "id": 99,
+  "name": "DRUCK PRESSURE TRANSMITTER PTX 611-I",
+  "make": "DRUCK",
+  "model": "PTX 611-I",
+  "description": "S/N: 2643477<br>Pressure: 20 bar<br>Product details:Made in Leicester UK",
+  "condition": "New, Original",
+  "quantity": "1 unit",
+  "price": "SGD120/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429227/DRUCK_Pressure_Transmitter_PTX_611-I_rsf82i.png"
+},
+{
+  "id": 100,
+  "name": "FUJI ELECTRONIC COIL SC-7N",
+  "make": "FUJI",
+  "model": "SC-7N",
+  "description": "S/N: F05513084<br>Product details: 380-450V, 50/60Hz<br>Weight: 0.85kg<br>Dimensions: 160 x 140 x 70mm (6¼ x 5½ x 2¾ inch)",
+  "quantity": "1 unit",
+  "price": "SGD40.50/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429244/FUJI_Electronic_Coil_SC-7N_pobuot.png"
+},
+{
+  "id": 101,
+  "name": "FUJI ELECTRONIC COIL SC-12N",
+  "make": "FUJI",
+  "model": "SC-12N",
+  "description": "Product details: 2.8 – 4.2A<br>Weight: 0.4kg<br>Dimensions: 75 x 48 x 95mm (3 x 1⅞ x 3¾ inch)",
+  "quantity": "1 unit",
+  "price": "SGD64.33/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429248/FUJI_Electronic_Coil_SC-12N_cc5zyi.png"
+},
+{
+  "id": 102,
+  "name": "FUJI ELECTRONIC COIL SC8N-10N",
+  "make": "FUJI",
+  "model": "SC8N-10N",
+  "description": "Product details: 380-450V, 50/60Hz<br>Dimensions: 140 x 110 x 80mm (5½ x 4⅜ x 3⅛ inch)",
+  "quantity": "2 units",
+  "price": "SGD204.50/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429248/FUJI_Electronic_Coil_SC8N-10N_xu0itp.png"
+},
+{
+  "id": 103,
+  "name": "FUJI ELECTRIC MAGNETIC CONTACTOR SC-2N (35)",
+  "make": "FUJI",
+  "model": "SC-2N (35)",
+  "description": "Product details: 100V – 50Hz, 100-110V – 60Hz<br>Weight: 0.9kg<br>Dimensions: 95 x 80 x 120mm (3¾ x 3⅛ x 4¾ inch)",
+  "quantity": "1 unit",
+  "price": "SGD160/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429235/FUJI_Electric_Magnetic_Contactor_SC-2N_35_nbrkky.png"
+},
+{
+  "id": 104,
+  "name": "FUJI ELECTRIC MAGNETIC CONTACTOR SC-2SN (50)",
+  "make": "FUJI",
+  "model": "SC-2SN (50)",
+  "description": "210V Coil, 3 phase, Weight: 1.5kg",
+  "quantity": "1 unit",
+  "price": "SGD84.99/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429235/FUJI_Electric_Magnetic_Contactor_SC-2SN_50_snicjb.png"
+},
+{
+  "id": 105,
+  "name": "FUJI ELECTRIC MAGNECTIC CONTACTOR SC-3N (65)",
+  "make": "FUJI",
+  "model": "SC-3N (65)",
+  "description": "Product details: SE Coil DC24V, 24-25V, 50/60Hz<br>Weight: 2kg<br>Dimensions: 125 x 135 x 160mm",
+  "quantity": "1 unit",
+  "price": "SGD399.99/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429236/FUJI_Electric_Magnetic_Contactor_SC-3N_65_cg7mbp.png"
+},
+{
+  "id": 106,
+  "name": "FUJI ELECTRIC MAGNETIC SWITCH SRCA3931-05",
+  "make": "FUJI",
+  "model": "SRCA3931-05",
+  "description": "Product details:<br>100V / 100-110V, 50/60Hz (without case cover)<br>Weight: 0.7kg<br>Dimensions: 110 x 55 x 85mm (4¼ x 2¼ x 3¼ inch)",
+  "quantity": "1 unit",
+  "price": "SGD61.33/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429239/FUJI_Electric_Magnetic_Switch_SRCa3931-05_fab6jb.png"
+},
+{
+  "id": 107,
+  "name": "FUJI ELECTRIC THERMAL OVERLOAD RELAY TR-6N",
+  "make": "FUJI",
+  "model": "TR-6N",
+  "description": "Product details: 85-125A<br>Weight: 0.9kg<br>Dimensions: 130 x 80 x 110mm (5 x 3¼ x 4½ inch)",
+  "quantity": "3 units",
+  "price": "SGD250/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429267/piFUJI_Electric_Thermal_Overload_Relay_TR-6N_c_112_aqjwkb.png"
+},
+{
+  "id": 108,
+  "name": "FUJI ELECTRIC OVERLOAD RELAY TR-1SN",
+  "make": "FUJI",
+  "model": "TR-1SN",
+  "description": "Product details: 4 – 6A<br>Weight: 0.4kg<br>Dimensions: 70 x 50 x 95mm (3 x 2 x 3¾ inch)",
+  "quantity": "1 unit",
+  "price": "SGD78/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429240/FUJI_Electric_Thermal_Overload_Relay_TR-1SN_ipeumn.png"
+},
+{
+  "id": 109,
+  "name": "FUJI ELECTRICAL THERMAL OVERLOAD RELAY TK-1SN",
+  "make": "FUJI",
+  "model": "TK-1SN",
+  "description": "Product details: 2.8 – 4.2A<br>Weight: 0.4kg<br>Dimensions: 75 x 48 x 95mm (3 x 1⅞ x 3¾ inch)",
+  "quantity": "1 unit",
+  "price": "SGD45.99/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429240/FUJI_Electric_Thermal_Overload_Relay_TK-1SN_sqhbp4.png"
+},
+{
+  "id": 110,
+  "name": "FUJI Electric Thermal Overload Relay TR-3N",
+  "make": "FUJI",
+  "model": "TR-3N",
+  "description": "Product details: 34-50A<br>Weight: 0.6kg<br>Dimensions: 140 x 110 x 80mm (5½ x 4⅜ x 3⅛ inch)",
+  "quantity": "2 units",
+  "price": "SGD204.50/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429243/FUJI_Electric_Thermal_Overload_Relay_TR-3N_cdywgw.png"
+},
+{
+  "id": 111,
+  "name": "FUJI ELECTRIC THERMAL OVERLOAD RELAY TR-10NLH/M1",
+  "make": "FUJI",
+  "model": "TR-10NLH/M1",
+  "description": "Product Details: F23267904<br>Weight: 0.4kg<br>Dimensions: 75 x 50 x 95mm (3 x 1⅞ x 3¾ inch)",
+  "quantity": "1 unit",
+  "price": "SGD122/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429244/FUJI_Electric_Thermal_Overload_Relay_TR-10NLHM1_v0cuue.png"
+},
+{
+  "id": 112,
+  "name": "GOSSEN VOLTAGE PANEL 31611-0-4000000",
+  "make": "GOSSEN",
+  "model": "31611-0-4000000",
+  "description": "Details: Voltage: 0-100-600V",
+  "quantity": "2 units",
+  "price": "",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429249/GOSSEN_Voltage_Panel_31611-0-4000000_mjvfsx.png"
+},
+{
+  "id": 113,
+  "name": "GWF MTH MULTIJET VOLUME METER 08632231",
+  "make": "GWF MTH",
+  "model": "08632231",
+  "description": "Weight: 2.4kg<br>Dimensions: 230 x 100 x 140mm (9 x 4 x 5½ inch)",
+  "quantity": "1 unit",
+  "price": "SGD165/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429252/GWF_MTH_Multijet_Volume_Meter_08632231_e5kqun.png"
+},
+{
+  "id": 114,
+  "name": "HONEYWELL LIMIT SWITCH GLAC01A4J",
+  "make": "HONEYWELL",
+  "model": "GLAC01A4J",
+  "description": "Weight: 0.7kg",
+  "quantity": "1 unit",
+  "price": "SGD144.24/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429253/HONEYWELL_Limit_Switch_GLAC01A4J_bstpl2.png"
+},
+{
+  "id": 115,
+  "name": "HONEYWELL LIMIT SWITCH GLEB01B",
+  "make": "HONEYWELL",
+  "model": "GLEB01B",
+  "description": "Weight: 0.5kg<br>Dimensions: 90 x 65 x 30mm (3½ x 2½ x 1½ inch)",
+  "quantity": "3 units",
+  "price": "SGD81.33/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429256/HONEYWELL_Limit_Switch_GLEB01B_h0lozo.png"
+},
+{
+  "id": 116,
+  "name": "MERLIN GERIN Circuit Breaker EZC100N 3080",
+  "make": "MERLIN",
+  "model": "EZC100N 3080",
+  "description": "Details: 80A, 3P<br>Weight: 1kg<br>Dimensions: 140 x 80 x 95mm (5½ x 3⅛ x 3½ inch)",
+  "quantity": "1 unit",
+  "price": "SGD164.06/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429257/MERLIN_GERIN_Circuit_Breaker_EZC100N_3080_ppv1zb.png"
+},
+{
+  "id": 117,
+  "name": "MERLIN GERIN CIRCUIT BREAKER NS250L 31405 COMPACT",
+  "make": "MERLIN",
+  "model": "NS250L 31405 Compact",
+  "description": "Details: 4-102089-1<br>Weight: 2.7kg<br>Dimensions: 200 x 85 x 125mm (8 x 3¼ x 5 inch)",
+  "quantity": "1 unit",
+  "price": "SGD220/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429259/MERLIN_GERIN_Circuit_Breaker_NS250L_31405_Compact_xal0wy.png"
+},
+{
+  "id": 118,
+  "name": "METASOL Contactor MC-18B",
+  "make": "METASOL",
+  "model": "MC-18B",
+  "description": "Details: AC240V, 50/60Hz<br>Weight: 0.5kg<br>Dimensions: 85 x 50 x 95mm",
+  "quantity": "1 unit",
+  "price": "SGD30.47/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429261/METASOL_Contactor_MC-18B_rj0nsi.png"
+},
+{
+  "id": 119,
+  "name": "NISHISHIBA REGULATOR KDCW-2 30110",
+  "make": "NISHISHIBA",
+  "model": "30110",
+  "description": "Details: 4-102089-1<br>Weight: 2.7kg<br>Dimensions: 200 x 85 x 125mm (8 x 3¼ x 5 inch)",
+  "quantity": "1 unit",
+  "price": "SGD2350/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429262/NISHISHIBA_Regulator_KDCW-2_30110_ya4qyj.png"
+},
+{
+  "id": 120,
+  "name": "OMRON MOTOR DRIVE TIMER H2C-8",
+  "make": "OMRON",
+  "model": "H2C-8",
+  "description": "Timer range: 1.25s–30h, Source: 100VAC<br>Dimensions: 120 x 65 x 65mm",
+  "quantity": "1 unit",
+  "price": "SGD214/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429262/OMRON_Motor_Drive_Timer_H2C-8_pnfufx.png"
+},
+{
+  "id": 121,
+  "name": "OMRON RELAY MM2P",
+  "make": "OMRON",
+  "model": "MM2P",
+  "description": "Details: 24VDC, Made in Japan<br>Weight: 0.5kg<br>Dimensions: 85 x 55 x 90mm",
+  "quantity": "1 unit",
+  "price": "SGD35/unit",
+  "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429264/OMRON_Relay_MM2P_nvvcpy.png"
+}
+
+
+
+
     
 
 ]
