@@ -1,30 +1,24 @@
 [
   {
     "id": 1,
-    "title": "Electrical Items",
-    "slug": "electric_items",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429373/TELEMECANIQUE_REVERSING_CONTACTOR_LC1D09E7_inxhx9.png"
-  },
-  {
-    "id": 2,
     "title": "Main Engine",
     "slug": "main_engine",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759042937/CATERPILLAR_3406E_COMPLETE_ENGINE_mrrcbs.png",
     "subCategories": [
       {
-        "id": 21,
+        "id": 11,
         "title": "Two Stroke",
         "slug": "ME_twostroke",
         "imageUrl": "./assets/images/no-image.jpg"
       },
       {
-        "id": 22,
+        "id": 12,
         "title": "Four Stroke",
         "slug": "ME_fourstroke",
         "imageUrl": "./assets/images/no-image.jpg"
       },
       {
-        "id": 23,
+        "id": 13,
         "title": "Main Engine Components",
         "slug": "ME_components",
         "imageUrl": "./assets/images/no-image.jpg"
@@ -32,43 +26,31 @@
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Aux Engine / Generator",
     "slug": "AE_generator",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759045119/image-removebg-preview_30_zazdob.png"
   },
   {
-    "id": 4,
-    "title": "Nozzle",
-    "slug": "nozzle",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046231/image-removebg-preview_32_xnu685.png"
-  },
-  {
-    "id": 5,
-    "title": "Governor Equipment",
-    "slug": "governor",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046825/GOVERNOR_ZEXEL_RHD6_282101246_qjhvyr_d9gpmn.png"
-  },
-  {
-    "id": 6,
+    "id": 3,
     "title": "Air Compressor",
     "slug": "air_compressor",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070586/image-removebg-preview_42_k15bqq.png",
     "subCategories": [
       {
-        "id": 61,
+        "id": 31,
         "title": "Air Cooled",
         "slug": "AC_aircooled",
         "imageUrl": "./assets/images/no-image.jpg"
       },
       {
-        "id": 62,
+        "id": 32,
         "title": "Water Cooled",
         "slug": "AC_watercooled",
         "imageUrl": "./assets/images/no-image.jpg"
       },
       {
-        "id": 63,
+        "id": 33,
         "title": "Breathing Air Compressors",
         "slug": "AC_breathingair",
         "imageUrl": "./assets/images/no-image.jpg"
@@ -76,25 +58,25 @@
     ]
   },
   {
-    "id": 7,
+    "id": 4,
     "title": "Purifiers",
     "slug": "purifiers",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759072861/PURIFIER_5_inexse.png",
     "subCategories": [
       {
-        "id": 71,
+        "id": 41,
         "title": "Purifier Spares",
         "slug": "purifiers_spares",
         "imageUrl": "./assets/images/no-image.jpg"
       },
       {
-        "id": 72,
+        "id": 42,
         "title": "Purifier Remanufacturing",
         "slug": "purifiers_remanufacturing",
         "imageUrl": "./assets/images/no-image.jpg"
       },
       {
-        "id": 73,
+        "id": 43,
         "title": "Purifier Bowl Balancing",
         "slug": "purifiers_bowl",
         "imageUrl": "./assets/images/no-image.jpg"
@@ -102,73 +84,85 @@
     ]
   },
   {
-    "id": 8,
+    "id": 5,
     "title": "Pumps",
     "slug": "pumps",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759139121/Pump_dyzmnr.png"
   },
   {
-    "id": 9,
+    "id":6,
     "title": "Turbochargers",
     "slug": "turbocharger",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141897/Turbocharger_complete_jqxr8l.png"
   },
   {
-    "id": 10,
+    "id": 7,
     "title": "Hydraulic Pumps and Motors",
     "slug": "hydraulic",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142220/MITSUBISHI_JANNEY_PUMP_o4njbn.png"
   },
   {
-    "id": 11,
+    "id": 8,
+    "title": "Nozzle",
+    "slug": "nozzle",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046231/image-removebg-preview_32_xnu685.png"
+  },
+  {
+    "id": 9,
+    "title": "Governor Equipment",
+    "slug": "governor",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046825/GOVERNOR_ZEXEL_RHD6_282101246_qjhvyr_d9gpmn.png"
+  }, 
+  {
+    "id": 10,
     "title": "Screw Air Compressors and Air Dryers",
     "slug": "screwac",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853894/Ark_Vision_Service_Air_Compressor_1_u4duvf.png"
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "Air Conditioning Compressors",
     "slug": "airconditioning",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759116593/Refrigeration_Compressor_pkne8z.png"
   },
   {
-    "id": 13,
+    "id": 12,
     "title": "Tank Cleaning Equipment",
     "slug": "tank_cleaning",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759116594/Water_Driven_Gas_Freeing_Fan_mg0fdx.png",
     "subCategories": [
       {
-        "id": 131,
+        "id": 121,
         "title": "ALPHA LAVAL Tank Cleaning Machines",
         "slug": "TCalpha",
         "imageUrl": "./assets/images/no-image.jpg"
       },
       {
-        "id": 132,
+        "id": 122,
         "title": "Scanjet Tank Cleaning Equipment",
         "slug": "TCscanjet",
         "imageUrl": "./assets/images/no-image.jpg"
       },
       {
-        "id": 133,
+        "id": 123,
         "title": "Turbo Lights",
         "slug": "TCturbo",
         "imageUrl": "./assets/images/no-image.jpg"
       },
       {
-        "id": 134,
+        "id": 124,
         "title": "Gas Freeing Fan",
         "slug": "TCgas",
         "imageUrl": "./assets/images/no-image.jpg"
       },
       {
-        "id": 135,
+        "id": 125,
         "title": "Demucking Winches",
         "slug": "TCwinches",
         "imageUrl": "./assets/images/no-image.jpg"
       },
       {
-        "id": 136,
+        "id": 126,
         "title": "Submersible Pumps",
         "slug": "TCpumps",
         "imageUrl": "./assets/images/no-image.jpg"
@@ -176,15 +170,22 @@
     ]
   },
   {
-    "id": 14,
+    "id": 13,
     "title": "Marine and Offshore Systems",
     "slug": "marineoffshore",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759897134/Marine_sewage_treatment_plant_ij24hu.jpg"
   },
   {
-    "id": 15,
+    "id": 14,
     "title": "Nautical Artifacts",
     "slug": "nautica",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759116591/Telegraph_hfom0i.png"
+  },
+  {
+    "id": 15,
+    "title": "Electrical Items",
+    "slug": "electric_items",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429373/TELEMECANIQUE_REVERSING_CONTACTOR_LC1D09E7_inxhx9.png"
   }
+
 ]
