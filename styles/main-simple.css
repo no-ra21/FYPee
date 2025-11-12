@@ -1463,8 +1463,8 @@ section {
 }
 
 .customer-logos img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   opacity: 0.9;
   transition: all 0.3s ease;
   object-fit: contain;
