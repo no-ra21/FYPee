@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Repairs & Servicing — Ark Vision</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main-simple.css">
+
+  <script>
+    // Load shared navigation and mark active link
+    function loadNavigation() {
+      fetch('navigation.html')
+        .then(r => r.text())
+        .then(html => {
+          const ph = document.getElementById('navigation-placeholder');
+          if (!ph) return;
+          ph.innerHTML = html;
+          const toggle = ph.querySelector('#navToggle');
+          const menu = ph.querySelector('#navMenu');
+          if (toggle && menu) toggle.addEventListener('click', () => menu.classList.toggle('open'));
+          const current = window.location.pathname.split('/').pop() || 'index.html';
+          ph.querySelectorAll('.nav-menu a').forEach(a => { if (a.getAttribute('href') === current) a.classList.add('active'); });
+        })
+        .catch(()=>{});
+    }
+    document.addEventListener('DOMContentLoaded', loadNavigation);
+  </script>
+
+  <style>
+    :root{
+      --site-max:1200px;
+      --accent:#0aa6d1;
+      --accent-2:#4ECDC4;
+      --hero-overlay: linear-gradient(180deg, rgba(11,24,44,0.85), rgba(11,24,44,0.65));
+      --nav-dark: #0b2740;
+      --dark-blue: #0b2740;
+      --light-blue: #e8f4f8;
+    }
+
+    body{
+      font-family: system-ui,-apple-system,"Segoe UI",Roboto,Arial;
+      margin:0;
+      color:#0a1931;
+      background:#f8fafb;
+    }
+
+    /* Hero */
+    .page-hero{
+      position:relative;
+      background-image: url('assets/images/Ark_Vision_Service_Air_Compressor_yidhcg.jpg');
+      background-size:cover;
+      background-position:center;
+      padding:100px 0;
+      color:#fff;
+    }
+    .page-hero::before{
+      content:""; position:absolute; inset:0; background:var(--hero-overlay); pointer-events:none;
+    }
+    .page-hero-content{position:relative; z-index:2; width:100%; max-width:var(--site-max); margin:0 auto; padding:0 20px; text-align:center;}
+    .page-hero-content h1{margin:0; font-size:3.2rem; font-weight:800; letter-spacing:-0.8px; text-shadow:0 3px 15px rgba(0,0,0,0.5);}
+    .page-hero-content p.lead{margin-top:20px; font-size:1.25rem; color:rgba(255,255,255,0.95); max-width:880px; margin-left:auto; margin-right:auto; line-height:1.7; font-weight:400;}
+
+    /* Main content */
+    .services-section{padding:80px 0; background:linear-gradient(135deg, #f8fafb 0%, #e8f4f8 100%);}
+    .services-content{max-width:var(--site-max); margin:0 auto; padding:0 20px;}
+
+    /* Service cards */
+    .services-grid{display:grid; gap:48px;}
+    
+    .service-card{
+      background:#fff;
+      border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 10px 40px rgba(11,39,64,0.08);
+      transition:all 0.4s ease;
+      border:1px solid rgba(10,166,209,0.1);
+    }
+    
+    .service-card:hover{
+      transform:translateY(-8px);
+      box-shadow:0 20px 60px rgba(10,166,209,0.15);
+      border-color:var(--accent);
+    }
+
+    .service-card-inner{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:0;
+      min-height:400px;
+    }
+
+    .service-content{
+      padding:48px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      background:linear-gradient(135deg, var(--dark-blue) 0%, #0d3557 100%);
+      position:relative;
+      overflow:hidden;
+    }
+
+    .service-content::before{
+      content:"";
+      position:absolute;
+      top:-50%;
+      right:-50%;
+      width:200%;
+      height:200%;
+      background:radial-gradient(circle, rgba(10,166,209,0.15) 0%, transparent 70%);
+      pointer-events:none;
+    }
+
+    .service-content h3{
+      color:#fff;
+      font-size:2rem;
+      font-weight:700;
+      margin:0 0 20px;
+      position:relative;
+      z-index:1;
+    }
+
+    .service-content h3::after{
+      content:"";
+      display:block;
+      width:60px;
+      height:4px;
+      background:linear-gradient(90deg, var(--accent), var(--accent-2));
+      margin-top:12px;
+      border-radius:2px;
+    }
+
+    .service-description{
+      color:rgba(255,255,255,0.92);
+      font-size:1.1rem;
+      line-height:1.8;
+      margin:0;
+      position:relative;
+      z-index:1;
+    }
+
+    .service-gallery{
+      display:grid;
+      grid-template-columns:repeat(2, 1fr);
+      gap:2px;
+      background:#fff;
+    }
+
+    /* Special layout for 5 images */
+    .service-gallery.five-images{
+      grid-template-columns:repeat(2, 1fr);
+      grid-template-rows:repeat(2, 200px);
+    }
+
+    .service-gallery.five-images img:nth-child(5){
+      grid-column:1 / 3;
+      height:200px;
+    }
+
+    .service-gallery img{
+      width:100%;
+      height:200px;
+      object-fit:cover;
+      transition:all 0.4s ease;
+      cursor:pointer;
+    }
+
+    .service-gallery img:hover{
+      transform:scale(1.1);
+      z-index:2;
+      box-shadow:0 8px 24px rgba(0,0,0,0.3);
+    }
+
+    /* Contact CTA */
+    .contact-cta{
+      margin-top:80px;
+      background:linear-gradient(135deg, var(--dark-blue) 0%, #0d3557 100%);
+      color:#fff;
+      padding:60px;
+      border-radius:24px;
+      box-shadow:0 20px 60px rgba(11,39,64,0.25);
+      position:relative;
+      overflow:hidden;
+    }
+
+    .contact-cta::before{
+      content:"";
+      position:absolute;
+      top:-50%;
+      left:-50%;
+      width:200%;
+      height:200%;
+      background:radial-gradient(circle, rgba(10,166,209,0.2) 0%, transparent 70%);
+      animation:pulse 8s ease-in-out infinite;
+    }
+
+    @keyframes pulse{
+      0%, 100%{transform:translate(0,0) scale(1);}
+      50%{transform:translate(5%,5%) scale(1.05);}
+    }
+
+    .contact-cta-content{
+      text-align:center;
+      max-width:700px;
+      margin:0 auto;
+      position:relative;
+      z-index:1;
+    }
+
+    .contact-cta h3{
+      font-size:2.2rem;
+      font-weight:700;
+      margin:0 0 16px;
+      color:#fff;
+    }
+
+    .contact-cta p{
+      font-size:1.15rem;
+      color:rgba(255,255,255,0.9);
+      margin:0 0 36px;
+      line-height:1.7;
+    }
+
+    .contact-methods{
+      display:flex;
+      gap:20px;
+      justify-content:center;
+      flex-wrap:wrap;
+    }
+
+    .contact-btn{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding:16px 40px;
+      background:var(--accent);
+      color:#fff;
+      text-decoration:none;
+      font-weight:600;
+      font-size:1.1rem;
+      border-radius:12px;
+      transition:all 0.3s ease;
+      box-shadow:0 4px 15px rgba(10,166,209,0.3);
+    }
+
+    .contact-btn:hover{
+      background:var(--accent-2);
+      color:#fff;
+      transform:translateY(-3px);
+      box-shadow:0 8px 25px rgba(10,166,209,0.4);
+    }
+
+    .contact-btn-secondary{
+      background:transparent;
+      border:2px solid rgba(255,255,255,0.4);
+      color:#fff;
+      box-shadow:none;
+    }
+
+    .contact-btn-secondary:hover{
+      background:rgba(255,255,255,0.15);
+      border-color:rgba(255,255,255,0.7);
+      box-shadow:0 4px 15px rgba(255,255,255,0.2);
+    }
+
+    /* Footer (About us style) */
+    .site-footer{
+      background:var(--dark-blue);
+      color:#cfdde6;
+      padding:48px 0 24px;
+      margin-top:0;
+      border-top:4px solid rgba(255,255,255,0.02);
+      font-size:0.95rem;
+    }
+    .footer-content{
+      max-width:var(--site-max);
+      margin:0 auto;
+      padding:0 20px;
+      display:flex;
+      gap:28px;
+      align-items:flex-start;
+      justify-content:space-between;
+      flex-wrap:wrap;
+    }
+    .footer-col { flex: 1 1 200px; min-width:180px; }
+    .footer-col h5 { margin:0 0 10px; color:#56bfe0; font-weight:700; font-size:1rem; }
+    .footer-col p, .footer-col a { color:#cfe8f5; text-decoration:none; display:block; margin:6px 0; }
+    .footer-col a:hover { color:#fff; text-decoration:underline; }
+    .footer-bottom { border-top:1px solid rgba(255,255,255,0.03); margin-top:18px; padding-top:14px; text-align:center; color:rgba(255,255,255,0.7); font-size:0.9rem; }
+
+    @media(max-width:968px){
+      .page-hero{padding:70px 0;}
+      .page-hero-content h1{font-size:2.4rem;}
+      .page-hero-content p.lead{font-size:1.1rem;}
+      
+      .service-card-inner{
+        grid-template-columns:1fr;
+      }
+      
+      .service-content{padding:36px 28px;}
+      .service-gallery{grid-template-columns:repeat(3, 1fr);}
+      .service-gallery img{height:150px;}
+      
+      .contact-cta{padding:40px 28px;}
+      .contact-cta h3{font-size:1.8rem;}
+      .contact-methods{flex-direction:column; width:100%;}
+      .contact-btn{width:100%; justify-content:center;}
+      .footer-content{flex-direction:column; text-align:center;}
+    }
+
+    @media(max-width:600px){
+      .service-gallery{grid-template-columns:repeat(2, 1fr);}
+    }
+  </style>
+</head>
+<body>
+  <!-- navigation placeholder -->
+  <header class="site-header">
+    <div id="navigation-placeholder"></div>
+  </header>
+
+  <!-- Page hero -->
+  <section class="page-hero" role="banner" aria-label="Repairs banner">
+    <div class="page-hero-content">
+      <h1>Repairs & Servicing</h1>
+      <p class="lead">We have a team of Engineers and Technicians to carry out onboard & afloat servicing and repair of the following</p>
+    </div>
+  </section>
+
+  <!-- Main content -->
+  <section class="services-section">
+    <div class="services-content">
+      
+      <div class="services-grid">
+
+        <!-- Diesel Engines -->
+        <div class="service-card">
+          <div class="service-card-inner">
+            <div class="service-content">
+              <h3>Diesel Engines</h3>
+              <p class="service-description">On & off-site repair or complete overhaul 2 and 4 stroke diesel engines. We can provide fully serviced (to maker's specifications) cylinder heads, pistons and connecting rods to reduce downtime significantly.</p>
+            </div>
+            <div class="service-gallery five-images">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1763899747/cc83798e-eb2f-4a40-8bd0-e2d38643ebc2.png" alt="Diesel engine repair 1">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1763899805/60de079c-1fd4-4bfa-9812-d2be2f9ea13c.png" alt="Diesel engine repair 2">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1763899901/154e461c-593f-4b37-ab73-495cc2f4417c.png" alt="Diesel engine repair 3">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1763899952/84b7ba2e-033b-4718-ba6d-944712fc5636.png" alt="Diesel engine repair 4">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1763900024/2794a3f8-48ba-4eb9-a71b-8afe08bd6d66.png" alt="Diesel engine repair 5">
+            </div>
+          </div>
+        </div>
+
+        <!-- Air Compressors -->
+        <div class="service-card">
+          <div class="service-card-inner">
+            <div class="service-content">
+              <h3>Air Compressors</h3>
+              <p class="service-description">Repair or full recondition reciprocating or screw type air compressors. Fully recondition air compressors including overhaul, inter/discharge valves, piston rings, bearings, etc. and carry out function test before dispatch to vessel.</p>
+            </div>
+            <div class="service-gallery">
+              <img src="assets/images/repairs/ac-1.jpg" alt="Air compressor repair 1">
+              <img src="assets/images/repairs/ac-2.jpg" alt="Air compressor repair 2">
+              <img src="assets/images/repairs/ac-3.jpg" alt="Air compressor repair 3">
+              <img src="assets/images/repairs/ac-4.jpg" alt="Air compressor repair 4">
+            </div>
+          </div>
+        </div>
+
+        <!-- Purifiers -->
+        <div class="service-card">
+          <div class="service-card-inner">
+            <div class="service-content">
+              <h3>Purifiers</h3>
+              <p class="service-description">Full remanufacture of various makes & models of purifiers with fully balanced bowls and function tested in our workshop.</p>
+            </div>
+            <div class="service-gallery">
+              <img src="assets/images/repairs/purifier-1.jpg" alt="Purifier repair 1">
+              <img src="assets/images/repairs/purifier-2.jpg" alt="Purifier repair 2">
+              <img src="assets/images/repairs/purifier-3.jpg" alt="Purifier repair 3">
+              <img src="assets/images/repairs/purifier-4.jpg" alt="Purifier repair 4">
+            </div>
+          </div>
+        </div>
+
+        <!-- Hydraulic Motors -->
+        <div class="service-card">
+          <div class="service-card-inner">
+            <div class="service-content">
+              <h3>Hydraulic Motors</h3>
+              <p class="service-description">Fully recondition various makes & types of hydraulic motors & pumps. Load tested & certified in house. Japanese & European Hydraulics.</p>
+            </div>
+            <div class="service-gallery">
+              <img src="assets/images/repairs/hydraulic-1.jpg" alt="Hydraulic motor 1">
+              <img src="assets/images/repairs/hydraulic-2.jpg" alt="Hydraulic motor 2">
+              <img src="assets/images/repairs/hydraulic-3.jpg" alt="Hydraulic motor 3">
+              <img src="assets/images/repairs/hydraulic-1.jpg" alt="Hydraulic motor 4">
+            </div>
+          </div>
+        </div>
+
+        <!-- Pumps -->
+        <div class="service-card">
+          <div class="service-card-inner">
+            <div class="service-content">
+              <h3>Pumps</h3>
+              <p class="service-description">Repair and recondition. Various types of pumps, centrifugal, screw, gear, vane types, European & Japanese makes.</p>
+            </div>
+            <div class="service-gallery">
+              <img src="assets/images/repairs/pump-1.jpg" alt="Pump repair 1">
+              <img src="assets/images/repairs/pump-2.jpg" alt="Pump repair 2">
+              <img src="assets/images/repairs/pump-3.jpg" alt="Pump repair 3">
+              <img src="assets/images/repairs/pump-4.jpg" alt="Pump repair 4">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Contact CTA -->
+      <div class="contact-cta">
+        <div class="contact-cta-content">
+          <h3>Need urgent repairs or servicing?</h3>
+          <p>Contact our service team to discuss scope, availability and afloat attendance. Quotations and mobilisation support provided.</p>
+          <div class="contact-methods">
+            <a href="mailto:arkvision@singnet.com.sg" class="contact-btn">
+              <span>📧</span> Email Us
+            </a>
+            <a href="tel:+6568623379" class="contact-btn contact-btn-secondary">
+              <span>📞</span> Call +65 6862 3379
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-content">
+      <div class="footer-col">
+        <h5>ArkVision</h5>
+        <p>Pioneering the next generation of maritime technology. Our passion for engineering meets the power of the sea to deliver solutions that stand the test of time.</p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="repairs.html">Repairs & Servicing</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <p>Tel: +65 6862 3379</p>
+        <p>Fax: +65 6863 0930</p>
+        <p>Address: No. 51 Tuas Ave 1, Singapore 639501</p>
+        <p>Email: <a href="mailto:arkvision@singnet.com.sg">arkvision@singnet.com.sg</a></p>
+      </div>
+
+      <div class="footer-connect">
+            <h4>Connect with Us</h4>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/company/devaraj-ramamurthy/" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                <span class="social-icon"><span class="material-symbols-outlined"></span></span>
+                <span>LinkedIn</span>
+              </a>
+              <a href="mailto:arkvision@singnet.com.sg" class="social-link" aria-label="Email">
+                <span class="social-icon"><span class="material-symbols-outlined"></span></span>
+                <span>Email Us</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+    <div class="footer-bottom">
+      © 2025 ArkVision. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
