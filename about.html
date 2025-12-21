@@ -296,6 +296,105 @@
       </div>
     </section>
 
+    <!-- Brochures Download Section -->
+    <section class="brochures-section">
+      <div class="container">
+        <h3 class="brochures-title">Download Our Brochures</h3>
+        
+        <div class="brochures-list">
+          <div class="brochure-row">
+            <div class="brochure-info">
+              <div class="brochure-details">
+                <h5>ARK VISION BROCHURE</h5>
+              </div>
+            </div>
+            <button class="brochure-btn download-trigger" data-brochure="1.Ark Vision Brochure Updated.pdf">
+              <span class="material-symbols-outlined">download</span>
+            </button>
+          </div>
+
+          <div class="brochure-row">
+            <div class="brochure-info">
+              <div class="brochure-details">
+                <h5>ARK VISION SCREW AIR COMPRESSOR BROCHURE</h5>
+              </div>
+            </div>
+            <button class="brochure-btn download-trigger" data-brochure="2. Ark Vision Screw Air Compressor Brochure.pdf">
+              <span class="material-symbols-outlined">download</span>
+            </button>
+          </div>
+
+          <div class="brochure-row">
+            <div class="brochure-info">
+              <div class="brochure-details">
+                <h5>ARK 500 HIGH PRESSURE HYDRO BLASTER</h5>
+              </div>
+            </div>
+            <button class="brochure-btn download-trigger" data-brochure="3.Ark 500 High pressure hydro blaster.pdf">
+              <span class="material-symbols-outlined">download</span>
+            </button>
+          </div>
+
+          <div class="brochure-row">
+            <div class="brochure-info">
+              <div class="brochure-details">
+                <h5>AVSE WATER DRIVEN GAS FREEING FANS</h5>
+              </div>
+            </div>
+            <button class="brochure-btn download-trigger" data-brochure="4.AVSE WATER DRIVEN GAS FREEING FANS_compressed.pdf">
+              <span class="material-symbols-outlined">download</span>
+            </button>
+          </div>
+
+          <div class="brochure-row">
+            <div class="brochure-info">
+              <div class="brochure-details">
+                <h5>GALI BROCHURE</h5>
+              </div>
+            </div>
+            <button class="brochure-btn download-trigger" data-brochure="5.GALI Brochure.pdf">
+              <span class="material-symbols-outlined">download</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Form Modal -->
+    <div id="downloadModal" class="modal-overlay">
+      <div class="modal-content">
+        <button class="modal-close" id="closeModal">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+        <h3>Download Brochure</h3>
+        <p>Please provide your details to download the brochure</p>
+        
+        <form id="downloadForm">
+          <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+          </div>
+
+          <div class="form-group">
+            <label for="companyName">Company Name *</label>
+            <input type="text" id="companyName" name="companyName" required placeholder="Your Company">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required placeholder="john@company.com">
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+65 1234 5678">
+          </div>
+
+          <button type="submit" class="btn-submit">Download Now</button>
+        </form>
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer class="site-footer">
       <div class="container">
@@ -353,6 +452,71 @@
         easing: 'ease-in-out',
         once: true,
         offset: 100
+      });
+
+      // Download modal functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const modal = document.getElementById('downloadModal');
+        const closeBtn = document.getElementById('closeModal');
+        const downloadForm = document.getElementById('downloadForm');
+        const downloadTriggers = document.querySelectorAll('.download-trigger');
+        let currentBrochureFile = '';
+
+        // Open modal when download button is clicked
+        downloadTriggers.forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            currentBrochureFile = btn.getAttribute('data-brochure');
+            modal.classList.add('active');
+            downloadForm.reset();
+            document.getElementById('fullName').focus();
+          });
+        });
+
+        // Close modal
+        closeBtn.addEventListener('click', () => {
+          modal.classList.remove('active');
+        });
+
+        // Close modal when clicking outside
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) {
+            modal.classList.remove('active');
+          }
+        });
+
+        // Handle form submission
+        downloadForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+
+          // Get form data
+          const formData = {
+            fullName: document.getElementById('fullName').value,
+            companyName: document.getElementById('companyName').value,
+            email: document.getElementById('email').value,
+            phone: document.getElementById('phone').value,
+            downloadedFile: currentBrochureFile,
+            timestamp: new Date().toISOString()
+          };
+
+          // Here you can send the data to your server
+          console.log('Download request:', formData);
+          
+          // For now, trigger the download
+          triggerDownload(currentBrochureFile);
+
+          // Close modal
+          modal.classList.remove('active');
+        });
+
+        function triggerDownload(filename) {
+          const link = document.createElement('a');
+          link.href = 'assets/documents/' + filename;
+          link.download = filename;
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        }
       });
     </script>
   </body>

@@ -2408,6 +2408,211 @@ section {
         font-weight: 500;
       }
 
+/* Brochures Section */
+.brochures-section {
+  padding: 3rem 0;
+  background: transparent;
+  position: relative;
+}
+
+.brochures-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.brochures-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.brochure-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 159, 220, 0.08);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  padding: 1.2rem;
+  transition: all var(--transition-speed) ease;
+}
+
+.brochure-row:hover {
+  background: rgba(0, 159, 220, 0.15);
+  transform: translateX(8px);
+}
+
+.brochure-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1;
+}
+
+.brochure-details h5 {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin: 0 0 0.3rem 0;
+  font-weight: 600;
+}
+
+.brochure-details p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.brochure-btn {
+  background: white;
+  color: var(--accent);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all var(--transition-speed) ease;
+  flex-shrink: 0;
+  font-size: 32px;
+}
+
+.brochure-btn:hover {
+  background: #f0f0f0;
+  transform: scale(1.15);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Download Modal */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-overlay.active {
+  display: flex;
+}
+
+.modal-content {
+  background: var(--primary);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  max-width: 450px;
+  width: 90%;
+  position: relative;
+  border: 1px solid rgba(0, 159, 220, 0.3);
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: var(--text-light);
+  font-size: 28px;
+  cursor: pointer;
+  transition: color var(--transition-speed) ease;
+}
+
+.modal-close:hover {
+  color: var(--accent);
+}
+
+.modal-content h3 {
+  font-size: 1.6rem;
+  color: var(--text-light);
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.modal-content p {
+  color: var(--muted);
+  margin: 0 0 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  color: var(--text-light);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.7rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 159, 220, 0.4);
+  border-radius: 4px;
+  color: var(--text-light);
+  font-size: 0.95rem;
+  transition: all var(--transition-speed) ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 0 3px rgba(0, 159, 220, 0.1);
+}
+
+.form-group input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 0.8rem;
+  background: linear-gradient(135deg, var(--accent) 0%, #0099cc 100%);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all var(--transition-speed) ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-submit:hover {
+  background: linear-gradient(135deg, #00b3ff 0%, #0088bb 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 159, 220, 0.3);
+}
+
+.btn-submit:active {
+  transform: translateY(0);
+}
+
      
 
 /* Responsive Design */
@@ -2456,6 +2661,38 @@ section {
         .subcategory-item {
           padding: 12px 15px;
         }
+
+  .brochures-title {
+    font-size: 1.3rem;
+  }
+
+  .carousel-arrow {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .brochures-container {
+    gap: 0.8rem;
+  }
+
+  .brochure-item {
+    min-width: 120px;
+    padding: 0.8rem;
+  }
+
+  .brochure-item .material-symbols-outlined {
+    font-size: 24px;
+  }
+
+  .brochure-item h5 {
+    font-size: 0.75rem;
+  }
+
+  .download-link {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.6rem;
+  }
 }
 
 @media (max-width: 480px) {

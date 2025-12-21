@@ -217,6 +217,10 @@
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .cert-badge::before {
@@ -231,11 +235,31 @@
   transition: all 0.3s ease;
 }
 
-
-
 .cert-badge:hover::before {
   left: 10px;
   opacity: 0.2;
+}
+
+.cert-view-btn {
+  background: var(--accent);
+  border: none;
+  color: white;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+  font-size: 20px;
+}
+
+.cert-view-btn:hover {
+  background: #00b3ff;
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 159, 220, 0.3);
 }
 
 .cert-text strong {
@@ -438,12 +462,18 @@
                     <strong>ISO 9001:2015</strong><br>
                     <span>Certified Quality Management</span>
                   </div>
+                  <button class="cert-view-btn" onclick="window.open('assets/documents/ISO-9001-Certificate.pdf', '_blank')">
+                    <span class="material-symbols-outlined">visibility</span>
+                  </button>
                 </div>
                 <div class="cert-badge">
                   <div class="cert-text">
                     <strong>BizSafe Level 4</strong><br>
                     <span>Safety Excellence Standards</span>
                   </div>
+                  <button class="cert-view-btn" onclick="window.open('assets/documents/BizSafe-Level4-Certificate.pdf', '_blank')">
+                    <span class="material-symbols-outlined">visibility</span>
+                  </button>
                 </div>
               </div>
             </div>
