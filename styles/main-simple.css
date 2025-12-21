@@ -134,7 +134,7 @@ a:focus {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  height: 70px;
+  height: 90px;
   padding: 0 1rem;
   gap: 2rem;
 }
@@ -142,8 +142,36 @@ a:focus {
 .logo a {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--accent);
+  color: white;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo img,
+.logo .logo-img {
+  height: 70px;
+  width: auto;
+  display: inline-block;
+}
+
+/* Fallback: add logo via pseudo-element when no image is present */
+.logo a::before {
+  content: '';
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin-right: 0.5rem;
+  background-image: url('https://res.cloudinary.com/djcqbpunw/image/upload/v1766333526/photo_6215496905375025985_y_niw63t.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Avoid double icons when using <img> */
+.logo .logo-link::before {
+  content: none;
 }
 
 .nav-menu {
@@ -155,7 +183,7 @@ a:focus {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 1.5rem;
   margin: 0;
   padding: 0;
 }
@@ -164,8 +192,9 @@ a:focus {
   color: var(--text-light);
   font-weight: 500;
   position: relative;
-  padding: 0.25rem 0;
+  padding: 0.5rem 0.8rem;
   transition: color var(--transition-speed) ease;
+  white-space: nowrap;
 }
 
 .nav-menu a.active,
@@ -596,7 +625,7 @@ section {
   border-radius: var(--border-radius);
   padding: 1.5rem 2rem;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
-  text-align: center;
+  text-align: left;
 }
 
 .mvv-card h3 {
@@ -610,7 +639,7 @@ section {
   color: var(--muted);
   font-size: 0.95rem;
   margin-bottom: 0.5rem;
-  text-align: center;
+  text-align: left;
   max-width: 100%;
 }
 
