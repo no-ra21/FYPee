@@ -499,14 +499,23 @@
             timestamp: new Date().toISOString()
           };
 
-          // Here you can send the data to your server
-          console.log('Download request:', formData);
-          
-          // For now, trigger the download
-          triggerDownload(currentBrochureFile);
-
-          // Close modal
-          modal.classList.remove('active');
+          // Send data to Google Apps Script
+          fetch('https://script.google.com/macros/s/AKfycbwuKH77qrPvJaRB8RmFBDmIdbE1256dP8o-prRoNVymESa-oI8Tr9ibRtEJuZNkKw/exec', {
+            method: 'POST',
+            body: JSON.stringify(formData)
+          })
+          .then(response => response.json())
+          .then(data => {
+            console.log('Data saved:', data);
+            triggerDownload(currentBrochureFile);
+            modal.classList.remove('active');
+          })
+          .catch(error => {
+            console.error('Error:', error);
+            // Still allow download even if sheet submission fails
+            triggerDownload(currentBrochureFile);
+            modal.classList.remove('active');
+          });
         });
 
         function triggerDownload(filename) {

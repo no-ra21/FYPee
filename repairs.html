@@ -91,7 +91,7 @@
       display:grid;
       grid-template-columns:1fr 1fr;
       gap:0;
-      min-height:400px;
+      min-height:200px;
     }
 
     .service-content{
@@ -153,17 +153,17 @@
     /* Special layout for 5 images */
     .service-gallery.five-images{
       grid-template-columns:repeat(2, 1fr);
-      grid-template-rows:repeat(2, 200px);
+      grid-template-rows:repeat(2, 150px);
     }
 
     .service-gallery.five-images img:nth-child(5){
       grid-column:1 / 3;
-      height:200px;
+      height:150px;
     }
 
     .service-gallery img{
       width:100%;
-      height:200px;
+      height:150px;
       object-fit:cover;
       transition:all 0.4s ease;
       cursor:pointer;
