@@ -474,6 +474,7 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .page-hero::before {
@@ -485,6 +486,16 @@ a:focus {
   height: 100%;
   background: rgba(0, 0, 0, 0.45);
   z-index: 1;
+}
+
+.page-hero video {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  z-index: 0 !important;
 }
 
 .page-hero-content {
