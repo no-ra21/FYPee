@@ -280,7 +280,7 @@
           <div class="container-fluid py-4 g-5">
             <div class="row flex-row-reverse align-items-center">
               <div class="col-md-6 text-center">
-                <img class="img-fluid mb-5 mb-md-0" src="https://res.cloudinary.com/djcqbpunw/image/upload/v1757567441/istockphoto-2033332065-612x612_edwzim.jpg" alt="Placeholder">
+                <img class="img-fluid mb-5 mb-md-0" src="https://res.cloudinary.com/djcqbpunw/image/upload/v1766467107/photo_2025-12-23_13-06-44_xoepw4.jpg" alt="Placeholder">
               </div>
               <div class="col-md-6">
                 <div class="pe-md-5">
@@ -295,6 +295,105 @@
         </div>
       </div>
     </section>
+
+    <!-- Brochures Download Section -->
+    <section class="brochures-section">
+      <div class="container">
+        <h3 class="brochures-title">Download Our Brochures</h3>
+        
+        <div class="brochures-list">
+          <div class="brochure-row">
+            <div class="brochure-info">
+              <div class="brochure-details">
+                <h5>ARK VISION BROCHURE</h5>
+              </div>
+            </div>
+            <button class="brochure-btn download-trigger" data-brochure="1.Ark Vision Brochure Updated.pdf">
+              <span class="material-symbols-outlined">download</span>
+            </button>
+          </div>
+
+          <div class="brochure-row">
+            <div class="brochure-info">
+              <div class="brochure-details">
+                <h5>ARK VISION SCREW AIR COMPRESSOR BROCHURE</h5>
+              </div>
+            </div>
+            <button class="brochure-btn download-trigger" data-brochure="2. Ark Vision Screw Air Compressor Brochure.pdf">
+              <span class="material-symbols-outlined">download</span>
+            </button>
+          </div>
+
+          <div class="brochure-row">
+            <div class="brochure-info">
+              <div class="brochure-details">
+                <h5>ARK 500 HIGH PRESSURE HYDRO BLASTER</h5>
+              </div>
+            </div>
+            <button class="brochure-btn download-trigger" data-brochure="3.Ark 500 High pressure hydro blaster.pdf">
+              <span class="material-symbols-outlined">download</span>
+            </button>
+          </div>
+
+          <div class="brochure-row">
+            <div class="brochure-info">
+              <div class="brochure-details">
+                <h5>AVSE WATER DRIVEN GAS FREEING FANS</h5>
+              </div>
+            </div>
+            <button class="brochure-btn download-trigger" data-brochure="4.AVSE WATER DRIVEN GAS FREEING FANS_compressed.pdf">
+              <span class="material-symbols-outlined">download</span>
+            </button>
+          </div>
+
+          <div class="brochure-row">
+            <div class="brochure-info">
+              <div class="brochure-details">
+                <h5>GALI BROCHURE</h5>
+              </div>
+            </div>
+            <button class="brochure-btn download-trigger" data-brochure="5.GALI Brochure.pdf">
+              <span class="material-symbols-outlined">download</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Form Modal -->
+    <div id="downloadModal" class="modal-overlay">
+      <div class="modal-content">
+        <button class="modal-close" id="closeModal">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+        <h3>Download Brochure</h3>
+        <p>Please provide your details to download the brochure</p>
+        
+        <form id="downloadForm">
+          <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+          </div>
+
+          <div class="form-group">
+            <label for="companyName">Company Name *</label>
+            <input type="text" id="companyName" name="companyName" required placeholder="Your Company">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required placeholder="john@company.com">
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+65 1234 5678">
+          </div>
+
+          <button type="submit" class="btn-submit">Download Now</button>
+        </form>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer class="site-footer">
@@ -330,7 +429,7 @@
             <div class="social-links">
               <a href="https://www.linkedin.com/company/devaraj-ramamurthy/" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
                 <span class="social-icon"><span class="material-symbols-outlined">business_center</span></span>
-                <span>LinkedIn</span>
+
               </a>
               <a href="mailto:arkvision@singnet.com.sg" class="social-link" aria-label="Email">
                 <span class="social-icon"><span class="material-symbols-outlined">mail</span></span>
@@ -353,6 +452,80 @@
         easing: 'ease-in-out',
         once: true,
         offset: 100
+      });
+
+      // Download modal functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const modal = document.getElementById('downloadModal');
+        const closeBtn = document.getElementById('closeModal');
+        const downloadForm = document.getElementById('downloadForm');
+        const downloadTriggers = document.querySelectorAll('.download-trigger');
+        let currentBrochureFile = '';
+
+        // Open modal when download button is clicked
+        downloadTriggers.forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            currentBrochureFile = btn.getAttribute('data-brochure');
+            modal.classList.add('active');
+            downloadForm.reset();
+            document.getElementById('fullName').focus();
+          });
+        });
+
+        // Close modal
+        closeBtn.addEventListener('click', () => {
+          modal.classList.remove('active');
+        });
+
+        // Close modal when clicking outside
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) {
+            modal.classList.remove('active');
+          }
+        });
+
+        // Handle form submission
+        downloadForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+
+          // Get form data
+          const formData = {
+            fullName: document.getElementById('fullName').value,
+            companyName: document.getElementById('companyName').value,
+            email: document.getElementById('email').value,
+            phone: document.getElementById('phone').value,
+            downloadedFile: currentBrochureFile,
+            timestamp: new Date().toISOString()
+          };
+
+          // Send data to Google Apps Script
+          fetch('https://script.google.com/macros/s/AKfycbwuKH77qrPvJaRB8RmFBDmIdbE1256dP8o-prRoNVymESa-oI8Tr9ibRtEJuZNkKw/exec', {
+            method: 'POST',
+            body: JSON.stringify(formData)
+          })
+          .then(response => response.json())
+          .then(data => {
+            console.log('Data saved:', data);
+            triggerDownload(currentBrochureFile);
+            modal.classList.remove('active');
+          })
+          .catch(error => {
+            console.error('Error:', error);
+            // Still allow download even if sheet submission fails
+            triggerDownload(currentBrochureFile);
+            modal.classList.remove('active');
+          });
+        });
+
+        function triggerDownload(filename) {
+          const link = document.createElement('a');
+          link.href = 'assets/documents/' + filename;
+          link.download = filename;
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        }
       });
     </script>
   </body>

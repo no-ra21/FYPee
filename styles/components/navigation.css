@@ -25,22 +25,52 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem var(--container-padding);
-  min-height: 70px;
+  min-height: 90px;
 }
 
 /* Logo */
 .logo a {
   font-size: 1.5rem;
   font-weight: var(--font-weight-bold);
-  color: var(--text-light);
+  color: white;
   text-decoration: none;
   transition: color var(--transition-speed) ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .logo a:hover,
 .logo a:focus {
   color: var(--accent);
   text-decoration: none;
+}
+
+/* Logo image next to text */
+.logo img,
+.logo .logo-img {
+  height: 70px;
+  width: auto;
+  display: inline-block;
+}
+
+/* Fallback: add logo via pseudo-element when no image is present */
+.logo a::before {
+  content: '';
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin-right: 0.5rem;
+  border-radius:20px;
+  background-image: url('https://res.cloudinary.com/djcqbpunw/image/upload/v1766333526/photo_6215496905375025985_y_niw63t.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Avoid double icons when using <img> */
+.logo .logo-link::before {
+  content: none;
 }
 
 /* Navigation menu */
@@ -62,12 +92,13 @@
 
 .nav-menu a {
   display: block;
-  padding: 0.5rem 0;
+  padding: 0.5rem 0.8rem;
   color: var(--text-light);
   text-decoration: none;
   font-weight: var(--font-weight-medium);
   transition: color var(--transition-speed) ease;
   position: relative;
+  white-space: nowrap;
 }
 
 .nav-menu a::after {
