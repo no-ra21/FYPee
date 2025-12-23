@@ -70,7 +70,7 @@
     .services-content{max-width:var(--site-max); margin:0 auto; padding:0 20px;}
 
     /* Service cards */
-    .services-grid{display:grid; gap:48px;}
+    .services-grid{display:grid; gap:60px;}
     
     .service-card{
       background:#fff;
@@ -91,11 +91,11 @@
       display:grid;
       grid-template-columns:1fr 1fr;
       gap:0;
-      min-height:200px;
+      min-height:100px;
     }
 
     .service-content{
-      padding:48px;
+      padding:20px;
       display:flex;
       flex-direction:column;
       justify-content:center;
@@ -153,17 +153,17 @@
     /* Special layout for 5 images */
     .service-gallery.five-images{
       grid-template-columns:repeat(2, 1fr);
-      grid-template-rows:repeat(2, 150px);
+      grid-template-rows:repeat(2, 100px);
     }
 
     .service-gallery.five-images img:nth-child(5){
       grid-column:1 / 3;
-      height:150px;
+      height:100px;
     }
 
     .service-gallery img{
       width:100%;
-      height:150px;
+      height:100px;
       object-fit:cover;
       transition:all 0.4s ease;
       cursor:pointer;
@@ -177,10 +177,11 @@
 
     /* Contact CTA */
     .contact-cta{
-      margin-top:80px;
+      margin-top:15px;
+      margin-bottom:80px;
       background:linear-gradient(135deg, var(--dark-blue) 0%, #0a1931 100%);
       color:#fff;
-      padding:60px;
+      padding:40px;
       border-radius:24px;
       box-shadow:0 20px 60px rgba(10,25,49,0.25);
       position:relative;
@@ -335,6 +336,22 @@
   <section class="services-section">
     <div class="services-content">
       
+      <!-- Contact CTA -->
+      <div class="contact-cta">
+        <div class="contact-cta-content">
+          <h3>Need urgent repairs or servicing?</h3>
+          <p>Contact our service team to discuss scope, availability and afloat attendance. Quotations and mobilisation support provided.</p>
+          <div class="contact-methods">
+            <a href="mailto:arkvision@singnet.com.sg" class="contact-btn">
+              <span class="material-symbols-outlined">email</span> Email Us
+            </a>
+            <a href="tel:+6568623379" class="contact-btn contact-btn-secondary">
+              <span class="material-symbols-outlined">phone</span> Call +65 6862 3379
+            </a>
+          </div>
+        </div>
+      </div>
+      
       <div class="services-grid">
 
         <!-- Diesel Engines -->
@@ -418,22 +435,6 @@
           </div>
         </div>
 
-      </div>
-
-      <!-- Contact CTA -->
-      <div class="contact-cta">
-        <div class="contact-cta-content">
-          <h3>Need urgent repairs or servicing?</h3>
-          <p>Contact our service team to discuss scope, availability and afloat attendance. Quotations and mobilisation support provided.</p>
-          <div class="contact-methods">
-            <a href="mailto:arkvision@singnet.com.sg" class="contact-btn">
-              <span class="material-symbols-outlined">email</span> Email Us
-            </a>
-            <a href="tel:+6568623379" class="contact-btn contact-btn-secondary">
-              <span class="material-symbols-outlined">phone</span> Call +65 6862 3379
-            </a>
-          </div>
-        </div>
       </div>
 
     </div>
