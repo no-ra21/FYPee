@@ -280,7 +280,7 @@ section {
 }
 
 .about-card p {
-  color: var(--muted);
+  color: white !important;
   font-size: 0.95rem;
 }
 

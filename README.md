@@ -1,10 +1,10 @@
-# ArkVision Website
+# Ark Vision Website
 
 A professional maritime supplier and stockist company website built with modern web technologies.
 
 ## 🚀 Project Overview
 
-ArkVision is a maritime manufacturing company website featuring:
+Ark Vision is a maritime manufacturing company website featuring:
 - Responsive design optimized for all devices
 - Modern CSS with custom properties (CSS variables)
 - Interactive JavaScript components

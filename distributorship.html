@@ -44,7 +44,7 @@
     <!-- Page hero -->
     <section class="page-hero" style="background-image: url('assets/images/hero1.png');">
       <div class="page-hero-content">
-        <h1>Our Distributorship Network</h1>
+        <h1>Our Distributorship Alliance</h1>
         <p>Proud partners with leading marine equipment manufacturers worldwide, delivering excellence across South East Asia</p>
       </div>
     </section>
@@ -58,15 +58,15 @@
             <p class="lead">Ark Vision is proud to be appointed as distributor and sales & service agent of established companies. We continue to seek opportunities to co-operate or represent Marine equipment companies in this region.</p>
             <div class="partnership-stats">
               <div class="stat-item">
-                <div class="stat-number">8+</div>
+                <div class="stat-number counter" data-target="8">0</div>
                 <div class="stat-label">Partner Brands</div>
               </div>
               <div class="stat-item">
-                <div class="stat-number">25+</div>
+                <div class="stat-number counter" data-target="25">0</div>
                 <div class="stat-label">Years Experience</div>
               </div>
               <div class="stat-item">
-                <div class="stat-number">500+</div>
+                <div class="stat-number counter" data-target="500">0</div>
                 <div class="stat-label">Projects Completed</div>
               </div>
             </div>
@@ -291,7 +291,7 @@
           <div class="partner-card">
             <div class="partner-header" onclick="togglePartner(this)">
               <div class="partner-logo">
-                <img src="./assets/images/distributorship/logo-tohatsu.png" alt="Tohatsu Logo" loading="lazy">
+                <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1767544969/Tohatsu_Fire_Pumps_1_vzq0ld.jpg" alt="Tohatsu Logo" loading="lazy">
               </div>
               <div class="partner-title">
                 <h3>Tohatsu</h3>
@@ -358,15 +358,52 @@
               </div>
             </div>
           </div>
+
+          <!-- Huayi Ship Equipment -->
+          <div class="partner-card">
+            <div class="partner-header" onclick="togglePartner(this)">
+              <div class="partner-logo">
+                <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1767545023/e7014cc8-b70d-48af-8580-8c6450f82c96.png" alt="Huayi Ship Equipment Logo" loading="lazy">
+              </div>
+              <div class="partner-title">
+                <h3>Zhejiang Huayi Ship Equipment</h3>
+                <span class="partner-role">Authorized Distributor</span>
+              </div>
+              <div class="expand-icon">+</div>
+            </div>
+            <div class="partner-content collapsed">
+              <div class="specialty-subtitle">Leading Chinese Marine Equipment Manufacturer</div>
+              <p>Zhejiang Huayi Ship Equipment Manufacture Co., Ltd. is a modern high-tech enterprise located in Taizhou, China. With strong technical force and advanced production equipment, they specialize in manufacturing marine equipment that meets international standards.</p>
+              <div class="product-list">
+                <div class="product-group">
+                  <strong>Core Products:</strong>
+                  <span>Heavy Oil Separator, Lubricating Oil Separator, Oil Supply Unit, Sewage Treatment Unit, Self-Cleaning Fuel/Lubricating Oil Filter</span>
+                </div>
+                <div class="product-group">
+                  <strong>Certifications:</strong>
+                  <span>China Classification Society Approved, ISO9001:2008 Quality System Certified, National New Practical Patents</span>
+                </div>
+              </div>
+              <div class="partner-specialties">
+                <span class="specialty-tag">Oil Separators</span>
+                <span class="specialty-tag">Oil Supply Units</span>
+                <span class="specialty-tag">Sewage Treatment</span>
+                <span class="specialty-tag">China Manufacturer</span>
+                <span class="specialty-tag">CCS Approved</span>
+              </div>
+              <div class="partner-actions">
+                <a href="/contact.html?partner=Huayi" class="btn btn-primary btn-sm">Get Quote</a>
+              </div>
+            </div>
+          </div>
         </div>
         
         <!-- Partnership CTA -->
         <div class="partnership-cta">
           <div class="cta-content">
-            <h3>Interested in Partnership?</h3>
-            <p>We're always looking to expand our network with quality marine equipment manufacturers. Join our trusted partner network and expand your reach in South East Asia.</p>
+            <p style="font-size: 1.25rem;">We're always looking to expand our network with quality marine equipment manufacturers. Keen to appoint us as your distributor for South East Asia?</p>
             <div class="cta-actions">
-              <a href="/contact.html?inquiry=partnership" class="btn btn-primary">Contact Us to Become a Partner</a>
+              <a href="/contact.html?inquiry=partnership" class="btn btn-primary">Contact Us Here</a>
             </div>
           </div>
         </div>
@@ -375,6 +412,61 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Counter Animation Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Looping counter animation for stats
+      const counters = document.querySelectorAll('.counter');
+      
+      if (counters.length === 0) return;
+      
+      const observerOptions = {
+        threshold: 0.5,
+        rootMargin: '0px'
+      };
+      
+      const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !entry.target.dataset.loopStarted) {
+            startLoopingCounter(entry.target);
+            entry.target.dataset.loopStarted = 'true';
+          }
+        });
+      }, observerOptions);
+      
+      counters.forEach(counter => observer.observe(counter));
+      
+      function startLoopingCounter(element) {
+        const target = parseInt(element.getAttribute('data-target'));
+        const duration = 2000; // 2 seconds
+        
+        function animateCounter() {
+          const startTime = Date.now();
+          
+          function updateCounter() {
+            const elapsed = Date.now() - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const current = Math.floor(0 + (target - 0) * progress);
+            
+            element.textContent = current + '+';
+            
+            if (progress < 1) {
+              requestAnimationFrame(updateCounter);
+            } else {
+              element.textContent = target + '+';
+              // Loop: wait 1 second then restart
+              setTimeout(animateCounter, 1000);
+            }
+          }
+          
+          updateCounter();
+        }
+        
+        animateCounter();
+      }
+    });
+    </script>
     
     <!-- Collapsible Partners Script -->
     <script>

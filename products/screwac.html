@@ -512,7 +512,18 @@
           allProducts = await response.json();
           filteredProducts = [...allProducts];
           
-          const categoryName = formatCategoryName(PRODUCT_SLUG);
+          // Fetch category name from categories.json
+          const categoriesResponse = await fetch('../assets/category_data/categories.json');
+          let categoryName = formatCategoryName(PRODUCT_SLUG);
+          
+          if (categoriesResponse.ok) {
+            const categories = await categoriesResponse.json();
+            const category = categories.find(cat => cat.slug === PRODUCT_SLUG);
+            if (category) {
+              categoryName = category.title;
+            }
+          }
+          
           document.getElementById('pageTitle').textContent = `${categoryName} - ArkVision`;
           document.getElementById('categoryTitle').textContent = categoryName;
           document.getElementById('breadcrumbCategory').textContent = categoryName;
