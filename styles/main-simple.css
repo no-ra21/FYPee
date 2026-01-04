@@ -2251,6 +2251,9 @@ section {
         overflow: hidden;
         transition: all 0.3s ease;
         border: 1px solid rgba(255, 255, 255, 0.1);
+        display: flex;
+        flex-direction: column;
+        min-height: 300px;
       }
 
       .category-card:hover {
@@ -2262,6 +2265,10 @@ section {
       .category-main {
         padding: 20px;
         transition: background 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
       }
 
       .category-main.clickable {
@@ -2313,11 +2320,11 @@ section {
       }
 
       .category-title {
-        color: var(--accent);
+        color: white;
         font-size: 1.1rem;
         font-weight: 600;
         margin: 0;
-        text-align: left;
+        text-align: center;
       }
 
       .subcategory-hint {
@@ -2346,7 +2353,6 @@ section {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.4s ease;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
       }
 
       .category-card.expanded .subcategories-list {
