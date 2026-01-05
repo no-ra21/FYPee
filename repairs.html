@@ -269,30 +269,7 @@
       box-shadow:0 4px 15px rgba(255,255,255,0.2);
     }
 
-    /* Footer (About us style) */
-    .site-footer{
-      background:#0a1931;
-      color:#cfdde6;
-      padding:48px 0 24px;
-      margin-top:0;
-      border-top:4px solid rgba(255,255,255,0.02);
-      font-size:0.95rem;
-    }
-    .footer-content{
-      max-width:var(--site-max);
-      margin:0 auto;
-      padding:0 20px;
-      display:flex;
-      gap:28px;
-      align-items:flex-start;
-      justify-content:space-between;
-      flex-wrap:wrap;
-    }
-    .footer-col { flex: 1 1 200px; min-width:180px; }
-    .footer-col h5 { margin:0 0 10px; color:#56bfe0; font-weight:700; font-size:1rem; }
-    .footer-col p, .footer-col a { color:#cfe8f5; text-decoration:none; display:block; margin:6px 0; }
-    .footer-col a:hover { color:#fff; text-decoration:underline; }
-    .footer-bottom { border-top:1px solid rgba(255,255,255,0.03); margin-top:18px; padding-top:14px; text-align:center; color:rgba(255,255,255,0.7); font-size:0.9rem; }
+
 
     @media(max-width:968px){
       .page-hero{padding:70px 0;}
@@ -311,7 +288,6 @@
       .contact-cta h3{font-size:1.8rem;}
       .contact-methods{flex-direction:column; width:100%;}
       .contact-btn{width:100%; justify-content:center;}
-      .footer-content{flex-direction:column; text-align:center;}
     }
 
     @media(max-width:600px){
@@ -441,31 +417,36 @@
     </div>
   </section>
 
-  <footer class="site-footer" role="contentinfo">
-    <div class="footer-content">
-      <div class="footer-col">
-        <h5>Ark Vision</h5>
-        <p>Pioneering the next generation of maritime technology. Our passion for engineering meets the power of the sea to deliver solutions that stand the test of time.</p>
-      </div>
-
-      <div class="footer-col">
-        <h5>Explore</h5>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="products.html">Products</a>
-        <a href="repairs.html">Repairs & Servicing</a>
-        <a href="contact.html">Contact Us</a>
-      </div>
-
-      <div class="footer-col">
-        <h5>Contact</h5>
-        <p>Tel: +65 6862 3379</p>
-        <p>Fax: +65 6863 0930</p>
-        <p>Address: No. 51 Tuas Ave 1, Singapore 639501</p>
-        <p>Email: <a href="mailto:arkvision@singnet.com.sg">arkvision@singnet.com.sg</a></p>
-      </div>
-
-      <div class="footer-connect">
+  <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h4>Ark Vision</h4>
+            <p>
+              Pioneering the next generation of maritime technology. Our passion
+              for engineering meets the power of the sea to deliver solutions
+              that stand the test of time.
+            </p>
+          </div>
+          <div class="footer-links">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact</h4>
+            <ul>
+              <li>Tel: +65 6862 3379</li>
+              <li>Fax: +65 6863 0930</li>
+              <li>Address: No. 51 Tuas Ave 1 Singapore 639501</li>
+            </ul>
+          </div>
+          <div class="footer-connect">
             <h4>Connect with Us</h4>
             <div class="social-links">
               <a href="https://www.linkedin.com/company/devaraj-ramamurthy/" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
@@ -479,11 +460,10 @@
             </div>
           </div>
         </div>
-
-    <div class="footer-bottom">
-      © 2025 Ark Vision. All rights reserved.
-    </div>
-  </footer>
-  <script defer src="scripts/main.js"></script>
-</body>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Ark Vision. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
