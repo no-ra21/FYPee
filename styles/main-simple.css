@@ -1479,37 +1479,38 @@ section {
   line-height: 1.6;
 }
 
+.customer-logos-wrapper {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 2rem;
+  position: relative;
+}
+
 .customer-logos {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 3rem;
-  flex-wrap: nowrap;
-  margin-top: 2rem;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-behavior: smooth;
+  width: 100%;
+  overflow: hidden;
   padding: 1rem 0;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(217, 119, 6, 0.5) transparent;
 }
 
-.customer-logos::-webkit-scrollbar {
-  height: 6px;
+.customer-logos-track {
+  display: flex;
+  gap: 3rem;
+  animation: scroll-logos 40s linear infinite;
+  align-items: center;
 }
 
-.customer-logos::-webkit-scrollbar-track {
-  background: transparent;
+.customer-logos-track:hover {
+  animation-play-state: paused;
 }
 
-.customer-logos::-webkit-scrollbar-thumb {
-  background: rgba(217, 119, 6, 0.5);
-  border-radius: 3px;
-}
-
-.customer-logos::-webkit-scrollbar-thumb:hover {
-  background: rgba(217, 119, 6, 0.7);
+@keyframes scroll-logos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .customer-logos img {
@@ -1539,13 +1540,14 @@ section {
     font-size: 1.8rem;
   }
   
-  .customer-logos {
+  .customer-logos-track {
     gap: 2rem;
+    animation: scroll-logos 30s linear infinite;
   }
   
   .customer-logos img {
-    max-height: 50px;
-    max-width: 120px;
+    width: 80px;
+    height: 80px;
   }
 }
 
