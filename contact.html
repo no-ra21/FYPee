@@ -22,7 +22,7 @@
     const menu = navPlaceholder.querySelector("#navMenu");
 
     toggle.addEventListener("click", () => {
-      menu.classList.toggle("open");
+      menu.classList.toggle("open")
     });
 
     // Highlight active link dynamically
@@ -68,7 +68,6 @@
                   <h4><span class="material-symbols-outlined">phone_enabled</span> Phone</h4>
                   <p>Tel: <a href="tel:+6568623379">+65 6862 3379</a></p>
                   <p>Fax: <a href="fax:+6568630930">+65 6863 0930</a></p>
-                  <small>Monday-Friday, 9:00-18:00 (SGT)</small>
                 </div>
               </div>
               
@@ -80,12 +79,6 @@
                 </div>
               </div>
               
-              <div class="contact-item">
-                <div class="contact-content">
-                  <h4><span class="material-symbols-outlined">location_on</span> Address</h4>
-                  <p><a href="https://maps.app.goo.gl/ZwfbvMCByYRr1hFd6" target="_blank" rel="noopener noreferrer">No. 51 Tuas Ave 1 Singapore 639501</a></p>
-                </div>
-              </div>
             </div>
             
             <div class="emergency-contact">
@@ -93,11 +86,12 @@
               <p>For urgent technical support outside business hours: <strong><a href="tel:+6568623379">+65 6862 3379</a></strong></p>
             </div>
             
-            <div class="service-areas">
-              <h4><span class="material-symbols-outlined">public</span> Service Coverage</h4>
-              <p><strong>Primary:</strong> Singapore, Malaysia, Thailand, Indonesia</p>
-              <p><strong>Extended:</strong> Philippines, Vietnam, Brunei, Myanmar</p>
-              <p><strong>Global:</strong> Worldwide support through partner network</p>
+            <div class="location-map" style="margin-top: 1.5rem;">
+              <h4 style="margin-bottom: 1rem;"><span class="material-symbols-outlined">location_on</span> Address</h4>
+              <p style="margin-bottom: 0.8rem; font-size: 0.95rem;">No. 51 Tuas Ave 1 Singapore 639501</p>
+              <div class="map-box-small">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8174722225903!2d103.6472!3d1.335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da187c9b7c9b7d%3A0x1234567890!2s51%20Tuas%20Ave%201%2C%20Singapore%20639501!5e0!3m2!1sen!2ssg!4v1234567890" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
             </div>
           </div>
           <div class="contact-form">
@@ -109,61 +103,29 @@
                 <span class="error" id="nameError"></span>
               </div>
               <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" />
+              </div>
+              <div class="form-group">
                 <label for="email">Email Address<span class="required">*</span></label>
                 <input type="email" id="email" name="email" required />
                 <span class="error" id="emailError"></span>
               </div>
               <div class="form-group">
-                <label for="company">Company</label>
-                <input type="text" id="company" name="company" />
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+65 1234 5678" />
               </div>
               <div class="form-group"> 
                 <label for="country">Country <span class="required">*</span></label>
-                <select id="country" name="country" required>
-                  <option value="">Please select</option>
-                  <option value="sg">Singapore</option>
-                  <option value="my">Malaysia</option>
-                  <option value="th">Thailand</option>
-                  <option value="id">Indonesia</option>
-                  <option value="ph">Philippines</option>
-                  <option value="vn">Vietnam</option>
-                  <option value="us">United States</option>
-                  <option value="ca">Canada</option>
-                  <option value="uk">United Kingdom</option>
-                  <option value="au">Australia</option>
-                  <option value="de">Germany</option>
-                  <option value="fr">France</option>
-                  <option value="jp">Japan</option>
-                  <option value="kr">South Korea</option>
-                  <option value="cn">China</option>
-                  <option value="in">India</option>
-                  <option value="other">Other</option>
-                </select>
+                <input type="text" id="country" name="country" required />
                 <span class="error" id="countryError"></span>
-              </div>
-              <div class="form-group">
-                <label for="inquiry-type">Inquiry Type</label>
-                <select id="inquiry-type" name="inquiry-type">
-                  <option value="">Please select</option>
-                  <option value="product-inquiry">Product Inquiry</option>
-                  <option value="technical-support">Technical Support</option>
-                  <option value="service-request">Service Request</option>
-                  <option value="partnership">Partnership Opportunity</option>
-                  <option value="distributorship">Distributorship Inquiry</option>
-                  <option value="quotation">Request Quotation</option>
-                  <option value="general">General Inquiry</option>
-                </select>
               </div>
               <div class="form-group">
                 <label for="product">Product/Service Interest (optional)</label>
                 <input type="text" id="product" name="product" placeholder="e.g., Navigation Systems, Marine Sensors" />
               </div>
               <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" placeholder="+65 1234 5678" />
-              </div>
-              <div class="form-group">
-                <label for="message">Message<span class="required">*</span></label>
+                <label for="message">Enquiry<span class="required">*</span></label>
                 <textarea id="message" name="message" rows="5" required></textarea>
                 <span class="error" id="messageError"></span>
               </div>
@@ -176,7 +138,6 @@
     </section>
 
     <!-- Footer -->
-    <footer class="site-footer">
       <div class="container">
         <div class="footer-content">
           <div class="footer-about">

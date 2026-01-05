@@ -93,13 +93,13 @@
     "id":6,
     "title": "Turbochargers",
     "slug": "turbocharger",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759141897/Turbocharger_complete_jqxr8l.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767621304/ABB_turbocharger_waqttd.jpg"
   },
   {
     "id": 7,
     "title": "Hydraulic Pumps and Motors",
     "slug": "hydraulic",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759142220/MITSUBISHI_JANNEY_PUMP_o4njbn.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767621443/Staffa_Hydraulic_Motors-removebg-preview_shwtnx.png"
   },
   {
     "id": 8,
@@ -111,7 +111,7 @@
     "id": 9,
     "title": "Governor Equipment",
     "slug": "governor",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046825/GOVERNOR_ZEXEL_RHD6_282101246_qjhvyr_d9gpmn.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767621304/UG-25-Governor_shxvko.webp"
   }, 
   {
     "id": 10,
@@ -129,7 +129,7 @@
     "id": 12,
     "title": "Tank Cleaning Equipment",
     "slug": "tank_cleaning",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759116594/Water_Driven_Gas_Freeing_Fan_mg0fdx.png",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767621304/Tank_Cleaning_equipment_fqbyl2.jpg",
     "subCategories": [
       {
         "id": 121,
@@ -185,7 +185,7 @@
     "id": 15,
     "title": "Electrical Items",
     "slug": "electric_items",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1757429373/TELEMECANIQUE_REVERSING_CONTACTOR_LC1D09E7_inxhx9.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767621303/ACB_unulsp.jpg"
   }
 
 ]
