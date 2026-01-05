@@ -540,6 +540,19 @@ section {
   font-size: 0.95rem;
 }
 
+/* Products preview section */
+.products-preview {
+  background: white;
+}
+
+.products-preview .section-intro h2 {
+  color: var(--text-dark);
+}
+
+.products-preview .section-intro p {
+  color: #666;
+}
+
 /* Products preview cards on home */
 .product-cards {
   display: grid;
