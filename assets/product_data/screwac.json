@@ -7,16 +7,14 @@
   },
   {
     "id": 2,
-    "name": "Ark Vision Screw Air Compressor-Direct Drive",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853900/Ark_Vision_Screw_Air_Compressor-Direct_Drive_hmhnzk.png"
+    "name": "Control Air Dryer",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767550577/CAD_New__1_-removebg-preview_iitj5g.png"
   },
   {
     "id": 3,
     "name": "Pneumatic Hydraulic Pump PHP1500",
     "make": "Ark Vision",
     "model": "PHP1500",
-    "condition": "Original",
-    "quantity": "1 unit",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1766333871/photo_6215524569259379714_m_axhfzj.jpg",
     "description":
       "<b>Output Pressure:</b> 1500 bar at 8bar air input<br><b>Air Consumption:</b> 300–150 ltr/min at 8 bar air input<br><b>Pumping Speed:</b> Approx. 550 cycle/min @ 8 bar air input<br><b>Displacement per Cycle:</b> 0.45 cm³<br><b>Max Flow at No Pressure:</b> Approx. 0.25 ltr/min @ 8 bar air input<br><b>Tank Capacity:</b> Approx. 3.5 Liters<br><b>Fitting Air Inlet:</b> G ¼<br><b>Fitting H.P Outlet:</b> G ⅛<br><b>Dimensions:</b> 370mm × 255mm × 323mm<br><b>Weight:</b> 16 kg (Empty)"
@@ -26,8 +24,6 @@
     "name": "Pneumatic Hydraulic Pump PHP2250",
     "make": "Ark Vision",
     "model": "PHP2250",
-    "condition": "Original",
-    "quantity": "1 unit",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1766333866/photo_6215524569259379715_m_pmbjq9.jpg",
     "description":
       "<b>Output Pressure:</b> 2250 bar at 8 bar air input<br><b>Air Consumption:</b> 300–150 ltr/min at 8 bar air input<br><b>Pumping Speed:</b> Approx. 450 cycle/min @ 8 bar air input<br><b>Displacement per Cycle:</b> 0.48 cm³<br><b>Max Flow at No Pressure:</b> Approx. 0.35 ltr/min @ 8 bar air input<br><b>Tank Capacity:</b> Approx. 4.5 Liters<br><b>Fitting Air Inlet:</b> G ¼<br><b>Fitting H.P Outlet:</b> G ⅛<br><b>Dimensions:</b> 430mm × 370mm × 420mm<br><b>Weight:</b> 28 kg (Empty)"
@@ -37,8 +33,6 @@
     "name": "Pneumatic Hydraulic Pump PHP3500",
     "make": "Ark Vision",
     "model": "PHP3500",
-    "condition": "Original",
-    "quantity": "1 unit",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1766333866/photo_6215524569259379716_x_lpzirk.jpg",
     "description":
       "<b>Output Pressure:</b> 3500 bar at 7 bar air input<br><b>Air Consumption:</b> 300–150 ltr/min at 8 bar air input<br><b>Pumping Speed:</b> Approx. 400 cycle/min @ 7 bar air input<br><b>Displacement per Cycle:</b> 0.80 cm³<br><b>Max Flow at No Pressure:</b> Approx. 0.35 ltr/min @ 8 bar air input<br><b>Tank Capacity:</b> Approx. 8 Liters<br><b>Fitting Air Inlet:</b> G ¼<br><b>Fitting H.P Outlet:</b> G ⅛<br><b>Dimensions:</b> 500mm × 500mm × 420mm<br><b>Weight:</b> 32 kg (Empty)"
@@ -48,7 +42,6 @@
     "name": "3-Phase Induction Motor (Flange Mounted)",
     "make": "Ark Vision",
     "model": "Flange Mounted",
-    "condition": "Original",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1766333865/photo_6215524569259379717_m_owsyct.jpg",
     "description":
       "<b>Type:</b> 3-Phase Induction Motor<br><b>Voltage:</b> 440V @ 60 Hz and 380V @ 50 Hz<br><b>Power Range:</b> 0.18 kW to 250 kW<br><b>Standards:</b> Conforms to IEC Standard<br><b>Materials:</b> Made with carefully selected quality materials<br><b>Performance:</b> High performance, low vibration, safe & reliable operation<br><b>Durability:</b> Light weight, corrosion resistant<br><b>Maintenance:</b> Easy maintenance & easy installation<br><b>"
@@ -58,7 +51,6 @@
     "name": "3-Phase Induction Motor (Foot Mounted)",
     "make": "Ark Vision",
     "model": "Foot Mounted",
-    "condition": "Original",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1766333865/photo_6215524569259379718_m_dy9yoy.jpg",
     "description":
       "<b>Type:</b> 3-Phase Induction Motor<br><b>Voltage:</b> 440V @ 60 Hz and 380V @ 50 Hz<br><b>Power Range:</b> 0.18 kW to 250 kW<br><b>Standards:</b> Conforms to IEC Standard<br><b>Materials:</b> Made with carefully selected quality materials<br><b>Performance:</b> High performance, low vibration, safe & reliable operation<br><b>Durability:</b> Light weight, corrosion resistant<br><b>Maintenance:</b> Easy maintenance & easy installation<br><b>"
@@ -68,7 +60,6 @@
     "name": "3-Phase Induction Motor (Foot & Flange Mounted)",
     "make": "Ark Vision",
     "model": "Foot & Flange Mounted",
-    "condition": "Original",
     "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1766333865/photo_6215524569259379719_m_aaax0y.jpg",
     "description":
       "<b>Type:</b> 3-Phase Induction Motor<br><b>Voltage:</b> 440V @ 60 Hz and 380V @ 50 Hz<br><b>Power Range:</b> 0.18 kW to 250 kW<br><b>Standards:</b> Conforms to IEC Standard<br><b>Materials:</b> Made with carefully selected quality materials<br><b>Performance:</b> High performance, low vibration, safe & reliable operation<br><b>Durability:</b> Light weight, corrosion resistant<br><b>Maintenance:</b> Easy maintenance & easy installation<br><b>"
@@ -78,8 +69,6 @@
   "name": "ARK 500 Bar High Pressure Hydro Blaster",
   "make": "Ark Vision Spare and Engineering Pte Ltd",
   "model": "ARK 500",
-  "condition": "Original",
-  "quantity": "1 unit",
   "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1766333865/photo_6215524569259379720_x_hmbsjo.jpg",
   "description": "<b>Voltage Supply:</b> 440V / 60Hz<br><b>Power:</b> 22 kW<br><b>Motor Speed:</b> 1750 rpm<br><b>Flow Inlet Pressure:</b> 22 L/min<br><b>Pressure:</b> 500 Bar<br><b>Max Water Temperature:</b> 60°C<br><b>Inlet Size:</b> G ¾<br><b>Inlet Pressure:</b> 5.0 Bar<br><b>High Pressure Gun:</b> ARK 600<br><b>Nozzle Tips:</b> 0°, 15°, 25°, 40° + 1x spare rotating nozzle<br><b>High Pressure Pipe:</b> 1 × 30m<br><b>Electrical Wire:</b> 1 × 5m<br><b>Suction Pipe:</b> 1 × 3.5m<br><b>Dimensions:</b> 1030 × 720 × 850 mm<br><b>Weight:</b> 380 kg<br><br><b>Advantages of Hydro Blasting:</b><br>• Environmentally cleaner process than sandblasting<br>• Reduces manpower, saving time and money<br>• High cleaning efficiency<br><br><b>Advantages of ARK 500:</b><br>• Easy and low maintenance (spares at competitive prices)<br>• Long service life<br>• Water supply booster pump & triple piston pump (maintains pressure & flow rate)<br>• Simple operation<br>• 1-year warranty, valid with correct usage under manual guidelines"
 }

@@ -7,6 +7,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/main-simple.css">
     <script src="https://kit.fontawesome.com/40f2643406.js" crossorigin="anonymous"></script>
+    <script defer src="../scripts/components/navigation.js"></script>
+    <script>
+      fetch("../navigation.html")
+        .then((response) => response.text())
+        .then((data) => {
+          const navPlaceholder = document.getElementById("navigation-placeholder");
+          if (navPlaceholder) {
+            navPlaceholder.innerHTML = data;
+            document.getElementById("navToggle")?.addEventListener("click", toggleMobileMenu);
+          }
+        });
+    </script>
 </head>
 <style>
     /* CSS variables for colours and sizing */
@@ -336,25 +348,7 @@
 <body>
     <!-- Header & Navigation -->
     <header class="site-header">
-      <div class="container header-inner">
-        <div class="logo">
-          <a href="/">ArkVision</a>
-        </div>
-        <nav class="nav-menu" id="navMenu">
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../about.html">About</a></li>
-            <li><a href="../products.html">Products</a></li>
-            <li><a href="../contact.html">Contact</a></li>
-            <li><a href="../blogs.html">Blogs</a></li>
-          </ul>
-        </nav>
-        <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </button>
-      </div>
+      <div id="navigation-placeholder"></div>
     </header>
 
     <!-- Page hero -->
