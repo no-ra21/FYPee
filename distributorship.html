@@ -489,19 +489,29 @@
     <!-- Collapsible Partners Script -->
     <script>
     function togglePartner(headerElement) {
-      const content = headerElement.nextElementSibling;
-      const icon = headerElement.querySelector('.expand-icon');
+      const clickedCard = headerElement.closest('.partner-card');
+      const clickedContent = clickedCard.querySelector('.partner-content');
+      const clickedIcon = clickedCard.querySelector('.expand-icon');
       
-      if (content.classList.contains('collapsed')) {
-        content.classList.remove('collapsed');
-        content.classList.add('expanded');
-        icon.textContent = '−';
-        icon.style.transform = 'rotate(180deg)';
-      } else {
-        content.classList.remove('expanded');
-        content.classList.add('collapsed');
-        icon.textContent = '+';
-        icon.style.transform = 'rotate(0deg)';
+      const isCurrentlyExpanded = clickedContent.classList.contains('expanded');
+      
+      // First, close ALL cards
+      document.querySelectorAll('.partner-card').forEach(card => {
+        const contentElement = card.querySelector('.partner-content');
+        const iconElement = card.querySelector('.expand-icon');
+        
+        contentElement.classList.remove('expanded');
+        contentElement.classList.add('collapsed');
+        iconElement.textContent = '+';
+        iconElement.style.transform = 'rotate(0deg)';
+      });
+      
+      // Then, if the clicked card wasn't expanded, expand it
+      if (!isCurrentlyExpanded) {
+        clickedContent.classList.remove('collapsed');
+        clickedContent.classList.add('expanded');
+        clickedIcon.textContent = '−';
+        clickedIcon.style.transform = 'rotate(180deg)';
       }
     }
     </script>
