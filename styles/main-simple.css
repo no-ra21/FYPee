@@ -811,6 +811,7 @@ section {
   border-left: 10px solid var(--secondary);
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
+  display: none;
 }
 
 .timeline-item:nth-child(even) .timeline-content::before {
@@ -824,6 +825,7 @@ section {
   border-right: 10px solid var(--secondary);
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
+  display: none;
 }
 
 .timeline-year {
