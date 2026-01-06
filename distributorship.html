@@ -42,7 +42,7 @@
     </header>
 
     <!-- Page hero -->
-    <section class="page-hero" style="background-image: url('assets/images/hero1.png');">
+    <section class="page-hero" style="background-image: url('assets/images/distributorship/Screenshot 2026-01-07 001856.png');">
       <div class="page-hero-content">
         <h1>Our Distributorship Alliance</h1>
         <p>Proud partners with leading marine equipment manufacturers worldwide, delivering excellence across South East Asia</p>
@@ -425,9 +425,9 @@
         <!-- Partnership CTA -->
         <div class="partnership-cta">
           <div class="cta-content">
-            <p style="font-size: 1.25rem;">We're always looking to expand our network with quality marine equipment manufacturers. Keen to appoint us as your distributor for South East Asia?</p>
+            <p style="font-size: 1.25rem;">We're always looking to expand our network with quality marine equipment manufacturers. Keen to appoint us as your stockist for South East Asia?</p>
             <div class="cta-actions">
-              <a href="/contact.html?inquiry=partnership" class="btn btn-primary">Contact Us Here</a>
+              <a href="/contact.html?inquiry=partnership" class="btn btn-orange">Contact Us Here</a>
             </div>
           </div>
         </div>
@@ -440,7 +440,7 @@
     <!-- Counter Animation Script -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-      // Looping counter animation for stats
+      // Counter animation for stats - runs once on page load
       const counters = document.querySelectorAll('.counter');
       
       if (counters.length === 0) return;
@@ -452,42 +452,35 @@
       
       const observer = new IntersectionObserver(function(entries) {
         entries.forEach(entry => {
-          if (entry.isIntersecting && !entry.target.dataset.loopStarted) {
-            startLoopingCounter(entry.target);
-            entry.target.dataset.loopStarted = 'true';
+          if (entry.isIntersecting && !entry.target.dataset.animated) {
+            animateCounter(entry.target);
+            entry.target.dataset.animated = 'true';
           }
         });
       }, observerOptions);
       
       counters.forEach(counter => observer.observe(counter));
       
-      function startLoopingCounter(element) {
+      function animateCounter(element) {
         const target = parseInt(element.getAttribute('data-target'));
         const duration = 2000; // 2 seconds
+        const startTime = Date.now();
         
-        function animateCounter() {
-          const startTime = Date.now();
+        function updateCounter() {
+          const elapsed = Date.now() - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          const current = Math.floor(0 + (target - 0) * progress);
           
-          function updateCounter() {
-            const elapsed = Date.now() - startTime;
-            const progress = Math.min(elapsed / duration, 1);
-            const current = Math.floor(0 + (target - 0) * progress);
-            
-            element.textContent = current + '+';
-            
-            if (progress < 1) {
-              requestAnimationFrame(updateCounter);
-            } else {
-              element.textContent = target + '+';
-              // Loop: wait 1 second then restart
-              setTimeout(animateCounter, 1000);
-            }
+          element.textContent = current + '+';
+          
+          if (progress < 1) {
+            requestAnimationFrame(updateCounter);
+          } else {
+            element.textContent = target + '+';
           }
-          
-          updateCounter();
         }
         
-        animateCounter();
+        updateCounter();
       }
     });
     </script>

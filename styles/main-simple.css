@@ -113,14 +113,16 @@ a:focus {
   color: var(--text-dark);
 }
 
-.btn-orange {
-  background: #d97706;
-  color: white;
+.btn-orange,
+.btn.btn-orange {
+  background: #d97706 !important;
+  color: white !important;
 }
 
-.btn-orange:hover {
-  background: #f59e0b;
-  color: white;
+.btn-orange:hover,
+.btn.btn-orange:hover {
+  background: #f59e0b !important;
+  color: white !important;
 }
 
 .btn-link {
@@ -993,7 +995,7 @@ section {
 .stat-number {
   font-size: 2.5rem;
   font-weight: 800;
-  color: var(--accent);
+  color: #d97706;
   margin-bottom: 0.3rem;
 }
 
@@ -1956,7 +1958,7 @@ section {
 .stat-number {
   font-size: 2.5rem;
   font-weight: 700;
-  color: var(--accent);
+  color: #d97706;
   line-height: 1;
 }
 
