@@ -52,17 +52,24 @@
     /* Hero */
     .page-hero{
       position:relative;
-      background-image: url('assets/images/Ark_Vision_Service_Air_Compressor_yidhcg.jpg');
-      background-size:cover;
-      background-position:center;
+      overflow:hidden;
       padding:100px 0;
+      min-height:500px;
       color:#fff;
     }
+    .page-hero video{
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      z-index:0;
+    }
     .page-hero::before{
-      content:""; position:absolute; inset:0; background:var(--hero-overlay); pointer-events:none;
+      content:""; position:absolute; inset:0; background:var(--hero-overlay); pointer-events:none; z-index:1;
     }
     .page-hero-content{position:relative; z-index:2; width:100%; max-width:var(--site-max); margin:0 auto; padding:0 20px; text-align:center;}
-    .page-hero-content h1{margin:0; font-size:2.2rem; font-weight:600; color:var(--text-light); margin-bottom:0.5rem;}
     .page-hero-content p{margin:0; font-size:1.1rem; color:var(--muted); margin-bottom:0;}
     .page-hero-content p.lead{margin-top:20px; font-size:1.1rem; color:var(--muted); max-width:880px; margin-left:auto; margin-right:auto; line-height:1.7; font-weight:400;}
 
@@ -332,6 +339,9 @@
 
   <!-- Page hero -->
   <section class="page-hero" role="banner" aria-label="Repairs banner">
+    <video autoplay muted loop playsinline>
+      <source src="https://res.cloudinary.com/djcqbpunw/video/upload/v1767793707/0107_2_1_zethdy.mp4" type="video/mp4">
+    </video>
     <div class="page-hero-content">
       <h1>Repairs & Servicing</h1>
       <p class="lead">We have a team of Engineers and Technicians to carry out onboard & afloat servicing and repair of the following</p>
