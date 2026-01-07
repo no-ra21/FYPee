@@ -151,25 +151,63 @@
       background:#fff;
     }
 
+    .service-gallery:not(.single-image):not(.five-images):not(.purifiers-gallery):not(.diesel-gallery) img{
+      height:300px;
+    }
+
     /* Special layout for single image */
     .service-gallery.single-image{
       grid-template-columns:1fr;
     }
 
+    .service-gallery.single-image img{
+      height:220px;
+    }
+
     /* Special layout for 5 images */
     .service-gallery.five-images{
       grid-template-columns:repeat(2, 1fr);
-      grid-template-rows:repeat(2, 100px);
+      grid-template-rows:repeat(2, 220px);
     }
 
     .service-gallery.five-images img:nth-child(5){
       grid-column:1 / 3;
-      height:100px;
+      height:250px;
+    }
+
+    /* Purifiers gallery layout: 2 on top, 1 full width below */
+    .service-gallery.purifiers-gallery{
+      grid-template-columns:repeat(2, 1fr);
+    }
+
+    .service-gallery.purifiers-gallery img:nth-child(1),
+    .service-gallery.purifiers-gallery img:nth-child(2){
+      height:220px;
+    }
+
+    .service-gallery.purifiers-gallery img:nth-child(3){
+      grid-column:1 / 3;
+      height:250px;
+    }
+
+    /* Diesel Engines gallery layout: 2 on top, 1 full width below */
+    .service-gallery.diesel-gallery{
+      grid-template-columns:repeat(2, 1fr);
+    }
+
+    .service-gallery.diesel-gallery img:nth-child(1),
+    .service-gallery.diesel-gallery img:nth-child(2){
+      height:220px;
+    }
+
+    .service-gallery.diesel-gallery img:nth-child(3){
+      grid-column:1 / 3;
+      height:250px;
     }
 
     .service-gallery img{
       width:100%;
-      height:100%;
+      height:auto;
       object-fit:cover;
       cursor:pointer;
     }
@@ -280,7 +318,7 @@
       
       .service-content{padding:36px 28px;}
       .service-gallery{grid-template-columns:repeat(2, 1fr);}
-      .service-gallery img{height:150px;}
+      .service-gallery img{height:auto;}
       
       .contact-cta{display:none;}
     }
@@ -329,8 +367,10 @@
               <h3>Diesel Engines</h3>
               <p class="service-description">On & off-site repair or complete overhaul 2 and 4 stroke diesel engines. We can provide fully serviced (to maker's specifications) cylinder heads, pistons and connecting rods to reduce downtime significantly.</p>
             </div>
-            <div class="service-gallery single-image">
-              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/f_auto,q_auto/v1767716878/IMG_4583_ozpnsc.heic" alt="Diesel engine repair 1">
+            <div class="service-gallery diesel-gallery">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1767773072/6S50MC-C-2021-05-22-11-40-37_1_miporp.jpg" alt="Diesel engine repair 1">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1767772871/8daf50df-ed2c-4bca-bac2-8058ad8d3cf9_hjxruw.jpg" alt="Diesel engine repair 2">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1767773198/WhatsApp_Image_2026-01-07_at_15.26.33_e868pj.jpg" alt="Diesel engine repair 3">
             </div>
           </div>
         </div>
@@ -356,9 +396,10 @@
               <h3>Purifiers</h3>
               <p class="service-description">Full remanufacture of various makes & models of purifiers with fully balanced bowls and function tested in our workshop.</p>
             </div>
-            <div class="service-gallery">
+            <div class="service-gallery purifiers-gallery">
               <img src="https://res.cloudinary.com/djcqbpunw/image/upload/f_auto,q_auto/v1767716875/IMG_4580_n4vdn0.heic" alt="Purifier repair 1">
               <img src="https://res.cloudinary.com/djcqbpunw/image/upload/f_auto,q_auto/v1767716873/IMG_4579_doofxe.heic" alt="Purifier repair 2">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1767772142/PHOTO-2020-11-05-19-35-48_r90kgo.jpg" alt="Purifier repair 3">
             </div>
           </div>
         </div>
@@ -373,8 +414,6 @@
             <div class="service-gallery">
               <img src="assets/images/repairs/hydraulic-1.jpg" alt="Hydraulic motor 1">
               <img src="assets/images/repairs/hydraulic-2.jpg" alt="Hydraulic motor 2">
-              <img src="assets/images/repairs/hydraulic-3.jpg" alt="Hydraulic motor 3">
-              <img src="assets/images/repairs/hydraulic-1.jpg" alt="Hydraulic motor 4">
             </div>
           </div>
         </div>
@@ -387,10 +426,8 @@
               <p class="service-description">Repair and recondition. Various types of pumps, centrifugal, screw, gear, vane types, European & Japanese makes.</p>
             </div>
             <div class="service-gallery">
-              <img src="assets/images/repairs/pump-1.jpg" alt="Pump repair 1">
-              <img src="assets/images/repairs/pump-2.jpg" alt="Pump repair 2">
-              <img src="assets/images/repairs/pump-3.jpg" alt="Pump repair 3">
-              <img src="assets/images/repairs/pump-4.jpg" alt="Pump repair 4">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1767771731/PHOTO-2020-10-19-12-01-58_fpazzi.jpg" alt="Pump repair 1">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1767772047/4776c149-8d40-4905-8e04-051757add776.png" alt="Pump repair 2">
             </div>
           </div>
         </div>

@@ -534,6 +534,20 @@ a:focus {
   margin-bottom: 0;
 }
 
+@media (max-width: 480px) {
+  .page-hero-content h1 {
+    font-size: 1.5rem;
+  }
+  
+  .page-hero-content p {
+    font-size: 0.95rem;
+  }
+  
+  .page-hero-content {
+    padding: 1rem;
+  }
+}
+
 /* Section base styling */
 section {
   padding: 3rem 0;
@@ -923,6 +937,34 @@ section {
   
   .timeline-content p {
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline::before {
+    left: 30px;
+  }
+  
+  .timeline-dot {
+    width: 40px;
+    height: 40px;
+    left: 12px !important;
+  }
+  
+  .timeline-icon {
+    font-size: 1.2rem;
+  }
+  
+  .timeline-content {
+    padding: 1rem;
+  }
+  
+  .timeline-year {
+    font-size: 0.9rem;
+  }
+  
+  .timeline-content h4 {
+    font-size: 1rem;
   }
   
   /* Mobile styles for Repairs & Services */
@@ -1762,6 +1804,30 @@ section {
     width: 60px;
     height: 60px;
     margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .news-section {
+    padding: 2rem 0;
+  }
+  
+  .news-section .section-intro h2 {
+    font-size: 1.4rem;
+  }
+  
+  .news-item {
+    padding: 1.5rem 1rem;
+  }
+  
+  .news-item h3 {
+    font-size: 1.1rem;
+  }
+  
+  .news-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
   }
 }
 
