@@ -611,7 +611,86 @@
         input.addEventListener('keyup', (event) => {
           if (event.key === 'Enter') handleSearch();
         });
+
+        // Carousel functionality
+        initCarousel();
       });
+
+      function initCarousel() {
+        const slides = document.querySelectorAll('.carousel-slide');
+        const dots = document.querySelectorAll('.dot');
+        const prevBtn = document.querySelector('.carousel-arrow.prev');
+        const nextBtn = document.querySelector('.carousel-arrow.next');
+        let currentSlide = 0;
+        let autoPlayInterval;
+
+        function showSlide(index) {
+          // Remove active class from all slides and dots
+          slides.forEach(slide => slide.classList.remove('active'));
+          dots.forEach(dot => dot.classList.remove('active'));
+
+          // Add active class to current slide and dot
+          slides[index].classList.add('active');
+          dots[index].classList.add('active');
+
+          // Trigger animation by forcing reflow
+          const activeSlide = slides[index];
+          const content = activeSlide.querySelector('.slide-content');
+          content.style.animation = 'none';
+          setTimeout(() => {
+            content.style.animation = 'slideUp 0.8s ease-out';
+          }, 10);
+        }
+
+        function nextSlide() {
+          currentSlide = (currentSlide + 1) % slides.length;
+          showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+          currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+          showSlide(currentSlide);
+        }
+
+        function startAutoPlay() {
+          autoPlayInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+        }
+
+        function stopAutoPlay() {
+          clearInterval(autoPlayInterval);
+        }
+
+        // Event listeners for navigation arrows
+        nextBtn.addEventListener('click', () => {
+          stopAutoPlay();
+          nextSlide();
+          startAutoPlay();
+        });
+
+        prevBtn.addEventListener('click', () => {
+          stopAutoPlay();
+          prevSlide();
+          startAutoPlay();
+        });
+
+        // Event listeners for dots
+        dots.forEach((dot, index) => {
+          dot.addEventListener('click', () => {
+            stopAutoPlay();
+            currentSlide = index;
+            showSlide(currentSlide);
+            startAutoPlay();
+          });
+        });
+
+        // Pause autoplay on hover
+        const carouselContainer = document.querySelector('.carousel-container');
+        carouselContainer.addEventListener('mouseenter', stopAutoPlay);
+        carouselContainer.addEventListener('mouseleave', startAutoPlay);
+
+        // Start autoplay
+        startAutoPlay();
+      }
     </script>
 </body>
 </html>
