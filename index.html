@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ark Vision • Maritime Manufacturing Excellence</title>
     <link rel="stylesheet" href="styles/main-simple.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script defer src="scripts/utils/helpers.js"></script>
     <script defer src="scripts/components/navigation.js"></script>
     <script defer src="scripts/components/hero-slider.js"></script>
     <script defer src="scripts/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
        <script src="https://kit.fontawesome.com/40f2643406.js" crossorigin="anonymous"></script>
    <script>fetch("navigation.html")
   .then(res => res.text())
@@ -101,7 +103,7 @@
           </p>
         </div>
         <div class="product-cards">
-          <div class="product-card">
+          <div class="product-card" data-aos="fade-up" data-aos-duration="800">
             <div class="product-icon"><span class="material-symbols-outlined">filter_alt</span></div>
             <h3>Purifiers</h3>
             <p>
@@ -109,7 +111,7 @@
             </p>
             <a href="products/purifiers_remanufacturing.html" class="btn-link">Learn more</a>
           </div>
-          <div class="product-card">
+          <div class="product-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
             <div class="product-icon"><span class="material-symbols-outlined">precision_manufacturing</span></div>
             <h3>Main & Auxiliary Engines</h3>
             <p>
@@ -117,7 +119,7 @@
             </p>
             <a href="products/ME_fourstroke.html" class="btn-link">Learn more</a>
           </div>
-          <div class="product-card">
+          <div class="product-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
             <div class="product-icon"><span class="material-symbols-outlined">air_purifier</span></div>
             <h3>Air Compressors</h3>
             <p>
@@ -265,5 +267,14 @@
         </div>
       </div>
     </footer>
+    <script>
+      // Initialize AOS (Animate On Scroll)
+      AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: false,
+        offset: 100
+      });
+    </script>
   </body>
 </html>
