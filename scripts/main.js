@@ -76,6 +76,9 @@ class ArkVisionWebsite {
     // Skip to content link
     this.initializeAccessibilityFeatures();
     
+    // Email links
+    this.initializeEmailLinks();
+    
     // Performance monitoring
     this.initializePerformanceMonitoring();
   }
@@ -94,6 +97,28 @@ class ArkVisionWebsite {
       } else if (target) {
         target.scrollIntoView({ behavior: 'smooth' });
       }
+    });
+  }
+
+  initializeEmailLinks() {
+    // Handle email links to ensure they work properly
+    document.addEventListener('click', (e) => {
+      const emailLink = e.target.closest('a[href^="mailto:"]');
+      if (!emailLink) return;
+      
+      // Get the email address
+      const email = emailLink.getAttribute('href').replace('mailto:', '');
+      
+      // For desktop: Open Gmail compose
+      if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        // Desktop - try to open Gmail
+        window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`;
+      } else {
+        // Mobile - use native mailto: (opens default email app)
+        window.location.href = emailLink.getAttribute('href');
+      }
+      
+      e.preventDefault();
     });
   }
   
