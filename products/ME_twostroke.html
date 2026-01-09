@@ -669,6 +669,15 @@
           `
           : '';
 
+        const moveDescriptionBelowImage = ['MITSUBISHI UEC 37 88 CYLINDER LINER', 'MAN K90MC-C PISTON CROWN', 'MAN S90ME-C 102 CYLINDER LINER ASSY'].includes(product.name);
+        
+        const descriptionBlock = product.description ? `
+          <div style="margin-top: 1.5rem;">
+            <h6>Description</h6>
+            <p style="text-align: left;">${product.description}</p>
+          </div>
+        ` : '';
+
         modalContent.innerHTML = `
           <div class="row">
             <div class="col-md-5 col-12">
@@ -676,18 +685,14 @@
                    alt="${product.name}" 
                    class="img-fluid"
                    onerror="this.src='../assets/images/no-image.jpg'">
+              ${moveDescriptionBelowImage ? descriptionBlock : ''}
             </div>
             <div class="col-md-7 col-12">
               <h4 class="text-white">${product.name}</h4>
               <table class="table table-borderless">
                 ${attributeRows}
               </table>
-              ${product.description ? `
-                <div style="margin-top: 1.5rem;">
-                  <h6>Description</h6>
-                  <p>${product.description}</p>
-                </div>
-              ` : ''}
+              ${!moveDescriptionBelowImage ? descriptionBlock : ''}
               ${specsHTML}
             </div>
           </div>
