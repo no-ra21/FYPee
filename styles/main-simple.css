@@ -1560,16 +1560,52 @@ section {
 
         @media (max-width: 768px) {
             .partners-container {
-                padding: 0 40px;
+                padding: 0 20px;
+            }
+            
+            .values-grid {
+                overflow-x: auto;
+                overflow-y: hidden;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: thin;
+                scrollbar-color: #d97706 transparent;
+                padding-bottom: 1rem;
+            }
+            
+            .values-grid::-webkit-scrollbar {
+                height: 6px;
+            }
+            
+            .values-grid::-webkit-scrollbar-track {
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 10px;
+            }
+            
+            .values-grid::-webkit-scrollbar-thumb {
+                background: #d97706;
+                border-radius: 10px;
+            }
+            
+            .value-card {
+                width: 200px;
+                height: 200px;
             }
             
             .value-card.expanded {
                 width: 240px;
                 height: 240px;
             }
+            
+            .nav-arrow {
+                display: none;
+            }
 
             .values-header h1 {
                 font-size: 2rem;
+            }
+            
+            .values-header p {
+                font-size: 1.1rem;
             }
         }
         
