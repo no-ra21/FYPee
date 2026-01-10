@@ -294,16 +294,27 @@
             const nextBtn = document.getElementById('nextPartner');
             const cards = document.querySelectorAll('.value-card');
             
+            // Calculate scroll amount based on card width + gap
+            const getScrollAmount = () => {
+                const card = cards[0];
+                if (!card) return 300;
+                const cardWidth = card.offsetWidth;
+                const gap = parseInt(getComputedStyle(grid).gap) || 96; // 6rem = 96px
+                return cardWidth + gap;
+            };
+            
             prevBtn.addEventListener('click', () => {
+                const scrollAmount = getScrollAmount();
                 grid.scrollBy({
-                    left: -240,
+                    left: -scrollAmount,
                     behavior: 'smooth'
                 });
             });
             
             nextBtn.addEventListener('click', () => {
+                const scrollAmount = getScrollAmount();
                 grid.scrollBy({
-                    left: 240,
+                    left: scrollAmount,
                     behavior: 'smooth'
                 });
             });
