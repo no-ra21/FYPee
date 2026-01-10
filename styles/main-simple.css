@@ -1665,10 +1665,6 @@ section {
   align-items: center;
 }
 
-.customer-logos-track:hover {
-  animation-play-state: paused;
-}
-
 @keyframes scroll-logos {
   0% {
     transform: translateX(0);
