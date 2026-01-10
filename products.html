@@ -21,19 +21,20 @@
           const navPlaceholder = document.getElementById("navigation-placeholder");
           navPlaceholder.innerHTML = data;
 
-          const toggle = navPlaceholder.querySelector("#navToggle");
-          const menu = navPlaceholder.querySelector("#navMenu");
+          // Initialize Navigation class after HTML is loaded
+          if (window.Navigation) {
+            new window.Navigation();
+          } else {
+            // Fallback if navigation.js hasn't loaded yet
+            const toggle = document.getElementById("navToggle");
+            const menu = document.getElementById("navMenu");
 
-          toggle.addEventListener("click", () => {
-            menu.classList.toggle("open");
-          });
-
-          const currentPage = window.location.pathname.split("/").pop() || "index.html";
-          navPlaceholder.querySelectorAll(".nav-menu a").forEach(link => {
-            if (link.getAttribute("href") === currentPage) {
-              link.classList.add("active");
+            if (toggle && menu) {
+              toggle.addEventListener("click", () => {
+                menu.classList.toggle("open");
+              });
             }
-          });
+          }
         });
     </script>
     <style>

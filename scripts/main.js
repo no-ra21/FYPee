@@ -28,8 +28,8 @@ class ArkVisionWebsite {
   
   initializeComponents() {
     try {
-      // Initialize navigation
-      if (window.Navigation) {
+      // Initialize navigation (only if not already initialized and elements exist)
+      if (window.Navigation && document.getElementById('navToggle')) {
         this.components.navigation = new window.Navigation();
       }
       
