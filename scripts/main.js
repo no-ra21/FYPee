@@ -292,7 +292,7 @@ initScrollToTop() {
   // Style
   btn.style.position = "fixed";
   btn.style.bottom = "20px";
-  btn.style.right = "20px";
+  btn.style.right = "10px";
   btn.style.display = "none";
   btn.style.zIndex = "1000";
   btn.style.borderRadius = "50%";
