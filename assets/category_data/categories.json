@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Main Engine",
     "slug": "main_engine",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767541167/me-c_7g95_egrtc_r03_teaser_uuagzf.jpg",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768189334/image-removebg-preview_1_v7oepn.png",
     "subCategories": [
       {
         "id": 11,
@@ -29,13 +29,13 @@
     "id": 2,
     "title": "Aux Engine / Generator",
     "slug": "AE_generator",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767771578/YANMAR_EY18ALW__3-removebg-preview_fnewce.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768189739/image-removebg-preview_4_ygx86r.png"
   },
   {
     "id": 3,
     "title": "Air Compressor",
     "slug": "air_compressor",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759070586/image-removebg-preview_42_k15bqq.png",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768190440/image-removebg-preview_43_rt0s94-removebg-preview_siemdp.png",
     "subCategories": [
       {
         "id": 31,
@@ -61,7 +61,7 @@
     "id": 4,
     "title": "Purifiers",
     "slug": "purifiers",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767621557/Mitsubishi_separatro-removebg-preview_bf9vrj.png",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768189658/image-removebg-preview_3_zmudhb.png",
     "subCategories": [
       {
         "id": 41,
@@ -87,49 +87,49 @@
     "id": 5,
     "title": "Pumps",
     "slug": "pumps",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759139121/Pump_dyzmnr.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768190283/image-removebg-preview_49_hc8gpg.png"
   },
   {
     "id":6,
     "title": "Turbochargers",
     "slug": "turbocharger",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767621304/ABB_turbocharger_waqttd.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768188348/image-removebg-preview_tms4xv.png"
   },
   {
     "id": 7,
     "title": "Hydraulic Pumps and Motors",
     "slug": "hydraulic",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767621443/Staffa_Hydraulic_Motors-removebg-preview_shwtnx.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768191193/image-removebg-preview_50_q1vma6.png"
   },
   {
     "id": 8,
     "title": "Nozzle",
     "slug": "nozzle",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759046231/image-removebg-preview_32_xnu685.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768190754/NOZZLE_AKASAKA_doxtrm-removebg-preview_v8bzsl.png"
   },
   {
     "id": 9,
     "title": "Governor Equipment",
     "slug": "governor",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767621304/UG-25-Governor_shxvko.webp"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768189564/image-removebg-preview_2_i6iidt.png"
   }, 
   {
     "id": 10,
     "title": "Ark Vision Branded Equipment",
     "slug": "screwac",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759853894/Ark_Vision_Service_Air_Compressor_1_u4duvf.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768190177/image-removebg-preview_48_hezpnt.png"
   },
   {
     "id": 11,
     "title": "Air Conditioning Compressors",
     "slug": "airconditioning",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759116593/Refrigeration_Compressor_pkne8z.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768190141/Refrigeration_Compressor_pkne8z-removebg-preview_e721jd.png"
   },
   {
     "id": 12,
     "title": "Tank Cleaning Equipment",
     "slug": "tank_cleaning",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767621304/Tank_Cleaning_equipment_fqbyl2.jpg",
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768190991/Tank_Cleaning_equipment_fqbyl2-removebg-preview_aytr9t.png",
     "subCategories": [
       {
         "id": 121,
@@ -173,19 +173,19 @@
     "id": 13,
     "title": "Marine and Offshore Systems",
     "slug": "marineoffshore",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767621572/PACT_BWTS-removebg-preview_op4bhh.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768189816/image-removebg-preview_5_lkw8s2.png"
   },
   {
     "id": 14,
     "title": "Nautical Artifacts",
     "slug": "nautica",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1759116591/Telegraph_hfom0i.png"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768190828/Telegraph_hfom0i-removebg-preview_eetjm8.png"
   },
   {
     "id": 15,
     "title": "Electrical Items",
     "slug": "electric_items",
-    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1767621303/ACB_unulsp.jpg"
+    "imageUrl": "https://res.cloudinary.com/djcqbpunw/image/upload/v1768190995/ACB_unulsp-removebg-preview_utw8eu.png"
   }
 
 ]
