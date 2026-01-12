@@ -133,8 +133,8 @@
     .service-gallery{
       display:grid;
       grid-template-columns:repeat(2, 1fr);
-      gap:2px;
-      background:#fff;
+      gap:0;
+      background:transparent;
     }
 
     .service-gallery:not(.single-image):not(.five-images):not(.purifiers-gallery):not(.diesel-gallery) img{
@@ -193,15 +193,16 @@
 
     .service-gallery img{
       width:100%;
-      height:auto;
+      height:100%;
       object-fit:cover;
       cursor:pointer;
+      display:block;
     }
 
     /* Benefits Dropdown Styles */
     .benefits-dropdown {
-      background: #f8fafb;
-      border-top: 2px solid rgba(0,159,220,0.1);
+      background: transparent;
+      border-top: none;
       overflow: hidden;
     }
 
@@ -532,7 +533,7 @@
               energy, eliminating our reliance on traditional power sources.</p>
             </div>
             <div class="service-gallery">
-              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1768200930/ad907f21-9cdf-4049-ab4b-d338138b55b9_ehg9pz.jpg" alt="Sustainable practices">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1768219287/215f0af9-97d5-4cb5-878b-265d0d989e8c.png" alt="Sustainable practices">
               <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1768200922/071cc9cc-2e3c-43d2-b589-9c673a6e5365_tuz8ac.jpg" alt="Equipment reconditioning">
             </div>
           </div>

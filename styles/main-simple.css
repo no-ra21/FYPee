@@ -627,6 +627,9 @@ section {
   text-align: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
   transition: transform var(--transition-speed) ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .product-card:hover {
@@ -657,6 +660,7 @@ section {
   color: white;
   font-size: 0.9rem;
   margin-bottom: 1rem;
+  flex-grow: 1;
 }
 
 /* About page specifics */
