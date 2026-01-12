@@ -198,6 +198,107 @@
       cursor:pointer;
     }
 
+    /* Benefits Dropdown Styles */
+    .benefits-dropdown {
+      background: #f8fafb;
+      border-top: 2px solid rgba(0,159,220,0.1);
+      overflow: hidden;
+    }
+
+    .benefits-toggle {
+      width: 100%;
+      padding: 20px 25px;
+      background: linear-gradient(135deg, var(--accent) 0%, #0088cc 100%);
+      color: white;
+      border: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.3s ease;
+    }
+
+    .benefits-toggle:hover {
+      background: linear-gradient(135deg, #0088cc 0%, var(--accent) 100%);
+    }
+
+    .benefits-toggle i {
+      transition: transform 0.3s ease;
+      font-size: 1rem;
+    }
+
+    .benefits-dropdown.active .benefits-toggle i {
+      transform: rotate(180deg);
+    }
+
+    .benefits-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+
+    .benefits-dropdown.active .benefits-content {
+      max-height: 600px;
+    }
+
+    .benefits-intro {
+      padding: 25px 25px 10px;
+      margin: 0;
+      color: #555;
+      font-size: 1rem;
+      line-height: 1.7;
+      border-bottom: 2px solid rgba(0,159,220,0.2);
+    }
+
+    .benefits-list {
+      list-style: none;
+      padding: 30px 25px;
+      margin: 0;
+    }
+
+    .benefits-list li {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      margin-bottom: 25px;
+      padding-bottom: 25px;
+      border-bottom: 1px solid rgba(0,159,220,0.1);
+    }
+
+    .benefits-list li:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .benefits-list li i {
+      color: var(--accent);
+      font-size: 1.5rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .benefits-list li div {
+      flex: 1;
+    }
+
+    .benefits-list strong {
+      display: block;
+      color: var(--dark-blue);
+      font-size: 1.15rem;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .benefits-list p {
+      color: #555;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin: 0;
+    }
+
     /* Contact CTA */
     .contact-cta{
       margin-top:15px;
@@ -421,10 +522,62 @@
           </div>
         </div>
 
+        <!-- Sustainability -->
+        <div class="service-card">
+          <div class="service-card-inner">
+            <div class="service-content">
+              <h3><i class="fas fa-leaf"></i> Sustainability</h3>
+              <p class="service-description">As a leading supplier of marine spares, we are committed to reducing our environmental
+              impact, not just in the products we offer, but also in our own operations. Our newly installed solar power system in our warehouse & workshop allows us to generate a significant amount of clean, renewable
+              energy, eliminating our reliance on traditional power sources.</p>
+            </div>
+            <div class="service-gallery">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1768200930/ad907f21-9cdf-4049-ab4b-d338138b55b9_ehg9pz.jpg" alt="Sustainable practices">
+              <img src="https://res.cloudinary.com/djcqbpunw/image/upload/v1768200922/071cc9cc-2e3c-43d2-b589-9c673a6e5365_tuz8ac.jpg" alt="Equipment reconditioning">
+            </div>
+          </div>
+          
+          <!-- Benefits Dropdown -->
+          <div class="benefits-dropdown">
+            <button class="benefits-toggle" onclick="this.parentElement.classList.toggle('active')">
+              <span>Potential Environmental Benefits</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="benefits-content">
+              <p class="benefits-intro">Based on indicative solar PV system for Ark Vision Spare & Engineering</p>
+              <ul class="benefits-list">
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <div>
+                    <strong>Fossil Fuel Usage Reduction</strong>
+                    <p>Around 8,000 gallons of oil</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <div>
+                    <strong>CO2 Emission Avoidance</strong>
+                    <p>Around 40 tons of CO2</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>
+                  <div>
+                    <strong>Trees Planted</strong>
+                    <p>Around 530 trees</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
       </div>
 
     </div>
   </section>
+
+
 
   <!-- Footer -->
     <footer class="site-footer">
