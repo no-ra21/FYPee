@@ -29,7 +29,7 @@ class ContactForm {
     inputs.forEach(input => {
       this.fields[input.name] = {
         element: input,
-        errorElement: this.form.querySelector(`[data-error="${input.name}"]`),
+        errorElement: this.form.querySelector(`#${input.name}Error`),
         value: '',
         isValid: false,
         touched: false
@@ -220,30 +220,24 @@ class ContactForm {
   }
   
   async submitForm(formData) {
-    // In a real application, this would send data to a server
-    // For now, we'll simulate a successful submission
-    
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        // Simulate server response
-        resolve({
-          success: true,
-          message: 'Form submitted successfully'
-        });
-      }, 1000);
-    });
-    
-    /* Real implementation would look like:
-    const response = await fetch('/api/contact', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
-    });
-    
-    return await response.json();
-    */
+    try {
+      const response = await fetch('https://formspree.io/f/mvzzozne', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        return { success: true, message: 'Email sent successfully' };
+      } else {
+        return { success: false, message: 'Failed to send email. Please try again.' };
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      return { success: false, message: 'Failed to send email. Please try again.' };
+    }
   }
   
   showMessage(message, type = 'info') {
