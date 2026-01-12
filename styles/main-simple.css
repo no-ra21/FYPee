@@ -2947,9 +2947,9 @@ section {
 @media (max-width: 768px) {
   .whatsapp-button {
     bottom: 100px;
-    right: 20px;
-    width: 55px;
-    height: 55px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
     font-size: 28px;
   }
 }
