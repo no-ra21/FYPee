@@ -209,6 +209,21 @@
       background: var(--primary);
     }
 
+    /* Fix modal backdrop z-index to allow hamburger menu interaction */
+    .modal-backdrop {
+      z-index: 100 !important;
+      pointer-events: none !important;
+    }
+
+    .modal {
+      z-index: 1050 !important;
+    }
+
+    .site-header {
+      z-index: 1051 !important;
+      pointer-events: auto !important;
+    }
+
     .modal-body .product-info-container {
       display: flex;
       gap: 2rem;
