@@ -222,10 +222,36 @@
     .site-header {
       z-index: 1051 !important;
       pointer-events: auto !important;
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      width: 100% !important;
+    }
+
+    .site-header,
+    .site-header *,
+    .logo,
+    .logo *,
+    .nav-menu,
+    .nav-menu * {
+      pointer-events: auto !important;
     }
 
     .nav-toggle {
       z-index: 1052 !important;
+      pointer-events: auto !important;
+      cursor: pointer !important;
+      position: relative !important;
+    }
+
+    .modal {
+      z-index: 1050 !important;
+    }
+
+    .modal-backdrop {
+      z-index: 100 !important;
+      pointer-events: none !important;
     }
 
     .modal-body .product-info-container {
