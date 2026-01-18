@@ -17,7 +17,10 @@
           const navPlaceholder = document.getElementById("navigation-placeholder");
           if (navPlaceholder) {
             navPlaceholder.innerHTML = data;
-            document.getElementById("navToggle")?.addEventListener("click", toggleMobileMenu);
+            // Initialize Navigation class after HTML is loaded
+            if (window.Navigation) {
+              new window.Navigation();
+            }
           }
         });
     </script>
